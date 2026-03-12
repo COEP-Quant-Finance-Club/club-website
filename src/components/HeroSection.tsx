@@ -44,6 +44,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
+        id="headline"
         className="text-center mt-10 px-4"
       >
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-tight text-foreground">
@@ -81,11 +82,11 @@ export default function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6 }}
-        onClick={() => scrollTo("projects")}
+        onClick={() => scrollTo("headline")}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 group cursor-pointer"
-        aria-label="Scroll down"
+        aria-label="Scroll to headline"
       >
-        <span className="label-style group-hover:text-accent transition-colors">Scroll</span>
+        <span className="label-style group-hover:text-accent transition-colors">Discover</span>
         <motion.div
           animate={{ y: [0, 6, 0] }}
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
