@@ -80,6 +80,5 @@ export default function HeroSection() {
       </motion.div>
 
     </section>
-    </section>
   );
 }
