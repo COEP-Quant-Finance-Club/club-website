@@ -1,11 +1,32 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import BlogsSection from "@/components/BlogsSection";
+import EventsSection from "@/components/EventsSection";
+import CollaborationsSection from "@/components/CollaborationsSection";
+import AboutSection from "@/components/AboutSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
+import { useTheme } from "@/hooks/useTheme";
 
 const Index = () => {
+  const { isDark, toggle } = useTheme();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="relative min-h-screen">
+      {/* Blueprint grid background */}
+      <div className="fixed inset-0 grid-background opacity-40 pointer-events-none z-0" />
+
+      <div className="relative z-10">
+        <Navbar isDark={isDark} toggleTheme={toggle} />
+        <HeroSection />
+        <ProjectsSection />
+        <BlogsSection />
+        <EventsSection />
+        <CollaborationsSection />
+        <AboutSection />
+        <ContactSection />
+        <Footer />
       </div>
     </div>
   );
