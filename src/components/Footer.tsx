@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -28,6 +28,20 @@ export default function Footer() {
             aria-label="Email"
           >
             <Mail size={18} />
+          </a>
+          <a
+            href="https://www.instagram.com/coep_quant_finance/"
+            className="text-muted-foreground hover:text-accent transition-colors"
+            aria-label="Instagram"
+          >
+            <Instagram size={18} />
+          </a>
+          <a
+            href="https://www.youtube.com/@coepquantfinanceclub"
+            className="text-muted-foreground hover:text-accent transition-colors"
+            aria-label="YouTube"
+          >
+            <Youtube size={18} />
           </a>
         </div>
         <span className="label-style">© 2026 All rights reserved</span>
