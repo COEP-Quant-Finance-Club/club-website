@@ -21,7 +21,10 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
 
   const scrollTo = (id: string) => {
     const el = document.getElementById(id.toLowerCase());
-    el?.scrollIntoView({ behavior: "smooth" });
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
     setMobileOpen(false);
   };
 

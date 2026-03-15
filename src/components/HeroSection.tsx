@@ -6,7 +6,11 @@ const spring = { type: "spring" as const, duration: 0.4, bounce: 0 };
 
 export default function HeroSection() {
   const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    const element = document.getElementById(id);
+    if (element) {
+      const y = element.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
   };
 
   return (
