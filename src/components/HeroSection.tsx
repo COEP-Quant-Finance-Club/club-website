@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import SceneCarousel from "./SceneCarousel";
+//import SceneCarousel from "./SceneCarousel";
 
 const spring = { type: "spring" as const, duration: 0.4, bounce: 0 };
 
@@ -19,7 +19,7 @@ export default function HeroSection() {
         className="w-full max-w-5xl mx-auto px-4"
       >
         <div className="border border-border rounded-lg overflow-hidden relative">
-          <SceneCarousel />
+          {/* <SceneCarousel /> */}
         </div>
 
         {/* Discover button right below the 3D viz */}
