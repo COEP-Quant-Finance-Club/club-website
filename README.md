@@ -1,73 +1,168 @@
-# Welcome to your Lovable project
+# COEP Quant Finance Club — Official Website
 
-## Project info
+Welcome to the **official open-source repository of the COEP Quant Finance Club website**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project powers the club’s digital presence and serves as a platform for:
 
-## How can I edit this code?
+* Quantitative finance research
+* Technology projects
+* Blog publications
+* Event announcements
+* Community collaboration
 
-There are several ways of editing your application.
+We welcome contributions from:
 
-**Use Lovable**
+* Open-source developers
+* Quantitative finance enthusiasts
+* Designers and product thinkers
+* Students interested in finance and technology
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This repository is maintained by the **COEP Quant Finance Club**.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+# 🌐 Live Website
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- https://coepquant.js.org
+- https://coep-quant-finance-club.github.io/club-website/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+# ⚙️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The website is built using modern frontend technologies.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* React
+* Vite
+* TypeScript
+* TailwindCSS
+* Three.js (quant visualizations)
+* GitHub Pages for deployment
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# 📂 Repository Structure
+
+```
+club-website
+│
+├ src
+│ ├ components
+│ ├ pages
+│ ├ hooks
+│ └ lib
+│
+├ public
+│
+├ .github
+│ └ workflows
+│
+├ README.md
+└ CONTRIBUTING.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# 🤝 Contributing
 
-**Use GitHub Codespaces**
+We welcome contributions from:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* developers
+* designers
+* quant researchers
+* open-source contributors
 
-## What technologies are used for this project?
+Before contributing, please read:
 
-This project is built with:
+```
+CONTRIBUTING.md
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+It explains:
 
-## How can I deploy this project?
+* repository rules
+* branch naming conventions
+* pull request process
+* contributor conduct
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+# 🧠 Contribution Areas
 
-Yes, you can!
+You can contribute in multiple ways.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Development
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+* frontend improvements
+* performance optimizations
+* new features
+
+### Quant Visualizations
+
+* financial simulations
+* market visualizations
+* quantitative tools
+
+### Content
+
+* blog integrations
+* event updates
+* club documentation
+
+### UI / UX
+
+* design improvements
+* responsiveness fixes
+* animation improvements
+
+---
+
+# 🐛 Reporting Issues
+
+If you encounter a bug or want to suggest a feature:
+
+1. Open an **Issue**
+2. Provide a clear description
+3. Include screenshots or reproduction steps if possible
+
+---
+
+# 🔒 Repository Protection
+
+This repository uses **branch protection rules** to maintain stability.
+
+Key protections include:
+
+* Pull Requests required before merging
+* Minimum **1 approval**
+* Status checks must pass before merging
+* Force pushes blocked on protected branches
+
+This ensures the website remains stable and production deployments remain safe.
+
+---
+
+# 👨‍💻 Maintainers
+
+Maintained by the **COEP Quant Finance Club**.
+
+Contributors include members from:
+
+* Tech Development Portfolio
+* Research & Development Portfolio
+* Product Management Portfolio
+* Media Portfolio
+* Corporate Outreach Portfolio
+* Public Relations Portfolio
+
+---
+
+# 📜 License
+
+This project is open-source and intended for educational and community use.
+
+---
+
+# 🙌 Acknowledgements
+
+Thanks to everyone contributing to the **quantitative finance ecosystem at COEP**.
