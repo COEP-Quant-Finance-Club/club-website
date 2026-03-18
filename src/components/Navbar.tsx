@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Sun, Moon, Menu, X } from "lucide-react";
+import { Sun, Moon, Menu, X, Github, Instagram, Linkedin, Mail, Youtube } from "lucide-react";
 
 const links = ["Home", "Blogs", "Projects", "Collaborations", "Events", "About", "Contact"];
 
@@ -35,9 +35,18 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <span className="text-sm font-semibold tracking-wider uppercase text-foreground">
-          COEP Quant Finance Club
-        </span>
+        <div className="flex items-center gap-4">
+          <span className="text-sm font-semibold tracking-wider uppercase text-foreground">
+            COEP Quant Finance Club
+          </span>
+          <div className="hidden lg:flex items-center gap-3">
+            <a href="https://github.com/COEP-Quant-Finance-Club" className="text-muted-foreground hover:text-accent transition-colors" aria-label="GitHub"><Github size={14} /></a>
+            <a href="https://www.linkedin.com/company/coepqf/posts/?feedView=all" className="text-muted-foreground hover:text-accent transition-colors" aria-label="LinkedIn"><Linkedin size={14} /></a>
+            <a href="mailto:quantfinance@coeptech.ac.in" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Email"><Mail size={14} /></a>
+            <a href="https://www.instagram.com/coep_quant_finance/" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram"><Instagram size={14} /></a>
+            <a href="https://www.youtube.com/@coepquantfinanceclub" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube"><Youtube size={14} /></a>
+          </div>
+        </div>
 
         {/* Desktop links */}
         <div className="hidden lg:flex items-center gap-6">
