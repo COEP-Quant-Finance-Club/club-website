@@ -36,6 +36,11 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex items-center gap-4">
+          <img
+            src="public/coep-tech-seal.png"
+            alt="COEP Seal"
+            className="h-12 w-auto object-contain"
+          />
           <span className="text-sm font-semibold tracking-wider uppercase text-foreground">
             COEP Quant Finance Club
           </span>
