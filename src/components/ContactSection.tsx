@@ -3,12 +3,17 @@ import { useState } from "react";
 import SectionWrapper from "./SectionWrapper";
 
 export default function ContactSection() {
+
+  function mailToClub(name:String, email:String, message:String) {
+    //now main logical thing that i have to do with the in this function.
+  }
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // placeholder
-    alert("Message sent (demo)");
+    // alert("Message sent (demo)");
+    mailToClub(form.name, form.email, form.message);
     setForm({ name: "", email: "", message: "" });
   };
 
