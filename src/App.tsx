@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import ThankYou from "./pages/Thankyou.tsx";
 
 const queryClient = new QueryClient();
 
@@ -14,9 +15,10 @@ const App = () => (
       <Toaster />
       <Sonner />
       <Routes>
-  <Route path="/" element={<Index />} />
-  <Route path="*" element={<NotFound />} />
-</Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/thank-you" element={<ThankYou/>} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </TooltipProvider>
   </QueryClientProvider>
 );
