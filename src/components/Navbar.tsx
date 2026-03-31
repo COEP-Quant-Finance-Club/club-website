@@ -70,7 +70,7 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
             <a href="https://www.linkedin.com/company/coepqf/posts/?feedView=all" className="text-muted-foreground hover:text-accent transition-colors" aria-label="LinkedIn"><Linkedin size={14} /></a>
             <a href="mailto:quantfinance@coeptech.ac.in" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Email"><Mail size={14} /></a>
             <a href="https://www.instagram.com/coep_quant_finance/" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram"><Instagram size={14} /></a>
-            <a href="https://www.youtube.com/@coepquantfinanceclub" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube"><Youtube size={14} /></a>
+            <a href="https://www.youtube.com/@coepquantfinanceclub" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube Channel"><Youtube size={14} /></a>
           </div>
         </div>
 
