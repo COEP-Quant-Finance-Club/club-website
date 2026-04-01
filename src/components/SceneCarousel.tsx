@@ -4,6 +4,9 @@ import { OrbitControls } from "@react-three/drei";
 import { VolSurface } from "./three/VolSurface";
 import { MonteCarloPaths } from "./three/MonteCarloPaths";
 import { CorrelationMatrix } from "./three/CorrelationMatrix";
+import HFTHeatmap2D from "./three/HFTHeatmap";
+import CrossoverMap from "./three/CrossoverMap";
+
 
 const SCENES = [
   {
@@ -24,6 +27,20 @@ const SCENES = [
     tag: "ρᵢⱼ = Cov(Xᵢ,Xⱼ) / σᵢσⱼ",
     description: "Dynamic asset correlation structure",
   },
+
+  {
+  key: "hft",
+  label: "HFT Heatmap",
+  tag: "ΔP(t) ~ microstructure noise",
+  description: "High-frequency market activity intensity grid",
+},
+{
+    key: "cross",
+    label: "FX Cross Rates",
+    tag: "dynamic currency pair relationships",
+    description: "",
+  },
+
 ];
 
 export default function SceneCarousel() {
@@ -81,29 +98,37 @@ export default function SceneCarousel() {
       </div>
 
       {/* 3D Canvas */}
-      <div
-        style={{ width: "100%", height: "550px" }}
-        className={`transition-opacity duration-500 ${fade ? "opacity-100" : "opacity-0"}`}
-      >
-        <Canvas camera={{ position: [6, 4, 6], fov: 42 }} dpr={[1, 1.5]}>
-          <ambientLight intensity={0.3} />
-          <pointLight position={[10, 10, 10]} intensity={0.6} />
-          <pointLight position={[-5, 5, -5]} intensity={0.3} color="#00D9FF" />
-          <Suspense fallback={null}>
-            {activeScene === 0 && <VolSurface />}
-            {activeScene === 1 && <MonteCarloPaths />}
-            {activeScene === 2 && <CorrelationMatrix />}
-          </Suspense>
-          <OrbitControls
-            enableZoom
-            enablePan={false}
-            autoRotate
-            autoRotateSpeed={0.4}
-            maxPolarAngle={Math.PI / 1.8}
-            minPolarAngle={Math.PI / 6}
-          />
-        </Canvas>
-      </div>
+        <div
+  style={{ width: "100%", height: "550px" }}
+  className={`transition-opacity duration-500 ${fade ? "opacity-100" : "opacity-0"}`}
+>
+  {activeScene === 3 ? (
+    <HFTHeatmap2D />
+  ) : activeScene === 4 ? (
+    <CrossoverMap />
+  ) : (
+    <Canvas camera={{ position: [6, 4, 6], fov: 42 }} dpr={[1, 1.5]}>
+      <ambientLight intensity={0.3} />
+      <pointLight position={[10, 10, 10]} intensity={0.6} />
+      <pointLight position={[-5, 5, -5]} intensity={0.3} color="#00D9FF" />
+
+      <Suspense fallback={null}>
+        {activeScene === 0 && <VolSurface />}
+        {activeScene === 1 && <MonteCarloPaths />}
+        {activeScene === 2 && <CorrelationMatrix />}
+      </Suspense>
+
+      <OrbitControls
+        enableZoom
+        enablePan={false}
+        autoRotate
+        autoRotateSpeed={0.4}
+        maxPolarAngle={Math.PI / 1.8}
+        minPolarAngle={Math.PI / 6}
+      />
+    </Canvas>
+  )}
+</div>
     </div>
   );
 }
