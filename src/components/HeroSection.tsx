@@ -66,7 +66,7 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={spring}
-            onClick={() => scrollTo("contact")}
+            onClick={() => window.open("https://forms.gle/6vDtykJqrVwn6Reu5", "_blank", "noopener,noreferrer")}
             className="h-11 px-8 bg-primary text-primary-foreground font-medium text-sm tracking-wider uppercase rounded-sm"
           >
             Join the Club

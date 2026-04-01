@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Sun, Moon, Menu, X, Github, Instagram, Linkedin, Mail, Youtube } from "lucide-react";
+import { useLocation, useNavigate } from "react-router-dom";
 
-const links = ["Home", "Blogs", "Projects", "Collaborations", "Events", "About", "Contact"];
+const links = ["Home", "Blogs", "Projects", "Collaborations", "Events", "About", "Contact", "Resources"];
 
 interface NavbarProps {
   isDark: boolean;
@@ -12,6 +13,8 @@ interface NavbarProps {
 export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 50);
@@ -26,6 +29,22 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
       window.scrollTo({ top: y, behavior: "smooth" });
     }
     setMobileOpen(false);
+  };
+
+  const handleNavigation = (link: string) => {
+    if (link === "Resources") {
+      navigate("/resources");
+      setMobileOpen(false);
+      return;
+    }
+
+    if (location.pathname !== "/") {
+      navigate("/", { state: { scrollTo: link.toLowerCase() } });
+      setMobileOpen(false);
+      return;
+    }
+
+    scrollTo(link);
   };
 
   return (
@@ -51,7 +70,7 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
             <a href="https://www.linkedin.com/company/coepqf/posts/?feedView=all" className="text-muted-foreground hover:text-accent transition-colors" aria-label="LinkedIn"><Linkedin size={14} /></a>
             <a href="mailto:quantfinance@coeptech.ac.in" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Email"><Mail size={14} /></a>
             <a href="https://www.instagram.com/coep_quant_finance/" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram"><Instagram size={14} /></a>
-            <a href="https://www.youtube.com/@coepquantfinanceclub" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube"><Youtube size={14} /></a>
+            <a href="https://www.youtube.com/@coepquantfinanceclub" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube Channel"><Youtube size={14} /></a>
           </div>
         </div>
 
@@ -60,7 +79,7 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
           {links.map((link) => (
             <button
               key={link}
-              onClick={() => scrollTo(link)}
+              onClick={() => handleNavigation(link)}
               className="label-style hover:text-accent transition-colors cursor-pointer"
             >
               {link}
@@ -97,7 +116,7 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
             {links.map((link) => (
               <button
                 key={link}
-                onClick={() => scrollTo(link)}
+                onClick={() => handleNavigation(link)}
                 className="label-style text-left hover:text-accent transition-colors"
               >
                 {link}
