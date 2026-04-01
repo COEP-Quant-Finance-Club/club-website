@@ -2,12 +2,13 @@ import { motion } from "framer-motion";
 import SectionWrapper from "./SectionWrapper";
 
 const partners = [
-  { name: "COEP Finance Lab", type: "Research Group" },
-  { name: "QuantConnect", type: "Platform Partner" },
-  { name: "AlphaVantage", type: "Data Provider" },
-  { name: "FinTech Pune", type: "Startup Ecosystem" },
-  { name: "NSE India", type: "Exchange" },
-  { name: "IGIDR Mumbai", type: "Research Institute" },
+  { name: "National Institute of Securities Markets", type: "Research Institution" },
+  { name: "AQUA pvt Ltd", type: "Quant research platform" },
+  { name: "Ainosoft Technologies", type: "Tech consultant" },
+  { name: "Quant Society, BITS PILANI", type: "Student Organization" },
+  { name: "QuantNet", type: "Quantitative Finance Community" },
+  { name: "Databento", type: "Data provider" },
+  { name: "You Can Be The Next!", type: "Contact us in form below!" },
 ];
 
 const spring = { type: "spring" as const, duration: 0.4, bounce: 0 };

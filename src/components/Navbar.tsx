@@ -59,7 +59,9 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
   <img
     src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
     alt="COEP Seal"
-    className="h-16 w-auto object-contain mt-1 hover:opacity-80 transition"
+    className={`h-16 w-auto object-contain mt-1 hover:opacity-80 transition ${
+  !isDark ? "invert" : ""
+}`}
   />
 </a>
           <span className="text-sm font-semibold tracking-wider uppercase text-foreground">
