@@ -4,14 +4,12 @@
     "date": "2026-04-07",
     "time": "Time to be announced",
     "venue": "COEP Tech University",
-    "status": "Offline event at COEP, open to all!"
+    "status": "completed"
   },
   {
     "title": "Interactive session with Ashutosh Tiwari, Quant Developer",
     "date": "2026-04-10",
-    "time": "Time to be announced",
-    "venue": "Online on youtube",
-    "status": "Upcoming"
+    "status": "completed, recording available on yt"
   },
   {
     "title": "Quant Research Workshop by Ted Dhawan, Quant researcher",
@@ -28,13 +26,7 @@
     "status": "Planned"
   },
 
-  {
-    "title": "Geopolitical risk and its impact on financial markets - talk by Unseen Markets, content creator",
-    "date": "To be Announced",
-    "time": "Time to be announced",
-    "venue": "Online",
-    "status": "Planned"
-  },
+  
 
   {
     "title": "Flagship event: COEP Quant club",
