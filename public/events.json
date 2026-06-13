@@ -1,18 +1,15 @@
 [
-  
+  {
+    "title": "Bitcoin India Tour, COEP chapter",
+    "date": "2026-04-07",
+    "time": "Time to be announced",
+    "venue": "COEP Tech University",
+    "status": "completed"
+  },
   {
     "title": "Interactive session with Ashutosh Tiwari, Quant Developer",
     "date": "2026-04-10",
-    "time": "8 PM IST",
-    "venue": "Online on youtube",
-    "status": "Upcoming"
-  },
-   {
-    "title": "Bitcoin India Tour, COEP chapter",
-    "date": "2026-04-13",
-    "time": "2:00 PM - 4:00 PM",
-    "venue": "COEP Tech University",
-    "status": "Offline event at COEP, open to all!"
+    "status": "completed, recording available on yt"
   },
   {
     "title": "Quant Research Workshop by Ted Dhawan, Quant researcher",
@@ -28,6 +25,8 @@
     "venue": "To be announced",
     "status": "Planned"
   },
+
+  
 
   {
     "title": "Flagship event: COEP Quant club",
