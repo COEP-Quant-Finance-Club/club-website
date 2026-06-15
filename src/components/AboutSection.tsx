@@ -8,6 +8,34 @@ const focuses = [
   "Open-source quantitative tools & libraries",
 ];
 
+
+const leadership = [
+  {
+    name: "Abhiraj Vaidya",
+    role: "Co-Founder",
+    email: "abhivaidya57@gmail.com",
+    contact: "+91 90220 80982",
+  },
+  {
+    name: "Vedant Varpe",
+    role: "Co-Founder",
+    email: "vedant.algofy@gmail.com",
+    contact: "+91 94050 06110",
+  },
+  {
+    name: "Aadarsh Jha",
+    role: "Secretary",
+    email: "jhaas23.extc@coeptech.ac.in",
+    contact: "+91 7620 157 083",
+  },
+  {
+    name: "Yashraj Patil",
+    role: "Joint Secretary",
+    email: "patilyr23.mfg@coeptech.ac.in",
+    contact: "+91 70574 44660",
+  },
+];
+
 export default function AboutSection() {
   return (
     <SectionWrapper id="about" title="About">
@@ -37,6 +65,41 @@ export default function AboutSection() {
             </motion.div>
           ))}
         </div>
+        <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5 }}
+  className="mt-16"
+>
+  <h3 className="text-xs uppercase tracking-[0.25em] text-muted-foreground mb-8">
+    Leadership
+  </h3>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {leadership.map((member, index) => (
+      <motion.div
+        key={member.name}
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.4, delay: index * 0.1 }}
+        className="border border-border p-4"
+      >
+        <h4 className="text-foreground">{member.name}</h4>
+
+        <p className="text-sm text-accent mt-1">
+          {member.role}
+        </p>
+
+        <div className="mt-3 text-xs text-muted-foreground space-y-1">
+          <p>Email: {member.email}</p>
+          <p>Contact: {member.contact}</p>
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</motion.div>
       </div>
     </SectionWrapper>
   );
