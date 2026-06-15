@@ -291,6 +291,120 @@ merge
 
 ---
 
+
+# Local Development Setup
+
+Before contributing, ensure you have the following installed:
+
+* Node.js (LTS version recommended)
+* npm (included with Node.js)
+* Git
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+---
+
+# Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd club-website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Vite will start a local development server and display an address similar to:
+
+```text
+Local: http://localhost:5173/
+```
+
+Open the URL in your browser to view the website.
+
+---
+
+# Production Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The generated files will be placed in the `dist/` directory.
+
+---
+
+# Preview Production Build
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+# Common Commands
+
+| Command           | Description                      |
+| ----------------- | -------------------------------- |
+| `npm install`     | Install project dependencies     |
+| `npm run dev`     | Start development server         |
+| `npm run build`   | Create production build          |
+| `npm run preview` | Preview production build locally |
+
+---
+
+# Troubleshooting
+
+### npm is not recognized
+
+Install Node.js from:
+
+https://nodejs.org
+
+Then restart your terminal.
+
+### Port Already In Use
+
+If Vite reports that the default port is occupied, it will automatically attempt to use another available port.
+
+### Dependency Issues
+
+Delete `node_modules` and reinstall:
+
+```bash
+rm -rf node_modules
+npm install
+```
+
+On Windows PowerShell:
+
+```powershell
+Remove-Item -Recurse -Force node_modules
+npm install
+```
+
+
 # Thank You
 
 Every contribution helps strengthen the **quant ecosystem at COEP**.

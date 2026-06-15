@@ -23,8 +23,8 @@ This repository is maintained by the **COEP Quant Finance Club**.
 
 # 🌐 Live Website
 
-- https://coepquant.js.org
 - https://coep-quant-finance-club.github.io/club-website/
+- https://coepquantfinance.com/
 
 ---
 
