@@ -1,27 +1,28 @@
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Mail, MapPin, Building2, Send, Github, Linkedin, Instagram, Youtube, CheckCircle2, ChevronDown, Sparkles } from "lucide-react";
+import { Mail, MapPin, Building2, Github, Linkedin, Instagram, Youtube, CheckCircle2, Sparkles, Rocket, Flame } from "lucide-react";
 
 export default function ContactSection() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(containerRef, { once: false, margin: "-100px 0px" });
+  const isInView = useInView(containerRef, { once: false, margin: "-80px 0px" });
   const [isOpen, setIsOpen] = useState(false);
   const [hasAutoOpened, setHasAutoOpened] = useState(false);
 
   const [form, setForm] = useState({ name: "", email: "", subject: "General Inquiry", message: "" });
   const [loading, setLoading] = useState(false);
+  const [isLaunching, setIsLaunching] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [activeTab, setActiveTab] = useState<"general" | "research" | "join">("general");
   const navigate = useNavigate();
 
-  // Automatically trigger the unfolding animation when user reaches the end of website
+  // Automatically unfold the VictoryDesign card when user scrolls to end of website
   useEffect(() => {
     if (isInView && !hasAutoOpened) {
       const timer = setTimeout(() => {
         setIsOpen(true);
         setHasAutoOpened(true);
-      }, 200);
+      }, 150);
       return () => clearTimeout(timer);
     }
   }, [isInView, hasAutoOpened]);
@@ -33,22 +34,33 @@ export default function ContactSection() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (loading) return;
+    if (loading || isLaunching) return;
+
+    // Trigger Spacecraft Rocket Launch Animation
+    setIsLaunching(true);
     setLoading(true);
+
     const formData = new FormData(e.currentTarget);
 
     try {
-      await fetch(`https://formsubmit.co/quantfinance@coeptech.ac.in`, {
+      // Send form data in background while spacecraft launches
+      fetch(`https://formsubmit.co/quantfinance@coeptech.ac.in`, {
         method: "POST",
         body: formData,
-      });
-      setSubmitted(true);
+      }).catch((err) => console.error("Form submit warning:", err));
+
+      setTimeout(() => {
+        setSubmitted(true);
+        setIsLaunching(false);
+      }, 1100);
+
       setTimeout(() => {
         navigate("/thank-you");
-      }, 1200);
+      }, 2000);
     } catch (error) {
       console.error("Submission failed", error);
       setLoading(false);
+      setIsLaunching(false);
     }
   };
 
@@ -67,9 +79,9 @@ export default function ContactSection() {
         </p>
       </div>
 
-      {/* ── VictoryDesign 3D Unfolding Contact Card ─────────── */}
+      {/* ── VictoryDesign 3D Unfolding Profile & Contact Card ── */}
       <div className="flex flex-col items-center justify-center">
-        {/* Unfold Trigger Banner if collapsed */}
+        {/* Collapsed Trigger Pill */}
         <AnimatePresence>
           {!isOpen && (
             <motion.div
@@ -101,19 +113,24 @@ export default function ContactSection() {
           )}
         </AnimatePresence>
 
-        {/* Full Unfolded Card Container */}
+        {/* Full Unfolded Card with Jhey Tompkins Radiant Border Beam */}
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              initial={{ opacity: 0, scale: 0.92, rotateX: 15, y: 30 }}
+              initial={{ opacity: 0, scale: 0.92, rotateX: 18, y: 35 }}
               animate={{ opacity: 1, scale: 1, rotateX: 0, y: 0 }}
-              exit={{ opacity: 0, scale: 0.92, rotateX: -10, y: 30 }}
-              transition={{ type: "spring", stiffness: 90, damping: 18, duration: 0.8 }}
-              className="relative w-full rounded-2xl overflow-hidden border border-border/80 bg-card/75 backdrop-blur-2xl shadow-2xl grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-border/80"
+              exit={{ opacity: 0, scale: 0.92, rotateX: -12, y: 35 }}
+              transition={{ type: "spring", stiffness: 85, damping: 16, duration: 0.8 }}
+              className="relative w-full rounded-2xl overflow-hidden border border-border/80 bg-card/80 backdrop-blur-2xl shadow-2xl grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-border/80"
               style={{ perspective: 1200 }}
             >
+              {/* ── Jhey Tompkins (MYgaaem) Radiant Animated Glow Border ── */}
+              <div className="absolute -inset-[1px] rounded-2xl pointer-events-none opacity-40 overflow-hidden">
+                <div className="absolute -inset-[200%] animate-[spin_6s_linear_infinite] bg-[conic-gradient(from_0deg,transparent_0_340deg,#00ffd6_360deg)]" />
+              </div>
+
               {/* ── Left Column: Profile & Info Pane ───────────────── */}
-              <div className="lg:col-span-5 p-8 flex flex-col justify-between bg-secondary/30">
+              <div className="relative z-10 lg:col-span-5 p-8 flex flex-col justify-between bg-secondary/30">
                 <div>
                   {/* Header Profile Identity with Staggered Entrance */}
                   <motion.div
@@ -227,7 +244,7 @@ export default function ContactSection() {
               </div>
 
               {/* ── Right Column: Interactive Form Pane ────────────── */}
-              <div className="lg:col-span-7 p-8 flex flex-col justify-between">
+              <div className="relative z-10 lg:col-span-7 p-8 flex flex-col justify-between">
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <input type="hidden" name="_subject" value={`[COEP Quant Club] ${form.subject}`} />
                   <input type="text" name="_honey" style={{ display: "none" }} />
@@ -310,29 +327,62 @@ export default function ContactSection() {
                     />
                   </div>
 
-                  {/* Submit and Fold Action Row */}
-                  <div className="flex items-center justify-between pt-2">
+                  {/* ── Spacecraft Rocket Blast-Off Action Row (Donovan Hutchinson pJzwEw inspired) ── */}
+                  <div className="relative flex items-center justify-between pt-2">
                     <span className="text-[11px] font-mono text-muted-foreground">
-                      🔒 Direct encrypted submission
+                      🔒 Direct encrypted transmission
                     </span>
 
-                    <div className="flex items-center gap-2">
+                    <div className="relative">
+                      {/* Rocket Launch Element */}
+                      <AnimatePresence>
+                        {isLaunching && (
+                          <motion.div
+                            initial={{ x: 0, y: 0, rotate: 45, scale: 1, opacity: 1 }}
+                            animate={{
+                              x: [0, 20, 60, 240],
+                              y: [0, -20, -90, -320],
+                              scale: [1, 1.3, 1.8, 0],
+                              opacity: [1, 1, 0.9, 0],
+                            }}
+                            transition={{ duration: 0.95, ease: "easeIn" }}
+                            className="absolute -top-3 left-1/2 z-50 pointer-events-none flex flex-col items-center"
+                          >
+                            <Rocket size={26} className="text-cyan-300 drop-shadow-[0_0_12px_#00ffd6]" />
+                            <motion.div
+                              animate={{ scale: [1, 1.6, 1], opacity: [0.8, 1, 0.6] }}
+                              transition={{ repeat: Infinity, duration: 0.15 }}
+                              className="flex items-center -mt-1"
+                            >
+                              <Flame size={20} className="text-orange-400 fill-orange-400 rotate-180 drop-shadow-[0_0_10px_#f97316]" />
+                            </motion.div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+
                       <button
                         type="submit"
                         disabled={loading || submitted}
-                        className="h-11 px-6 rounded-lg bg-foreground text-background font-semibold text-xs uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center gap-2 cursor-pointer disabled:opacity-50 shadow-md"
+                        className="relative overflow-hidden h-11 px-7 rounded-lg bg-foreground text-background font-semibold text-xs uppercase tracking-wider hover:opacity-90 transition-all flex items-center gap-2.5 cursor-pointer disabled:opacity-75 shadow-lg group"
                       >
                         {submitted ? (
                           <>
-                            <CheckCircle2 size={15} className="text-emerald-500" />
-                            <span>Sent!</span>
+                            <CheckCircle2 size={16} className="text-emerald-500" />
+                            <span>Payload Delivered!</span>
                           </>
-                        ) : loading ? (
-                          <span>Sending...</span>
+                        ) : isLaunching ? (
+                          <>
+                            <motion.div
+                              animate={{ rotate: 360 }}
+                              transition={{ repeat: Infinity, duration: 0.6, ease: "linear" }}
+                              className="w-3.5 h-3.5 border-2 border-background border-t-transparent rounded-full"
+                            />
+                            <span>Launching Rocket...</span>
+                          </>
                         ) : (
                           <>
                             <span>Send Message</span>
-                            <Send size={13} />
+                            <Rocket size={15} className="group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform text-accent" />
                           </>
                         )}
                       </button>

@@ -123,25 +123,18 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-radial-gradient from-transparent via-black/20 to-black/70 pointer-events-none" />
       </div>
 
-      {/* ── Minimalist Floating Audio Control ───────────────── */}
+      {/* ── Minimalist Clean Speaker Icon Button ─────────────── */}
       <div className="absolute top-20 right-5 sm:right-8 z-30">
         <button
           onClick={toggleAudio}
-          className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-black/40 hover:bg-black/70 border border-white/20 hover:border-white/50 text-white backdrop-blur-md transition-all flex items-center justify-center cursor-pointer shadow-lg group"
+          className="w-10 h-10 rounded-full bg-black/40 hover:bg-black/70 border border-white/20 hover:border-white/50 text-white backdrop-blur-md transition-all flex items-center justify-center cursor-pointer shadow-lg group"
           title={isMuted ? "Unmute Sound" : "Mute Sound"}
           aria-label={isMuted ? "Unmute Sound" : "Mute Sound"}
         >
           {isMuted ? (
-            <VolumeX size={16} className="text-white/60 group-hover:text-white transition-colors" />
+            <VolumeX size={17} className="text-white/60 group-hover:text-white transition-colors" />
           ) : (
-            <div className="flex items-center gap-1">
-              <Volume2 size={16} className="text-white group-hover:text-emerald-400 transition-colors" />
-              <span className="flex gap-0.5 items-end h-2.5">
-                <span className="w-0.5 bg-emerald-400 h-2 animate-bounce" style={{ animationDelay: "0ms" }} />
-                <span className="w-0.5 bg-emerald-400 h-2.5 animate-bounce" style={{ animationDelay: "150ms" }} />
-                <span className="w-0.5 bg-emerald-400 h-1.5 animate-bounce" style={{ animationDelay: "300ms" }} />
-              </span>
-            </div>
+            <Volume2 size={17} className="text-white group-hover:text-emerald-400 transition-colors" />
           )}
         </button>
       </div>
