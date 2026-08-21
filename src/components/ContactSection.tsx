@@ -47,7 +47,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="relative py-28 px-4 max-w-6xl mx-auto flex flex-col items-center">
+    <section id="contact" className="relative py-28 px-4 max-w-6xl mx-auto flex flex-col items-center select-none">
       {/* ── Section Header ─────────────────────────────────── */}
       <div className="text-center mb-12">
         <span className="text-xs uppercase tracking-[0.25em] text-cyan-400 font-mono font-semibold block mb-2">
@@ -61,21 +61,16 @@ export default function ContactSection() {
         </p>
       </div>
 
-      {/* ── Modern Professional Glassmorphic Contact Card ──── */}
+      {/* ── Ultra-Clean Minimalist Glassmorphic Contact Card ── */}
       <motion.div
         initial={{ opacity: 0, y: 25 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="relative w-full rounded-2xl overflow-hidden border border-white/10 bg-[#0d131a]/95 backdrop-blur-2xl shadow-[0_25px_70px_rgba(0,0,0,0.7)] grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-white/10"
+        className="relative w-full rounded-2xl overflow-hidden border border-white/[0.08] bg-[#0c141d]/95 backdrop-blur-2xl shadow-[0_20px_60px_rgba(0,0,0,0.7)] grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-white/[0.08]"
       >
-        {/* Subtle Radiant Animated Border Accent */}
-        <div className="absolute -inset-[1px] rounded-2xl pointer-events-none opacity-25 overflow-hidden">
-          <div className="absolute -inset-[200%] animate-[spin_10s_linear_infinite] bg-[conic-gradient(from_0deg,transparent_0_340deg,#00ffd6_360deg)]" />
-        </div>
-
         {/* ── Left Column: Identity & Profile Pane ───────────── */}
-        <div className="relative z-10 lg:col-span-5 p-8 sm:p-10 flex flex-col justify-between bg-[#111822]/40">
+        <div className="relative z-10 lg:col-span-5 p-8 sm:p-10 flex flex-col justify-between bg-[#0f1924]/40">
           <div>
             {/* Header Avatar with Electric Blue Glow & India Flag */}
             <div className="flex items-center gap-4 mb-6">
@@ -89,7 +84,7 @@ export default function ContactSection() {
                 </div>
 
                 {/* India Flag Badge */}
-                <div className="absolute -bottom-0.5 -right-0.5 w-5 h-5 rounded-full overflow-hidden border-2 border-[#111822] shadow-md flex items-center justify-center bg-white">
+                <div className="absolute -bottom-0.5 -right-0.5 w-5 h-5 rounded-full overflow-hidden border-2 border-[#0f1924] shadow-md flex items-center justify-center bg-white">
                   <svg viewBox="0 0 640 480" className="w-full h-full object-cover">
                     <path fill="#ff9933" d="M0 0h640v160H0z" />
                     <path fill="#ffffff" d="M0 160h640v160H0z" />
@@ -120,7 +115,7 @@ export default function ContactSection() {
               <span>Open for Inquiries & Collaborations</span>
             </div>
 
-            {/* Poetic Mission Statement */}
+            {/* Poetic Mission Quote */}
             <p className="text-white/75 font-light text-xs sm:text-[13px] leading-relaxed italic mb-6 border-l-2 border-cyan-400/40 pl-3">
               "Even when everything is perfect, you can always make it better. Break barriers in your head, engineer quantitative models with mathematics, and never forget data is poetry..."
             </p>
@@ -128,7 +123,7 @@ export default function ContactSection() {
             {/* Direct Contact Meta */}
             <div className="space-y-3 text-xs font-mono text-white/60">
               <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-cyan-400 flex-shrink-0">
+                <div className="w-7 h-7 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-cyan-400 flex-shrink-0">
                   <Mail size={13} />
                 </div>
                 <a href="mailto:quantfinance@coeptech.ac.in" className="text-white/80 hover:text-cyan-400 transition-colors truncate">
@@ -137,14 +132,14 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-cyan-400 flex-shrink-0">
+                <div className="w-7 h-7 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-cyan-400 flex-shrink-0">
                   <Building2 size={13} />
                 </div>
                 <span className="text-white/80">COEP Technological University</span>
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-cyan-400 flex-shrink-0">
+                <div className="w-7 h-7 rounded-lg bg-white/[0.04] border border-white/[0.08] flex items-center justify-center text-cyan-400 flex-shrink-0">
                   <MapPin size={13} />
                 </div>
                 <span className="text-white/80">Shivajinagar, Pune, MH 411005</span>
@@ -153,7 +148,7 @@ export default function ContactSection() {
           </div>
 
           {/* Social Row */}
-          <div className="pt-6 mt-6 border-t border-white/10">
+          <div className="pt-6 mt-6 border-t border-white/[0.08]">
             <span className="block text-[10px] uppercase font-mono text-white/40 mb-2.5 tracking-wider">
               Connect on Socials
             </span>
@@ -168,12 +163,12 @@ export default function ContactSection() {
                 return (
                   <motion.a
                     key={item.label}
-                    whileHover={{ scale: 1.15, y: -2 }}
+                    whileHover={{ scale: 1.12, y: -2 }}
                     whileTap={{ scale: 0.95 }}
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-8 h-8 rounded-lg bg-white/5 hover:bg-cyan-400/15 border border-white/10 hover:border-cyan-400/50 text-white/70 hover:text-cyan-400 flex items-center justify-center transition-all cursor-pointer shadow-xs"
+                    className="w-8 h-8 rounded-lg bg-white/[0.04] hover:bg-cyan-400/15 border border-white/[0.08] hover:border-cyan-400/40 text-white/70 hover:text-cyan-400 flex items-center justify-center transition-all cursor-pointer shadow-xs"
                     aria-label={item.label}
                   >
                     <Icon size={14} />
@@ -198,7 +193,7 @@ export default function ContactSection() {
                 <span>Select Work Intent</span>
                 <span className="text-[10px] text-cyan-400 font-normal">{form.subject}</span>
               </label>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-3 gap-2.5">
                 {[
                   { id: "join", label: "Joining Club", tag: "Membership" },
                   { id: "general", label: "General Contact", tag: "Inquiry" },
@@ -210,8 +205,8 @@ export default function ContactSection() {
                     onClick={() => handleTabChange(item.id as any, item.label)}
                     className={`py-2.5 px-3 rounded-xl text-xs font-medium font-mono transition-all cursor-pointer text-center flex flex-col items-center justify-center ${
                       activeTab === item.id
-                        ? "bg-gradient-to-r from-[#ff5733] to-[#ff451a] text-white font-bold shadow-[0_4px_15px_rgba(255,87,51,0.35)] scale-[1.02]"
-                        : "bg-white/5 hover:bg-white/10 border border-white/10 text-white/60 hover:text-white"
+                        ? "bg-gradient-to-r from-[#ff5733] to-[#ff451a] text-white font-bold shadow-[0_4px_16px_rgba(255,87,51,0.3)] scale-[1.01]"
+                        : "bg-white/[0.03] hover:bg-white/[0.07] border border-white/[0.08] text-white/60 hover:text-white"
                     }`}
                   >
                     <span>{item.label}</span>
@@ -236,7 +231,7 @@ export default function ContactSection() {
                   placeholder="e.g. Yash Patil"
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-xs text-white placeholder:text-white/30 focus:border-[#ff5733] focus:ring-1 focus:ring-[#ff5733] outline-none transition-all"
+                  className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-xs text-white placeholder:text-white/25 focus:border-[#ff5733] focus:ring-1 focus:ring-[#ff5733]/40 outline-none transition-all"
                 />
               </div>
 
@@ -251,7 +246,7 @@ export default function ContactSection() {
                   placeholder="name@domain.com"
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-xs text-white placeholder:text-white/30 focus:border-[#ff5733] focus:ring-1 focus:ring-[#ff5733] outline-none transition-all"
+                  className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-xs text-white placeholder:text-white/25 focus:border-[#ff5733] focus:ring-1 focus:ring-[#ff5733]/40 outline-none transition-all"
                 />
               </div>
             </div>
@@ -277,7 +272,7 @@ export default function ContactSection() {
                 }
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
-                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-xs text-white placeholder:text-white/30 focus:border-[#ff5733] focus:ring-1 focus:ring-[#ff5733] outline-none transition-all resize-none"
+                className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-xs text-white placeholder:text-white/25 focus:border-[#ff5733] focus:ring-1 focus:ring-[#ff5733]/40 outline-none transition-all resize-none"
               />
             </div>
 
@@ -317,7 +312,7 @@ export default function ContactSection() {
                 <button
                   type="submit"
                   disabled={loading || submitted}
-                  className="relative overflow-hidden h-11 px-7 rounded-full bg-gradient-to-r from-[#ff5733] to-[#ff451a] hover:from-[#ff6b4a] hover:to-[#ff5733] text-white font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2.5 cursor-pointer shadow-[0_4px_20px_rgba(255,87,51,0.4)] disabled:opacity-75"
+                  className="relative overflow-hidden h-11 px-7 rounded-full bg-gradient-to-r from-[#ff5733] to-[#ff451a] hover:from-[#ff6b4a] hover:to-[#ff5733] text-white font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2.5 cursor-pointer shadow-[0_4px_16px_rgba(255,87,51,0.35)] disabled:opacity-75"
                 >
                   {submitted ? (
                     <>
