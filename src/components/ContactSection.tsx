@@ -1,9 +1,11 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTheme } from "@/hooks/useTheme";
 import { Mail, MapPin, Building2, Github, Linkedin, Youtube, CheckCircle2, Rocket, Flame } from "lucide-react";
 
 export default function ContactSection() {
+  const { isDark } = useTheme();
   const [form, setForm] = useState({ name: "", email: "", subject: "General Contact", message: "" });
   const [loading, setLoading] = useState(false);
   const [isLaunching, setIsLaunching] = useState(false);
@@ -46,6 +48,8 @@ export default function ContactSection() {
     }
   };
 
+  const logoSrc = `${import.meta.env.BASE_URL}${isDark ? "club-logo-dark.png" : "club-logo-light.png"}`;
+
   return (
     <section id="contact" className="relative py-20 px-4 max-w-5xl mx-auto flex flex-col items-center select-none">
       {/* ── Section Header ─────────────────────────────────── */}
@@ -72,16 +76,16 @@ export default function ContactSection() {
         {/* ── Left Column: Identity & Profile Pane ───────────── */}
         <div className="relative z-10 md:col-span-5 p-6 sm:p-7 flex flex-col justify-between bg-[#0b131c]/60">
           <div>
-            {/* Header Avatar with Official Quant Logo, Cyan Glow & India Flag */}
+            {/* Header Avatar with Theme-Specific Quant Logo, Cyan Glow & India Flag */}
             <div className="flex items-center gap-3.5 mb-5">
               <div className="relative group">
                 <div className="w-14 h-14 rounded-full p-1 border-2 border-accent shadow-[0_0_20px_rgba(0,255,214,0.4),inset_0_0_10px_rgba(0,255,214,0.2)] flex items-center justify-center bg-[#050a10] transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={`${import.meta.env.BASE_URL}club-logo-dark.png`}
+                    key={isDark ? "dark" : "light"}
+                    src={logoSrc}
                     alt="COEP Quant Logo"
                     className="w-10 h-10 object-contain filter brightness-110"
                     onError={(e) => {
-                      // Fallback to club-logo.png if needed
                       (e.currentTarget as HTMLImageElement).src = `${import.meta.env.BASE_URL}club-logo.png`;
                     }}
                   />
