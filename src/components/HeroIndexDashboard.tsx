@@ -90,12 +90,12 @@ export default function HeroIndexDashboard({
             ))}
           </div>
 
-          {/* Launch Fullscreen Terminal Button */}
+          {/* Open Standalone Terminal Button */}
           <button
             onClick={onOpenTerminal}
             className="flex items-center gap-1.5 px-3 py-1 bg-accent text-accent-foreground rounded-md text-xs font-medium hover:opacity-90 transition-opacity cursor-pointer shadow-sm"
           >
-            <span>Launch Full Terminal</span>
+            <span>Open Standalone Terminal</span>
             <ExternalLink size={13} />
           </button>
         </div>
@@ -211,7 +211,7 @@ export default function HeroIndexDashboard({
               onClick={onOpenTerminal}
               className="px-4 py-2 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-colors cursor-pointer flex-shrink-0"
             >
-              Open Full Terminal →
+              Open Standalone Terminal →
             </button>
           </div>
         </div>
