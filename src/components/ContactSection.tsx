@@ -1,22 +1,18 @@
-import { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence, useInView } from "framer-motion";
+import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
-import { Mail, Rocket, Flame, CheckCircle2, MessageSquare, X, RefreshCw } from "lucide-react";
-import "./VictoryDesign.css";
+import { Mail, Github, Linkedin, Youtube, Instagram, Send, Rocket, Flame, CheckCircle2, MessageSquare, X } from "lucide-react";
 
 export default function ContactSection() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const isInView = useInView(containerRef, { once: false, margin: "-50px 0px" });
   const [showFormModal, setShowFormModal] = useState(false);
-  const [animKey, setAnimKey] = useState(0);
 
   const [form, setForm] = useState({ name: "", email: "", subject: "General Inquiry", message: "" });
   const [loading, setLoading] = useState(false);
   const [isLaunching, setIsLaunching] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const navigate = useNavigate();
-
-  const handleReplay = () => {
-    setAnimKey((prev) => prev + 1);
-  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -49,121 +45,217 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="relative py-24 px-4 overflow-hidden">
-      {/* ── Section Title & Replay Button ── */}
-      <div className="text-center mb-8">
+    <section id="contact" ref={containerRef} className="relative py-24 px-4 overflow-hidden">
+      {/* ── Section Title ─────────────────────────────────── */}
+      <div className="text-center mb-12">
         <span className="text-xs uppercase tracking-[0.25em] text-accent font-semibold block mb-2">
           Connect With Us
         </span>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground">
           Get In Touch
         </h2>
-        <div className="flex items-center justify-center gap-3 mt-3">
-          <p className="text-muted-foreground text-sm max-w-lg font-light">
-            Official Research & Engineering Division of COEP Quantitative Finance Club.
-          </p>
-          <button
-            onClick={handleReplay}
-            title="Replay Animation"
-            className="p-1.5 rounded-full hover:bg-muted text-muted-foreground hover:text-accent transition-colors flex items-center gap-1 text-xs cursor-pointer"
+        <p className="mt-2 text-muted-foreground text-sm max-w-lg mx-auto font-light">
+          Official Research & Engineering Division of COEP Quantitative Finance Club.
+        </p>
+      </div>
+
+      {/* ── VictoryDesign SVG Floating Island & Drifting Clouds Landscape ── */}
+      <div className="relative max-w-4xl mx-auto min-h-[460px] flex items-center justify-center">
+        
+        {/* ── Animated Background Sky Canvas ────────────────── */}
+        <div className="absolute inset-0 rounded-3xl overflow-hidden bg-[#bce3eb] dark:bg-[#0c1f28] border border-white/20 shadow-2xl transition-colors duration-500">
+          
+          {/* Drifting Clouds (Layer 1 - Top Left) */}
+          <motion.div
+            animate={{ x: [-30, 40, -30], y: [0, -6, 0] }}
+            transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute top-6 left-8 opacity-90 pointer-events-none"
           >
-            <RefreshCw size={13} />
-            <span className="text-[11px] font-mono">Replay</span>
-          </button>
-        </div>
-      </div>
-
-      {/* ── Exact VictoryDesign Stage Container ── */}
-      <div key={animKey} className="victory-stage">
-        {/* Exact VictoryDesign Profile Card Markup */}
-        <aside className="profile-card">
-          <header>
-            {/* Avatar */}
-            <a
-              href="#contact"
-              onClick={(e) => {
-                e.preventDefault();
-                setShowFormModal(true);
-              }}
-              title="Click to Send Message"
-            >
-              <img
-                src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
-                alt="COEP Quant Club"
+            <svg width="120" height="45" viewBox="0 0 120 45" fill="none">
+              <path
+                d="M25 40h75a18 18 0 0 0 0-36 24 24 0 0 0-42-6 16 16 0 0 0-33 12 18 18 0 0 0 0 30z"
+                fill="white"
+                className="drop-shadow-sm"
               />
-            </a>
+            </svg>
+          </motion.div>
 
-            {/* Username & Role */}
-            <h1>COEP Quant</h1>
-            <h2>Finance Club</h2>
-          </header>
+          {/* Drifting Clouds (Layer 2 - Top Right) */}
+          <motion.div
+            animate={{ x: [20, -50, 20], y: [0, 8, 0] }}
+            transition={{ duration: 22, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute top-4 right-12 opacity-80 pointer-events-none"
+          >
+            <svg width="150" height="55" viewBox="0 0 150 55" fill="none">
+              <path
+                d="M30 48h90a22 22 0 0 0 0-44 30 30 0 0 0-52-8 20 20 0 0 0-38 16 22 22 0 0 0 0 36z"
+                fill="white"
+                className="drop-shadow-sm"
+              />
+            </svg>
+          </motion.div>
 
-          {/* Bio Quote */}
-          <div className="profile-bio">
-            <p>
-              Even when everything is perfect, you can always make it better. Break barriers in your head, create something crazy and don't forget Code is Poetry...
-            </p>
+          {/* Drifting Clouds (Layer 3 - Center Behind Card) */}
+          <motion.div
+            animate={{ x: [-15, 25, -15] }}
+            transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute top-12 left-1/3 opacity-65 pointer-events-none"
+          >
+            <svg width="100" height="38" viewBox="0 0 100 38" fill="none">
+              <path
+                d="M20 32h60a14 14 0 0 0 0-28 20 20 0 0 0-34-4 12 12 0 0 0-26 10 14 14 0 0 0 0 22z"
+                fill="white"
+                className="drop-shadow-xs"
+              />
+            </svg>
+          </motion.div>
+
+          {/* ── 3D Isometric Floating Island ─────────────────── */}
+          <motion.div
+            animate={{ y: [0, -10, 0], rotate: [0, 0.5, 0] }}
+            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute bottom-2 left-1/2 -translate-x-1/2 w-[520px] pointer-events-none"
+          >
+            <svg viewBox="0 0 520 220" fill="none" className="w-full drop-shadow-2xl">
+              {/* Isometric Island Ground Base (Dirt Layer Left) */}
+              <polygon points="40,110 260,195 260,215 40,130" fill="#7a542a" />
+              <polygon points="40,110 260,195 260,198 40,113" fill="#996a35" />
+
+              {/* Isometric Island Ground Base (Dirt Layer Right) */}
+              <polygon points="260,195 480,110 480,130 260,215" fill="#5c3e1e" />
+              <polygon points="260,195 480,110 480,113 260,198" fill="#7a542a" />
+
+              {/* Isometric Top Soil Block */}
+              <polygon points="260,85 480,110 260,195 40,110" fill="#b58d55" />
+
+              {/* Lush Green Grass Top Surface */}
+              <polygon points="260,70 480,95 260,180 40,95" fill="#8ec339" />
+              {/* Grass Highlights & Edges */}
+              <polygon points="40,95 260,180 260,188 40,103" fill="#74a72d" />
+              <polygon points="260,180 480,95 480,103 260,188" fill="#5f8c22" />
+
+              {/* Little Isometric Trees / Bushes on Island (Left Side) */}
+              <circle cx="80" cy="85" r="16" fill="#529424" />
+              <circle cx="75" cy="80" r="13" fill="#6db333" />
+              <circle cx="95" cy="90" r="12" fill="#437b1d" />
+
+              {/* Little Isometric Trees on Island (Right Side) */}
+              <circle cx="440" cy="85" r="15" fill="#529424" />
+              <circle cx="445" cy="80" r="12" fill="#6db333" />
+            </svg>
+          </motion.div>
+        </div>
+
+        {/* ── VictoryDesign Pristine Split Profile Card ──────── */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9, y: 30 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ type: "spring", stiffness: 100, damping: 18, duration: 0.7 }}
+          className="relative z-20 w-full max-w-[620px] mx-4 my-8 bg-white dark:bg-[#131b20] rounded-2xl shadow-[0_16px_40px_rgba(0,0,0,0.18)] border border-black/5 dark:border-white/10 overflow-hidden"
+        >
+          <div className="grid grid-cols-1 md:grid-cols-12 min-h-[290px]">
+            
+            {/* ── Left Column: Avatar, Name, Title ────────────── */}
+            <div className="md:col-span-5 p-7 flex flex-col items-center justify-center text-center relative border-b md:border-b-0 md:border-r border-dashed border-gray-200 dark:border-gray-800">
+              
+              {/* Circular Avatar with Inner Ring & Badge */}
+              <div className="relative mb-4">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-tr from-[#0077d8] to-[#1e96fc] p-1.5 shadow-[0_8px_20px_rgba(30,150,252,0.35)] flex items-center justify-center">
+                  <div className="w-full h-full rounded-full bg-white dark:bg-[#0c1418] p-2 flex items-center justify-center overflow-hidden">
+                    <img
+                      src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
+                      alt="COEP Seal"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                {/* Country / Status Mini Badge on Bottom Right */}
+                <div
+                  className="absolute bottom-0 right-0 w-7 h-7 rounded-full border-2 border-white dark:border-[#131b20] shadow-md flex items-center justify-center overflow-hidden"
+                  style={{
+                    background: "linear-gradient(to bottom, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #138808 66%)",
+                  }}
+                  title="India"
+                />
+              </div>
+
+              {/* Title & Role */}
+              <h3 className="text-xl font-extrabold text-[#f25c3b] tracking-tight leading-tight">
+                COEP Quant
+              </h3>
+              <p className="text-xs font-semibold text-gray-700 dark:text-gray-300 mt-1 font-mono">
+                Finance Club
+              </p>
+              <span className="text-[10px] text-gray-500 dark:text-gray-400 font-mono mt-0.5">
+                Research & Engineering
+              </span>
+            </div>
+
+            {/* ── Right Column: Manifesto Quote & Socials ─────── */}
+            <div className="md:col-span-7 p-7 flex flex-col justify-between">
+              
+              {/* Quote Text (Matching VictoryDesign Typography & Vibe) */}
+              <p className="text-xs sm:text-[13px] text-gray-600 dark:text-gray-300 leading-relaxed font-sans font-normal">
+                Even when everything is perfect, you can always make it better. Break barriers in your head, engineer quantitative models with mathematics, and never forget data is poetry...
+              </p>
+
+              {/* Bottom Action Row: Get In Touch CTA & Social Icons */}
+              <div className="flex items-center justify-between pt-6 mt-4 border-t border-gray-100 dark:border-gray-800/80">
+                {/* Interactive Get in Touch Button */}
+                <button
+                  onClick={() => setShowFormModal(true)}
+                  className="px-4 py-1.5 rounded-full bg-[#f25c3b] hover:bg-[#d94828] text-white text-xs font-semibold tracking-wide shadow-md transition-all flex items-center gap-1.5 cursor-pointer"
+                >
+                  <MessageSquare size={13} />
+                  <span>Send Message</span>
+                </button>
+
+                {/* Social Icons */}
+                <div className="flex items-center gap-3 text-gray-500 dark:text-gray-400">
+                  <a
+                    href="https://github.com/COEP-Quant-Finance-Club"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#0077d8] transition-colors"
+                    aria-label="GitHub"
+                  >
+                    <Github size={17} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/coepqf/posts/?feedView=all"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#0077d8] transition-colors"
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin size={17} />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@coepquantfinanceclub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#f25c3b] transition-colors"
+                    aria-label="YouTube"
+                  >
+                    <Youtube size={18} />
+                  </a>
+                  <a
+                    href="mailto:quantfinance@coeptech.ac.in"
+                    className="hover:text-[#8ec339] transition-colors"
+                    aria-label="Email"
+                  >
+                    <Mail size={17} />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-
-          {/* Social Links */}
-          <ul className="profile-social-links">
-            {/* GitHub */}
-            <li>
-              <a
-                href="https://github.com/COEP-Quant-Finance-Club"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="GitHub"
-              >
-                <svg viewBox="0 0 24 24">
-                  <path
-                    fill="#333333"
-                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            {/* LinkedIn */}
-            <li>
-              <a
-                href="https://www.linkedin.com/company/coepqf/posts/?feedView=all"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="LinkedIn"
-              >
-                <svg viewBox="0 0 24 24">
-                  <path
-                    fill="#0077B5"
-                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            {/* Direct Message Launch */}
-            <li>
-              <a
-                href="#contact"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setShowFormModal(true);
-                }}
-                title="Send Message"
-              >
-                <svg viewBox="0 0 24 24">
-                  <path
-                    fill="#FF5722"
-                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
-                  />
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </aside>
+        </motion.div>
       </div>
 
-      {/* ── Spacecraft Rocket Launch Submit Modal ── */}
+      {/* ── Interactive Contact Form Modal with Spacecraft Launch Animation ── */}
       <AnimatePresence>
         {showFormModal && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
@@ -244,7 +336,7 @@ export default function ContactSection() {
                   />
                 </div>
 
-                {/* ── Spacecraft Rocket Blast-Off Submit Button ── */}
+                {/* ── Spacecraft Rocket Blast-Off Submit Button (Donovan Hutchinson pJzwEw inspired) ── */}
                 <div className="relative flex items-center justify-between pt-2">
                   <span className="text-[11px] font-mono text-muted-foreground">
                     🔒 Direct encrypted delivery
