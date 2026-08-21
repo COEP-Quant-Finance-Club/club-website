@@ -6,13 +6,55 @@ import { useNavigate } from "react-router-dom";
 export default function HeroSection() {
   const navigate = useNavigate();
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isMuted, setIsMuted] = useState<boolean>(true);
-  const [userWantsAudio, setUserWantsAudio] = useState<boolean>(false);
+  const [isMuted, setIsMuted] = useState<boolean>(false);
+  const [userWantsAudio, setUserWantsAudio] = useState<boolean>(true);
 
   const videoUrl = `${import.meta.env.BASE_URL}hero-bg.mp4`;
 
-  // Handle mute/unmute toggle
-  const toggleAudio = () => {
+  // Initialize audio: Attempt unmuted playback immediately, with fallback on first gesture
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.muted = false;
+    video.volume = 0.85;
+
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise
+        .then(() => {
+          setIsMuted(false);
+        })
+        .catch(() => {
+          // Browser prevented unmuted autoplay -> mute initially and listen for first interaction
+          video.muted = true;
+          setIsMuted(true);
+          video.play().catch(() => {});
+
+          const handleFirstInteraction = () => {
+            if (video && userWantsAudio && window.scrollY < window.innerHeight * 0.75) {
+              video.muted = false;
+              video.volume = 0.85;
+              video.play().catch(() => {});
+              setIsMuted(false);
+            }
+            window.removeEventListener("click", handleFirstInteraction);
+            window.removeEventListener("scroll", handleFirstInteraction);
+            window.removeEventListener("keydown", handleFirstInteraction);
+            window.removeEventListener("touchstart", handleFirstInteraction);
+          };
+
+          window.addEventListener("click", handleFirstInteraction, { once: true });
+          window.addEventListener("scroll", handleFirstInteraction, { once: true });
+          window.addEventListener("keydown", handleFirstInteraction, { once: true });
+          window.addEventListener("touchstart", handleFirstInteraction, { once: true });
+        });
+    }
+  }, [userWantsAudio]);
+
+  // Toggle audio manually
+  const toggleAudio = (e: React.MouseEvent) => {
+    e.stopPropagation();
     if (!videoRef.current) return;
     if (isMuted) {
       videoRef.current.muted = false;
@@ -27,7 +69,7 @@ export default function HeroSection() {
     }
   };
 
-  // Scroll listener: Pause/Mute audio when scrolled down; resume when scrolled back to top
+  // Scroll listener: Automatically mute audio when scrolling down, resume when returning to top
   useEffect(() => {
     const handleScroll = () => {
       if (!videoRef.current) return;
@@ -35,13 +77,11 @@ export default function HeroSection() {
       const currentScroll = window.scrollY;
 
       if (currentScroll > heroHeight) {
-        // Scrolled down past hero -> silence audio
         if (!videoRef.current.muted) {
           videoRef.current.muted = true;
           setIsMuted(true);
         }
       } else {
-        // Scrolled back to top -> restore audio if user had enabled it
         if (userWantsAudio && videoRef.current.muted) {
           videoRef.current.muted = false;
           videoRef.current.volume = 0.85;
@@ -83,28 +123,25 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-radial-gradient from-transparent via-black/20 to-black/70 pointer-events-none" />
       </div>
 
-      {/* ── Floating Audio Mute / Unmute Control ─────────────── */}
+      {/* ── Minimalist Floating Audio Control ───────────────── */}
       <div className="absolute top-20 right-5 sm:right-8 z-30">
         <button
           onClick={toggleAudio}
-          className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-black/50 hover:bg-black/80 border border-white/20 hover:border-white/40 text-white backdrop-blur-md transition-all text-xs font-mono tracking-wider uppercase cursor-pointer shadow-lg group"
-          title={isMuted ? "Unmute Background Sound" : "Mute Sound"}
+          className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-black/40 hover:bg-black/70 border border-white/20 hover:border-white/50 text-white backdrop-blur-md transition-all flex items-center justify-center cursor-pointer shadow-lg group"
+          title={isMuted ? "Unmute Sound" : "Mute Sound"}
+          aria-label={isMuted ? "Unmute Sound" : "Mute Sound"}
         >
           {isMuted ? (
-            <>
-              <VolumeX size={15} className="text-white/60 group-hover:text-white transition-colors" />
-              <span className="hidden sm:inline text-[11px] text-white/80">Sound: Muted</span>
-            </>
+            <VolumeX size={16} className="text-white/60 group-hover:text-white transition-colors" />
           ) : (
-            <>
-              <Volume2 size={15} className="text-emerald-400 animate-pulse" />
-              <span className="hidden sm:inline text-[11px] text-emerald-300 font-semibold">Sound: Playing</span>
-              <span className="flex gap-0.5 items-end h-3">
+            <div className="flex items-center gap-1">
+              <Volume2 size={16} className="text-white group-hover:text-emerald-400 transition-colors" />
+              <span className="flex gap-0.5 items-end h-2.5">
                 <span className="w-0.5 bg-emerald-400 h-2 animate-bounce" style={{ animationDelay: "0ms" }} />
-                <span className="w-0.5 bg-emerald-400 h-3 animate-bounce" style={{ animationDelay: "150ms" }} />
+                <span className="w-0.5 bg-emerald-400 h-2.5 animate-bounce" style={{ animationDelay: "150ms" }} />
                 <span className="w-0.5 bg-emerald-400 h-1.5 animate-bounce" style={{ animationDelay: "300ms" }} />
               </span>
-            </>
+            </div>
           )}
         </button>
       </div>
@@ -136,7 +173,7 @@ export default function HeroSection() {
           </span>
         </motion.h1>
 
-        {/* Minimal Subtitle (Exact User Request) */}
+        {/* Minimal Subtitle */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
