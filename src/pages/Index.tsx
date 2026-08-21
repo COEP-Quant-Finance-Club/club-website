@@ -4,7 +4,6 @@ import IndexTicker from "@/components/IndexTicker";
 import IndexShowcaseSection from "@/components/IndexShowcaseSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import MathModelsSection from "@/components/MathModelsSection";
-import BlogsSection from "@/components/BlogsSection";
 import EventsSection from "@/components/EventsSection";
 import CollaborationsSection from "@/components/CollaborationsSection";
 import AboutSection from "@/components/AboutSection";
@@ -55,7 +54,6 @@ const Index = () => {
         <IndexShowcaseSection />
         <ProjectsSection />
         <MathModelsSection />
-        <BlogsSection />
         <EventsSection />
         <CollaborationsSection />
         <AboutSection />

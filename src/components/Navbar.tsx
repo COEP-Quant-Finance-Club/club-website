@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Sun, Moon, Menu, X, Github, Instagram, Linkedin, Mail, Youtube } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const links = ["Home", "Market Index", "Projects", "Blogs", "Events", "Collaborations", "About", "Contact", "Resources"];
+const links = ["Home", "Market Index", "Projects", "Events", "Collaborations", "About", "Contact", "Resources"];
 
 interface NavbarProps {
   isDark: boolean;
