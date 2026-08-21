@@ -38,7 +38,13 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
       return;
     }
 
-    const targetId = link === "Market Index" ? "home" : link.toLowerCase();
+    if (link === "Market Index") {
+      navigate("/market-index");
+      setMobileOpen(false);
+      return;
+    }
+
+    const targetId = link.toLowerCase();
 
     if (location.pathname !== "/") {
       navigate("/", { state: { scrollTo: targetId } });

@@ -8,6 +8,7 @@ import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import ThankYou from "./pages/Thankyou.tsx";
 import Resources from "./pages/Resources.tsx";
+import MarketIndex from "./pages/MarketIndex.tsx";
 import Loader from "./components/Loader.tsx";
 
 const queryClient = new QueryClient();
@@ -32,6 +33,7 @@ const App = () => {
         )}
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/market-index" element={<MarketIndex />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/thank-you" element={<ThankYou />} />
           <Route path="*" element={<NotFound />} />
