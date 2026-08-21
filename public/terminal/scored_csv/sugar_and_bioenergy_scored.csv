@@ -1,0 +1,10 @@
+﻿Stock Name,Symbol,market_cap,industry,Hedge Fund Score,LLM Score,Combined Score,Pros,Cons
+Godavari Biorefineries Ltd,GODAVARIB,1427.3,sugar,63.5,,63.5,recent loss-to-profit turnaround; cash generation; quality,No material peer-relative weakness identified
+Bannari Amman Sugars Limited,BANARISUG,4391.15,sugar,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Bajaj Hindusthan Sugar Limited,BAJAJHIND,4133.46,sugar,30.0,,30.0,recent loss-to-profit turnaround; cash generation; quality,RED FLAG: losses in most reported periods. No material peer-relative weakness identified
+Shree Renuka Sugars Limited,RENUKA,4731.63,sugar,15.0,,15.0,No decisive peer-relative strength identified,RED FLAG: negative net worth; losses in most reported periods; can't cover interest from operating profit; financial distress zone (Altman risk). quality; cash generation
+Avadh Sugar & Energy,AVADHSUGAR,1051.67,sugar,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+TruAlt Bioenergy Ltd,TRUALT,3678.36,miscellaneous,30.0,,30.0,recent loss-to-profit turnaround; growth,RED FLAG: double working capital drain (debtor & inventory bloat). quality; cash generation
+Balrampur Chini Mills Limited,BALRAMCHIN,12890.47,sugar,58.5,,58.5,ownership; balance sheet,No material peer-relative weakness identified
+Triveni Engineering & Industries Limited,TRIVENI,5480.43,sugar,52.6,,52.6,balance sheet,No material peer-relative weakness identified
+Eid Parry India Limited,EIDPARRY,13489.04,sugar,58.2,,58.2,cash generation; quality,No material peer-relative weakness identified

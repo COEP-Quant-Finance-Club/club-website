@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quant Club - Institutional Sector Index Terminal & 3-State Macro Regimes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="regime_dashboard.css">
+  <!-- Local Lightweight Charts v4 -->
+  <script src="lightweight-charts.min.js"></script>
+  <script src="regime_dashboard_data.js"></script>
+</head>
+<body class="dark-theme">
+  <div class="app-container">
+    <!-- Header Navbar -->
+    <header class="navbar">
+      <div class="brand">
+        <div class="logo-container">
+          <img id="club-logo" src="Dark Theme Logo.png" alt="COEP Quantitative Finance Club Logo" class="brand-logo-img">
+        </div>
+        <div class="brand-text">
+          <div class="brand-title-stacked">
+            <span class="bt-coep">COEP</span>
+            <span class="bt-quant">QUANTITATIVE</span>
+            <span class="bt-bottom"><span class="bt-fin">FINANCE</span> <span class="bt-club">CLUB</span></span>
+          </div>
+          <span class="sub-brand">Institutional Sector Index Terminal & 3-State Macro Regimes</span>
+        </div>
+      </div>
+
+      <!-- SENSITIVITY SLIDER (k = 1 to 50) -->
+      <div class="sensitivity-slider-box">
+        <div class="slider-header">
+          <span class="slider-title">🎛️ 3-State Macro Sensitivity (Smoothing Candles)</span>
+          <span class="slider-val" id="kSliderVal">9</span>
+        </div>
+        <input type="range" id="kRangeSlider" min="1" max="50" value="9" step="1" class="custom-slider">
+      </div>
+
+      <!-- 3 REGIME FILTER OPTIONS WITH DYNAMIC COUNTS + REGIME TOGGLE + THEME SWITCHER -->
+      <div class="header-controls">
+        <div class="regime-filter-group" id="regimeFilterButtons">
+          <button class="rf-btn active" id="rfBtnAll" data-regime="ALL">ALL (30)</button>
+          <button class="rf-btn bull-rf" id="rfBtnBull" data-regime="2">🟢 Bullish (0)</button>
+          <button class="rf-btn neutral-rf" id="rfBtnNeutral" data-regime="1">🟡 Neutral (0)</button>
+          <button class="rf-btn bear-rf" id="rfBtnBear" data-regime="0">🔴 Bearish (0)</button>
+          <button class="rf-btn regime-toggle-btn active" id="btnToggleRegimeOverlay" title="Toggle 3-State Regime Background Overlay">⚡ Regimes: ON</button>
+        </div>
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light / Dark Theme">☀️ Light Mode</button>
+      </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <div class="content-grid">
+      <!-- Sidebar / Sector Leaderboard -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h3>SECTOR BASKETS</h3>
+          <span class="sector-count" id="sector-count-badge">32 Baskets</span>
+        </div>
+        <div class="search-box">
+          <input type="text" id="sector-search" placeholder="Filter sectors (Double-click sector to view stocks)..." />
+        </div>
+        <div class="sector-list" id="sector-list-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </aside>
+
+      <!-- Main Chart Area -->
+      <main class="chart-area">
+        <!-- Sector Header Info Card -->
+        <div class="sector-info-card">
+          <div class="sector-title-group">
+            <h2 id="active-sector-name">ELECTRONICS_EMS</h2>
+            <span class="badge" id="active-timeframe-badge">DAILY OHLCV</span>
+            <button class="view-stocks-btn" id="btnOpenConstituentsModal">📋 View Sector Stocks</button>
+            <span class="candle-lock-badge" id="candleLockBadge">🔓 Hover Mode (Press ENTER to Lock | ESC to Unlock)</span>
+          </div>
+
+          <div class="sector-metrics">
+            <div class="metric-item">
+              <span class="metric-label">Current Value</span>
+              <span class="metric-val" id="metric-current-val">2,119.08</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Base Value</span>
+              <span class="metric-val">100.00</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Total Return</span>
+              <span class="metric-val positive" id="metric-return-val">+2019.08%</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">Macro Regime</span>
+              <span class="metric-val highlight" id="metric-state-val">🟢 Bullish (State 2)</span>
+            </div>
+          </div>
+
+          <div class="chart-toggles">
+            <button class="toggle-btn active" id="btn-toggle-sma20">SMA 20</button>
+            <button class="toggle-btn active" id="btn-toggle-sma50">SMA 50</button>
+            <button class="toggle-btn active" id="btn-toggle-ema200">EMA 200</button>
+          </div>
+        </div>
+
+        <!-- Candlestick Chart Container with HMM Background Canvas Overlay -->
+        <div class="chart-wrapper" id="chart-wrapper">
+          <!-- Floating TradingView Style Scale Toolbar -->
+          <div class="tv-scale-toolbar">
+            <button class="tv-tool-btn" id="btn-zoom-in" title="Zoom In (+)">🔍 +</button>
+            <button class="tv-tool-btn" id="btn-zoom-out" title="Zoom Out (-)">🔍 -</button>
+            <button class="tv-tool-btn" id="btn-scale-auto" title="Auto Scale Y-Axis">↕️ Auto Scale</button>
+            <button class="tv-tool-btn" id="btn-scale-log" title="Toggle Log Scale">📈 Log Scale</button>
+            <button class="tv-tool-btn" id="btn-fit-content" title="Reset View To Fit All Data">🔄 Fit All</button>
+          </div>
+
+          <!-- Canvas Overlay for HMM Background Color Bands (Image 1 Replica) -->
+          <canvas id="hmmBackgroundCanvas" class="hmm-canvas-overlay"></canvas>
+          <div id="tv-chart-container"></div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- SECTOR CONSTITUENTS STOCKS MODAL WITH CANDLE LOCKING -->
+  <div class="modal-overlay" id="constituentsModalOverlay">
+    <div class="constituents-modal">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h2 id="modalSectorTitle">ELECTRONICS_EMS STOCKS</h2>
+          <span class="modal-sub" id="modalDateInfo">Candle Date: 2026-08-05 | 1-Day & 2-Day Return Comparison</span>
+        </div>
+        <button class="modal-close-btn" id="btnCloseConstituentsModal">✕</button>
+      </div>
+
+      <div class="modal-toolbar">
+        <input type="text" id="modalStockSearch" placeholder="Search constituent stocks by name or symbol..." />
+        <span class="modal-lock-indicator" id="modalLockStatus">🔓 Hover Mode (Press ENTER to Lock | ESC to Unlock)</span>
+        <span class="modal-stock-count" id="modalStockCountBadge">17 Stocks</span>
+      </div>
+
+      <div class="modal-table-container">
+        <table class="stocks-table">
+          <thead>
+            <tr>
+              <th>Symbol</th>
+              <th>Company Name</th>
+              <th class="text-right">Price (T-2)</th>
+              <th class="text-right">Price (T-1)</th>
+              <th class="text-right">Price (T)</th>
+              <th class="text-right">1-Day Change (%)</th>
+              <th class="text-right">2-Day Change (%)</th>
+            </tr>
+          </thead>
+          <tbody id="modalStocksTbody">
+            <!-- Dynamic Rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="regime_dashboard.js"></script>
+</body>
+</html>

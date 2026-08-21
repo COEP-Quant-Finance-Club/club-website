@@ -1,0 +1,6035 @@
+{
+  "SIRCA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2019-07-08": 1.5,
+      "2019-07-09": 1.5,
+      "2023-05-11": 2.0
+    }
+  },
+  "TCIEXP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PARACABLES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJAJELEC": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-01-28": 5.0
+    }
+  },
+  "SOLARA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SPIC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BEPL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2023-07-05": 1.5
+    }
+  },
+  "IMPAL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2012-09-10": 2.0,
+      "2019-10-21": 1.5,
+      "2019-10-25": 1.5
+    }
+  },
+  "MAITHANALL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2015-07-15": 2.0
+    }
+  },
+  "ELECTCAST": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2007-09-17": 10.0
+    }
+  },
+  "FOSECOIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUNDROP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JINDALPOLY": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-10-22": 2.0
+    }
+  },
+  "NIITLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2007-08-24": 1.5
+    }
+  },
+  "SHILCTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANSTAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WSTCSTPAPR": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2007-10-26": 5.0
+    }
+  },
+  "RPSGVENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STYLEBAAZA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CENTRUM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SBC": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-02-22": 10.0,
+      "2024-01-19": 1.5,
+      "2025-03-04": 1.5,
+      "2025-03-10": 1.5
+    }
+  },
+  "MUFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GREENPANEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GODAVARIB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRINCEPIPE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIANHUME": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2004-08-24": 10.0,
+      "2005-08-29": 1.6666666666666667,
+      "2010-08-30": 5.0,
+      "2016-12-09": 2.0
+    }
+  },
+  "AUTOAXLES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SURAKSHA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GMMPFAUDLR": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-07-11": 3.0
+    }
+  },
+  "TEXINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2009-01-01": 10.0
+    }
+  },
+  "RESPONIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADVAIT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARIHANTSUP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AMNPLST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDNIPPON": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2002-12-12": 1.7,
+      "2011-09-20": 1.4,
+      "2018-03-21": 2.0
+    }
+  },
+  "GEOJITFSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LAXMIDENTL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NITTAGELA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDSWFTLAB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNICHEMLAB": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2004-03-16": 2.0,
+      "2010-10-21": 2.5
+    }
+  },
+  "GUJTHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TTKHLTCARE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AYMSYNTEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRPLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-08-12": 4.0
+    }
+  },
+  "TVSSRICHAK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JINDRILL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2006-09-12": 0.5,
+      "2008-11-06": 2.0
+    }
+  },
+  "AEROENTER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAGRAN": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2008-01-09": 5.0
+    }
+  },
+  "NITCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RSYSTEMS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2014-02-26": 10.0
+    }
+  },
+  "KAMDHENU": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-01-08": 10.0
+    }
+  },
+  "MASTERTR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZSARACOM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ICRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "REFEX": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-03-22": 5.0
+    }
+  },
+  "ASIANTILES": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2020-11-09": 5.0
+    }
+  },
+  "INDIQUBE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BGRENERGY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VENUSPIPES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SSWL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2021-11-18": 2.0,
+      "2022-11-10": 5.0
+    }
+  },
+  "MOLDTKPAC": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2016-02-17": 2.0
+    }
+  },
+  "EXPLEOSOL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STEELCAS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-08-29": 5.0
+    }
+  },
+  "MANINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2014-08-28": 5.0,
+      "2021-11-17": 1.5
+    }
+  },
+  "HIMATSEIDE": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2005-10-14": 2.0
+    }
+  },
+  "BFINVEST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TEXRAIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VINDHYATEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARSSBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SALZERELEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GPTINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2017-07-13": 2.0,
+      "2022-11-11": 2.0,
+      "2024-07-03": 2.0
+    }
+  },
+  "GIPCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PACEDIGITK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AWHCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STOVEKRAFT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ROTO": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2023-07-07": 2.0,
+      "2024-11-08": 2.0,
+      "2025-07-11": 3.0
+    }
+  },
+  "RAJRATAN": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-03-15": 5.0
+    }
+  },
+  "SMCGLOBAL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-11-14": 2.0
+    }
+  },
+  "EASEMYTRIP": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-02-24": 2.0,
+      "2022-02-28": 2.0,
+      "2022-11-21": 4.0,
+      "2024-11-28": 2.0,
+      "2024-11-29": 2.0
+    }
+  },
+  "MIDWESTLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SULA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HERITGFOOD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2013-07-26": 2.0,
+      "2017-10-10": 2.0
+    }
+  },
+  "JPOLYINVST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STUDDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATVA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GCSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NPST": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-01-22": 3.0,
+      "2024-02-02": 3.0
+    }
+  },
+  "WINDLAS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIDYAWIRES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WAKEFIT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MMFL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2008-09-26": 2.0,
+      "2018-07-18": 2.0,
+      "2024-07-16": 2.0
+    }
+  },
+  "PDSL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-08-26": 5.0
+    }
+  },
+  "CEINSYS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VENKEYS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2015-12-21": 1.5
+    }
+  },
+  "MCLOUD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIMPLEXINF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POLYPLEX": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-12-23": 2.0
+    }
+  },
+  "CARYSIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IMAGICAA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GSPCROP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BCLIND": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2023-10-27": 10.0
+    }
+  },
+  "VRLLOG": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-08-14": 2.0
+    }
+  },
+  "APEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RATNAVEER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JLHL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2026-07-24": 5.0
+    }
+  },
+  "NGLFINE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WEALTH": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2020-09-25": 1.6666666666666667
+    }
+  },
+  "ZOTA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2019-07-25": 1.4
+    }
+  },
+  "IRMENERGY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SALASAR": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2021-07-13": 2.0,
+      "2022-06-27": 10.0,
+      "2024-02-01": 5.0
+    }
+  },
+  "SHK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CMRGREEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PASHUPATI": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2026-04-17": 10.0
+    }
+  },
+  "CAPACITE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CONFIPET": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KPEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "63MOONS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "5PAISA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IFGLEXPOR": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-07-18": 2.0
+    }
+  },
+  "VENUSREM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ICEMAKE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHALBY": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-12-22": 1.2
+    }
+  },
+  "MEDIASSIST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PARAGMILK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EPACK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SEIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SOLEX": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-09-13": 1.25,
+      "2024-09-20": 1.25
+    }
+  },
+  "PARKHOTELS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "THEMISMED": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2023-10-10": 10.0
+    }
+  },
+  "HGINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MACPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2020-06-30": 1.02
+    }
+  },
+  "YASHO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASIANENE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JUNIPER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JGCHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDOSTAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AMRUTANJAN": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2012-10-25": 5.0,
+      "2018-04-13": 2.0
+    }
+  },
+  "BHARATRAS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-12-12": 2.0
+    }
+  },
+  "BANARISUG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAKSOFT": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-09-23": 10.0,
+      "2024-09-13": 1.25,
+      "2024-09-19": 1.25
+    }
+  },
+  "SRM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANDHRSUGAR": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2021-12-30": 5.0
+    }
+  },
+  "RAJRILTD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2013-03-04": 10.0,
+      "2021-10-25": 0.01
+    }
+  },
+  "TEMBO": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2021-03-03": 2.0
+    }
+  },
+  "DALMIASUG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UFLEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MARINE": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2021-02-18": 5.0
+    }
+  },
+  "GOODYEAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AGI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIRLOSIND": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2005-08-17": 5.0,
+      "2007-10-25": 2.0
+    }
+  },
+  "ALICON": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2006-12-04": 2.0
+    }
+  },
+  "HEIDELBERG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PIXTRANS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VSTTILLERS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PANACEABIO": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2003-02-03": 10.0
+    }
+  },
+  "INTERARCH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BNAGROCHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EXCELINDUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NOVARTIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRMOVER": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-12-24": 3.0
+    }
+  },
+  "EVEREADY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SOMANYCERA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-11-11": 5.0
+    }
+  },
+  "SAGCEM": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2021-08-17": 5.0
+    }
+  },
+  "ARKADE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BOROLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANDHRAPAP": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-09-11": 5.0
+    }
+  },
+  "MARATHON": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2018-04-05": 2.0
+    }
+  },
+  "SWSOLAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIYSIL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2006-10-19": 1.5,
+      "2017-10-25": 5.0
+    }
+  },
+  "ELPROINTL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APOLLOPIPE": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2021-12-02": 3.0
+    }
+  },
+  "DOLATALGO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ROSSARI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KDDL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MOBIKWIK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRAUWEIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FMGOETZE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RANEHOLDIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ROUTE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ALEMBICLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2004-03-25": 2.0,
+      "2006-09-26": 5.0,
+      "2013-09-27": 2.0
+    }
+  },
+  "STALLION": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PNBGILTS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2013-07-03": 1.3333333333333333
+    }
+  },
+  "RAMCOSYS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SDBL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2020-10-15": 2.0,
+      "2024-05-24": 2.5
+    }
+  },
+  "ASALCBR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DHANUKA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HAWKINCOOK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NAVNETEDUL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2006-09-27": 5.0,
+      "2009-09-08": 2.5
+    }
+  },
+  "ALLDIGI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BIRLANU": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SASKEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AURIONPRO": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-06-27": 2.0
+    }
+  },
+  "ALGOQUANT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NITINSPIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARIS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDOTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAYMONDREL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CAMLINFINE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INSECTICID": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2015-04-16": 1.5,
+      "2022-09-30": 1.5
+    }
+  },
+  "SUNTECK": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2017-07-25": 2.0
+    }
+  },
+  "MMWL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HARIOMPIPE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KNRCON": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2016-12-12": 5.0,
+      "2016-12-13": 5.0,
+      "2021-02-03": 2.0
+    }
+  },
+  "GANDHITUBE": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2008-03-17": 2.0
+    }
+  },
+  "RPGLIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASTEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUMEETINDS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2018-08-02": 1.25,
+      "2024-10-18": 0.05,
+      "2025-10-03": 5.0
+    }
+  },
+  "STLNETWORK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DDEVPLSTIK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KICL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EUROPRATIK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IVALUE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RUPA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GKENERGY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UEL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2012-12-21": 10.0,
+      "2023-11-03": 0.0015,
+      "2024-09-20": 1.25,
+      "2025-05-30": 1.68,
+      "2025-10-10": 3.0
+    }
+  },
+  "LUMAXIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VSSL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2023-05-19": 2.0,
+      "2023-05-26": 2.0
+    }
+  },
+  "INA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RTNINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SYMPHONY": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2012-02-15": 5.0,
+      "2016-09-14": 2.0
+    }
+  },
+  "TARC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BUTTERFLY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WEBELSOLAR": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2009-12-29": 2.0,
+      "2025-11-14": 10.0
+    }
+  },
+  "REPCOHOME": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TASTYBITE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADFFOODS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2023-09-11": 5.0
+    }
+  },
+  "SURYODAY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UFBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JTEKTINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2006-09-14": 2.0,
+      "2008-09-02": 2.0
+    }
+  },
+  "IPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CAPILLARY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ROLEXRINGS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-09-19": 10.0,
+      "2025-10-03": 10.0,
+      "2025-10-17": 10.0
+    }
+  },
+  "FRONTSP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HLEGLAS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-10-18": 5.0
+    }
+  },
+  "RAMRAT": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-09-26": 2.0,
+      "2022-09-28": 2.0,
+      "2025-12-26": 2.0
+    }
+  },
+  "EIHAHOTELS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-07-29": 2.0,
+      "2024-08-13": 2.0
+    }
+  },
+  "GKSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TARSONS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GOCOLORS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NILKAMAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHRIRAMPPS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BOSCH-HCIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MONTECARLO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CMSINFO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DREDGECORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GHCLTEXTIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APCOTEXIND": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2013-08-14": 2.0,
+      "2015-09-23": 2.0,
+      "2019-07-04": 2.5
+    }
+  },
+  "GAUDIUMIVF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PNGSREVA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AGIIL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-02-07": 2.0,
+      "2025-10-10": 5.0
+    }
+  },
+  "MANAKCOAT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AARTIDRUGS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2015-03-24": 2.0,
+      "2020-09-30": 4.0
+    }
+  },
+  "AMIRCHAND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIMTALABS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-06-13": 2.0
+    }
+  },
+  "HESTERBIO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SPORTKING": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-09-13": 10.0
+    }
+  },
+  "RISHABH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HIKAL": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2003-09-29": 1.5,
+      "2015-02-27": 5.0,
+      "2018-06-22": 1.5
+    }
+  },
+  "PANAMAPET": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2014-09-19": 5.0,
+      "2017-08-24": 1.5,
+      "2017-10-03": 1.5
+    }
+  },
+  "SHREEPUSHK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FILATEX": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2018-06-27": 5.0,
+      "2022-12-27": 2.0
+    }
+  },
+  "PREMEXPLN": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-06-21": 5.0
+    }
+  },
+  "SATIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SERVOTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2023-02-03": 5.0,
+      "2023-07-28": 2.0
+    }
+  },
+  "ELECTHERM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GANDHAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LUXIND": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2016-06-06": 5.0
+    }
+  },
+  "TFCILTD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-09-19": 5.0
+    }
+  },
+  "BAJEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DIAMONDYD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GOLDIAM": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-03-28": 5.0,
+      "2026-07-10": 1.3333333333333333
+    }
+  },
+  "GREENPLY": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2005-06-16": 2.0,
+      "2016-01-06": 5.0
+    }
+  },
+  "TEAMLEASE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BETA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2025-03-26": 1.05
+    }
+  },
+  "ELCIDIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DOLLAR": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2017-08-31": 5.0
+    }
+  },
+  "MOTISONS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2024-11-08": 10.0
+    }
+  },
+  "SILVERTUC": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2026-03-06": 2.0
+    }
+  },
+  "ONEPOINT": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2019-04-24": 1.5,
+      "2022-01-13": 5.0,
+      "2022-01-18": 5.0
+    }
+  },
+  "ANTELOPUS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-12-31": 1.1
+    }
+  },
+  "ADVENZYMES": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2017-05-25": 5.0
+    }
+  },
+  "CAPITALSFB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SPAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANDHAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TINNARUBR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BOMDYEING": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2012-10-30": 5.0
+    }
+  },
+  "BAJAJHIND": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2004-04-28": 10.0
+    }
+  },
+  "XPROINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2022-06-16": 1.5,
+      "2022-07-01": 1.5
+    }
+  },
+  "KCP": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-09-02": 10.0
+    }
+  },
+  "OAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MTNL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DCW": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2005-09-20": 5.0
+    }
+  },
+  "SPECTRUM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MADRASFERT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GHCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IGPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AWFIS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDORAMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JISLJALEQS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-10-29": 5.0,
+      "2011-11-08": 1.05
+    }
+  },
+  "KSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LGBBROSLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-03-15": 0.1,
+      "2014-07-04": 2.0,
+      "2018-06-14": 2.0
+    }
+  },
+  "PATELENG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ONIDA": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2003-08-13": 2.0
+    }
+  },
+  "MOREPENLAB": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2000-11-07": 5.0
+    }
+  },
+  "ARMANFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAYKAY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NUCLEUS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2004-08-06": 2.0,
+      "2007-08-03": 2.0
+    }
+  },
+  "ORIENTHOT": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-11-10": 10.0
+    }
+  },
+  "RAYMOND": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "1996-10-07": 1.5
+    }
+  },
+  "RALLIS": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2010-06-08": 1.5,
+      "2011-07-15": 10.0
+    }
+  },
+  "SPMLINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SWARAJENG": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2005-08-12": 3.0
+    }
+  },
+  "TIRUMALCHM": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2018-08-14": 10.0
+    }
+  },
+  "ORIENTTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2026-01-05": 1.1
+    }
+  },
+  "TNPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAYMONDLSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MSTCLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KROSS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TECHNVISN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JINDWORLD": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2017-12-26": 2.0,
+      "2018-10-31": 5.0,
+      "2025-02-28": 5.0
+    }
+  },
+  "SESHAPAPER": {
+    "last_checked": "2026-07-31",
+    "splits": {
+      "2019-08-19": 5.0
+    }
+  },
+  "WEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIDHIING": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TALBROAUTO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ROSSTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WENDT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SINDHUTRAD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NDRAUTO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRAKASH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VAIBHAVGBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANATHAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLISSGVS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ACCELYA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BCG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BALAJITELE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AVANTEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAGSNPHARM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BFUTILITIE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MPSLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNITECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POKARNA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COSMOFIRST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PTC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DATAMATICS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GUFICBIO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDOCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JINDALPHOT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MSPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HUHTAMAKI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RML": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RENUKA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DIGITIDE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EKC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OSWALPUMPS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLKASHYAP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KKCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PAUSHAKLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CRIZAC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DEEPINDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CREST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NETWORK18": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UGROCAP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EFCIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SMSPHARMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DECNGOLD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DELTACORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HGS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OMAXE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHAGYANGR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RGL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JKIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SEPC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PENIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ALLTIME": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PITTIENG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RTNPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DLINKINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GNRL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DBCORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAHASTEEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WAAREEINDO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAMKY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CANTABIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASHOKA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHRINGARMS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARROWGREEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SOLARWORLD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDOTHAI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JTLIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RBA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STEELXIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FUSION": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AVTNPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHARDAMOTR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VADILALIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ORIENTCEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNIPARTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LANDMARK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAYBARMARU": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KRSNAA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CHEMPLASTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KITEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WINDMACHIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HONDAPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KLBRENG-B": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SKMEGGPROD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TCPLPACK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RIIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIKA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VINCOFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASHIANA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IDEAFORGE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UTKARSHBNK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WANBURY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAIPARENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SYNCOMF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SGFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AVADHSUGAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NACLIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FISCHER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HITECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KRISHANA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAMHI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MBAPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KALAMANDIR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INFOBEAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NAVKARCORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ESAFSFB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PROTEAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DRAGARWQ": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRECAM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAHLOG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MUTHOOTMF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUNCLAY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHARATWIRE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GUJALKALI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJAJHCARE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FAZE3Q": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIGNPOST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GNA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NRBBEARING": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EXICOM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GOPAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ORIENTELEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SCILAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASIANHOTNR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VEEDOL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DISAQ": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WHEELS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ORISSAMINE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JNKINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COCKERILL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HINDOILEXP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BOROSCI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DEEDEV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MANALIPETC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CENTENKA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WELSPLSOL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "THOMASCOOK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VHL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MUKANDLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARIHANT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANUP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NOCIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GALAPREC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAJESHEXPO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDPRUD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MANGLMCEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NORTHARC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHREDIGCEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LINCOLN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DIFFNKG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RUBYMILLS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SPANDANA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GARUDA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHAGCHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HIRECT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NELCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ATULAUTO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNIVCABLES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HINDWAREAP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RELTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARTEMISMED": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EIEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LGHL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "3BBLACKBIO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WPIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDRAMEDCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DAMCAPITAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GENESYS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DHANBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STYRENIX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NSIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "QUADFUTURE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GOCLCORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PUNJABCHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ULTRAMAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IZMO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DSSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JUBLCPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WALCHANNAG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAMCOIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GMBREW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TAJGVK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MOSCHIP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIPIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRABHA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHOPERSTOP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VSTIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLUSPRING": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KERNEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAMBHV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KOTIC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ALLCARGO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MONARCH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GTLINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HUBTOWN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TCC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NELCAST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GATEWAY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAICORPLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KRISHNADEF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KSCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VERANDA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BRIGHOTEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHANTIGOLD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KOLTEPATIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIRIINDUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MBEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SBCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EMUDHRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JYOTISTRUC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MANINDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AJMERA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MHRIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GLOBUSSPR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HATHWAY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GANECOS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANGAMIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GREENPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIKRAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUMMITSEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PFS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VISHNU": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RHETAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADOR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JARO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EPACKPEB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HEMIPROP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VOEPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HARSHA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TBZ": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TRUALT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IGARASHI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EMIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MARSONS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DCXINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NIBE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AFSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RICOAUTO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RACLGEAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WONDERLA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MOL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHANTIGEAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HITECHGEAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAYURUNIQ": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DOLPHIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DIVGIITTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FINOPB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHARATSE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BUILDPRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BALMLAWRIE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NFL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AYE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EIMCOELECO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IKIO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MENONBE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HMAAGRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRANDOAK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KABRAEXTRU": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IOLCP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDOBORAX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NIITMTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PSPPROJECT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SOTL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EMSLIMITED": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZAGGLE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AURUM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "THEJO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARVSMART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "YATRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAKAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DCAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ELITECON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FLAIR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TURTLEMINT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHAREINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JASH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SEAMECLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DPABHUSHAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LAOPALA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DYCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NINSYS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PILANIINVS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANGHVIMOV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TAALTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLSE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "QUESS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CLSEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KAPSTON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GPTHEALTH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PLATIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AKCAPIT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RELAXO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ATUL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BALRAMCHIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BASF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RITES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CHAMBLFERT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARVIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IFCI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ELANTAS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KRBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SKYGOLD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDGN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TECHNOE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BALAMINES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIRLFER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KSB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAHSCOOTER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EMAMILTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NCC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BANSALWIRE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BIRLACORPN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SPLPETRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SKFINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRWRHITECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANOFI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CEATLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANOFICONR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HATSUN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZENSARTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SARDAEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NIVABUPA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANDUMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IFBIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HAPPSTMNDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CAMS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAREGAMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ENGINERSIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TRANSRAILL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAYERCROP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AGARWALEYE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TCI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TTML": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TIPSMUSIC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BSOFT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OLECTRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUPRAJIT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RKFORGE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HEG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PVRINOX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FIEMIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TIMETECHNO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EUREKAFORB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EDELWEISS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JYOTHYLAB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAINBOW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AVANTIFEED": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AETHER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSWCEMENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SWANDEF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLUESTONE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DBREALTY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WELSPUNLIV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MOIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZENTEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TDPOWERSYS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PGEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TRITURBINE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RHIM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EQUITASBNK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WAAREERTL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIGOPNTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PCJEWELLER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WEWORK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BIKAJI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CRAMC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NAZARA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PINELABS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VESUVIUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ALIVUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ICIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UTLSOLAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EPIGRAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PARAS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DIACABS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NEPHROPLUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRAJIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAYNECOIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AVALON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RATEGAIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAPMYINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JMFINANCIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AMAGI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRECWIRE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SCI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MINDACORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CLEANMAX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SEDEMAC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VINATIORGA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RCF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CONCORDBIO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PNCINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TVSSCS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TEJASNET": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CAPLIPOINT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLUEDART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INOXINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "THYROCARE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GALAXYSURF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LLOYDSENGG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RPTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUVEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ENTERO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TSFINV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MIDHANI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SFL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARE&M": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHILPAMED": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FINEORG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CHENNPETRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PGHL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MANORAMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INGERRAND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IONEXCHANG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KAJARIACER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WHIRLPOOL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BALUFORGE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LMW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAHSEAMLES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRSMJOHNSN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUNFLAG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AKUMS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TIMEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FIRSTCRY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BBOX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHAKTIPUMP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GSFC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATACHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KPITTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BBTC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IIFLCAPS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AFCONS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SMLMAH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZEEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KENNAMET": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JKPAPER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CYIENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GMDCLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SOUTHBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PCBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ALKYLAMINE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AJAXENGG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIGMAADV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CERA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASTRAMICRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WELENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JPPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GARFIBRES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KTKBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "THELEELA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GALLANTT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GPIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VOLTAMP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ACE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DCBBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TANLA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LUMAXTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GMRP&UI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PURVA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SGMART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EBGNG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PAISALO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSLL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LLOYDSENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BRIGADE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CAMPUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VGUARD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MMTC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GPPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WABAG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PSB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IBULLSLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STYL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "USHAMART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAINREC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BECTORFOOD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HOMEFIRST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CARERATING": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CENTUM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LXCHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INOXGREEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAMMAANCAP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DODLA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RATNAMANI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ALOKINDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DEVYANI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUDEEPPHRM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NUVOCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SKFINDUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AARTIPHARM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AEQUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SANSERA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CORONA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ELGIEQUIP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAFARI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KOVAI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TEGA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DCMSHRIRAM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHADOWFAX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KWIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CYIENTDLM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KINGFA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OMNI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AARTIIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GAEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STARCEMENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SYNGENE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POWERMECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GANESHHOU": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAXESTATES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VEDPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GODREJAGRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AZAD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STYLAMIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CCAVENUE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASHAPURMIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JKTYRE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NEWGEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MGL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LEMONTREE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AVL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BANCOINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BATAINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VARROC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IRCON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AAVAS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FINCABLES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KANSAINER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HCC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SURYAROSNI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JINDALSAW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CHALET": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSWDULUX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ARVINDFASN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CASTROLIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "METROPOLIS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NEOGEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GREAVESCOT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PNGJL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FDC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KRN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VTL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SWANCORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POLYMED": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UJJIVANSFB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAGILITY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLACKBUCK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BORORENEW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIRLPNU": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NESCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ELECON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IGIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VENTIVE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "J&KBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNIMECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SONATSOFTW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAHLIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUDARSCHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TRIVENI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "QPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AXISCADES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSWHL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABLBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CANFINHOME": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LTFOODS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AHLUCONT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SMARTWORKS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MANYAVAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "V2RETAIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ECLERX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NAVA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TITAGARH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LOTUSDEV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ETHOSLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ISGEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BENGALASM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHREEJISPG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJAJCON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRAVITA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ATLANTAELE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TMB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HBLENGINE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TTKPRESTIG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VMART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JUBLINGREA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANURAS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JUSTDIAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ORKLAINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAMNAAUTO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TRIDENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CARTRADE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SKIPPER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KSHINTL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAPPHIRE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHARATCOAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MEDPLUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FRACTAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MASTEK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SENCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INOXWIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHRIPISTON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CMPDI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ORCHPHARMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "REDTAPE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ERIS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NATCOPHARM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLUEJET": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HONASA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VISL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CORDELIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIASHLTR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DOMS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MASFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CROMPTON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APOLLO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OPTIEMUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PICCADIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABREL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BEML": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GOODLUCK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EIDPARRY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ESABINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TBOTEK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HMT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIAGLYCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIRLOSBROS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IXIGO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABDL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NIRLON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JKLAKSHMI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUNDRMFAST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CEIGALL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZYDUSWELL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OLAELEC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CHOICEIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KPIGREEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DEEPAKFERT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GNFC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FINPIPE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHAILY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIAMART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CSBBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COHANCE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DYNAMATECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WESTLIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UTIAMC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ITDC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SENORES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SETL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GVPIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ONESOURCE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KAMAHOLD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CENTURYPLY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JBMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GOKEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRAPHITE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KALPATARU": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUNTV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CIEINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TRAVELFOOD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SOBHA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TIIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PGIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EMBDL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SPARC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RELIGARE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TARIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIYASH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRUDENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JAIBALAJI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PARADEEP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IMFA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIKRAMSOLR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JWL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRICOLLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APLLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAATVIKGL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUBROS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAILTEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ACI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MTARTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FIVESTAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KMEW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HNDFDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RUSTOMJEE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CANHLIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABFRL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KFINTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CLEAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APTUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VIJAYA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GULFOILLUB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NSLNISP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PARKHOSPS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHARDACROP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SJS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LATENTVIEW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INTELLECT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUPRIYA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GREENLAM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POWERICA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "YATHARTH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MARKSANS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SBFC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AEROFLEX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIGNATURE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KISSHT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CELLO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASKAUTOLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VOGL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FEDFINA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GOKULAGRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HAPPYFORGE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HCG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INNOVACAP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RPEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIACEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JYOTICNC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JUBLPHARMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRIVISCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSFB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GENUSPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "E2E": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADANIGREEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUNDARMFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CREDITACC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CRISIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IDBI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GODREJIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HSCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HINDZINC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LICHSGFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRASIM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATAPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "THERMAX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABBOTINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VOLTAS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HINDUNILVR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASIANPAINT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDHOTEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BALKRISIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ACMESOLAR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NTPCGREEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAILIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAXHEALTH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GAIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AXISBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GLENMARK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TVSMOTOR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OFSS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RADICO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APOLLOHOSP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NAVINFLUOR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BIOCON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COFORGE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NTPC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BERGEPAINT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IIFL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AIAENG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHRIRAMFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HDBFS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GMRAIRPORT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NAUKRI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PFC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIANB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASTRAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MOTILALOFS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CPPLUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RECLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LICI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJAJFINSV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GODREJPROP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JUBLFOOD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HINDCOPPER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NLCINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SJVN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PRESTIGE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATACAP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CRAFTSMAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GROWW": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EMMVEE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TIMKEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NYKAA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PAYTM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANANDRATHI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "METROBRAND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PIIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JIOFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NEULANDLAB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AIIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BSE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AUBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RRKABEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NUVAMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABCAPITAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MPHASIS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NMDC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VAML": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IREDA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ALKEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GICRE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TIINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AMBER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASTERDM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RBLBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LTTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ICICIPRULI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJFINANCE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CESC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HINDPETRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TITAN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CUPID": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRSE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GODFRYPHLP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HFCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GODIGIT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IOC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LUPIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MFSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ONGC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EMCURE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHREECEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ACC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AMBUJACEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HINDALCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATASTEEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATACOMM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ESCORTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BOSCHLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TMPV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATACONSUM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EIHOTEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APOLLOTYRE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RVNL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJAJHFL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATAINVEST": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CGCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FLUOROCHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUMICHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SWIGGY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SBICARD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BANKBARODA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WELCORP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAZDOCK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NATIONALUM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APARINDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AJANTPHARM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STLTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GODREJCP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PNB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CANBK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IGL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PETRONET": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TCS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ATHERENERG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CEMPRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JKCEMENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "YESBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUPREMEIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "REDINGTON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADANIPORTS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IRB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DELHIVERY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJAJ-AUTO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZFCVINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NHPC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "THANGAMAYL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "OBEROIRLTY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COALINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DALBHARAT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "URBANCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "APLAPOLLO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SCHNEIDER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GLAND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MOTHERSON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IRFC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KEI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LGEINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KAYNES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LODHA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SHYAMMETL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TMCV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "STARHEALTH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DATAPATTNS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LINDEINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PTCIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HUDCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DIXON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUNPHARMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AUROPHARMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSWINFRA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IDFCFIRSTB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ICICIGI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HDFCLIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BANDHANBNK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KARURVYSYA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FACT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BLUESTARCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EXIDEIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CGPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHARTIHEXA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SBIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DRREDDY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AADHARHFC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ATGL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HDFCBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSWSTEEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RAMCOCEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VEDL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MANAPPURAM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PATANJALI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TORNTPHARM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CONCOR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PGHH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASHOKLEY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BAJAJHLDNG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BPCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GESHIP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GLAXO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BRITANNIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MARICO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IRCTC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HYUNDAI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WAAREEENER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CHOLAHLDNG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "EICHERMOT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POWERINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "VMM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IKS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SCHAEFFLER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BANKINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDUSINDBK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COROMANDEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HCLTECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JINDALSTEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WOCKPHARMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ITCHOTELS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ZYDUSLIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASTRAZEN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JBCHEPHARM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IOB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "WIPRO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GILLETTE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHARTIARTL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNIONBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UCOBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ULTRACEMCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BELRISE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ENRIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CHOLAFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PFOCUS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TECHM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IDEA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AWL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PAGEIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CENTRALBK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KPRMILL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POWERGRID": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIRLOSENG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANANTRAJ": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MUTHOOTFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HONAUT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MCX": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HAVELLS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDUSTOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MEDANTA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KALYANKJIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RUBICON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LENSKART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PWL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TENNIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ACUTAAS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MEESHO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KPIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POLICYBZR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POONAWALLA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NETWEB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "IPCALAB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DMART": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CDSL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COCHINSHIP": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GUJENERGY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATATECH": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LALPATHLAB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SBILIFE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BDL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ENDURANCE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PNBHOUSING": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AEGISLOG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LAURUSLABS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FORCEMOT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CIPLA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HDFCAMC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DABUR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MRPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SAIL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "HEROMOTOCO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INFY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KOTAKBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TRENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MRF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "RELIANCE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PIDILITIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TATAELXSI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FEDERALBNK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CUMMINSIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "BHARATFORG": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "M&M": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SIEMENS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PFIZER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PREMIERENE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NESTLEIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "COLPAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ITC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "POLYCAB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AFFLE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PHOENIXLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "360ONE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SRF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GABRIEL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANGELONE": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRINDWELL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ICICIBANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CUB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DEEPAKNTR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNITDSPR": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UBL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GRANULES": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DIVISLAB": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MARUTI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MAHABANK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UNOMINDA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "AEGISVOPAK": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SUZLON": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "M&MFIN": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SOLARINDS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TORNTPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ANTHEM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "UPL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "FORTIS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "DLF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MSUMI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LLOYDSME": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADANIENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "CARBORUNIV": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADANIPOWER": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "JSWENERGY": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PERSISTENT": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ASAHIINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LTF": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SYRMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NBCC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "PPLPHARMA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "SONACOMS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIMS": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "TVSHLTD": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ETERNAL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ABSLAMC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ICICIAMC": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "GVT&D": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "3MINDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "MANKIND": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ITI": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "KIOCL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "ADANIENSOL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "INDIGO": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NAM-INDIA": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "NIACL": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  },
+  "LTM": {
+    "last_checked": "2026-07-31",
+    "splits": {}
+  }
+}

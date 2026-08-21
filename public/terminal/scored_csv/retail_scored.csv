@@ -1,0 +1,19 @@
+﻿Stock Name,Symbol,market_cap,industry,Hedge Fund Score,LLM Score,Combined Score,Pros,Cons
+Baazar Style Retail Ltd,STYLEBAAZA,2134.33,trading,25.0,42.0,40.0,"Stable EPS growth, moderate operating profit growth","Negative net profit, high depreciation costs"
+Shanti Educational Initiatives Ltd,SEIL,3272.0,miscellaneous,20.0,,20.0,recent loss-to-profit turnaround; growth; ownership,RED FLAG: chronic negative operating cash flow; double working capital drain (debtor & inventory bloat). cash generation
+Sai Silks (Kalamandir) Ltd,KALAMANDIR,1356.22,trading,20.0,69.0,35.0,"Stable net profit, consistent other income growth","Low free cash flow, high depreciation"
+Vip Industries Limited,VIPIND,4196.21,moulded luggage,20.0,28.0,28.0,"Recent operating profit and net profit show slight improvement, and other income is increasing.","Significant losses in recent quarters, high working capital days, and declining EPS."
+Electronics Mart India Ltd,EMIL,4987.88,trading,52.2,68.0,67.2,Strong free cash flow generation and interest income growth,Below peer growth and balance sheet concerns
+Elitecon International Ltd,ELITECON,2479.27,miscellaneous,20.0,,20.0,No decisive peer-relative strength identified,RED FLAG: losses in most reported periods; chronic negative operating cash flow; financial distress zone (Altman risk). cash generation; quality
+Brainbees Solutions Ltd,FIRSTCRY,10875.1,trading,20.0,36.0,35.0,"Significant growth in interest income and depreciation expenses, suggesting expanding business operations","Negative EPS and net profit across multiple quarters, indicating financial struggles"
+Safari Industries (India) Ltd,SAFARI,7539.93,moulded luggage,58.1,68.0,68.0,"Strong quarterly results, with increasing net profit and operating profit.","High working capital days and debtor days, indicating potential cash flow issues."
+Aditya Vision Ltd,AVL,7890.98,trading,20.0,62.0,35.0,"Increasing profit before tax and net profit, improving EPS.","High interest expenses and depreciation, negative free cash flow."
+Ethos Ltd,ETHOSLTD,6857.46,trading,51.9,52.0,52.0,"Strong operating profit growth, improved EPS","Negative free cash flow, high depreciation expenses"
+V-mart Retail Limited,VMART,5764.45,trading,20.0,85.0,35.0,"Improving profitability and interest income, low working capital days.",High depreciation costs and some net loss in quarters.
+Honasa Consumer Ltd,HONASA,14625.45,trading,61.4,63.0,63.0,"Improving profitability and interest income, with net profit increasing to 69.0 in Mar 2026","High debtor days and poor cash generation, with free cash flow of 224.0 in Mar 2024"
+FSN E-Commerce Ventures Ltd,NYKAA,92444.24,trading,59.3,58.0,58.0,"Increasing quarterly net profits, improving profitability",High debt and large depreciation expenses
+Redington (india) Limited,REDINGTON,20251.87,trading,34.8,,34.8,No decisive peer-relative strength identified,quality; growth; cash generation
+Vishal Mega Mart Ltd,VMM,50523.56,trading,74.6,72.0,72.0,"Strong cash generation and quality relative to peers, with a 91/100 rating in both categories.","Lags behind peers in growth, with a 50/100 rating, and has a below-peer balance sheet rating of 55/100."
+Meesho Ltd,MEESHO,85370.83,miscellaneous,25.0,23.0,23.0,"The company's other income has seen a significant increase in the recent quarter, with a value of 114.0 in Jun 2026.","The company has reported a net loss in the recent quarters, with a net profit of -166.0 in Mar 2026 and -491.0 in Dec 2025."
+Avenue Supermarts Ltd,DMART,262124.61,trading,68.3,82.0,82.0,High interest coverage and low debtor days. Strong other income and profit before tax growth.,High depreciation and interest expenses. Limited free cash flow growth.
+Trent Limited,TRENT,154130.8,trading,75.9,85.0,85.0,"Strong quarterly results, improved EPS, and interest income. Healthy cash flows and investments.",High depreciation and interest expenses. Working capital days have increased over time.

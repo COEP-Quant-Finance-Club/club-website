@@ -1,0 +1,9 @@
+﻿Stock Name,Symbol,market_cap,industry,Hedge Fund Score,LLM Score,Combined Score,Pros,Cons
+PDS Ltd,PDSL,4978.76,trading,53.7,58.0,58.0,"High cash conversion efficiency, decreasing debt and increasing net profit","Below peer quality and balance sheet, high interest expenses"
+Raymond Limited,RAYMOND,3917.2,transport - airlines,50.6,62.0,62.0,"Low debt, high operating profit, and increasing EPS","High inventory days, low profit before tax"
+Raymond Lifestyle Ltd,RAYMONDLSL,4355.73,textiles - products,53.9,41.0,41.0,"Moderate quarterly interest growth, consistent depreciation expense","Negative quarterly profit before tax, high market cap"
+Welspun Living Ltd,WELSPUNLIV,15304.99,textiles - products,63.0,62.0,62.0,"Improving EPS, increasing profit before tax, and strong cash from operating activity.","High cash conversion cycle, high inventory days, and increasing interest expenses."
+Timex Group India Ltd,TIMEX,5843.49,miscellaneous,20.0,48.0,35.0,Profitability improving; EPS rising to 2.71; operating profit strong; market cap $5.8bn; expanding earnings momentum.,High P/E at 60; weak cash generation; cash conversion cycle over 100 days; early negative free cash flow; valuation below peers.
+Arvind Fashions Ltd,ARVINDFASN,6183.55,trading,48.1,68.0,63.1,Stable EPS growth and moderate interest expenses.,High cash conversion cycle and relatively low free cash flow.
+Vardhman Textiles Limited,VTL,17791.18,textiles - cotton/blended,56.4,51.0,51.0,"Strong profit before tax growth, with a 32% increase from Mar 2025 to Mar 2026",High cash conversion cycle and inventory days indicate potential working capital inefficiencies
+Page Industries Limited,PAGEIND,44922.23,textiles - products,20.0,72.0,35.0,"Strong cash generation and quality scores, healthy profit before tax and net profit growth","High cash conversion cycle and inventory days, below-peer valuation"

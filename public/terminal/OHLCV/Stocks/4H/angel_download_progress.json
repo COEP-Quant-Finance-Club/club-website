@@ -1,0 +1,491 @@
+{
+    "360ONE": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "3BBLACKBIO": {
+        "status": "Success",
+        "bars": 154,
+        "fixed": 0
+    },
+    "3MINDIA": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "5PAISA": {
+        "status": "Success",
+        "bars": 4305,
+        "fixed": 0
+    },
+    "63MOONS": {
+        "status": "Success",
+        "bars": 4736,
+        "fixed": 0
+    },
+    "AADHARHFC": {
+        "status": "Success",
+        "bars": 1106,
+        "fixed": 0
+    },
+    "AARTIDRUGS": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "AARTIIND": {
+        "status": "Success",
+        "bars": 4739,
+        "fixed": 0
+    },
+    "AARTIPHARM": {
+        "status": "Success",
+        "bars": 1737,
+        "fixed": 0
+    },
+    "AAVAS": {
+        "status": "Success",
+        "bars": 3865,
+        "fixed": 0
+    },
+    "ABBOTINDIA": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ABB": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ABCAPITAL": {
+        "status": "Success",
+        "bars": 4407,
+        "fixed": 0
+    },
+    "ABDL": {
+        "status": "Success",
+        "bars": 1041,
+        "fixed": 0
+    },
+    "ABFRL": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ABLBL": {
+        "status": "Success",
+        "bars": 559,
+        "fixed": 0
+    },
+    "ABREL": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ABSLAMC": {
+        "status": "Success",
+        "bars": 2383,
+        "fixed": 0
+    },
+    "ACCELYA": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ACC": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ACE": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ACI": {
+        "status": "Success",
+        "bars": 1837,
+        "fixed": 0
+    },
+    "ACMESOLAR": {
+        "status": "Success",
+        "bars": 857,
+        "fixed": 0
+    },
+    "ACUTAAS": {
+        "status": "Success",
+        "bars": 2421,
+        "fixed": 0
+    },
+    "ADANIENSOL": {
+        "status": "Success",
+        "bars": 4736,
+        "fixed": 0
+    },
+    "ADANIENT": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ADANIGREEN": {
+        "status": "Success",
+        "bars": 4015,
+        "fixed": 0
+    },
+    "ADANIPORTS": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ADANIPOWER": {
+        "status": "Success",
+        "bars": 4736,
+        "fixed": 0
+    },
+    "ADFFOODS": {
+        "status": "Success",
+        "bars": 4735,
+        "fixed": 1
+    },
+    "ADOR": {
+        "status": "Success",
+        "bars": 4736,
+        "fixed": 0
+    },
+    "ADVAIT": {
+        "status": "Success",
+        "bars": 272,
+        "fixed": 0
+    },
+    "ADVENZYMES": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "AEGISLOG": {
+        "status": "Success",
+        "bars": 4735,
+        "fixed": 0
+    },
+    "AEGISVOPAK": {
+        "status": "Success",
+        "bars": 589,
+        "fixed": 0
+    },
+    "AEQUS": {
+        "status": "Success",
+        "bars": 326,
+        "fixed": 0
+    },
+    "AEROENTER": {
+        "status": "Success",
+        "bars": 1837,
+        "fixed": 0
+    },
+    "AEROFLEX": {
+        "status": "Success",
+        "bars": 1447,
+        "fixed": 0
+    },
+    "AEROPLANE": {
+        "status": "Success",
+        "bars": 174,
+        "fixed": 0
+    },
+    "AETHER": {
+        "status": "Success",
+        "bars": 2065,
+        "fixed": 0
+    },
+    "AFCONS": {
+        "status": "Success",
+        "bars": 871,
+        "fixed": 0
+    },
+    "AFFLE": {
+        "status": "Success",
+        "bars": 3455,
+        "fixed": 1
+    },
+    "AFSL": {
+        "status": "Success",
+        "bars": 1789,
+        "fixed": 0
+    },
+    "AGARWALEYE": {
+        "status": "Success",
+        "bars": 743,
+        "fixed": 0
+    },
+    "AGIIL": {
+        "status": "Success",
+        "bars": 1023,
+        "fixed": 0
+    },
+    "AGI": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "AGL": {
+        "status": "Success",
+        "bars": 52,
+        "fixed": 0
+    },
+    "AHLUCONT": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "AIAENG": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "AIIL": {
+        "status": "Success",
+        "bars": 1136,
+        "fixed": 0
+    },
+    "AJANTPHARM": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "AJAXENGG": {
+        "status": "Success",
+        "bars": 725,
+        "fixed": 0
+    },
+    "AJMERA": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "AKCAPIT": {
+        "status": "Success",
+        "bars": 152,
+        "fixed": 0
+    },
+    "AKUMS": {
+        "status": "Success",
+        "bars": 993,
+        "fixed": 0
+    },
+    "ALEMBICLTD": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ALGOQUANT": {
+        "status": "Success",
+        "bars": 290,
+        "fixed": 0
+    },
+    "ALICON": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ALIVUS": {
+        "status": "Success",
+        "bars": 2471,
+        "fixed": 0
+    },
+    "ALKEM": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ALKYLAMINE": {
+        "status": "Success",
+        "bars": 4739,
+        "fixed": 0
+    },
+    "ALLCARGO": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 1
+    },
+    "ALLDIGI": {
+        "status": "Success",
+        "bars": 4737,
+        "fixed": 0
+    },
+    "ALLTIME": {
+        "status": "Success",
+        "bars": 483,
+        "fixed": 0
+    },
+    "ALOKINDS": {
+        "status": "Success",
+        "bars": 4707,
+        "fixed": 1
+    },
+    "AMAGI": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "AMBER": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "AMBIKCO": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "AMBUJACEM": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "AMNPLST": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "AMRUTANJAN": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANANDRATHI": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANANTRAJ": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANDHRAPAP": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANDHRSUGAR": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANGELONE": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANTELOPUS": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANTHEM": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANUP": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ANURAS": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APARINDS": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APCOTEXIND": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APEX": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APLAPOLLO": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APLLTD": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APOLLOHOSP": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APOLLOPIPE": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APOLLOTYRE": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APOLLO": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "APTUS": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ARE&M": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ARFIN": {
+        "status": "Success",
+        "bars": 514,
+        "fixed": 0
+    },
+    "ARIHANTSUP": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ARIHANT": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ARIS": {
+        "status": "Success",
+        "bars": 244,
+        "fixed": 0
+    },
+    "ARKADE": {
+        "status": "Success",
+        "bars": 920,
+        "fixed": 0
+    },
+    "ARMANFIN": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ARSSBL": {
+        "status": "Success",
+        "bars": 417,
+        "fixed": 0
+    },
+    "ARTEMISMED": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ARVINDFASN": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ARVIND": {
+        "status": "Success",
+        "bars": 32,
+        "fixed": 0
+    },
+    "ARVSMART": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ASAHIINDIA": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ASALCBR": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    },
+    "ASHAPURMIN": {
+        "status": "Failed",
+        "error": "No data downloaded"
+    }
+}

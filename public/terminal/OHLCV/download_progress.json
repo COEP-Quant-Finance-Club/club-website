@@ -1,0 +1,1899 @@
+{
+  "stocks": {},
+  "indices": {},
+  "INDEX_Nifty_50": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Bank": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_FinService": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_IT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Metal": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Auto": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Pharma": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_FMCG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Energy": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Realty": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Media": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_PSUBank": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Infra": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Commodities": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_PSE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_MNC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_ServSector": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Next50": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Midcap100": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Midcap50": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Smallcap100": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_500": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_200": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_100": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_Consumption": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_DivOpps50": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Nifty_GrowSect15": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "INDEX_Sensex": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SIRCA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TCIEXP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PARACABLES": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BAJAJELEC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SOLARA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SPIC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BEPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IMPAL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MAITHANALL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ELECTCAST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_FOSECOIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SUNDROP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JINDALPOLY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NIITLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SHILCTECH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SANSTAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WSTCSTPAPR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RPSGVENT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STYLEBAAZA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CENTRUM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SBC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MUFIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GREENPANEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GODAVARIB": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PRINCEPIPE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDIANHUME": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AUTOAXLES": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SURAKSHA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GMMPFAUDLR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TEXINFRA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RESPONIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ADVAIT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ARIHANTSUP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AMNPLST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDNIPPON": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GEOJITFSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_LAXMIDENTL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NITTAGELA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDSWFTLAB": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UNICHEMLAB": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GUJTHEM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TTKHLTCARE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BLIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AYMSYNTEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GRPLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TVSSRICHAK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JINDRILL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AEROENTER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JAGRAN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NITCO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RSYSTEMS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KAMDHENU": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MASTERTR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ZSARACOM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ICRA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_REFEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ASIANTILES": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDIQUBE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BGRENERGY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VENUSPIPES": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SSWL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MOLDTKPAC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EXPLEOSOL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STEELCAS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MANINFRA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HIMATSEIDE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BFINVEST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TEXRAIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VINDHYATEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ARSSBL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SALZERELEC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GPTINFRA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GIPCL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PACEDIGITK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AWHCL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STOVEKRAFT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ROTO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAJRATAN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SMCGLOBAL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EASEMYTRIP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MIDWESTLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SULA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HERITGFOOD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JPOLYINVST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STUDDS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TATVA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GCSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NPST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WINDLAS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VIDYAWIRES": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WAKEFIT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MMFL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PDSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CEINSYS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VENKEYS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MCLOUD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SIMPLEXINF": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_POLYPLEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CARYSIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IMAGICAA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GSPCROP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BCLIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VRLLOG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_APEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RATNAVEER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JLHL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NGLFINE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UDS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WEALTH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ZOTA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IRMENERGY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SALASAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SHK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CMRGREEN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PASHUPATI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CAPACITE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CONFIPET": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KPEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_63MOONS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_5PAISA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IFGLEXPOR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VENUSREM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ICEMAKE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SHALBY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MEDIASSIST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PARAGMILK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EPACK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SEIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SOLEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PARKHOTELS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_THEMISMED": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HGINFRA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MACPOWER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_YASHO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ASIANENE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JUNIPER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JGCHEM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDOSTAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AMRUTANJAN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BHARATRAS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BANARISUG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SAKSOFT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SRM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ANDHRSUGAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAJRILTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TEMBO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DALMIASUG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UFLEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MARINE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GOODYEAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AGI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KIRLOSIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ALICON": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HEIDELBERG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PIXTRANS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VSTTILLERS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PANACEABIO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INTERARCH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BNAGROCHEM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EXCELINDUS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NOVARTIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GRMOVER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EVEREADY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SOMANYCERA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SAGCEM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ARKADE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BOROLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ANDHRAPAP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MARATHON": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SWSOLAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SIYSIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ELPROINTL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_APOLLOPIPE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DOLATALGO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ROSSARI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KDDL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MOBIKWIK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GRAUWEIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_FMGOETZE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RANEHOLDIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ROUTE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ALEMBICLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STALLION": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PNBGILTS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAMCOSYS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SDBL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ASALCBR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DHANUKA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HAWKINCOOK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NAVNETEDUL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ALLDIGI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BIRLANU": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SASKEN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AURIONPRO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ALGOQUANT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NITINSPIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ARIS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDOTECH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAYMONDREL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CAMLINFINE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INSECTICID": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SUNTECK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MMWL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HARIOMPIPE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KNRCON": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GANDHITUBE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RPGLIFE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ASTEC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SUMEETINDS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STLNETWORK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DDEVPLSTIK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KICL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EUROPRATIK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IVALUE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RUPA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GKENERGY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_LUMAXIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VSSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RTNINDIA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SYMPHONY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TARC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BUTTERFLY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WEBELSOLAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_REPCOHOME": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TASTYBITE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ADFFOODS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SURYODAY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UFBL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JTEKTINDIA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CAPILLARY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ROLEXRINGS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_FRONTSP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HLEGLAS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAMRAT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EIHAHOTELS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GKSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TARSONS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GOCOLORS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NILKAMAL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SHRIRAMPPS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BOSCH-HCIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MONTECARLO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CMSINFO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DREDGECORP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GHCLTEXTIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_APCOTEXIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GAUDIUMIVF": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PNGSREVA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AGIIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MANAKCOAT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AARTIDRUGS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AMIRCHAND": {
+    "daily": "not_found",
+    "4hour": "not_found"
+  },
+  "STOCK_VIMTALABS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HESTERBIO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SPORTKING": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RISHABH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HIKAL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PANAMAPET": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SHREEPUSHK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_FILATEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PREMEXPLN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SATIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SERVOTECH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ELECTHERM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GANDHAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_LUXIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TFCILTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BAJEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DIAMONDYD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GOLDIAM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GREENPLY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TEAMLEASE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BETA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ELCIDIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DOLLAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MOTISONS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SILVERTUC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ONEPOINT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ANTELOPUS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ADVENZYMES": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CAPITALSFB": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SPAL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SANDHAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TINNARUBR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BOMDYEING": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BAJAJHIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_XPROINDIA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KCP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_OAL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MTNL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DCW": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SPECTRUM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MADRASFERT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GHCL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IGPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AWFIS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDORAMA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JISLJALEQS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_LGBBROSLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PATELENG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ONIDA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MOREPENLAB": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ARMANFIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JAYKAY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NUCLEUS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ORIENTHOT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAYMOND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RALLIS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SPMLINFRA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SWARAJENG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TIRUMALCHM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ORIENTTECH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TNPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAYMONDLSL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MSTCLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KROSS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TECHNVISN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JINDWORLD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SESHAPAPER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VIDHIING": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TALBROAUTO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ROSSTECH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WENDT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SINDHUTRAD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NDRAUTO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PRAKASH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VAIBHAVGBL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SANATHAN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BLISSGVS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ACCELYA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BCG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BALAJITELE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AVANTEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JAGSNPHARM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BFUTILITIE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MPSLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UNITECH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_POKARNA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_COSMOFIRST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PTC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DATAMATICS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GUFICBIO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDOCO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JINDALPHOT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MSPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HUHTAMAKI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RML": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RENUKA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DIGITIDE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EKC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_OSWALPUMPS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BLKASHYAP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KKCL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PAUSHAKLTD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CRIZAC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DEEPINDS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CREST": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NETWORK18": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UGROCAP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_EFCIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SMSPHARMA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DECNGOLD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DELTACORP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HGS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_OMAXE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BHAGYANGR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RGL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JKIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SEPC": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PENIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ALLTIME": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PITTIENG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RTNPOWER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DLINKINDIA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GNRL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DBCORP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MAHASTEEL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WAAREEINDO": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RAMKY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CANTABIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ASHOKA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SHRINGARMS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ARROWGREEN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SOLARWORLD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INDOTHAI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JTLIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RBA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_STEELXIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_FUSION": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AVTNPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SHARDAMOTR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VADILALIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ORIENTCEM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UNIPARTS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_LANDMARK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_JAYBARMARU": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KRSNAA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_CHEMPLASTS": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KITEX": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WINDMACHIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HONDAPOWER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KLBRENG-B": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SKMEGGPROD": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_TCPLPACK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_RIIL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SIKA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_VINCOFE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ASHIANA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_IDEAFORGE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_UTKARSHBNK": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_WANBURY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SAIPARENT": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SYNCOMF": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ARFIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SGFIN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_AVADHSUGAR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NACLIND": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_FISCHER": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_HITECH": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KRISHANA": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SAMHI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MBAPL": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KALAMANDIR": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_INFOBEAN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_NAVKARCORP": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_ESAFSFB": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PROTEAN": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_DRAGARWQ": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_PRECAM": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MAHLOG": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_MUTHOOTMF": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_SUNCLAY": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BHARATWIRE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_GUJALKALI": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_BAJAJHCARE": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_FAZE3Q": {
+    "daily": "done",
+    "4hour": "done"
+  },
+  "STOCK_KPL": {
+    "daily": "done"
+  }
+}

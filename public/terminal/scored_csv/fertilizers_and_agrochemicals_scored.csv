@@ -1,0 +1,39 @@
+﻿Stock Name,Symbol,market_cap,industry,Hedge Fund Score,LLM Score,Combined Score,Pros,Cons
+Southern Petrochemicals Industries Corporation  Limited,SPIC,1322.44,fertilizers,53.9,,53.9,quality,growth; ownership
+Sanstar Ltd,SANSTAR,2182.32,miscellaneous,35.0,,35.0,No decisive peer-relative strength identified,RED FLAG: promoters dumping stake. quality; balance sheet
+Venky's (india) Limited,VENKEYS,2120.43,miscellaneous,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+GSP Crop Science Ltd,GSPCROP,2467.82,pesticides / agrochemicals - indian,50.8,,50.8,recent loss-to-profit turnaround; growth,quality; ownership
+Bharat Rasayan Limited,BHARATRAS,2096.08,pesticides / agrochemicals - indian,59.6,,59.6,balance sheet,No material peer-relative weakness identified
+BN Agrochem Ltd,BNAGROCHEM,2687.78,trading,20.0,,20.0,recent loss-to-profit turnaround,RED FLAG: chronic negative operating cash flow. quality; ownership; cash generation
+Excel Industries Limited,EXCELINDUS,1171.78,pesticides / agrochemicals - indian,48.7,,48.7,cash generation; balance sheet,ownership; quality
+Dhanuka Agritech Limited,DHANUKA,4517.12,pesticides / agrochemicals - indian,81.3,,81.3,quality; balance sheet; cash generation,No material peer-relative weakness identified
+Insecticides (india) Limited,INSECTICID,1792.72,pesticides / agrochemicals - indian,47.0,,47.0,balance sheet,quality
+Astec Lifesciences Limited,ASTEC,1468.66,pesticides / agrochemicals - indian,25.0,,25.0,No decisive peer-relative strength identified,RED FLAG: can't cover interest from operating profit. balance sheet; growth
+India Pesticides Ltd,IPL,1727.22,pesticides / agrochemicals - indian,64.2,,64.2,quality; balance sheet; cash generation,ownership
+Madras Fertilizers Limited,MADRASFERT,1068.91,fertilizers,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Rallis India Limited,RALLIS,4253.42,pesticides / agrochemicals - indian,56.3,,56.3,cash generation; growth,No material peer-relative weakness identified
+Avt Natural Products Limited,AVTNPL,1066.29,solvent extraction,51.1,,51.1,No decisive peer-relative strength identified,quality
+NACL Industries Ltd,NACLIND,4609.91,pesticides / agrochemicals - indian,33.1,,33.1,recent loss-to-profit turnaround,cash generation; balance sheet; ownership
+Krishana Phoschem Ltd,KRISHANA,1001.92,fertilizers,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Madhya Bharat Agro Products Ltd,MBAPL,1299.07,fertilizers,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Bhagiradha Chemicals & Industries Ltd,BHAGCHEM,3416.13,pesticides / agrochemicals - indian,40.0,,40.0,No decisive peer-relative strength identified,cash generation; quality; ownership
+Punjab Chemicals & Crop Protection Limited,PUNJABCHEM,1375.33,pesticides / agrochemicals - indian,68.6,,68.6,cash generation; quality; profitability,No material peer-relative weakness identified
+Kaveri Seed Company Limited,KSCL,4297.73,miscellaneous,44.2,,44.2,No decisive peer-relative strength identified,quality
+Meghmani Organics Ltd,MOL,1385.0,pesticides / agrochemicals - indian,53.1,,53.1,recent loss-to-profit turnaround; cash generation; quality,growth; balance sheet; ownership
+National Fertilizers Limited,NFL,3449.26,fertilizers,34.8,,34.8,recent loss-to-profit turnaround; quality,cash generation; balance sheet; growth
+Chambal Fertilizers & Chemicals Limited,CHAMBLFERT,17268.11,fertilizers,41.5,,41.5,ownership; balance sheet,quality; cash generation; growth
+Bayer Cropscience Limited,BAYERCROP,18954.33,pesticides / agrochemicals - multinational,49.5,,49.5,"ownership; growth; early-stage company, current signals are promising but unseasoned",profitability; newly listed/short financial history—lower evidence confidence
+Rashtriya Chemicals And Fertilizers Limited,RCF,6853.07,fertilizers,26.4,,26.4,ownership,cash generation; balance sheet; quality
+Gujarat State Fertilizers & Chemicals Limited,GSFC,6158.87,fertilizers,45.6,,45.6,balance sheet,cash generation; growth
+Gujarat Ambuja Exports Limited,GAEL,6955.28,miscellaneous,58.6,,58.6,balance sheet; ownership,No material peer-relative weakness identified
+Paradeep Phosphates Ltd,PARADEEP,14126.39,fertilizers,34.1,,34.1,growth,cash generation; quality; balance sheet
+Sharda Cropchem Limited,SHARDACROP,7875.8,pesticides / agrochemicals - indian,76.8,,76.8,quality; profitability; cash generation,No material peer-relative weakness identified
+Gokul Agro Resources Limited,GOKULAGRO,6194.76,solvent extraction,68.5,,68.5,quality; growth; ownership,No material peer-relative weakness identified
+Pi Industries Limited,PIIND,41437.25,pesticides / agrochemicals - indian,30.0,,30.0,No decisive peer-relative strength identified,RED FLAG: double working capital drain (debtor & inventory bloat). quality; growth
+Sumitomo Chemical India Ltd,SUMICHEM,25978.04,pesticides / agrochemicals - indian,70.9,,70.9,cash generation; balance sheet; ownership,No material peer-relative weakness identified
+Fertilizers And Chemicals Travancore Limited,FACT,52367.53,fertilizers,20.0,,20.0,ownership,RED FLAG: can't cover interest from operating profit; financial distress zone (Altman risk); debt trap (high leverage with negative free cash flow). quality; balance sheet; growth
+Patanjali Foods Ltd,PATANJALI,37099.06,solvent extraction,35.9,,35.9,No decisive peer-relative strength identified,quality; cash generation
+Marico Limited,MARICO,111089.94,solvent extraction,73.3,,73.3,cash generation; balance sheet; profitability,No material peer-relative weakness identified
+Coromandel International Limited,COROMANDEL,58436.86,fertilizers,57.8,,57.8,cash generation; ownership,No material peer-relative weakness identified
+AWL Agri Business Ltd,AWL,24454.75,solvent extraction,66.3,,66.3,cash generation; growth,No material peer-relative weakness identified
+Upl Limited,UPL,50856.98,pesticides / agrochemicals - indian,48.1,,48.1,cash generation,balance sheet; quality; growth

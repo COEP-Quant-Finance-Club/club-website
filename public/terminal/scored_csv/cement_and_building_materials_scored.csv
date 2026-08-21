@@ -1,0 +1,28 @@
+﻿Stock Name,Symbol,market_cap,industry,Hedge Fund Score,LLM Score,Combined Score,Pros,Cons
+India Motor Parts And Accessories Limited,IMPAL,1342.97,auto ancillaries,37.1,,37.1,balance sheet,quality; ownership; cash generation
+Studds Accessories Ltd,STUDDS,1773.26,plastics products,65.7,,65.7,balance sheet; growth; cash generation,ownership
+Dalmia Bharat Sugar And Industries Limited,DALMIASUG,2929.6,sugar,42.5,,42.5,ownership,cash generation; quality
+Heidelbergcement India Limited,HEIDELBERG,3544.46,cement - north india,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Sagar Cements Limited,SAGCEM,2320.58,cement - south india,31.9,,31.9,No decisive peer-relative strength identified,quality; balance sheet; ownership
+BirlaNu Ltd,BIRLANU,1019.45,cement products,25.0,,25.0,cash generation,RED FLAG: can't cover interest from operating profit. quality; balance sheet; ownership
+Kcp Limited,KCP,2096.77,cement - south india,47.7,,47.7,growth,quality; cash generation
+Accelya Kale Solutions Limited,ACCELYA,1729.8,computers - software - medium / small,61.8,,61.8,cash generation; balance sheet,quality
+Orient Cement Limited,ORIENTCEM,2749.05,cement - south india,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Mangalam Cement Limited,MANGLMCEM,2705.87,cement - north india,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). ownership; newly listed/short financial history—lower evidence confidence
+Shree Digvijay Cement Co. Ltd,SHREDIGCEM,1126.52,cement - north india,29.8,,29.8,recent loss-to-profit turnaround; ownership,cash generation; balance sheet; profitability
+Ramco Industries Limited,RAMCOIND,2858.39,cement products,64.2,,64.2,balance sheet; ownership; quality,No material peer-relative weakness identified
+Birla Corporation Limited,BIRLACORPN,7366.33,cement - north india,63.4,,63.4,quality; ownership; cash generation,No material peer-relative weakness identified
+JSW Cement Ltd,JSWCEMENT,18012.78,cement - north india,49.0,,49.0,growth,quality; balance sheet
+Prism Johnson Ltd,PRSMJOHNSN,5437.26,cement - north india,50.4,,50.4,cash generation; quality,growth; balance sheet
+Nuvoco Vistas Corporation Ltd,NUVOCO,12716.54,cement - north india,56.7,,56.7,cash generation; quality,No material peer-relative weakness identified
+Star Cement Ltd,STARCEMENT,8280.85,cement - north india,75.9,,75.9,quality; profitability; cash generation,No material peer-relative weakness identified
+Jk Lakshmi Cement Limited,JKLAKSHMI,7107.27,cement - north india,59.9,,59.9,cash generation; profitability; quality,growth
+The India Cements Limited,INDIACEM,12612.82,cement - south india,43.6,,43.6,recent loss-to-profit turnaround; ownership,cash generation
+CreditAccess Grameen Ltd,CREDITACC,24320.99,finance & investments,20.0,,20.0,No decisive peer-relative strength identified,RED FLAG: chronic negative operating cash flow. cash generation; quality; newly listed/short financial history—lower evidence confidence
+Shree Cements Limited,SHREECEM,96479.92,cement - north india,71.9,,71.9,quality; cash generation; profitability,No material peer-relative weakness identified
+Acc Limited,ACC,25180.39,cement - north india,31.4,,31.4,balance sheet,quality; cash generation
+Ambuja Cements Limited,AMBUJACEM,105642.0,cement - north india,41.6,,41.6,No decisive peer-relative strength identified,quality
+Jk Cement Limited,JKCEMENT,43648.84,cement - north india,56.8,,56.8,growth,No material peer-relative weakness identified
+Dalmia Bharat Limited,DALBHARAT,33964.44,cement - south india,65.4,,65.4,quality; cash generation; balance sheet,No material peer-relative weakness identified
+The Ramco Cements Limited,RAMCOCEM,21616.03,cement - south india,60.3,,60.3,cash generation; quality,growth
+Ultratech Cement Limited,ULTRACEMCO,349076.95,cement - north india,73.6,,73.6,quality; cash generation; ownership,No material peer-relative weakness identified

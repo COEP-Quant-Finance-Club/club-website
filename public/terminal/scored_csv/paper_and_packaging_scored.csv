@@ -1,0 +1,20 @@
+﻿Stock Name,Symbol,market_cap,industry,Hedge Fund Score,LLM Score,Combined Score,Pros,Cons
+Jindal Poly Films Limited,JINDALPOLY,2790.73,textiles - products,25.0,,25.0,ownership,RED FLAG: can't cover interest from operating profit. cash generation; growth
+West Coast Paper Mills Limited,WSTCSTPAPR,3656.14,paper,51.0,,51.0,balance sheet; cash generation; ownership,growth
+Mold-tek Packaging Limited,MOLDTKPAC,2417.24,packaging,63.6,,63.6,quality; profitability,cash generation
+Jindal Poly Investment And Finance Company Limited,JPOLYINVST,1081.78,finance & investments,37.4,,37.4,balance sheet,quality; cash generation; growth
+Polyplex Corporation Limited,POLYPLEX,3544.05,packaging,53.5,,53.5,cash generation,No material peer-relative weakness identified
+Uflex Limited,UFLEX,3455.32,packaging,44.1,,44.1,ownership,quality; balance sheet
+AGI Greenpac Ltd,AGI,4353.16,packaging,70.7,,70.7,quality; cash generation; balance sheet,No material peer-relative weakness identified
+Andhra Paper Ltd,ANDHRAPAP,1219.55,paper,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Xpro India Limited,XPROINDIA,3253.47,packaging,31.3,,31.3,No decisive peer-relative strength identified,quality; profitability; cash generation
+Tamil Nadu Newsprint & Papers Limited,TNPL,1036.43,paper,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). ownership; newly listed/short financial history—lower evidence confidence
+Seshasayee Paper And Boards Limited,SESHAPAPER,1452.02,paper,45.2,,45.2,balance sheet,quality; growth
+Cosmo First Ltd,COSMOFIRST,2312.6,packaging,53.8,,53.8,profitability,balance sheet
+Huhtamaki India Ltd,HUHTAMAKI,2406.73,packaging,64.5,,64.5,quality; growth; cash generation,No material peer-relative weakness identified
+Everest Kanto Cylinder Limited,EKC,1220.37,packaging,56.7,,56.7,quality; balance sheet,cash generation
+TCPL Packaging Ltd,TCPLPACK,2936.12,packaging,53.0,,53.0,cash generation; growth,quality
+Garware Hi Tech Films Ltd,GRWRHITECH,16037.32,packaging,67.0,,67.0,ownership; balance sheet; growth,No material peer-relative weakness identified
+Inox India Ltd,INOXINDIA,18189.01,packaging,55.3,,55.3,growth; balance sheet,quality
+EPL Ltd,EPL,7464.44,packaging,65.3,,65.3,cash generation; profitability; growth,No material peer-relative weakness identified
+Jk Paper Limited,JKPAPER,7279.04,paper,50.9,,50.9,cash generation,No material peer-relative weakness identified

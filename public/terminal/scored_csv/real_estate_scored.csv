@@ -1,0 +1,48 @@
+﻿Stock Name,Symbol,market_cap,industry,Hedge Fund Score,LLM Score,Combined Score,Pros,Cons
+Arihant Superstructures Ltd,ARIHANTSUP,1135.74,construction,25.0,62.0,40.0,"Stable quarterly EPS growth, low depreciation expenses","Low operating profit in some quarters, high debtor days ratio"
+Indiqube Spaces Ltd,INDIQUBE,3843.73,miscellaneous,20.0,,20.0,"quality; early-stage company, current signals are promising but unseasoned",RED FLAG: financial distress zone (Altman risk). No material peer-relative weakness identified; newly listed/short financial history—lower evidence confidence
+Man Infraconstruction Limited,MANINFRA,3902.65,construction,39.0,,39.0,balance sheet,growth
+Arkade Developers Ltd,ARKADE,2517.78,construction,39.1,68.0,54.1,"Reasonable valuation with a stock P/E of 14.2, moderate growth in EPS",Below-peer cash generation and quality metrics
+Marathon Nextgen Realty Limited,MARATHON,2580.52,construction,40.2,58.0,55.2,Recent quarterly results show improving profitability and net profit.,"Depreciation costs have been fluctuating, and debt days are relatively high compared to peers."
+Alembic Limited,ALEMBICLTD,2258.14,construction,58.7,,58.7,balance sheet; cash generation; ownership,quality
+Raymond Realty Ltd,RAYMONDREL,4357.58,construction,20.0,42.0,35.0,Improving quarterly operating profits and net profits.,"Low combined score, fluctuating profitability, and high debtor days increase."
+Sunteck Realty Limited,SUNTECK,4497.04,construction,50.6,74.0,65.6,"Consistent improvement in operating profit, strong quarterly results","High depreciation, below-peer cash generation"
+Tarc Ltd,TARC,3879.04,construction,25.0,31.0,31.0,"Low debtor days, improving profit before tax.","High stock P/E, declining operating profit and net profit in recent quarters."
+Shriram Properties Ltd,SHRIRAMPPS,1450.9,construction,25.0,45.0,40.0,"Moderate market capitalization, relatively low P/E ratio of 14.2.","Significant volatility in quarterly operating profits, relatively low EPS in Rs."
+AGI Infra Ltd,AGIIL,3896.79,construction,52.7,,52.7,ownership; quality,No material peer-relative weakness identified
+AWFIS Space Solutions Ltd,AWFIS,1945.45,miscellaneous,30.0,,30.0,cash generation; profitability,RED FLAG: losses in most reported periods. ownership; quality; balance sheet
+Unitech Limited,UNITECH,1145.94,construction,15.0,40.0,30.0,Profitability has been above peers in certain quarters.,Consistently negative net profits and low EPS.
+EFC (I) Ltd,EFCIL,2889.39,construction,35.0,,35.0,growth,RED FLAG: promoters dumping stake. quality; ownership
+Omaxe Limited,OMAXE,1603.31,construction,15.0,24.0,24.0,"Low debt, consistent depreciation expenses","Consistently low profitability, high operating losses"
+Ashiana Housing Limited,ASHIANA,3887.3,construction,69.2,67.0,67.0,"Growing operating profit, increasing EPS in Rs, and improving debtor days","High market cap, relatively high depreciation, and fluctuating quarterly results"
+Arihant Foundations & Housing Limited,ARIHANT,1018.19,construction,46.4,63.0,61.4,"Increasing operating profit, rising EPS, and improving debtor days.","High market capitalization, below-peer cash generation, and high depreciation"
+Hubtown Limited,HUBTOWN,2770.68,construction,30.0,62.0,45.0,"Strong quarterly operating profit growth, improving profitability.",Concerns over high debtor days and moderate valuation.
+TCC Concept Ltd,TCC,1292.53,construction,60.1,,60.1,growth; cash generation,ownership
+Kolte - Patil Developers Limited,KOLTEPATIL,3469.61,construction,20.0,42.0,35.0,"Strong quarterly operating profits in Mar 2023 and Jun 2023, and positive profit before tax in Sep 2024.","Poor quarterly results in recent periods, with negative EPS in Sep 2025 and Dec 2025."
+Ajmera Realty & Infra India Limited,AJMERA,2412.12,construction,57.6,75.0,72.6,"Strong operating profit growth, increasing EPS, and relatively low P/E ratio","Depreciation costs remain stable, and debtor days have been fluctuating"
+Hemisphere Properties India Ltd,HEMIPROP,3801.05,construction,20.0,40.0,35.0,"Maintained consistent depreciation, some positive other income","Negative operating profits, low quality, weak growth"
+Arvind Smartspaces Limited,ARVSMART,2792.38,construction,35.9,48.0,48.0,"Improving operating profit, increasing EPS in Rs over the years","High debt, low cash generation, high depreciation"
+Valor Estate Ltd,DBREALTY,6102.08,construction,25.0,42.0,40.0,Above peers in cash generation (76/100) and balance sheet (72/100); positive net profit in Jun 2025 and Sep 2023.,Below peers in valuation (26/100) and ownership (45/100); negative operating profit in Sep 2024 and Dec 2023; high P/E ratio of 69.9.
+Wework India Management Ltd,WEWORK,9866.93,miscellaneous,55.1,,55.1,cash generation; profitability; growth,quality; ownership; balance sheet
+Puravankara Projects Limited,PURVA,5059.59,construction,20.0,60.0,35.0,"Increasing operating profit, stable depreciation, and rising EPS in Rs","Negative profit before tax, declining net profit, and high stock P/E"
+Brigade Enterprises Limited,BRIGADE,17138.2,construction,42.1,68.0,57.1,"Strong quarterly operating profit growth, improved EPS in Rs, and relatively high market cap.","Depreciation expenses increased, and debtor days have been inconsistent."
+Ganesh Housing Ltd,GANESHHOU,6665.96,construction,30.0,55.0,45.0,"Growing EPS and stable depreciation expenses, with improving debtor days.","Combined score is low at 30.0, and market cap is relatively high at 6665.96."
+Max Estates Ltd,MAXESTATES,6329.8,construction,20.9,51.0,35.9,Improving operating profit and decreasing debtor days.,High stock P/E ratio and volatile quarterly results.
+Nesco Limited,NESCO,7439.87,construction,70.0,,70.0,cash generation; quality; balance sheet,No material peer-relative weakness identified
+Mahindra Lifespace Developers Limited,MAHLIFE,7992.88,construction,25.0,42.0,40.0,"Improved EPS growth in recent quarters, decent market capitalization","Operating profits have been inconsistent, high debtor days in recent years"
+Smartworks Coworking Spaces Ltd,SMARTWORKS,5513.72,miscellaneous,30.0,,30.0,cash generation; quality; profitability,RED FLAG: losses in most reported periods. balance sheet
+Sri Lotus Developers & Realty Ltd,LOTUSDEV,8816.09,construction,48.8,,48.8,growth; balance sheet; ownership,quality; cash generation
+Aditya Birla Real Estate Ltd,ABREL,15349.22,construction,25.0,,25.0,recent loss-to-profit turnaround; ownership,RED FLAG: can't cover interest from operating profit. profitability; growth; balance sheet
+Nirlon Ltd,NIRLON,5592.73,construction,20.0,72.0,35.0,"Strong operating profit growth, consistent quarterly performance, and improved debtor days.","Depreciation expenses are high, and growth is below sector peers."
+KALPATARU,KALPATARU,5484.52,construction,30.0,,30.0,recent loss-to-profit turnaround; cash generation; growth,RED FLAG: losses in most reported periods. No material peer-relative weakness identified
+Sobha Limited,SOBHA,14570.32,construction,67.0,80.0,80.0,Strong quarterly results operating profit growth and decent EPS in Rs growth,High market cap and high depreciation values
+Embassy Development Limited,EMBDL,8512.07,construction,25.0,63.0,40.0,"Strong depreciation in recent years, significant improvement in EPS in Rs in Mar 2025, and low debtor days in Mar 2026.","Poor combined score, high operating losses in recent years, and significant decline in net profit in Jun 2025."
+Keystone Realtors Ltd,RUSTOMJEE,5046.46,construction,35.9,40.0,40.0,"Increasing operating profit, significant quarterly results growth","High market P/E, increasing depreciation costs"
+SignatureGlobal India Ltd,SIGNATURE,10809.61,construction,20.0,45.0,35.0,"Positive net profit and operating profit in last quarter, high EPS growth","High P/E ratio, increasing depreciation expenses"
+Godrej Properties Limited,GODREJPROP,61109.71,construction,20.0,58.0,35.0,Strong quarterly results with high profit before tax and net profit in Jun 2025. High EPS in Rs in recent quarters.,Poor balance sheet and cash generation relative to peers. Highly variable quarterly operating profits.
+Prestige Estates Projects Limited,PRESTIGE,68606.71,construction,63.4,65.0,65.0,"The company has shown growth in its operating profit, with a 49% increase from Sep 2023 to Sep 2024 and a 12% increase from Jun 2024 to Jun 2025. The EPS has also shown growth, with a 96% increase from Jun 2023 to Jun 2024 and a 13% increase from Jun 2024 to Jun 2025.","The company's depreciation expenses have increased, with a 21% increase from Mar 2024 to Mar 2025 and a 10% increase from Mar 2025 to Mar 2026. The debtors' days have also decreased, indicating a potential issue with accounts receivable."
+Oberoi Realty Limited,OBEROIRLTY,66219.24,construction,60.0,74.0,74.0,"Strong EPS growth, improving quarterly operating profits, and stable equity capital.",High depreciation expenses and relatively high P/E ratio compared to sector peers.
+Lodha Developers Ltd,LODHA,114306.39,construction,70.3,82.0,82.0,"High operating profit growth, strong EPS growth, and good cash generation.",High depreciation expenses and relatively high market capitalization.
+Anant Raj Limited,ANANTRAJ,21108.58,construction,55.1,,55.1,quality; balance sheet; ownership,cash generation
+The Phoenix Mills Limited,PHOENIXLTD,71910.77,construction,74.2,80.0,80.0,"Consistent operating profit growth, improving depreciation, and strong EPS in Rs.","High market cap, above-average debtor days, and lower cash generation compared to peers."
+Dlf Limited,DLF,159707.11,construction,73.7,82.0,82.0,Consistent operating profit growth and improving net profit margins.,High valuation and lower growth compared to sector peers.

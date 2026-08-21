@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Sun, Moon, Menu, X, Github, Instagram, Linkedin, Mail, Youtube } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const links = ["Home", "Blogs", "Projects", "Collaborations", "Events", "About", "Contact", "Resources"];
+const links = ["Home", "Market Index", "Projects", "Blogs", "Events", "Collaborations", "About", "Contact", "Resources"];
 
 interface NavbarProps {
   isDark: boolean;
@@ -38,13 +38,15 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
       return;
     }
 
+    const targetId = link === "Market Index" ? "home" : link.toLowerCase();
+
     if (location.pathname !== "/") {
-      navigate("/", { state: { scrollTo: link.toLowerCase() } });
+      navigate("/", { state: { scrollTo: targetId } });
       setMobileOpen(false);
       return;
     }
 
-    scrollTo(link);
+    scrollTo(targetId);
   };
 
   return (
