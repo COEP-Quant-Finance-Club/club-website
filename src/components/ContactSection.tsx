@@ -67,24 +67,28 @@ export default function ContactSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="relative w-full max-w-4xl rounded-2xl overflow-hidden border border-border/80 bg-card/75 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.8)] grid grid-cols-1 md:grid-cols-12 divide-y md:divide-y-0 md:divide-x divide-border/80"
+        className="relative w-full max-w-4xl rounded-2xl overflow-hidden border border-white/10 bg-[#070c12]/98 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.8)] grid grid-cols-1 md:grid-cols-12 divide-y md:divide-y-0 md:divide-x divide-white/10 text-white"
       >
         {/* ── Left Column: Identity & Profile Pane ───────────── */}
-        <div className="relative z-10 md:col-span-5 p-6 sm:p-7 flex flex-col justify-between bg-secondary/30">
+        <div className="relative z-10 md:col-span-5 p-6 sm:p-7 flex flex-col justify-between bg-[#0b131c]/60">
           <div>
-            {/* Header Avatar with Cyan Glow & India Flag */}
+            {/* Header Avatar with Official Quant Logo, Cyan Glow & India Flag */}
             <div className="flex items-center gap-3.5 mb-5">
               <div className="relative group">
-                <div className="w-14 h-14 rounded-full p-1 border-2 border-accent shadow-[0_0_20px_rgba(0,255,214,0.4),inset_0_0_10px_rgba(0,255,214,0.2)] flex items-center justify-center bg-background transition-transform duration-300 group-hover:scale-105">
+                <div className="w-14 h-14 rounded-full p-1 border-2 border-accent shadow-[0_0_20px_rgba(0,255,214,0.4),inset_0_0_10px_rgba(0,255,214,0.2)] flex items-center justify-center bg-[#050a10] transition-transform duration-300 group-hover:scale-105">
                   <img
-                    src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
-                    alt="COEP Seal"
+                    src={`${import.meta.env.BASE_URL}club-logo-dark.png`}
+                    alt="COEP Quant Logo"
                     className="w-10 h-10 object-contain filter brightness-110"
+                    onError={(e) => {
+                      // Fallback to club-logo.png if needed
+                      (e.currentTarget as HTMLImageElement).src = `${import.meta.env.BASE_URL}club-logo.png`;
+                    }}
                   />
                 </div>
 
                 {/* India Flag Badge */}
-                <div className="absolute -bottom-0.5 -right-0.5 w-5 h-5 rounded-full overflow-hidden border-2 border-card shadow-md flex items-center justify-center bg-white">
+                <div className="absolute -bottom-0.5 -right-0.5 w-5 h-5 rounded-full overflow-hidden border-2 border-[#070c12] shadow-md flex items-center justify-center bg-white">
                   <svg viewBox="0 0 640 480" className="w-full h-full object-cover">
                     <path fill="#ff9933" d="M0 0h640v160H0z" />
                     <path fill="#ffffff" d="M0 160h640v160H0z" />
@@ -97,10 +101,10 @@ export default function ContactSection() {
               </div>
 
               <div>
-                <h3 className="text-base font-bold tracking-tight text-foreground leading-tight">
+                <h3 className="text-base font-bold tracking-tight text-white leading-tight">
                   COEP Quant
                 </h3>
-                <p className="text-xs font-semibold text-muted-foreground">
+                <p className="text-xs font-semibold text-white/70">
                   Finance Club
                 </p>
                 <span className="text-[10px] font-mono uppercase tracking-widest text-accent/80 block mt-0.5">
@@ -116,35 +120,35 @@ export default function ContactSection() {
             </div>
 
             {/* Direct Contact Meta */}
-            <div className="space-y-3 text-xs font-mono text-muted-foreground">
+            <div className="space-y-3 text-xs font-mono text-white/70">
               <div className="flex items-center gap-2.5">
-                <div className="w-6 h-6 rounded-md bg-muted/60 border border-border flex items-center justify-center text-accent flex-shrink-0">
+                <div className="w-6 h-6 rounded-md bg-white/5 border border-white/10 flex items-center justify-center text-accent flex-shrink-0">
                   <Mail size={12} />
                 </div>
-                <a href="mailto:quantfinance@coeptech.ac.in" className="text-foreground/90 hover:text-accent transition-colors truncate">
+                <a href="mailto:quantfinance@coeptech.ac.in" className="text-white hover:text-accent transition-colors truncate">
                   quantfinance@coeptech.ac.in
                 </a>
               </div>
 
               <div className="flex items-center gap-2.5">
-                <div className="w-6 h-6 rounded-md bg-muted/60 border border-border flex items-center justify-center text-accent flex-shrink-0">
+                <div className="w-6 h-6 rounded-md bg-white/5 border border-white/10 flex items-center justify-center text-accent flex-shrink-0">
                   <Building2 size={12} />
                 </div>
-                <span className="text-foreground/90">COEP Technological University</span>
+                <span className="text-white/90">COEP Technological University</span>
               </div>
 
               <div className="flex items-center gap-2.5">
-                <div className="w-6 h-6 rounded-md bg-muted/60 border border-border flex items-center justify-center text-accent flex-shrink-0">
+                <div className="w-6 h-6 rounded-md bg-white/5 border border-white/10 flex items-center justify-center text-accent flex-shrink-0">
                   <MapPin size={12} />
                 </div>
-                <span className="text-foreground/90">Shivajinagar, Pune, MH 411005</span>
+                <span className="text-white/90">Shivajinagar, Pune, MH 411005</span>
               </div>
             </div>
           </div>
 
           {/* Social Row */}
-          <div className="pt-5 mt-5 border-t border-border/60">
-            <span className="block text-[10px] uppercase font-mono text-muted-foreground mb-2 tracking-wider">
+          <div className="pt-5 mt-5 border-t border-white/10">
+            <span className="block text-[10px] uppercase font-mono text-white/40 mb-2 tracking-wider">
               Connect on Socials
             </span>
             <div className="flex items-center gap-2">
@@ -163,7 +167,7 @@ export default function ContactSection() {
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-8 h-8 rounded-lg bg-muted/60 hover:bg-accent/15 border border-border hover:border-accent/40 text-foreground/80 hover:text-accent flex items-center justify-center transition-all cursor-pointer shadow-xs"
+                    className="w-8 h-8 rounded-lg bg-white/5 hover:bg-accent/15 border border-white/10 hover:border-accent/40 text-white/80 hover:text-accent flex items-center justify-center transition-all cursor-pointer shadow-xs"
                     aria-label={item.label}
                   >
                     <Icon size={14} />
@@ -175,7 +179,7 @@ export default function ContactSection() {
         </div>
 
         {/* ── Right Column: Interactive Multi-Work Category Form ── */}
-        <div className="relative z-10 md:col-span-7 p-6 sm:p-7 flex flex-col justify-between">
+        <div className="relative z-10 md:col-span-7 p-6 sm:p-7 flex flex-col justify-between bg-[#070c12]/90">
           <form onSubmit={handleSubmit} className="space-y-4">
             <input type="hidden" name="_subject" value={`[COEP Quant Club] ${form.subject}`} />
             <input type="text" name="_honey" style={{ display: "none" }} />
@@ -184,7 +188,7 @@ export default function ContactSection() {
 
             {/* Work Category Selector Tabs (Joining Club / General Contact / Collaboration) */}
             <div>
-              <label className="block text-[11px] font-mono uppercase tracking-wider text-muted-foreground mb-1.5 flex items-center justify-between">
+              <label className="block text-[11px] font-mono uppercase tracking-wider text-white/60 mb-1.5 flex items-center justify-between">
                 <span>Select Work Intent</span>
                 <span className="text-[10px] text-accent font-normal">{form.subject}</span>
               </label>
@@ -201,11 +205,11 @@ export default function ContactSection() {
                     className={`py-2 px-2.5 rounded-xl text-xs font-medium font-mono transition-all cursor-pointer text-center flex flex-col items-center justify-center ${
                       activeTab === item.id
                         ? "bg-accent text-accent-foreground font-bold shadow-[0_0_15px_rgba(0,255,214,0.3)] scale-[1.01]"
-                        : "bg-muted/40 hover:bg-muted/80 border border-border text-muted-foreground hover:text-foreground"
+                        : "bg-white/5 hover:bg-white/10 border border-white/10 text-white/60 hover:text-white"
                     }`}
                   >
                     <span>{item.label}</span>
-                    <span className={`text-[9px] mt-0.5 ${activeTab === item.id ? "text-accent-foreground/80" : "text-muted-foreground/60"}`}>
+                    <span className={`text-[9px] mt-0.5 ${activeTab === item.id ? "text-accent-foreground/80" : "text-white/40"}`}>
                       {item.tag}
                     </span>
                   </button>
@@ -216,7 +220,7 @@ export default function ContactSection() {
             {/* Name & Email Fields */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
-                <label className="block text-[11px] font-mono uppercase tracking-wider text-muted-foreground mb-1">
+                <label className="block text-[11px] font-mono uppercase tracking-wider text-white/60 mb-1">
                   Your Name
                 </label>
                 <input
@@ -226,12 +230,12 @@ export default function ContactSection() {
                   placeholder="e.g. Yash Patil"
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  className="w-full bg-background/50 border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground/40 focus:border-accent focus:ring-1 focus:ring-accent/30 outline-none transition-all font-mono"
+                  className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-xs text-white placeholder:text-white/30 focus:border-accent focus:ring-1 focus:ring-accent/30 outline-none transition-all font-mono"
                 />
               </div>
 
               <div>
-                <label className="block text-[11px] font-mono uppercase tracking-wider text-muted-foreground mb-1">
+                <label className="block text-[11px] font-mono uppercase tracking-wider text-white/60 mb-1">
                   Your Email
                 </label>
                 <input
@@ -241,16 +245,16 @@ export default function ContactSection() {
                   placeholder="name@domain.com"
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  className="w-full bg-background/50 border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground/40 focus:border-accent focus:ring-1 focus:ring-accent/30 outline-none transition-all font-mono"
+                  className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-xs text-white placeholder:text-white/30 focus:border-accent focus:ring-1 focus:ring-accent/30 outline-none transition-all font-mono"
                 />
               </div>
             </div>
 
             {/* Message Area */}
             <div>
-              <label className="block text-[11px] font-mono uppercase tracking-wider text-muted-foreground mb-1 flex items-center justify-between">
+              <label className="block text-[11px] font-mono uppercase tracking-wider text-white/60 mb-1 flex items-center justify-between">
                 <span>Message / Details</span>
-                <span className="text-[10px] text-muted-foreground/60 font-normal">
+                <span className="text-[10px] text-white/40 font-normal">
                   {activeTab === "join" ? "Branch, year & interests" : activeTab === "collab" ? "Proposal details" : "Inquiry text"}
                 </span>
               </label>
@@ -267,13 +271,13 @@ export default function ContactSection() {
                 }
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
-                className="w-full bg-background/50 border border-border rounded-lg px-3 py-2 text-xs text-foreground placeholder:text-muted-foreground/40 focus:border-accent focus:ring-1 focus:ring-accent/30 outline-none transition-all resize-none font-mono"
+                className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-xs text-white placeholder:text-white/30 focus:border-accent focus:ring-1 focus:ring-accent/30 outline-none transition-all resize-none font-mono"
               />
             </div>
 
             {/* ── Spacecraft Rocket Blast-Off Submit Row ─────────── */}
             <div className="relative flex items-center justify-between pt-1">
-              <span className="text-[10px] font-mono text-muted-foreground">
+              <span className="text-[10px] font-mono text-white/40">
                 🔒 Direct encrypted transmission
               </span>
 

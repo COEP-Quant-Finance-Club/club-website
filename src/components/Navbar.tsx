@@ -63,15 +63,16 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex items-center gap-4">
-          <a href="https://www.coeptech.ac.in/" target="_blank" rel="noopener noreferrer">
-  <img
-    src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
-    alt="COEP Seal"
-    className={`h-16 w-auto object-contain mt-1 hover:opacity-80 transition ${
-  !isDark ? "invert" : ""
-}`}
-  />
-</a>
+          <a href="/" onClick={(e) => { e.preventDefault(); handleNavigation("Home"); }}>
+            <img
+              src={`${import.meta.env.BASE_URL}club-logo-dark.png`}
+              alt="COEP Quant Logo"
+              className="h-9 w-auto object-contain hover:opacity-80 transition"
+              onError={(e) => {
+                (e.currentTarget as HTMLImageElement).src = `${import.meta.env.BASE_URL}club-logo.png`;
+              }}
+            />
+          </a>
           <span className="text-sm font-semibold tracking-wider uppercase text-foreground">
             COEP Quant Finance Club
           </span>

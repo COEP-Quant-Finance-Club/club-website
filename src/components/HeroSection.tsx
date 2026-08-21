@@ -104,8 +104,8 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="home" className="relative w-full h-screen min-h-[640px] flex items-center justify-center overflow-hidden">
-      {/* ── Background Video with Cinematic Overlay ─────────── */}
+    <section id="home" className="relative w-full h-screen min-h-[640px] flex items-center justify-center overflow-hidden bg-black text-white">
+      {/* ── Background Video with Dark Cinematic Overlays (Constant across dark/light themes) ── */}
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden bg-black">
         <video
           ref={videoRef}
@@ -113,13 +113,13 @@ export default function HeroSection() {
           loop
           muted={isMuted}
           playsInline
-          className="w-full h-full object-cover object-center opacity-80 filter brightness-95 contrast-105"
+          className="w-full h-full object-cover object-center opacity-85 filter brightness-95 contrast-105"
         >
           <source src={videoUrl} type="video/mp4" />
         </video>
 
-        {/* Multi-layer Dark Gradient Overlays for High Contrast & Film Look */}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-black/60 pointer-events-none" />
+        {/* Constant Dark Cinematic Gradient Overlays (Never turns white) */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/60 pointer-events-none" />
         <div className="absolute inset-0 bg-radial-gradient from-transparent via-black/20 to-black/70 pointer-events-none" />
       </div>
 
@@ -127,14 +127,14 @@ export default function HeroSection() {
       <div className="absolute top-20 right-5 sm:right-8 z-30">
         <button
           onClick={toggleAudio}
-          className="w-10 h-10 rounded-full bg-black/40 hover:bg-black/70 border border-white/20 hover:border-white/50 text-white backdrop-blur-md transition-all flex items-center justify-center cursor-pointer shadow-lg group"
+          className="w-10 h-10 rounded-full bg-black/50 hover:bg-black/80 border border-white/20 hover:border-white/50 text-white backdrop-blur-md transition-all flex items-center justify-center cursor-pointer shadow-lg group"
           title={isMuted ? "Unmute Sound" : "Mute Sound"}
           aria-label={isMuted ? "Unmute Sound" : "Mute Sound"}
         >
           {isMuted ? (
             <VolumeX size={17} className="text-white/60 group-hover:text-white transition-colors" />
           ) : (
-            <Volume2 size={17} className="text-white group-hover:text-emerald-400 transition-colors" />
+            <Volume2 size={17} className="text-white group-hover:text-cyan-400 transition-colors" />
           )}
         </button>
       </div>
@@ -146,7 +146,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-white/15 bg-black/40 backdrop-blur-md mb-5 text-[11px] font-mono tracking-widest text-white/80 uppercase"
+          className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-white/15 bg-black/50 backdrop-blur-md mb-5 text-[11px] font-mono tracking-widest text-white/80 uppercase"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
           <span>COEP Technological University • Est. 1854</span>
@@ -193,7 +193,7 @@ export default function HeroSection() {
 
           <button
             onClick={scrollToContent}
-            className="h-11 px-7 rounded-full bg-black/40 border border-white/25 text-white font-semibold text-xs uppercase tracking-widest hover:bg-white/10 hover:border-white/50 backdrop-blur-md transition-all duration-300 cursor-pointer"
+            className="h-11 px-7 rounded-full bg-black/50 border border-white/25 text-white font-semibold text-xs uppercase tracking-widest hover:bg-white/15 hover:border-white/50 backdrop-blur-md transition-all duration-300 cursor-pointer"
           >
             Explore Projects
           </button>
