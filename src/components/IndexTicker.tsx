@@ -1,13 +1,20 @@
 import { motion } from "framer-motion";
 import { SECTOR_INDICES_DATA } from "@/data/sectorIndicesData";
-import { TrendingUp, TrendingDown, Minus } from "lucide-react";
+import { TrendingUp, TrendingDown } from "lucide-react";
+import { useState } from "react";
 
 export default function IndexTicker({ onSelectSector }: { onSelectSector?: (secCode: string) => void }) {
+  const [isPaused, setIsPaused] = useState(false);
+
   // Duplicate array for seamless infinite ticker loop
   const tickerItems = [...SECTOR_INDICES_DATA, ...SECTOR_INDICES_DATA];
 
   return (
-    <div className="w-full bg-background/90 border-y border-border/80 overflow-hidden py-2 backdrop-blur-md select-none">
+    <div
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+      className="w-full bg-background/90 border-y border-border/80 overflow-hidden py-2 backdrop-blur-md select-none"
+    >
       <div className="flex items-center">
         {/* Static Title Pill */}
         <div className="flex-shrink-0 px-4 flex items-center gap-2 border-r border-border/80 z-10 bg-background/95">
@@ -20,29 +27,28 @@ export default function IndexTicker({ onSelectSector }: { onSelectSector?: (secC
           </span>
         </div>
 
-        {/* Scrolling Ticker Track */}
+        {/* Scrolling Ticker Track with Calibrated Calm Pace & Pause on Hover */}
         <motion.div
-          animate={{ x: ["0%", "-50%"] }}
+          animate={isPaused ? {} : { x: ["0%", "-50%"] }}
           transition={{
             x: {
               repeat: Infinity,
               repeatType: "loop",
-              duration: 45,
+              duration: 115,
               ease: "linear",
             },
           }}
-          className="flex items-center gap-6 whitespace-nowrap pl-4"
+          className="flex items-center gap-6 whitespace-nowrap pl-4 cursor-pointer"
         >
           {tickerItems.map((sec, idx) => {
-            const isPos = sec.dailyChange >= 0;
             const isTotPos = sec.totalReturn >= 0;
             return (
               <div
                 key={`${sec.code}-${idx}`}
                 onClick={() => onSelectSector && onSelectSector(sec.code)}
-                className="inline-flex items-center gap-2 px-2.5 py-1 rounded-sm hover:bg-accent/10 border border-transparent hover:border-border transition-all cursor-pointer text-xs font-mono"
+                className="inline-flex items-center gap-2 px-2.5 py-1 rounded-sm hover:bg-accent/15 border border-transparent hover:border-accent/30 transition-all text-xs font-mono"
               >
-                <span className="text-foreground/80 font-medium">{sec.name}</span>
+                <span className="text-foreground/90 font-medium">{sec.name}</span>
                 <span className="text-muted-foreground font-semibold">₹{sec.currentValue.toLocaleString()}</span>
                 <span
                   className={`inline-flex items-center gap-0.5 text-[11px] font-semibold ${
