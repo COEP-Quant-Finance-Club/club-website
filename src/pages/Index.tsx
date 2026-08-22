@@ -5,9 +5,6 @@ import IndexShowcaseSection from "@/components/IndexShowcaseSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import MathModelsSection from "@/components/MathModelsSection";
 import EventsSection from "@/components/EventsSection";
-import CollaborationsSection from "@/components/CollaborationsSection";
-import AboutSection from "@/components/AboutSection";
-import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { useTheme } from "@/hooks/useTheme";
 import { useEffect } from "react";
@@ -55,9 +52,6 @@ const Index = () => {
         <ProjectsSection />
         <MathModelsSection />
         <EventsSection />
-        <CollaborationsSection />
-        <AboutSection />
-        <ContactSection />
         <Footer />
       </div>
     </div>
