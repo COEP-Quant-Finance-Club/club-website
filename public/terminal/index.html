@@ -677,7 +677,7 @@
       <!-- SENSITIVITY SLIDER (k = 1 to 50) -->
       <div class="sensitivity-slider-box">
         <div class="slider-header">
-          <span class="slider-title">🎛️ 3-State Macro Sensitivity (Smoothing Candles)</span>
+          <span class="slider-title">🎛️ 3-State Macro Sensitivity</span>
           <span class="slider-val" id="kSliderVal">9</span>
         </div>
         <input type="range" id="kRangeSlider" min="1" max="50" value="9" step="1" class="custom-slider">
@@ -685,12 +685,13 @@
 
       <!-- 3 REGIME FILTER OPTIONS WITH DYNAMIC COUNTS + REGIME TOGGLE + THEME SWITCHER -->
       <div class="header-controls">
-        <button class="mobile-sidebar-toggle-btn" id="btnToggleMobileSidebar" title="Toggle Sector Baskets">
+        <button class="mobile-sidebar-toggle-btn" id="btnToggleMobileSidebar" title="Switch Sector Baskets">
           <span class="m-icon">📊</span>
-          <span class="m-txt">Baskets</span>
+          <span class="m-txt">36 Sectors</span>
+          <span class="m-caret">▾</span>
         </button>
         <div class="regime-filter-group" id="regimeFilterButtons">
-          <button class="rf-btn active" id="rfBtnAll" data-regime="ALL">ALL (30)</button>
+          <button class="rf-btn active" id="rfBtnAll" data-regime="ALL">ALL (36)</button>
           <button class="rf-btn bull-rf" id="rfBtnBull" data-regime="2">🟢 Bullish (0)</button>
           <button class="rf-btn neutral-rf" id="rfBtnNeutral" data-regime="1">🟡 Neutral (0)</button>
           <button class="rf-btn bear-rf" id="rfBtnBear" data-regime="0">🔴 Bearish (0)</button>
@@ -727,13 +728,27 @@
         <!-- Sector Header Info Card -->
         <div class="sector-info-card">
           <div class="sector-title-group">
-            <h2 id="active-sector-name">ELECTRONICS_EMS</h2>
-            <span class="badge" id="active-timeframe-badge">DAILY OHLCV</span>
-            <button class="view-stocks-btn" id="btnOpenConstituentsModal">📋 View Sector Stocks</button>
-            <span class="candle-lock-badge" id="candleLockBadge">🔓 Hover Mode (Press ENTER to Lock | ESC to Unlock)</span>
+            <div class="sector-heading-interactive" id="btnSectorSwitchMobile" title="Tap to switch sector basket">
+              <h2 id="active-sector-name">ELECTRONICS_EMS</h2>
+              <span class="sector-select-arrow-mobile">▾</span>
+            </div>
+            <div class="sector-mobile-meta">
+              <span class="mobile-price-val" id="mobile-price-val">2,119.08</span>
+              <span class="mobile-state-badge" id="mobile-state-badge">🟢 Bullish</span>
+            </div>
+            <div class="sector-actions-group">
+              <span class="badge desktop-only" id="active-timeframe-badge">DAILY OHLCV</span>
+              <button class="view-stocks-btn" id="btnOpenConstituentsModal">📋 Stocks</button>
+              <span class="candle-lock-badge desktop-only" id="candleLockBadge">🔓 Hover Mode (Press ENTER to Lock | ESC to Unlock)</span>
+              <div class="chart-toggles">
+                <button class="toggle-btn active" id="btn-toggle-sma20">SMA 20</button>
+                <button class="toggle-btn active" id="btn-toggle-sma50">SMA 50</button>
+                <button class="toggle-btn active" id="btn-toggle-ema200">EMA 200</button>
+              </div>
+            </div>
           </div>
 
-          <div class="sector-metrics">
+          <div class="sector-metrics desktop-only">
             <div class="metric-item">
               <span class="metric-label">Current Value</span>
               <span class="metric-val" id="metric-current-val">2,119.08</span>
@@ -750,12 +765,6 @@
               <span class="metric-label">Macro Regime</span>
               <span class="metric-val highlight" id="metric-state-val">🟢 Bullish (State 2)</span>
             </div>
-          </div>
-
-          <div class="chart-toggles">
-            <button class="toggle-btn active" id="btn-toggle-sma20">SMA 20</button>
-            <button class="toggle-btn active" id="btn-toggle-sma50">SMA 50</button>
-            <button class="toggle-btn active" id="btn-toggle-ema200">EMA 200</button>
           </div>
         </div>
 

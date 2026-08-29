@@ -108,6 +108,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const btnSectorSwitchMobile = document.getElementById('btnSectorSwitchMobile');
+  if (btnSectorSwitchMobile) {
+    btnSectorSwitchMobile.addEventListener('click', openMobileSidebar);
+  }
+
+  if (activeSectorTitle) {
+    activeSectorTitle.addEventListener('click', () => {
+      if (window.innerWidth <= 1023) {
+        openMobileSidebar();
+      }
+    });
+  }
+
   if (btnCloseMobileSidebar) {
     btnCloseMobileSidebar.addEventListener('click', closeMobileSidebar);
   }
@@ -531,6 +544,18 @@ document.addEventListener('DOMContentLoaded', () => {
     metricReturnVal.innerText = retPct;
     metricReturnVal.className = `metric-val ${!retPct.includes('-') ? 'positive' : 'negative'}`;
     metricStateVal.innerText = stateNames[curState] || "🟢 Bullish (State 2)";
+
+    // Update compact mobile values
+    const mobilePriceVal = document.getElementById('mobile-price-val');
+    const mobileStateBadge = document.getElementById('mobile-state-badge');
+    if (mobilePriceVal) {
+      mobilePriceVal.innerText = currentVal.toLocaleString('en-IN', { minimumFractionDigits: 2 });
+    }
+    if (mobileStateBadge) {
+      const shortStates = { 0: "🔴 Bearish", 1: "🟡 Neutral", 2: "🟢 Bullish" };
+      mobileStateBadge.innerText = shortStates[curState] || "🟢 Bullish";
+      mobileStateBadge.className = `mobile-state-badge state-${curState}`;
+    }
 
     // Dynamic Title & URL Sync for State-of-the-Art Search Engine Optimization
     const formattedName = secName.replace(/_/g, ' ');

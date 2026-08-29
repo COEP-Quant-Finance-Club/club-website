@@ -1125,8 +1125,28 @@ body.light-theme .bt-quant {
   display: none;
 }
 
+.sector-select-arrow-mobile {
+  display: none;
+}
+
+.sector-mobile-meta {
+  display: none;
+}
+
+.sector-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sector-heading-interactive {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 /* ═══════════════════════════════════════════════════════════════
-   📱 RESPONSIVE MOBILE & TABLET STYLES (Screen <= 1023px)
+   📱 ZERO-WASTE RESPONSIVE MOBILE STYLES (Screen <= 1023px)
    Desktop layout is 100% UNTOUCHED
    ═══════════════════════════════════════════════════════════════ */
 @media (max-width: 1023px) {
@@ -1142,13 +1162,22 @@ body.light-theme .bt-quant {
     overflow: hidden;
   }
 
-  /* ── MOBILE NAVBAR ── */
+  /* Hide large desktop-only elements on mobile */
+  .desktop-only,
+  .sector-metrics,
+  .candle-lock-badge,
+  .sub-brand {
+    display: none !important;
+  }
+
+  /* ── ULTRA-COMPACT MOBILE NAVBAR (~34px) ── */
   .navbar {
-    padding: 8px 12px;
+    padding: 4px 8px;
     min-height: auto;
     flex-direction: column;
     align-items: stretch;
-    gap: 8px;
+    gap: 4px;
+    background: var(--bg-secondary);
     border-bottom: 1px solid var(--border-color);
   }
 
@@ -1157,98 +1186,100 @@ body.light-theme .bt-quant {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    gap: 8px;
+    gap: 6px;
   }
 
   .logo-container {
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
   }
 
   .brand-logo-img {
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
   }
 
   .brand-title-stacked {
-    line-height: 1.1;
+    line-height: 1.05;
   }
 
   .bt-coep {
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 11px;
+    letter-spacing: 0.8px;
   }
 
   .bt-quant, .bt-bottom {
-    font-size: 8.5px;
-    letter-spacing: 1.1px;
+    font-size: 7.5px;
+    letter-spacing: 0.9px;
   }
 
-  .sub-brand {
-    display: none; /* Hide verbose subtitle on mobile to save vertical space */
-  }
-
-  /* Mobile Sidebar Toggle Button */
+  /* Prominent Sector Baskets Toggle Button */
   .mobile-sidebar-toggle-btn {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
-    background: rgba(56, 189, 248, 0.15);
-    border: 1px solid rgba(56, 189, 248, 0.4);
-    color: var(--accent-cyan);
-    padding: 5px 11px;
-    font-size: 11.5px;
+    gap: 4px;
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+    border: 1px solid rgba(56, 189, 248, 0.6);
+    color: #ffffff;
+    padding: 4px 10px;
+    font-size: 11px;
     font-weight: 700;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    box-shadow: 0 0 10px rgba(2, 132, 199, 0.4);
+    transition: all 0.15s ease;
     white-space: nowrap;
   }
 
-  .mobile-sidebar-toggle-btn:hover,
   .mobile-sidebar-toggle-btn:active {
-    background: var(--accent-cyan);
-    color: #0f172a;
+    transform: scale(0.96);
+  }
+
+  .m-caret {
+    font-size: 9px;
+    opacity: 0.9;
   }
 
   .theme-toggle-btn {
-    padding: 5px 9px;
-    font-size: 11px;
+    padding: 3px 7px;
+    font-size: 10px;
     margin-left: 0;
+    border-radius: 6px;
   }
 
-  /* Controls row on mobile */
+  /* Second row controls strip */
   .header-controls {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    gap: 6px;
+    gap: 4px;
   }
 
   .sensitivity-slider-box {
-    min-width: 0;
-    width: 100%;
-    padding: 4px 10px;
-    border-radius: 6px;
+    min-width: 105px;
+    max-width: 130px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    flex-shrink: 0;
   }
 
   .slider-title {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .slider-val {
-    font-size: 11px;
+    font-size: 9.5px;
   }
 
   .regime-filter-group {
-    width: 100%;
+    flex: 1;
     display: flex;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 2px;
-    gap: 4px;
+    padding: 1px;
+    gap: 3px;
     scrollbar-width: none;
   }
 
@@ -1257,19 +1288,20 @@ body.light-theme .bt-quant {
   }
 
   .rf-btn {
-    padding: 4px 8px;
-    font-size: 10px;
+    padding: 2px 6px;
+    font-size: 9px;
     flex-shrink: 0;
     white-space: nowrap;
+    border-radius: 4px;
   }
 
-  /* ── CONTENT GRID & FULL-SCREEN CHART ON MOBILE ── */
+  /* ── FULL-SCREEN CONTENT GRID & CHART AREA (~92% viewport height) ── */
   .content-grid {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 128px);
-    height: calc(100dvh - 128px);
+    height: calc(100vh - 78px);
+    height: calc(100dvh - 78px);
     position: relative;
     overflow: hidden;
   }
@@ -1281,6 +1313,142 @@ body.light-theme .bt-quant {
     flex-direction: column;
     overflow: hidden;
     flex: 1;
+  }
+
+  /* ── STREAMLINED SECTOR HEADER STRIP (~30px) ── */
+  .sector-info-card {
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+  }
+
+  .sector-title-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+
+  .sector-heading-interactive {
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+  }
+
+  .sector-heading-interactive:active {
+    background: rgba(56, 189, 248, 0.25);
+  }
+
+  .sector-title-group h2 {
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .sector-select-arrow-mobile {
+    font-size: 10px;
+    color: var(--accent-cyan);
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .sector-mobile-meta {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+
+  .mobile-price-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent-cyan);
+  }
+
+  .mobile-state-badge {
+    font-size: 9.5px;
+    font-weight: 600;
+    padding: 2px 5px;
+    border-radius: 4px;
+    background: rgba(34, 197, 94, 0.15);
+    color: var(--neon-green);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    white-space: nowrap;
+  }
+
+  .mobile-state-badge.state-0 {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--neon-red);
+    border-color: rgba(239, 68, 68, 0.3);
+  }
+
+  .mobile-state-badge.state-1 {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--neon-amber);
+    border-color: rgba(245, 158, 11, 0.3);
+  }
+
+  .mobile-state-badge.state-2 {
+    background: rgba(34, 197, 94, 0.15);
+    color: var(--neon-green);
+    border-color: rgba(34, 197, 94, 0.3);
+  }
+
+  .sector-actions-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .view-stocks-btn {
+    padding: 2px 6px;
+    font-size: 9.5px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .chart-toggles {
+    display: flex;
+    gap: 2px;
+  }
+
+  .toggle-btn {
+    padding: 2px 5px;
+    font-size: 9px;
+    border-radius: 3px;
+  }
+
+  /* ── FULL SCREEN CHART WRAPPER ON MOBILE ── */
+  .chart-wrapper {
+    flex: 1;
+    min-height: 260px;
+    width: 100%;
+    position: relative;
+  }
+
+  .tv-scale-toolbar {
+    top: 4px;
+    left: 4px;
+    gap: 2px;
+    padding: 2px 3px;
+    border-radius: 4px;
+  }
+
+  .tv-tool-btn {
+    padding: 2px 4px;
+    font-size: 8.5px;
   }
 
   /* ── SLIDE-OUT SIDEBAR DRAWER ON MOBILE ── */
@@ -1328,30 +1496,30 @@ body.light-theme .bt-quant {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 14px;
+    padding: 10px 12px;
   }
 
   .sidebar-header-left {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
   }
 
   .sidebar-header h3 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .sidebar-close-mobile-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 6px;
     background: var(--bg-primary);
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.15s ease;
@@ -1361,94 +1529,6 @@ body.light-theme .bt-quant {
     background: rgba(239, 68, 68, 0.2);
     color: var(--neon-red);
     border-color: var(--neon-red);
-  }
-
-  /* ── SECTOR INFO CARD COMPACT ON MOBILE ── */
-  .sector-info-card {
-    padding: 8px 10px;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  .sector-title-group {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 4px 8px;
-  }
-
-  .sector-title-group h2 {
-    font-size: 14px;
-    letter-spacing: 0.2px;
-  }
-
-  .view-stocks-btn {
-    padding: 3px 8px;
-    font-size: 10px;
-    border-radius: 5px;
-  }
-
-  .candle-lock-badge {
-    font-size: 9px;
-    padding: 2px 6px;
-    width: 100%;
-    text-align: center;
-    margin-top: 2px;
-  }
-
-  .sector-metrics {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4px 8px;
-    margin: 6px 0;
-  }
-
-  .metric-item {
-    padding: 3px 6px;
-    background: var(--bg-primary);
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-  }
-
-  .metric-label {
-    font-size: 8.5px;
-  }
-
-  .metric-val {
-    font-size: 11px;
-  }
-
-  .chart-toggles {
-    display: flex;
-    gap: 4px;
-    margin-top: 2px;
-  }
-
-  .toggle-btn {
-    padding: 2px 7px;
-    font-size: 9.5px;
-    border-radius: 4px;
-  }
-
-  /* ── FULL SCREEN CHART WRAPPER ON MOBILE ── */
-  .chart-wrapper {
-    flex: 1;
-    min-height: 240px;
-    width: 100%;
-    position: relative;
-  }
-
-  .tv-scale-toolbar {
-    top: 6px;
-    left: 6px;
-    gap: 3px;
-    padding: 2px 4px;
-    border-radius: 5px;
-  }
-
-  .tv-tool-btn {
-    padding: 2px 5px;
-    font-size: 9px;
   }
 
   /* ── CONSTITUENTS MODAL ON MOBILE ── */
@@ -1507,8 +1587,8 @@ body.light-theme .bt-quant {
 
   /* Light Theme overrides on mobile */
   body.light-theme .mobile-sidebar-toggle-btn {
-    background: #e0f2fe;
-    color: #0284c7;
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+    color: #ffffff;
     border-color: #0284c7;
   }
 
