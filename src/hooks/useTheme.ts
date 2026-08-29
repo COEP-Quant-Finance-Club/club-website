@@ -6,17 +6,29 @@ const listeners = new Set<(isDark: boolean) => void>();
 function getInitialTheme(): boolean {
   if (typeof window === "undefined") return true;
   const stored = localStorage.getItem("theme");
-  if (stored) return stored === "dark";
-  return document.documentElement.classList.contains("dark") || !document.documentElement.classList.contains("light");
+  // If user explicitly selected "light", respect it; otherwise always default to true (Dark Mode)
+  if (stored === "light") return false;
+  return true;
 }
 
 let globalIsDark = getInitialTheme();
+
+// Ensure initial DOM state is always dark by default
+if (typeof window !== "undefined") {
+  if (globalIsDark) {
+    document.documentElement.classList.add("dark");
+    document.documentElement.classList.remove("light");
+  } else {
+    document.documentElement.classList.remove("dark");
+    document.documentElement.classList.add("light");
+  }
+}
 
 export function useTheme() {
   const [isDark, setIsDark] = useState<boolean>(globalIsDark);
 
   useEffect(() => {
-    // Initial check from document.documentElement class
+    // Check current state from document.documentElement
     const current = document.documentElement.classList.contains("dark") || !document.documentElement.classList.contains("light");
     setIsDark(current);
     globalIsDark = current;
