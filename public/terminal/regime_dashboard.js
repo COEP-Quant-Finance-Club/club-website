@@ -493,6 +493,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     filtered.forEach(item => {
       const secName = item.sector;
+      const displayName = secName.replace(/_/g, ' ');
       const currentVal = item.current_val;
       const retPct = item.total_return_pct || `${((currentVal - 100.0) / 100.0 * 100.0) >= 0 ? '+' : ''}${((currentVal - 100.0) / 100.0 * 100.0).toFixed(2)}%`;
       const isPos = !retPct.includes('-');
@@ -501,7 +502,7 @@ document.addEventListener('DOMContentLoaded', () => {
       itemEl.className = `sector-item ${secName === activeSector ? 'active' : ''}`;
       itemEl.innerHTML = `
         <div>
-          <div class="sec-name">${secName}</div>
+          <div class="sec-name">${displayName}</div>
           <div class="sec-stocks-count">${item.stock_count || ''} Stocks (Dbl-Click)</div>
         </div>
         <div class="sec-return-badge ${isPos ? 'positive' : 'negative'}">
@@ -539,12 +540,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateHeaderMetrics(item) {
     if (!item) return;
     const secName = item.sector;
+    const displayName = secName.replace(/_/g, ' ');
     const currentVal = item.current_val;
     const retPct = item.total_return_pct || `${((currentVal - 100.0) / 100.0 * 100.0) >= 0 ? '+' : ''}${((currentVal - 100.0) / 100.0 * 100.0).toFixed(2)}%`;
     const curState = getSectorCurrentState(secName, activeK);
     const stateNames = { 0: "🔴 Bearish (State 0)", 1: "🟡 Neutral (State 1)", 2: "🟢 Bullish (State 2)" };
 
-    activeSectorTitle.innerText = secName;
+    activeSectorTitle.innerText = displayName;
     metricCurrentVal.innerText = currentVal.toLocaleString('en-IN', { minimumFractionDigits: 2 });
     metricReturnVal.innerText = retPct;
     metricReturnVal.className = `metric-val ${!retPct.includes('-') ? 'positive' : 'negative'}`;
@@ -563,8 +565,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Dynamic Title & URL Sync for State-of-the-Art Search Engine Optimization
-    const formattedName = secName.replace(/_/g, ' ');
-    document.title = `${formattedName} Index — COEP Quant Market Terminal & Macro Regimes`;
+    document.title = `${displayName} Index — COEP Quant Market Terminal & Macro Regimes`;
     try {
       const url = new URL(window.location);
       url.searchParams.set('sector', secName);
@@ -590,7 +591,7 @@ document.addEventListener('DOMContentLoaded', () => {
       prev2Date = bars.length > 2 ? bars[bars.length - 3].t : null;
     }
 
-    modalSectorTitle.innerText = `${activeSector} STOCKS`;
+    modalSectorTitle.innerText = `${activeSector.replace(/_/g, ' ')} STOCKS`;
     const lockTxt = isCandleLocked ? '🔒 LOCKED' : '🔓 HOVER';
     modalDateInfo.innerText = `[${lockTxt}] Selected Candle Date: ${curDate || 'N/A'} (T) | T-1: ${prevDate || 'N/A'} | T-2: ${prev2Date || 'N/A'}`;
 
@@ -720,7 +721,7 @@ document.addEventListener('DOMContentLoaded', () => {
         borderColor: '#24314c',
         autoScale: true,
         mode: LightweightCharts.PriceScaleMode.Normal,
-        scaleMargins: { top: 0.1, bottom: 0.25 },
+        scaleMargins: { top: 0.05, bottom: 0.06 },
         entireTextOnly: true
       },
       timeScale: {
