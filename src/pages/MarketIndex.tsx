@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import { useTheme } from "@/hooks/useTheme";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
-import DatasetDownloadSection from "@/components/DatasetDownloadSection";
 
 export default function MarketIndex() {
   const { isDark, toggle } = useTheme();
@@ -109,9 +108,6 @@ export default function MarketIndex() {
             </div>
           </motion.div>
         </div>
-
-        {/* 1-Click Dataset Download Section */}
-        <DatasetDownloadSection />
 
         <Footer />
       </div>
