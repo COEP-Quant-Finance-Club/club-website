@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import DatasetDownloadSection from "@/components/DatasetDownloadSection";
+import MasterUniverseExplorer from "@/components/MasterUniverseExplorer";
 import { useTheme } from "@/hooks/useTheme";
 import { motion } from "framer-motion";
 import { Cpu, Activity, BookOpen, Layers, CheckCircle2 } from "lucide-react";
@@ -28,8 +29,8 @@ export default function Resources() {
     {
       title: "Intraday Candlestick & Volume Spillover Analysis",
       category: "Microstructure",
-      description: "1-hour candlestick precision analytics for tracking sector-to-sector liquidity flows, institutional volume surges, and lead-lag cross-correlations.",
-      features: ["1-Hour Precision Candlesticks", "Cross-Sector Liquidity Flows", "Lead-Lag Correlations"],
+      description: "High-frequency 5-minute and 1-hour candlestick precision analytics for tracking sector-to-sector liquidity flows, institutional volume surges, and lead-lag cross-correlations.",
+      features: ["5m & 1H Precision Candlesticks", "Cross-Sector Liquidity Flows", "Lead-Lag Correlations"],
       icon: Cpu,
       tag: "Alpha Research",
     },
@@ -52,19 +53,19 @@ export default function Resources() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-3">
               <BookOpen size={14} />
-              <span>Open Quantitative Knowledge & Datasets</span>
+              <span>Open Quantitative Knowledge & Data Foundry</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-foreground">
               Research Papers & Open Data
             </h1>
             <p className="mt-3 text-muted-foreground font-light text-base max-w-2xl">
-              Transparent, reproducible quantitative finance research. Access institutional-grade sector index datasets, mathematical methodologies, and regime models built by COEP Quant Finance Club.
+              Transparent, reproducible quantitative finance research. Access institutional-grade sector index datasets, high-frequency 5-minute cleaned equities data, and universe registries built by COEP Quant Finance Club.
             </p>
           </motion.div>
         </div>
 
         {/* Research Methodology Cards */}
-        <div className="max-w-7xl mx-auto px-4 pb-12">
+        <div className="max-w-7xl mx-auto px-4 pb-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {researchPapers.map((paper, idx) => {
               const IconComp = paper.icon;
@@ -97,7 +98,6 @@ export default function Resources() {
                     </p>
                   </div>
 
-                  {/* Clean Feature Badges instead of raw math box */}
                   <div className="pt-4 border-t border-border/50">
                     <div className="flex flex-wrap gap-1.5">
                       {paper.features.map((feat) => (
@@ -119,6 +119,9 @@ export default function Resources() {
 
         {/* 1-Click Dataset Download Section */}
         <DatasetDownloadSection />
+
+        {/* Master Stock Universe & Timeline Explorer */}
+        <MasterUniverseExplorer />
 
         <Footer />
       </div>

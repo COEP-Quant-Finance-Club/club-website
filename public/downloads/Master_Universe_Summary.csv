@@ -1,0 +1,1214 @@
+Sr.,Stock Name,Symbol,market_cap,marketcapname,sector,Add Column,5m_Rows,5m_Start_Date,5m_End_Date,5m_Status,Daily_Rows,Daily_Start_Date,Daily_End_Date,Daily_Status
+1,Reliance Industries Limited,RELIANCE,1741637.73,largecap,energy,"",86214,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+2,Bharti Airtel Limited,BHARTIARTL,1174834.89,largecap,telecom-service,"",86241,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+3,Hdfc Bank Limited,HDFCBANK,1109357.62,largecap,bank,"",86242,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+4,Icici Bank Limited,ICICIBANK,1020662.05,largecap,bank,"",86242,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+5,State Bank Of India Ltd,SBIN,966907.19,largecap,bank,"",86243,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+6,Tata Consultancy Services Limited,TCS,847356.1,largecap,i.t,"",86243,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+7,Bajaj Finance Limited,BAJFINANCE,672340.81,largecap,financials,"",86240,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+8,Larsen & Toubro Limited,LT,556592.51,largecap,realty,"",86241,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+9,Life Insurance Corporation of India Ltd,LICI,533829.81,largecap,financials,"",79479,2022-05-17,2026-08-29,Available,1064,2022-05-17,2026-08-28,Available
+10,Hindustan Unilever Limited,HINDUNILVR,472361.83,largecap,fmcg,"",86223,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+11,Infosys Limited,INFY,464187.02,largecap,i.t,"",86242,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+12,Sun Pharmaceuticals Industries Limited,SUNPHARMA,460672.31,largecap,healthcare,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+13,Titan Company Limited,TITAN,458914.42,largecap,consumer discretionary,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+14,Adani Enterprises Limited,ADANIENT,428927.01,largecap,services,"",86248,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+15,Kotak Mahindra Bank Limited,KOTAKBANK,421442.07,largecap,bank,"",86244,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+16,Maruti Suzuki India Limited,MARUTI,420544.88,largecap,auto,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+17,Mahindra & Mahindra Limited,M&M,414592.51,largecap,auto,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+18,Adani Power Limited,ADANIPOWER,410050.46,largecap,power & utilities,"",86247,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+19,Axis Bank Limited,AXISBANK,393513.43,largecap,bank,"",86255,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+20,Adani Ports And Special Economic Zone Limited,ADANIPORTS,393401.02,largecap,transportation,"",86245,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+21,Hcl Technologies Limited,HCLTECH,357145.46,largecap,i.t,"",86238,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+22,Ultratech Cement Limited,ULTRACEMCO,341503.69,largecap,building materials,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+23,Itc Limited,ITC,333283.85,largecap,fmcg,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+24,Bajaj Auto Limited,BAJAJ-AUTO,332881.93,largecap,auto,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+25,Jsw Steel Limited,JSWSTEEL,326443.65,largecap,metals & mining,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+26,Hindustan Aeronautics Ltd,HAL,325098.22,largecap,aerospace & defence,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+27,Bajaj Finserv Limited,BAJAJFINSV,320430.11,largecap,financials,"",86238,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+28,Ntpc Limited,NTPC,320038.47,largecap,power & utilities,"",86236,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+29,Eternal Ltd,ETERNAL,316531.5,largecap,i.t,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+30,Bharat Electronics Limited,BEL,301089.79,largecap,aerospace & defence,"",86247,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+31,Oil & Natural Gas Corporation Limited,ONGC,292176.98,largecap,energy,"",86248,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+32,Nestle India Limited,NESTLEIND,280492.6,largecap,fmcg,"",86208,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+33,Hindustan Zinc Limited,HINDZINC,262814.84,largecap,metals & mining,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+34,Shriram Finance Ltd,SHRIRAMFIN,255738.35,largecap,financials,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+35,Asian Paints Limited,ASIANPAINT,250225.93,largecap,building materials,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+36,Avenue Supermarts Ltd,DMART,249849.34,largecap,consumer discretionary,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+37,Power Grid Corporation Of India Limited,POWERGRID,247442.56,largecap,power & utilities,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+38,Coal India Limited,COALINDIA,247125.41,largecap,metals & mining,"",86248,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+39,Divi's Laboratories Limited,DIVISLAB,245266.42,largecap,healthcare,"",86227,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+40,Hindalco Industries Limited,HINDALCO,233127.28,largecap,metals & mining,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+41,Tata Steel Limited,TATASTEEL,232817.86,largecap,metals & mining,"",86378,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+42,Grasim Industries Limited,GRASIM,223911.01,largecap,textiles,"",86206,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+43,Eicher Motors Limited,EICHERMOT,221217.56,largecap,auto,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+44,Adani Green Energy Ltd,ADANIGREEN,215944.79,largecap,power & utilities,"",86236,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+45,Tvs Motor Company Limited,TVSMOTOR,204487.0,largecap,auto,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+46,Interglobe Aviation Limited,INDIGO,199747.26,largecap,transportation,"",86226,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+47,Indian Oil Corporation Limited,IOC,193602.18,largecap,energy,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+48,Adani Energy Solutions Ltd,ADANIENSOL,193398.02,largecap,power & utilities,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+49,Torrent Pharmaceuticals Limited,TORNTPHARM,192085.77,largecap,healthcare,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+50,Solar Industries India Limited,SOLARINDS,184599.71,largecap,aerospace & defence,"",86143,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+51,Hyundai Motor India Ltd,HYUNDAI,184203.07,largecap,auto,"",34324,2024-10-22,2026-08-29,Available,463,2024-10-22,2026-08-28,Available
+52,Wipro Limited,WIPRO,179204.73,largecap,i.t,"",86238,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+53,Vedanta Aluminium Metal Ltd,VAML,178372.35,largecap,metals & mining,"",4050,2026-06-15,2026-08-29,Available,55,2026-06-15,2026-08-28,Available
+54,SBI Life Insurance Company Ltd,SBILIFE,176680.69,largecap,financials,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+55,Samvardhana Motherson International Ltd,MOTHERSON,174781.57,largecap,auto,"",86220,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+56,Tata Motors Commercial Vehicles Ltd,TMCV,171714.46,largecap,auto,"",14849,2025-11-12,2026-08-29,Available,201,2025-11-12,2026-08-28,Available
+57,Dlf Limited,DLF,168271.69,largecap,realty,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+58,Pidilite Industries Limited,PIDILITIND,165846.49,largecap,chemicals,"",86241,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+59,Tech Mahindra Limited,TECHM,160817.71,largecap,i.t,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+60,Tata Capital Ltd,TATACAP,159479.73,largecap,financials,"",16286,2025-10-13,2026-08-29,Available,221,2025-10-13,2026-08-28,Available
+61,Abb India Limited,ABB,159122.0,largecap,industrials,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+62,Vodafone Idea Ltd,IDEA,159047.58,largecap,telecom-service,"",86111,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+63,Cholamandalam Investment And Finance Company Limited,CHOLAFIN,158828.36,largecap,financials,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+64,Jio Financial Services Ltd,JIOFIN,157418.9,largecap,financials,"",55845,2023-08-21,2026-08-29,Available,750,2023-08-21,2026-08-28,Available
+65,ICICI Prudential Asset Management Co Ltd,ICICIAMC,155177.4,largecap,financials,"",12824,2025-12-19,2026-08-29,Available,174,2025-12-19,2026-08-28,Available
+66,Trent Limited,TRENT,154530.72,largecap,consumer discretionary,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+67,Bharat Heavy Electricals Limited,BHEL,150024.7,largecap,industrials,"",86243,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+68,Hitachi Energy India Ltd,POWERINDIA,148559.69,largecap,industrials,"",85999,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+69,Siemens Limited,SIEMENS,145617.67,largecap,industrials,"",86219,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+70,Cummins India Limited,CUMMINSIND,143949.96,largecap,industrials,"",86226,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+71,Union Bank Of India Ltd,UNIONBANK,141985.06,largecap,bank,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+72,Varun Beverages Limited,VBL,140027.06,largecap,fmcg,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+73,CG Power and Industrial Solutions Ltd,CGPOWER,140015.66,largecap,industrials,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+74,BSE (Bombay stock exchange) Ltd,BSE,138884.53,largecap,financials,"",86244,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+75,LTIMindtree Ltd,LTM,138670.47,largecap,i.t,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+76,Bharat Petroleum Corporation Limited,BPCL,138506.79,largecap,energy,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+77,Polycab India Ltd,POLYCAB,136897.14,largecap,industrials,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+78,Punjab National Bank Ltd,PNB,132628.57,largecap,bank,"",86244,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+79,Britannia Industries Limited,BRITANNIA,127864.93,largecap,fmcg,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+80,Lodha Developers Ltd,LODHA,127284.63,largecap,realty,"",86223,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+81,Apollo Hospitals Enterprise Limited,APOLLOHOSP,127084.07,largecap,healthcare,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+82,Bank Of Baroda Ltd,BANKBARODA,125095.25,largecap,bank,"",86240,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+83,Muthoot Finance Limited,MUTHOOTFIN,124093.91,largecap,financials,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+84,Jindal Steel Ltd,JINDALSTEL,120288.79,largecap,metals & mining,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+85,Billionbrains Garage Ventures Ltd,GROWW,120114.28,largecap,financials,"",14856,2025-11-12,2026-08-29,Available,201,2025-11-12,2026-08-28,Available
+86,HDFC Life Insurance Company Ltd,HDFCLIFE,119051.63,largecap,financials,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+87,Indian Bank Ltd,INDIANB,118856.1,largecap,bank,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+88,Zydus Lifesciences Ltd,ZYDUSLIFE,118802.71,largecap,healthcare,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+89,Tata Motors Passenger Vehicles Ltd,TMPV,117621.7,largecap,auto,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+90,Canara Bank Ltd,CANBK,116421.81,largecap,bank,"",86241,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+91,Power Finance Corporation Limited,PFC,116163.58,largecap,financials,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+92,Siemens Energy India Ltd,ENRIN,115475.64,largecap,power & utilities,"",22210,2025-06-19,2026-08-29,Available,300,2025-06-19,2026-08-28,Available
+93,Cipla Limited,CIPLA,114996.78,largecap,healthcare,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+94,SBI Funds Management Ltd,SBIFUNDS,114836.34,largecap,financials,"",2180,2026-07-21,2026-08-29,Available,29,2026-07-21,2026-08-28,Available
+95,LG Electronics India Ltd,LGEINDIA,114807.56,largecap,consumer discretionary,"",16221,2025-10-14,2026-08-29,Available,220,2025-10-14,2026-08-28,Available
+96,Vedanta Limited,VEDL,112599.62,largecap,metals & mining,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+97,Gail (india) Limited,GAIL,112499.95,largecap,energy,"",86236,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+98,Tata Power Company Limited,TATAPOWER,112428.02,largecap,power & utilities,"",86239,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+99,Hero Motocorp Limited,HEROMOTOCO,112052.05,largecap,auto,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+100,GE Vernova T&D India Ltd,GVT&D,111103.71,largecap,industrials,"",82375,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+101,Aditya Birla Capital Ltd,ABCAPITAL,110885.74,largecap,financials,"",86236,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+102,Lenskart Solutions Ltd,LENSKART,110608.71,largecap,fmcg,"",14994,2025-11-10,2026-08-29,Available,203,2025-11-10,2026-08-28,Available
+103,HDFC Asset Management Company Ltd,HDFCAMC,110121.02,largecap,financials,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+104,United Spirits Ltd,UNITDSPR,109829.98,largecap,fmcg,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+105,Indian Railway Finance Corporation Ltd,IRFC,109644.77,largecap,financials,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+106,Marico Limited,MARICO,107720.63,largecap,fmcg,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+107,Oracle Financial Services Software Limited,OFSS,106140.94,largecap,i.t,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+108,One 97 Communications Ltd,PAYTM,105713.24,largecap,i.t,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+109,Laurus Labs Limited,LAURUSLABS,104727.38,largecap,healthcare,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+110,GMR Airports Ltd,GMRAIRPORT,103805.29,largecap,miscellaneous,"",86233,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+111,Ashok Leyland Limited,ASHOKLEY,103244.74,largecap,auto,"",86241,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+112,Mazagon Dock Shipbuilders Ltd,MAZDOCK,103063.59,largecap,aerospace & defence,"",86223,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+113,TATA Consumer Products Ltd,TATACONSUM,102992.38,largecap,fmcg,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+114,Ambuja Cements Limited,AMBUJACEM,102386.89,largecap,building materials,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+115,Lloyds Metals & Energy Ltd,LLOYDSME,101897.42,largecap,metals & mining,"",57790,2023-07-17,2026-08-29,Available,774,2023-07-17,2026-08-28,Available
+116,Manipal Health Enterprises Ltd,MANIPALHOS,101501.08,largecap,healthcare,"",1352,2026-08-05,2026-08-29,Available,18,2026-08-05,2026-08-28,Available
+117,The Indian Hotels Company Limited,INDHOTEL,100551.25,largecap,services,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+118,Indus Towers Ltd (Bharti Infratel),INDUSTOWER,100250.18,largecap,telecom,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+119,Idbi Bank Limited,IDBI,99631.76,largecap,bank,"",86283,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+120,Lupin Limited,LUPIN,99288.05,largecap,healthcare,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+121,Max Healthcare Institute Ltd,MAXHEALTH,98696.65,largecap,healthcare,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+122,Mankind Pharma Ltd,MANKIND,98412.81,largecap,healthcare,"",61378,2023-05-09,2026-08-29,Available,821,2023-05-09,2026-08-28,Available
+123,Dr. Reddy's Laboratories Limited,DRREDDY,98324.81,largecap,healthcare,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+124,Jsw Energy Limited,JSWENERGY,98146.33,largecap,power & utilities,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+125,Bharat Forge Limited,BHARATFORG,97420.12,largecap,industrials,"",86230,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+126,Meesho Ltd,MEESHO,96150.49,largecap,i.t,"",13344,2025-12-10,2026-08-29,Available,181,2025-12-10,2026-08-28,Available
+127,FSN E-Commerce Ventures Ltd,NYKAA,96124.26,largecap,i.t,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+128,Aurobindo Pharma Limited,AUROPHARMA,94666.93,largecap,healthcare,"",86229,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+129,Godrej Consumer Products Limited,GODREJCP,93626.88,largecap,fmcg,"",86226,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+130,Persistent Systems Limited,PERSISTENT,92678.13,largecap,i.t,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+131,Dixon Technologies Ltd,DIXON,89490.87,largecap,consumer discretionary,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+132,Coforge (Niit Tech) Ltd,COFORGE,89184.49,largecap,i.t,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+133,Info Edge (india) Limited,NAUKRI,87796.15,largecap,i.t,"",86224,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+134,Multi Commodity Exchange Of India Limited,MCX,84963.28,largecap,financials,"",86233,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+135,The Federal Bank  Limited,FEDERALBNK,84962.24,largecap,bank,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+136,PB Fintech Ltd,POLICYBZR,83817.18,largecap,i.t,"",86229,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+137,REC Ltd,RECLTD,83420.54,largecap,financials,"",86366,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+138,Steel Authority Of India Limited,SAIL,82610.51,largecap,metals & mining,"",86233,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+139,AU Small Finance Bank Ltd,AUBANK,80671.77,largecap,bank,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+140,JSW Infrastructure Ltd,JSWINFRA,79907.4,largecap,transportation,"",53856,2023-10-03,2026-08-29,Available,721,2023-10-03,2026-08-28,Available
+141,L&T Finance Ltd,LTF,78748.06,largecap,financials,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+142,Oil India Limited,OIL,78540.76,largecap,energy,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+143,ICICI Lombard General Insurance Company Ltd,ICICIGI,77986.31,largecap,financials,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+144,Leap India Ltd,LEAPIND,77609.85,largecap,miscellaneous,"",819,2026-08-14,2026-08-29,Available,11,2026-08-14,2026-08-28,Available
+145,Bharti Hexacom Ltd,BHARTIHEXA,77505.0,largecap,telecom-service,"",44142,2024-04-12,2026-08-29,Available,593,2024-04-12,2026-08-28,Available
+146,Hindustan Petroleum Corporation Limited,HINDPETRO,77452.74,largecap,energy,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+147,Indusind Bank Limited,INDUSINDBK,77445.8,largecap,bank,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+148,Swiggy Ltd,SWIGGY,77426.8,largecap,i.t,"",33188,2024-11-13,2026-08-29,Available,447,2024-11-13,2026-08-28,Available
+149,Srf Limited,SRF,76771.07,largecap,chemicals,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+150,Havells India Limited,HAVELLS,76744.51,largecap,consumer discretionary,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+151,NTPC Green Energy Ltd,NTPCGREEN,76527.93,largecap,power & utilities,"",32636,2024-11-27,2026-08-29,Available,439,2024-11-27,2026-08-28,Available
+152,Nippon Life India Asset Management Ltd,NAM-INDIA,76357.5,largecap,financials,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+153,Nmdc Limited,NMDC,76277.81,largecap,metals & mining,"",86233,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+154,Waaree Energies Ltd,WAAREEENER,75939.95,largecap,industrials,"",34025,2024-10-28,2026-08-29,Available,459,2024-10-28,2026-08-28,Available
+155,Nhpc Limited,NHPC,75156.95,largecap,power & utilities,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+156,Apar Industries Limited,APARINDS,74545.32,largecap,industrials,"",86168,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+157,Uno Minda Ltd,UNOMINDA,73684.82,largecap,auto,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+158,Icici Prudential Life Insurance Company Limited,ICICIPRULI,73409.7,largecap,financials,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+159,National Aluminium Company Limited,NATIONALUM,72537.77,largecap,metals & mining,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+160,IDFC First Bank Ltd,IDFCFIRSTB,71605.68,largecap,bank,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+161,Glenmark Pharmaceuticals Limited,GLENMARK,70973.5,largecap,healthcare,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+162,Bajaj Housing Finance Ltd,BAJAJHFL,70824.84,largecap,financials,"",36256,2024-09-16,2026-08-29,Available,488,2024-09-16,2026-08-28,Available
+163,Adani Total Gas Ltd,ATGL,70002.91,largecap,energy,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+164,Fortis Healthcare Limited,FORTIS,69965.75,largecap,healthcare,"",86224,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+165,Yes Bank Limited,YESBANK,69364.74,largecap,bank,"",86241,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+166,The Phoenix Mills Limited,PHOENIXLTD,68559.68,largecap,realty,"",86221,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+167,Dabur India Limited,DABUR,68474.56,largecap,fmcg,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+168,Prestige Estates Projects Limited,PRESTIGE,68399.96,largecap,realty,"",86222,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+169,Oberoi Realty Limited,OBEROIRLTY,67993.62,largecap,realty,"",86227,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+170,Biocon Limited,BIOCON,66996.73,largecap,healthcare,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+171,Bank Of India Ltd,BANKINDIA,65558.42,largecap,bank,"",86233,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+172,Aster DM Healthcare Ltd,ASTERDM,65235.97,largecap,healthcare,"",86238,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+173,Bank Of Maharashtra Ltd,MAHABANK,64455.23,largecap,bank,"",86268,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+174,Suzlon Energy Limited,SUZLON,64302.55,largecap,industrials,"",86160,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+175,Alkem Laboratories Limited,ALKEM,64027.06,largecap,healthcare,"",86203,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+176,Ather Energy Ltd,ATHERENERG,63702.47,largecap,auto,"",24606,2025-05-06,2026-08-29,Available,332,2025-05-06,2026-08-28,Available
+177,Kalyan Jewellers India Ltd,KALYANKJIL,63596.14,largecap,consumer discretionary,"",86240,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+178,Indian Overseas Bank Ltd,IOB,63180.87,largecap,bank,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+179,Apl Apollo Tubes Limited,APLAPOLLO,62906.29,largecap,industrials,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+180,Welspun Corp Limited,WELCORP,62618.62,largecap,industrials,"",86270,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+181,Motilal Oswal Financial Services Limited,MOTILALOFS,62520.89,largecap,financials,"",86174,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+182,General Insurance Corporation of India Ltd,GICRE,61982.95,largecap,financials,"",86263,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+183,Radico Khaitan Limited,RADICO,61675.39,largecap,fmcg,"",86224,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+184,Torrent Power Limited,TORNTPOWER,61360.33,largecap,power & utilities,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+185,Godrej Properties Limited,GODREJPROP,61121.76,largecap,realty,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+186,SBI Cards & Payment Services Ltd,SBICARD,61003.25,largecap,financials,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+187,Rbl Bank Limited,RBLBANK,59154.92,largecap,bank,"",86232,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+188,Jindal Stainless Limited,JSL,58133.95,largecap,metals & mining,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+189,Berger Paints (i) Limited,BERGEPAINT,57641.35,largecap,building materials,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+190,Coromandel International Limited,COROMANDEL,56457.3,largecap,chemicals,"",86275,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+191,HDB Financial Services Ltd,HDBFS,56411.64,largecap,financials,"",21535,2025-07-02,2026-08-29,Available,291,2025-07-02,2026-08-28,Available
+192,Tube Investments of India Ltd,TIINDIA,54973.4,largecap,industrials,"",86220,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+193,Max Financial Services Limited,MFSL,53989.75,largecap,financials,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+194,Fertilizers And Chemicals Travancore Limited,FACT,53868.74,largecap,chemicals,"",86012,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+195,Kei Industries Limited,KEI,53249.53,largecap,industrials,"",86226,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+196,Glaxosmithkline Pharmaceuticals Limited,GLAXO,52624.29,largecap,healthcare,"",86128,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+197,Gujarat Fluorochemicals Ltd,FLUOROCHEM,52411.63,largecap,chemicals,"",86187,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+198,Mahindra & Mahindra Financial Services Limited,M&MFIN,52346.31,largecap,financials,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+199,Hindustan Copper Limited,HINDCOPPER,51595.57,largecap,metals & mining,"",86288,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+200,Anthem Biosciences Ltd,ANTHEM,50710.26,largecap,healthcare,"",20558,2025-07-21,2026-08-29,Available,278,2025-07-21,2026-08-28,Available
+201,Sona BLW Precision Forgings Ltd,SONACOMS,50695.84,largecap,auto,"",86226,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+202,Vishal Mega Mart Ltd,VMM,50037.22,largecap,consumer discretionary,"",31462,2024-12-18,2026-08-29,Available,424,2024-12-18,2026-08-28,Available
+203,Colgate Palmolive (india) Limited,COLPAL,49689.06,largecap,fmcg,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+204,Ipca Laboratories Limited,IPCALAB,49479.93,largecap,healthcare,"",86282,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+205,360 ONE WAM Ltd,360ONE,48802.2,largecap,financials,"",67939,2022-09-08,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+206,Tata Communications Limited,TATACOMM,48301.79,largecap,telecom-service,"",86271,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+207,Upl Limited,UPL,48202.07,largecap,chemicals,"",86226,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+208,Bharat Dynamics Ltd,BDL,47873.06,largecap,aerospace & defence,"",79331,2022-05-19,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+209,Gland Pharma Ltd,GLAND,47640.36,largecap,healthcare,"",86261,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+210,Thermax Limited,THERMAX,46997.63,largecap,industrials,"",86184,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+211,Mphasis Limited,MPHASIS,46859.36,largecap,i.t,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+212,Authum Investment & Infrastructure Ltd,AIIL,46359.22,largecap,financials,"",43442,2024-04-23,2026-08-29,Available,587,2024-04-23,2026-08-28,Available
+213,Supreme Industries Limited,SUPREMEIND,46198.4,largecap,plastic products,"",86199,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+214,Premier Energies Ltd,PREMIERENE,46026.14,largecap,services,"",36876,2024-09-03,2026-08-29,Available,497,2024-09-03,2026-08-28,Available
+215,Aegis Logistics Ltd,AEGISLOG,45257.94,largecap,services,"",86275,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+216,Balkrishna Industries Limited,BALKRISIND,45238.16,largecap,auto,"",86274,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+217,Rail Vikas Nigam Ltd,RVNL,44665.3,largecap,realty,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+218,Ajanta Pharma Limited,AJANTPHARM,44439.6,largecap,healthcare,"",86227,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+219,Petronet Lng Limited,PETRONET,43800.0,largecap,energy,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+220,Navin Fluorine International Limited,NAVINFLUOR,43687.24,largecap,chemicals,"",86278,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+221,Indo-MIM Ltd,INDOMIM,42923.42,largecap,industrials,"",1647,2026-07-30,2026-08-29,Available,22,2026-07-30,2026-08-28,Available
+222,Poonawalla Fincorp Ltd,POONAWALLA,42180.29,largecap,financials,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+223,Aditya Infotech Ltd,CPPLUS,42150.4,largecap,consumer discretionary,"",19735,2025-08-05,2026-08-29,Available,267,2025-08-05,2026-08-28,Available
+224,Endurance Technologies Limited,ENDURANCE,41202.96,largecap,auto,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+225,Astral Ltd,ASTRAL,41165.26,largecap,plastic products,"",86236,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+226,Cochin Shipyard Ltd,COCHINSHIP,40382.9,largecap,aerospace & defence,"",86205,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+227,Jk Cement Limited,JKCEMENT,39936.1,largecap,building materials,"",86254,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+228,Voltas Limited,VOLTAS,39706.17,largecap,consumer discretionary,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+229,Global Health Ltd,MEDANTA,39583.3,largecap,healthcare,"",70203,2022-11-16,2026-08-29,Available,936,2022-11-18,2026-08-28,Available
+230,Narayana Hrudayalaya Ltd.,NH,39484.55,largecap,healthcare,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+231,Godrej Industries Limited,GODREJIND,39321.97,largecap,chemicals,"",86134,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+232,Container Corporation Of India Limited,CONCOR,39299.49,largecap,transportation,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+233,Indian Railway Catering & Tourism Corporation Ltd,IRCTC,38852.0,largecap,transportation,"",86281,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+234,K.p.r. Mill Limited,KPRMILL,38631.82,largecap,consumer discretionary,"",86268,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+235,HFCL Ltd,HFCL,38490.06,largecap,telecom,"",86281,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+236,Cupid Limited,CUPID,37963.81,largecap,fmcg,"",79161,2022-03-30,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+237,Patanjali Foods Ltd,PATANJALI,37915.14,largecap,fmcg,"",75173,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+238,L&t Technology Services Limited,LTTS,37852.7,largecap,i.t,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+239,Exide Industries Limited,EXIDEIND,37791.0,largecap,auto,"",86283,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+240,Nlc India Limited,NLCINDIA,37522.39,largecap,power & utilities,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+241,Sterlite Technologies Limited,STLTECH,37193.23,largecap,industrials,"",86253,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+242,Anand Rathi Wealth Ltd,ANANDRATHI,36751.57,largecap,financials,"",85107,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+243,Pi Industries Limited,PIIND,36717.3,largecap,chemicals,"",86227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+244,Housing and Urban Development Corporation Ltd,HUDCO,36680.81,largecap,financials,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+245,Emcure Pharmaceuticals Ltd,EMCURE,35458.81,largecap,healthcare,"",39666,2024-07-10,2026-08-29,Available,533,2024-07-10,2026-08-28,Available
+246,United Breweries Limited,UBL,35274.29,largecap,fmcg,"",86255,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+247,Delhivery Ltd,DELHIVERY,35210.84,largecap,transportation,"",79095,2022-05-24,2026-08-29,Available,1059,2022-05-24,2026-08-28,Available
+248,Physicswallah Ltd,PWL,34653.99,largecap,services,"",14546,2025-11-18,2026-08-29,Available,197,2025-11-18,2026-08-28,Available
+249,Dalmia Bharat Limited,DALBHARAT,34611.55,largecap,building materials,"",86227,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+250,Himadri Speciality Chemical Limited,HSCL,33953.13,largecap,chemicals,"",86203,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+251,ITC Hotels Ltd,ITCHOTELS,33896.27,largecap,services,"",29340,2025-01-29,2026-08-29,Available,394,2025-01-29,2026-08-28,Available
+252,Tata Technologies Ltd,TATATECH,33878.93,largecap,i.t,"",50923,2023-11-30,2026-08-29,Available,682,2023-11-30,2026-08-28,Available
+253,Star Health & Allied Insurance Company Ltd,STARHEALTH,33754.89,largecap,financials,"",86266,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+254,Escorts Kubota Ltd,ESCORTS,33736.74,largecap,auto,"",86269,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+255,Karur Vysya Bank Limited,KARURVYSYA,33446.74,largecap,bank,"",86275,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+256,Godfrey Phillips India Limited,GODFRYPHLP,33125.85,largecap,fmcg,"",85880,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+257,Nuvama Wealth Management Ltd,NUVAMA,32946.45,largecap,financials,"",53327,2023-10-11,2026-08-29,Available,725,2023-09-26,2026-08-28,Available
+258,Indian Renewable Energy Development Agency Ltd,IREDA,32873.62,largecap,financials,"",50951,2023-11-29,2026-08-29,Available,683,2023-11-29,2026-08-28,Available
+259,R R Kabel Ltd,RRKABEL,32859.41,largecap,industrials,"",54372,2023-09-20,2026-08-29,Available,727,2023-09-20,2026-08-28,Available
+260,Manappuram Finance Limited,MANAPPURAM,32773.44,largecap,financials,"",86228,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+261,Krishna Institute of Medical Sciences Ltd,KIMS,32382.5,largecap,healthcare,"",85897,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+262,Dr. Lal Path Labs Ltd.,LALPATHLAB,32372.53,largecap,healthcare,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+263,Jubilant Foodworks Limited,JUBLFOOD,32362.11,largecap,consumer discretionary,"",41149,2022-01-03,2024-03-20,Available,1154,2022-01-03,2026-08-28,Available
+264,Tata Investment Corporation Limited,TATAINVEST,32317.75,largecap,financials,"",86092,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+265,Wockhardt Limited,WOCKPHARMA,32126.33,largecap,healthcare,"",86194,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+266,Uco Bank Ltd,UCOBANK,31950.8,largecap,bank,"",86276,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+267,Sai Life Sciences Ltd,SAILIFE,31524.47,largecap,healthcare,"",31510,2024-12-18,2026-08-29,Available,424,2024-12-18,2026-08-28,Available
+268,Kirloskar Oil Engines Limited,KIRLOSENG,30865.62,largecap,industrials,"",85973,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+269,New India Assurance Company Ltd,NIACL,30708.83,largecap,financials,"",86222,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+270,Shyam Metalics & Energy Ltd,SHYAMMETL,30698.92,largecap,metals & mining,"",86197,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+271,Pnb Housing Finance Limited,PNBHOUSING,30486.42,largecap,financials,"",86197,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+272,Blue Star Limited,BLUESTARCO,30430.99,largecap,consumer discretionary,"",86181,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+273,Netweb Technologies India Ltd,NETWEB,30308.96,largecap,i.t,"",57133,2023-07-27,2026-08-29,Available,766,2023-07-27,2026-08-28,Available
+274,Aditya Birla Sun Life AMC Ltd,ABSLAMC,30264.0,largecap,financials,"",86252,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+275,Inventurus Knowledge Solutions Ltd,IKS,30231.19,largecap,i.t,"",31416,2024-12-19,2026-08-29,Available,422,2024-12-19,2026-08-28,Available
+276,Garden Reach Shipbuilders & Engineers Ltd,GRSE,29931.29,largecap,aerospace & defence,"",86214,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+277,Aegis Vopak Terminals Ltd,AEGISVOPAK,29904.69,largecap,transportation,"",23155,2025-06-02,2026-08-29,Available,313,2025-06-02,2026-08-28,Available
+278,Rubicon Research Ltd,RUBICON,29841.66,largecap,healthcare,"",16019,2025-10-16,2026-08-29,Available,216,2025-10-16,2026-08-28,Available
+279,Central Depository Services Ltd,CDSL,29567.23,largecap,financials,"",86239,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+280,Mangalore Refinery And Petrochemicals Limited,MRPL,29536.55,largecap,energy,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+281,Lic Housing Finance Limited,LICHSGFIN,29428.37,largecap,financials,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+282,Piramal Pharma Ltd,PPLPHARMA,29113.92,largecap,healthcare,"",71419,2022-10-19,2026-08-29,Available,957,2022-10-19,2026-08-28,Available
+283,Craftsman Automation Ltd,CRAFTSMAN,29078.5,largecap,auto,"",85818,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+284,Schneider Electric Infrastructure Limited,SCHNEIDER,28737.91,largecap,industrials,"",86136,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+285,Redington (india) Limited,REDINGTON,28612.94,largecap,services,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+286,Syrma SGS Technology Ltd,SYRMA,28429.0,largecap,consumer discretionary,"",74179,2022-08-26,2026-08-29,Available,993,2022-08-26,2026-08-28,Available
+287,Apollo Tyres Limited,APOLLOTYRE,28166.73,largecap,auto,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+288,Cholamandalam Financial Holdings Ltd,CHOLAHLDNG,28144.09,largecap,financials,"",84504,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+289,IIFL Finance Ltd,IIFL,28039.55,largecap,financials,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+290,ACME Solar Holdings Ltd,ACMESOLAR,27829.64,largecap,realty,"",33239,2024-11-13,2026-08-29,Available,447,2024-11-13,2026-08-28,Available
+291,Central Bank Of India Ltd,CENTRALBK,27642.98,largecap,bank,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+292,Bandhan Bank Ltd,BANDHANBNK,27106.39,largecap,bank,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+293,Amber Enterprises India Ltd,AMBER,27068.01,largecap,consumer discretionary,"",86212,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+294,Acutaas Chemicals Ltd,ACUTAAS,26866.83,largecap,healthcare,"",86118,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+295,Angel One Ltd,ANGELONE,26857.46,largecap,financials,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+296,Iti Limited,ITI,26526.57,largecap,aerospace & defence,"",86041,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+297,Kaynes Technology India Ltd,KAYNES,26432.43,largecap,consumer discretionary,"",69849,2022-11-22,2026-08-29,Available,935,2022-11-22,2026-08-28,Available
+298,Urban Company Ltd,URBANCO,25971.86,largecap,i.t,"",17557,2025-09-17,2026-08-29,Available,238,2025-09-17,2026-08-28,Available
+299,Data Patterns (India) Ltd,DATAPATTNS,25891.47,largecap,aerospace & defence,"",86226,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+300,Sumitomo Chemical India Ltd,SUMICHEM,25848.26,largecap,chemicals,"",86260,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+301,Metro Brands Ltd,METROBRAND,25530.83,largecap,consumer discretionary,"",85886,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+302,AWL Agri Business Ltd,AWL,25508.79,largecap,fmcg,"",84394,2022-02-08,2026-08-29,Available,1129,2022-02-08,2026-08-28,Available
+303,Sjvn Limited,SJVN,25496.51,largecap,power & utilities,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+304,Sundram Fasteners Limited,SUNDRMFAST,25215.4,largecap,auto,"",86057,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+305,Motherson Sumi Wiring India Ltd,MSUMI,25027.89,largecap,auto,"",81921,2022-03-28,2026-08-29,Available,1097,2022-03-28,2026-08-28,Available
+306,Capri Global Capital Limited,CGCL,24821.65,largecap,financials,"",81074,2022-03-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+307,Acc Limited,ACC,24532.53,largecap,building materials,"",86290,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+308,Asahi India Glass Limited,ASAHIINDIA,24286.91,largecap,building materials,"",86007,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+309,Go Digit General Insurance Ltd,GODIGIT,24256.96,largecap,financials,"",42068,2024-05-23,2026-08-29,Available,566,2024-05-23,2026-08-28,Available
+310,Ifci Limited,IFCI,24238.05,largecap,financials,"",86289,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+311,Gabriel India Limited,GABRIEL,24237.98,largecap,auto,"",86256,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+312,Sansera Engineering Ltd,SANSERA,24081.54,largecap,auto,"",86203,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+313,Deepak Nitrite Limited,DEEPAKNTR,24044.73,largecap,chemicals,"",86278,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+314,Gujarat Energy Ltd,GUJENERGY,23906.12,largecap,energy,"",86260,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+315,Kalpataru Projects International Ltd,KPIL,23674.2,largecap,realty,"",86179,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+316,Jyoti CNC Automation Ltd,JYOTICNC,23638.36,largecap,industrials,"",48512,2024-01-16,2026-08-29,Available,650,2024-01-16,2026-08-28,Available
+317,Nbcc (india) Limited,NBCC,23625.0,largecap,miscellaneous,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+318,Kiocl Limited,KIOCL,23492.62,largecap,metals & mining,"",82377,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+319,Irb Infrastructure Developers Limited,IRB,23032.75,largecap,realty,"",86284,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+320,Tata Elxsi Limited,TATAELXSI,22956.47,largecap,i.t,"",86224,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+321,Prime Focus Limited,PFOCUS,22859.88,largecap,realty,"",72332,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+322,Affle India Ltd,AFFLE,22811.83,largecap,i.t,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+323,Aether Industries Ltd,AETHER,22518.67,largecap,chemicals,"",78321,2022-06-03,2026-08-29,Available,1051,2022-06-03,2026-08-28,Available
+324,Emmvee Photovoltaic Power Ltd,EMMVEE,22438.9,largecap,industrials,"",14544,2025-11-18,2026-08-29,Available,197,2025-11-18,2026-08-28,Available
+325,CreditAccess Grameen Ltd,CREDITACC,22303.32,largecap,financials,"",86184,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+326,Belrise Industries Ltd,BELRISE,22231.92,largecap,auto,"",23411,2025-05-28,2026-08-29,Available,316,2025-05-28,2026-08-28,Available
+327,City Union Bank Limited,CUB,22019.26,largecap,bank,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+328,Anant Raj Limited,ANANTRAJ,21813.94,largecap,realty,"",86184,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+329,Cemindia Projects Ltd,CEMPRO,21784.38,largecap,realty,"",86183,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+330,Happy Forgings Ltd,HAPPYFORGE,21773.17,largecap,industrials,"",48689,2023-12-27,2026-08-29,Available,664,2023-12-27,2026-08-28,Available
+331,Tenneco Clean Air India Ltd,TENNIND,21693.73,largecap,auto,"",14469,2025-11-19,2026-08-29,Available,196,2025-11-19,2026-08-28,Available
+332,Sagility India Ltd,SAGILITY,21693.28,largecap,i.t,"",33306,2024-11-12,2026-08-29,Available,448,2024-11-12,2026-08-28,Available
+333,MTAR Technologies Ltd,MTARTECH,21522.49,largecap,aerospace & defence,"",86271,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+334,Carborundum Universal Limited,CARBORUNIV,21274.31,largecap,industrials,"",86113,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+335,The Ramco Cements Limited,RAMCOCEM,21163.53,largecap,building materials,"",86241,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+336,Brigade Enterprises Limited,BRIGADE,20947.78,largecap,realty,"",86242,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+337,Granules India Limited,GRANULES,20731.93,largecap,healthcare,"",86277,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+338,Indraprastha Gas Limited,IGL,20665.42,largecap,energy,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+339,Aadhar Housing Finance Ltd,AADHARHFC,20602.95,largecap,financials,"",42574,2024-05-15,2026-08-29,Available,572,2024-05-15,2026-08-28,Available
+340,Chennai Petroleum Corporation Limited,CHENNPETRO,19970.51,midcap,energy,"",86258,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+341,Elgi Equipments Limited,ELGIEQUIP,19928.82,midcap,industrials,"",86261,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+342,Finolex Cables Limited,FINCABLES,19850.0,midcap,industrials,"",86261,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+343,Chalet Hotels Ltd,CHALET,19735.75,midcap,services,"",86190,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+344,Jindal Saw Limited,JINDALSAW,19735.22,midcap,industrials,"",86252,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+345,Cesc Limited,CESC,19633.02,midcap,power & utilities,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+346,Aarti Industries Limited,AARTIIND,19599.94,midcap,chemicals,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+347,Kajaria Ceramics Limited,KAJARIACER,19359.55,midcap,building materials,"",86258,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+348,Inox India Ltd,INOXINDIA,19298.14,midcap,industrials,"",49700,2023-12-21,2026-08-29,Available,666,2023-12-21,2026-08-28,Available
+349,Caplin Point Laboratories Limited,CAPLIPOINT,19133.66,midcap,healthcare,"",86166,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+350,The Great Eastern Shipping Company Limited,GESHIP,19125.09,midcap,transportation,"",86233,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+351,Pine Labs Ltd,PINELABS,19046.74,midcap,i.t,"",14701,2025-11-14,2026-08-29,Available,199,2025-11-14,2026-08-28,Available
+352,Computer Age Management Services Ltd,CAMS,18913.2,midcap,financials,"",86230,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+353,Firstsource Solutions Limited,FSL,18769.96,midcap,i.t,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+354,Sun Tv Network Limited,SUNTV,18699.32,midcap,media,"",86262,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+355,HBL Engineering Ltd,HBLENGINE,18685.71,midcap,auto,"",86275,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+356,Eih Limited,EIHOTEL,18623.35,midcap,services,"",86166,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+357,Leela Palaces Hotels & Resorts Ltd,THELEELA,18543.01,midcap,services,"",23150,2025-06-02,2026-08-29,Available,312,2025-06-02,2026-08-28,Available
+358,Triveni Turbine Limited,TRITURBINE,18447.45,midcap,industrials,"",86258,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+359,Diamond Power Infrastructure Ltd,DIACABS,18412.37,midcap,industrials,"",37847,2023-09-18,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+360,Azad Engineering Ltd,AZAD,18409.03,midcap,aerospace & defence,"",49496,2023-12-28,2026-08-29,Available,663,2023-12-28,2026-08-28,Available
+361,Eclerx Services Limited,ECLERX,18391.62,midcap,i.t,"",86184,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+362,Castrol India Limited,CASTROLIND,18322.5,midcap,chemicals,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+363,TBO Tek Ltd,TBOTEK,18272.07,midcap,i.t,"",42422,2024-05-15,2026-08-29,Available,572,2024-05-15,2026-08-28,Available
+364,Eris Lifesciences Ltd,ERIS,18220.3,midcap,healthcare,"",85802,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+365,Deepak Fertilizers And Petrochemicals Corporation Limited,DEEPAKFERT,18131.54,midcap,chemicals,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+366,Gujarat Mineral Development Corporation Limited,GMDCLTD,18051.27,midcap,metals & mining,"",86275,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+367,Ola Electric Mobility Ltd,OLAELEC,18041.54,midcap,auto,"",38129,2024-08-09,2026-08-29,Available,513,2024-08-09,2026-08-28,Available
+368,Welspun Living Ltd,WELSPUNLIV,17993.76,midcap,textiles,"",86275,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+369,Sarda Energy & Minerals Limited,SARDAEN,17909.78,midcap,metals & mining,"",85256,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+370,Shilpa Medicare Limited,SHILPAMED,17676.68,midcap,healthcare,"",85740,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+371,OneSource Specialty Pharma Ltd,ONESOURCE,17566.03,midcap,healthcare,"",29527,2025-01-24,2026-08-29,Available,398,2025-01-24,2026-08-28,Available
+372,Poly Medicure Limited,POLYMED,17565.6,midcap,healthcare,"",85549,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+373,Choice International Ltd,CHOICEIN,17519.14,midcap,financials,"",76783,2022-04-08,2026-08-29,Available,1087,2022-04-08,2026-08-28,Available
+374,Devyani International Ltd,DEVYANI,17253.76,midcap,consumer discretionary,"",86276,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+375,Paradeep Phosphates Ltd,PARADEEP,17221.17,midcap,chemicals,"",78917,2022-05-27,2026-08-29,Available,1056,2022-05-27,2026-08-28,Available
+376,Cohance Lifesciences Ltd,COHANCE,17211.7,midcap,healthcare,"",86270,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+377,Vardhman Textiles Limited,VTL,17158.68,midcap,textiles,"",86145,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+378,Travel Food Services Ltd,TRAVELFOOD,17088.05,midcap,consumer discretionary,"",20752,2025-07-14,2026-08-29,Available,283,2025-07-14,2026-08-28,Available
+379,JSW Cement Ltd,JSWCEMENT,17074.78,midcap,building materials,"",19208,2025-08-14,2026-08-29,Available,260,2025-08-14,2026-08-28,Available
+380,Allied Blenders & Distillers Ltd,ABDL,17062.32,midcap,fmcg,"",40148,2024-07-02,2026-08-29,Available,539,2024-07-02,2026-08-28,Available
+381,Sammaan Capital Ltd,SAMMAANCAP,16979.24,midcap,financials,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+382,Thangamayil Jewellery Limited,THANGAMAYL,16910.17,midcap,consumer discretionary,"",80807,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+383,Chambal Fertilizers & Chemicals Limited,CHAMBLFERT,16889.5,midcap,chemicals,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+384,Amara Raja Energy & Mobility Ltd,ARE&M,16863.04,midcap,auto,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+385,Minda Corporation Limited,MINDACORP,16802.5,midcap,auto,"",86262,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+386,Zydus Wellness Limited,ZYDUSWELL,16752.75,midcap,fmcg,"",85699,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+387,Century Plyboards (india) Limited,CENTURYPLY,16747.4,midcap,building materials,"",85821,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+388,Pg Electroplast Limited,PGEL,16731.11,midcap,consumer discretionary,"",84137,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+389,KPIT Technologies Ltd,KPITTECH,16706.32,midcap,i.t,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+390,Tata Chemicals Limited,TATACHEM,16705.64,midcap,chemicals,"",86276,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+391,Alivus Life Sciences Ltd,ALIVUS,16571.86,midcap,healthcare,"",85986,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+392,Emami Limited,EMAMILTD,16560.81,midcap,fmcg,"",86257,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+393,Beml Limited,BEML,16532.03,midcap,aerospace & defence,"",73557,2022-09-08,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+394,The Jammu & Kashmir Bank Limited,J&KBANK,16518.84,midcap,bank,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+395,Milky Mist Dairy Food Ltd,MILKYMIST,16498.51,midcap,fmcg,"",671,2026-08-18,2026-08-29,Available,9,2026-08-18,2026-08-28,Available
+396,Aequs Ltd,AEQUS,16497.7,midcap,aerospace & defence,"",13345,2025-12-10,2026-08-29,Available,181,2025-12-10,2026-08-28,Available
+397,Central Mine Planning & Design Institute Ltd,CMPDI,16491.26,midcap,miscellaneous,"",7800,2026-03-30,2026-08-29,Available,107,2026-03-30,2026-08-28,Available
+398,Zen Technologies Limited,ZENTEC,16433.75,midcap,aerospace & defence,"",86239,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+399,Punjab & Sind Bank,PSB,16419.18,midcap,bank,"",85907,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+400,KFin Technologies Ltd,KFINTECH,16417.76,midcap,financials,"",67821,2022-12-29,2026-08-29,Available,908,2022-12-29,2026-08-28,Available
+401,Syngene International Limited,SYNGENE,16284.01,midcap,healthcare,"",86271,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+402,Astra Microwave Products Limited,ASTRAMICRO,16203.32,midcap,aerospace & defence,"",86038,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+403,Godawari Power And Ispat Limited,GPIL,16144.24,midcap,metals & mining,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+404,Dr Agarwals Health Care Ltd,AGARWALEYE,16096.4,midcap,healthcare,"",28643,2025-02-04,2026-08-29,Available,388,2025-02-04,2026-08-28,Available
+405,Nava Ltd,NAVA,15999.66,midcap,miscellaneous,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+406,Alembic Pharmaceuticals Limited,APLLTD,15989.43,midcap,healthcare,"",86116,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+407,Dcm Shriram Limited,DCMSHRIRAM,15941.98,midcap,miscellaneous,"",85588,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+408,Five-Star Business Finance Ltd,FIVESTAR,15876.24,midcap,financials,"",69769,2022-11-21,2026-08-29,Available,935,2022-11-21,2026-08-28,Available
+409,Bharat Coking Coal Ltd,BHARATCOAL,15843.11,midcap,metals & mining,"",11402,2026-01-19,2026-08-29,Available,154,2026-01-19,2026-08-28,Available
+410,Kansai Nerolac Paints Limited,KANSAINER,15832.2,midcap,building materials,"",86214,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+411,Vedanta Oil and Gas Ltd,VOGL,15766.68,midcap,energy,"",4051,2026-06-15,2026-08-29,Available,55,2026-06-15,2026-08-28,Available
+412,Bikaji Foods International Ltd,BIKAJI,15515.57,midcap,fmcg,"",70171,2022-11-16,2026-08-29,Available,938,2022-11-16,2026-08-28,Available
+413,Concord Biotech Ltd,CONCORDBIO,15494.71,midcap,healthcare,"",56052,2023-08-18,2026-08-29,Available,751,2023-08-18,2026-08-28,Available
+414,Aditya Birla Real Estate Ltd,ABREL,15492.19,midcap,realty,"",86246,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+415,Honasa Consumer Ltd,HONASA,15344.33,midcap,services,"",52029,2023-11-07,2026-08-29,Available,696,2023-11-07,2026-08-28,Available
+416,Natco Pharma Limited,NATCOPHARM,15292.4,midcap,healthcare,"",86265,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+417,L T Foods Ltd,LTFOODS,15256.56,midcap,fmcg,"",86270,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+418,Kirloskar Brothers Limited,KIRLOSBROS,15204.43,midcap,industrials,"",84086,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+419,Jbm Auto Limited,JBMA,15172.29,midcap,auto,"",86162,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+420,Niva Bupa Health Insurance Company Ltd,NIVABUPA,15126.73,midcap,financials,"",33144,2024-11-14,2026-08-29,Available,445,2024-11-14,2026-08-28,Available
+421,Vedanta Iron & Steel Ltd,VISL,15090.19,midcap,metals & mining,"",4048,2026-06-15,2026-08-29,Available,55,2026-06-15,2026-08-28,Available
+422,Shaily Engineering Plastics Ltd,SHAILY,15042.29,midcap,plastic products,"",68147,2022-04-04,2026-08-29,Available,1092,2022-04-04,2026-08-28,Available
+423,Usha Martin Limited,USHAMART,15007.02,midcap,metals & mining,"",86246,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+424,Crompton Greaves Consumer Electricals Limited,CROMPTON,15003.22,midcap,consumer discretionary,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+425,Ccl Products (india) Limited,CCL,14996.52,midcap,fmcg,"",86229,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+426,Vijaya Diagnostic Centre Ltd,VIJAYA,14945.75,midcap,healthcare,"",85861,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+427,Marksans Pharma Limited,MARKSANS,14940.81,midcap,healthcare,"",86280,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+428,Avalon Technologies Ltd,AVALON,14910.38,midcap,consumer discretionary,"",62427,2023-04-18,2026-08-29,Available,836,2023-04-18,2026-08-28,Available
+429,CIE Automotive India Ltd,CIEINDIA,14793.24,midcap,industrials,"",86232,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+430,Arvind Limited,ARVIND,14781.33,midcap,textiles,"",86267,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+431,Sigma Advanced System Ltd,SIGMAADV,14725.75,midcap,aerospace & defence,"",69476,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+432,Juniper Green Energy Ltd,JNPR,14693.25,midcap,realty,"",1270,2026-08-06,2026-08-29,Available,17,2026-08-06,2026-08-28,Available
+433,Clean Max Enviro Energy Solutions Ltd,CLEANMAX,14662.73,midcap,power & utilities,"",9142,2026-03-02,2026-08-29,Available,124,2026-03-02,2026-08-28,Available
+434,Rainbow Childrens Medicare Ltd,RAINBOW,14652.96,midcap,healthcare,"",79866,2022-05-10,2026-08-29,Available,1068,2022-05-10,2026-08-28,Available
+435,International Gemmological Institute (India) Ltd,IGIL,14648.05,midcap,miscellaneous,"",31359,2024-12-20,2026-08-29,Available,416,2024-12-30,2026-08-28,Available
+436,Canara HSBC Life Insurance Company Ltd,CANHLIFE,14648.05,midcap,financials,"",15972,2025-10-17,2026-08-29,Available,217,2025-10-17,2026-08-28,Available
+437,V-guard Industries Limited,VGUARD,14559.39,midcap,industrials,"",86252,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+438,Fractal Analytics Ltd,FRACTAL,14519.01,midcap,i.t,"",9898,2026-02-16,2026-08-29,Available,135,2026-02-16,2026-08-28,Available
+439,Cartrade Tech Ltd,CARTRADE,14477.02,midcap,consumer discretionary,"",86244,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+440,Nazara Technologies Ltd,NAZARA,14410.71,midcap,i.t,"",86249,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+441,Apollo Micro Systems Ltd,APOLLO,14397.62,midcap,aerospace & defence,"",85418,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+442,NMDC Steel Ltd,NSLNISP,14365.83,midcap,metals & mining,"",65109,2023-02-20,2026-08-29,Available,872,2023-02-20,2026-08-28,Available
+443,Shadowfax Technologies Ltd,SHADOWFAX,14355.64,midcap,transportation,"",10948,2026-01-28,2026-08-29,Available,148,2026-01-28,2026-08-28,Available
+444,Anupam Rasayan India Ltd,ANURAS,14349.44,midcap,chemicals,"",85555,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+445,Eid Parry India Limited,EIDPARRY,14330.77,midcap,fmcg,"",86263,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+446,Vedanta Power Ltd,VEDPOWER,14327.66,midcap,power & utilities,"",4048,2026-06-15,2026-08-29,Available,55,2026-06-15,2026-08-28,Available
+447,Engineers India Limited,ENGINERSIN,14260.14,midcap,realty,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+448,Heg Limited,HEG,14229.2,midcap,industrials,"",86276,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+449,Ceat Limited,CEATLTD,14204.05,midcap,auto,"",86267,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+450,Prudent Corporate Advisory Services Ltd,PRUDENT,14166.47,midcap,financials,"",77840,2022-05-20,2026-08-29,Available,1060,2022-05-20,2026-08-28,Available
+451,Jubilant Pharmova Ltd,JUBLPHARMA,14058.95,midcap,healthcare,"",86156,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+452,Tilaknagar Industries Limited,TI,14036.72,midcap,fmcg,"",85344,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+453,Tamilnad Mercantile Bank Ltd,TMB,14030.73,midcap,bank,"",63518,2022-11-21,2026-08-29,Available,979,2022-09-15,2026-08-28,Available
+454,Indegene Ltd,INDGN,13950.05,midcap,healthcare,"",42703,2024-05-13,2026-08-29,Available,574,2024-05-13,2026-08-28,Available
+455,Gallant Ispat Ltd,GALLANTT,13942.42,midcap,metals & mining,"",76925,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+456,Shipping Corporation Of India Limited,SCI,13929.72,midcap,transportation,"",86265,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+457,Balrampur Chini Mills Limited,BALRAMCHIN,13834.83,midcap,fmcg,"",86297,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+458,KSB Ltd,KSB,13816.1,midcap,industrials,"",85447,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+459,Fujiyama Power Systems Ltd,UTLSOLAR,13796.77,midcap,industrials,"",14367,2025-11-20,2026-08-29,Available,195,2025-11-20,2026-08-28,Available
+460,Ventive Hospitality Ltd,VENTIVE,13711.23,midcap,services,"",29303,2024-12-30,2026-08-29,Available,417,2024-12-30,2026-08-28,Available
+461,Ramkrishna Forgings Limited,RKFORGE,13685.52,midcap,industrials,"",86259,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+462,Graphite India Limited,GRAPHITE,13598.14,midcap,industrials,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+463,Sobha Limited,SOBHA,13585.28,midcap,realty,"",86249,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+464,Action Construction Equipment Limited,ACE,13582.63,midcap,industrials,"",86266,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+465,Lumax Auto Technologies Limited,LUMAXTECH,13532.71,midcap,auto,"",85011,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+466,Gravita India Limited,GRAVITA,13475.95,midcap,metals & mining,"",85987,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+467,Atlanta Electricals Ltd,ATLANTAELE,13419.23,midcap,industrials,"",16913,2025-09-29,2026-08-29,Available,229,2025-09-29,2026-08-28,Available
+468,Doms Industries Ltd,DOMS,13344.76,midcap,miscellaneous,"",49797,2023-12-20,2026-08-29,Available,667,2023-12-20,2026-08-28,Available
+469,Vedant Fashions Ltd,MANYAVAR,13310.29,midcap,consumer discretionary,"",83914,2022-02-16,2026-08-29,Available,1122,2022-02-16,2026-08-28,Available
+470,Sedemac Mechatronics Ltd,SEDEMAC,13301.48,midcap,consumer discretionary,"",8697,2026-03-11,2026-08-29,Available,119,2026-03-11,2026-08-28,Available
+471,Black Box Ltd,BBOX,13247.12,midcap,i.t,"",80341,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+472,Ujjivan Small Finance Bank Ltd,UJJIVANSFB,13198.56,midcap,bank,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+473,Supreme Petrochem Ltd,SPLPETRO,13178.88,midcap,energy,"",65603,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+474,Sudeep Pharma Ltd,SUDEEPPHRM,13012.81,midcap,chemicals,"",13798,2025-11-28,2026-08-29,Available,189,2025-11-28,2026-08-28,Available
+475,Va Tech Wabag Limited,WABAG,13007.83,midcap,realty,"",86243,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+476,Swan Defence and Heavy Industries Ltd,SWANDEF,12933.99,midcap,transportation,"",12482,2025-01-21,2026-08-29,Available,1151,2022-01-03,2026-08-28,Available
+477,Lloyds Engineering Works Ltd,LLOYDSENGG,12840.09,midcap,industrials,"",86262,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+478,Aptus Value Housing Finance India Ltd,APTUS,12827.81,midcap,financials,"",86205,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+479,Corona Remedies Ltd,CORONA,12718.24,midcap,healthcare,"",12713,2025-12-15,2026-08-29,Available,177,2025-12-15,2026-08-28,Available
+480,PCBL Ltd,PCBL,12673.43,midcap,chemicals,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+481,E2E Networks Ltd,E2E,12671.02,midcap,i.t,"",59644,2022-04-12,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+482,Sky Gold Ltd,SKYGOLD,12566.47,midcap,consumer discretionary,"",63004,2023-01-06,2026-08-29,Available,902,2023-01-06,2026-08-28,Available
+483,Varroc Engineering Ltd,VARROC,12556.75,midcap,auto,"",86124,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+484,Park Medi World Ltd,PARKHOSPS,12549.75,midcap,healthcare,"",12969,2025-12-17,2026-08-29,Available,176,2025-12-17,2026-08-28,Available
+485,Home First Finance Company India Ltd,HOMEFIRST,12525.26,midcap,financials,"",86103,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+486,The Karnataka Bank Limited,KTKBANK,12493.95,midcap,bank,"",86270,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+487,ASK Automotive Ltd,ASKAUTOLTD,12481.1,midcap,auto,"",51614,2023-11-15,2026-08-29,Available,692,2023-11-15,2026-08-28,Available
+488,Tega Industries Ltd,TEGA,12461.43,midcap,industrials,"",85520,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+489,Inox Wind Limited,INOXWIND,12407.02,midcap,industrials,"",85880,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+490,Trident Limited,TRIDENT,12393.36,midcap,textiles,"",86276,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+491,Jm Financial Limited,JMFINANCIL,12372.54,midcap,financials,"",86204,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+492,Amagi Media Labs Ltd,AMAGI,12348.63,midcap,i.t,"",11158,2026-01-21,2026-08-29,Available,152,2026-01-21,2026-08-28,Available
+493,Metropolis Healthcare Ltd,METROPOLIS,12200.45,midcap,healthcare,"",86132,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+494,Akums Drugs & Pharmaceuticals Ltd,AKUMS,12160.26,midcap,healthcare,"",38294,2024-08-06,2026-08-29,Available,513,2024-08-06,2026-08-28,Available
+495,Bluestone Jewellery and Lifestyle Ltd,BLUESTONE,12111.37,midcap,consumer discretionary,"",19045,2025-08-19,2026-08-29,Available,257,2025-08-19,2026-08-28,Available
+496,PVR Inox Ltd,PVRINOX,11989.23,midcap,media,"",86269,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+497,Techno Electric & Engineering Company Ltd,TECHNOE,11926.52,midcap,realty,"",85405,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+498,The South Indian Bank Limited,SOUTHBANK,11878.17,midcap,bank,"",86283,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+499,Edelweiss Financial Services Limited,EDELWEISS,11871.4,midcap,financials,"",86081,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+500,Td Power Systems Limited,TDPOWERSYS,11759.31,midcap,industrials,"",85811,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+501,Godrej Agrovet Ltd,GODREJAGRO,11720.49,midcap,fmcg,"",86034,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+502,Viyash Scientific Ltd,VIYASH,11682.05,midcap,healthcare,"",86269,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+503,Nuvoco Vistas Corporation Ltd,NUVOCO,11602.22,midcap,building materials,"",86094,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+504,Paras Defence and Space Technologies Ltd,PARAS,11602.16,midcap,aerospace & defence,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+505,Cyient Limited,CYIENT,11599.63,midcap,i.t,"",86276,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+506,Jaiprakash Power Ventures Limited,JPPOWER,11527.52,midcap,power & utilities,"",86204,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+507,Ircon International Ltd,IRCON,11511.91,midcap,realty,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+508,The India Cements Limited,INDIACEM,11458.45,midcap,building materials,"",86238,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+509,UTI Asset Management Company Ltd,UTIAMC,11409.19,midcap,financials,"",86256,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+510,Kec International Limited,KEC,11334.8,midcap,realty,"",86258,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+511,Manorama Industries Ltd,MANORAMA,11281.33,midcap,fmcg,"",67913,2022-07-01,2026-08-29,Available,1031,2022-07-01,2026-08-28,Available
+512,Avanti Feeds Limited,AVANTIFEED,11264.11,midcap,fmcg,"",86247,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+513,Titagarh Rail Systems Ltd,TITAGARH,11249.97,midcap,industrials,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+514,Lloyds Enterprises Ltd,LLOYDSENT,11224.74,midcap,services,"",34500,2024-10-17,2026-08-29,Available,465,2024-10-17,2026-08-28,Available
+515,Quality Power Electrical Equipments Ltd,QPOWER,11083.8,midcap,industrials,"",27896,2025-02-24,2026-08-29,Available,376,2025-02-24,2026-08-28,Available
+516,Rategain Travel Technologies Ltd,RATEGAIN,11060.36,midcap,i.t,"",86150,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+517,SignatureGlobal India Ltd,SIGNATURE,10962.96,midcap,realty,"",53555,2023-09-27,2026-08-29,Available,722,2023-09-27,2026-08-28,Available
+518,Jk Tyre & Industries Limited,JKTYRE,10962.21,midcap,auto,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+519,SBFC Finance Ltd,SBFC,10934.65,midcap,financials,"",56250,2023-08-16,2026-08-29,Available,752,2023-08-16,2026-08-28,Available
+520,Blue Jet Healthcare Ltd,BLUEJET,10933.51,midcap,healthcare,"",52170,2023-11-01,2026-08-29,Available,701,2023-11-01,2026-08-28,Available
+521,Bombay Burmah Trading Corporation Limited,BBTC,10906.74,midcap,auto,"",85283,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+522,Jubilant Ingrevia Ltd,JUBLINGREA,10886.87,midcap,chemicals,"",86253,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+523,Indian Energy Exchange Ltd,IEX,10860.82,midcap,financials,"",86231,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+524,Can Fin Homes Limited,CANFINHOME,10858.76,midcap,financials,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+525,Mahanagar Gas Limited,MGL,10792.46,midcap,energy,"",86269,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+526,Olectra Greentech Ltd,OLECTRA,10771.46,midcap,auto,"",86260,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+527,BlackBuck Ltd,BLACKBUCK,10712.48,midcap,transportation,"",32737,2024-11-22,2026-08-29,Available,441,2024-11-22,2026-08-28,Available
+528,Zensar Technologies Limited,ZENSARTECH,10707.75,midcap,i.t,"",86269,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+529,Kwality Walls India Ltd,KWIL,10702.39,midcap,fmcg,"",9896,2026-02-16,2026-08-29,Available,135,2026-02-16,2026-08-28,Available
+530,Pearl Global Industries Limited,PGIL,10688.39,midcap,consumer discretionary,"",45921,2024-02-05,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+531,Genus Power Infrastructures Limited,GENUSPOWER,10639.36,midcap,consumer discretionary,"",85982,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+532,Shreeji Shipping Global Ltd,SHREEJISPG,10630.42,midcap,transportation,"",18593,2025-08-26,2026-08-29,Available,253,2025-08-26,2026-08-28,Available
+533,Pc Jeweller Limited,PCJEWELLER,10623.33,midcap,consumer discretionary,"",63456,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+534,Indiamart Intermesh Ltd,INDIAMART,10566.55,midcap,i.t,"",86280,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+535,Afcons Infrastructure Ltd,AFCONS,10542.55,midcap,realty,"",33762,2024-11-04,2026-08-29,Available,454,2024-11-04,2026-08-28,Available
+536,KRN Heat Exchanger and Refrigeration Ltd,KRN,10536.85,midcap,industrials,"",35339,2024-10-03,2026-08-29,Available,476,2024-10-03,2026-08-28,Available
+537,Jupiter Wagons Ltd,JWL,10474.85,midcap,industrials,"",85256,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+538,IIFL Capital Services Ltd,IIFLCAPS,10444.17,midcap,financials,"",85910,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+539,Rites Ltd,RITES,10429.1,midcap,miscellaneous,"",86251,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+540,Healthcare Global Enterprises Limited,HCG,10395.91,midcap,healthcare,"",85185,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+541,Aditya Birla Lifestyle Brands Ltd,ABLBL,10325.61,midcap,consumer discretionary,"",22058,2025-06-23,2026-08-29,Available,297,2025-06-24,2026-08-28,Available
+542,Whirlpool Of India Limited,WHIRLPOOL,10317.85,midcap,consumer discretionary,"",86234,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+543,AAVAS Financiers Ltd,AAVAS,10113.16,midcap,financials,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+544,Krbl Limited,KRBL,10017.37,midcap,fmcg,"",86238,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+545,Sandur Manganese & Iron Ores Ltd,SANDUMA,9987.02,midcap,metals & mining,"",54762,2023-09-07,2026-08-29,Available,737,2023-09-07,2026-08-28,Available
+546,Finolex Industries Limited,FINPIPE,9962.38,midcap,plastic products,"",86277,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+547,SG Mart Ltd,SGMART,9947.96,midcap,services,"",17092,2025-09-12,2026-08-29,Available,240,2025-09-12,2026-08-28,Available
+548,Jain Resource Recycling Ltd,JAINREC,9936.75,midcap,metals & mining,"",16808,2025-10-01,2026-08-29,Available,226,2025-10-06,2026-08-28,Available
+549,Sudarshan Chemical Industries Limited,SUDARSCHEM,9882.7,midcap,chemicals,"",85962,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+550,Bls International Services Limited,BLS,9841.84,midcap,i.t,"",86237,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+551,Tejas Networks Ltd,TEJASNET,9791.24,midcap,telecom,"",86250,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+552,Zee Entertainment Enterprises Limited,ZEEL,9750.23,midcap,media,"",86280,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+553,Brainbees Solutions Ltd,FIRSTCRY,9683.69,midcap,consumer discretionary,"",37973,2024-08-13,2026-08-29,Available,511,2024-08-13,2026-08-28,Available
+554,Jayaswal Neco Industries Limited,JAYNECOIND,9622.59,midcap,metals & mining,"",78989,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+555,Wework India Management Ltd,WEWORK,9584.9,midcap,co-working,"",16207,2025-10-10,2026-08-29,Available,220,2025-10-10,2026-08-28,Available
+556,Elecon Engineering Company Limited,ELECON,9542.61,midcap,industrials,"",86261,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+557,Intellect Design Arena Limited,INTELLECT,9527.74,midcap,i.t,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+558,Saregama India Limited,SAREGAMA,9501.65,midcap,media,"",86182,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+559,Mmtc Limited,MMTC,9460.5,midcap,services,"",86269,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+560,Strides Shasun Limited,STAR,9400.7,midcap,healthcare,"",86240,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+561,Pricol Ltd.,PRICOLLTD,9392.8,midcap,auto,"",86245,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+562,Swan Corp Ltd,SWANCORP,9345.72,midcap,textiles,"",85315,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+563,Yatharth Hospital & Trauma Care Services Ltd,YATHARTH,9321.32,midcap,healthcare,"",56698,2023-08-07,2026-08-29,Available,759,2023-08-07,2026-08-28,Available
+564,Ncc Limited,NCC,9317.24,midcap,realty,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+565,Thyrocare Technologies Limited,THYROCARE,9300.83,midcap,healthcare,"",85828,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+566,Reliance Power Limited,RPOWER,9284.81,midcap,power & utilities,"",86197,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+567,Welspun Enterprises Limited,WELENT,9277.88,midcap,realty,"",76053,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+568,Precision Wires India Limited,PRECWIRE,9274.76,midcap,metals & mining,"",85700,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+569,Time Technoplast Limited,TIMETECHNO,9195.93,midcap,plastic products,"",86265,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+570,Waaree Renewables Technologies Ltd,WAAREERTL,9168.86,midcap,power & utilities,"",25745,2025-04-09,2026-08-29,Available,347,2025-04-09,2026-08-28,Available
+571,Shiprocket Ltd,SHIPROCKET,9123.82,midcap,i.t,"",595,2026-08-19,2026-08-29,Available,8,2026-08-19,2026-08-28,Available
+572,Sri Lotus Developers & Realty Ltd,LOTUSDEV,9120.07,midcap,realty,"",19632,2025-08-06,2026-08-29,Available,266,2025-08-06,2026-08-28,Available
+573,Transformers & Rectifiers India Ltd,TARIL,9108.53,midcap,industrials,"",85518,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+574,Tsf Investments Ltd,TSFINV,9044.07,midcap,financials,"",81524,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+575,Railtel Corporation of India Ltd,RAILTEL,8950.97,midcap,transportation,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+576,Banco Products (i) Limited,BANCOINDIA,8931.25,midcap,auto,"",85763,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+577,Clean Science & Technology Ltd,CLEAN,8890.0,midcap,chemicals,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+578,Relaxo Footwears Limited,RELAXO,8880.88,midcap,consumer discretionary,"",86269,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+579,Maharashtra Seamless Limited,MAHSEAMLES,8866.73,midcap,metals & mining,"",86166,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+580,Max Estates Ltd,MAXESTATES,8813.32,midcap,realty,"",49984,2023-11-13,2026-08-29,Available,701,2023-10-30,2026-08-28,Available
+581,P N Gadgil Jewellers Ltd,PNGJL,8802.71,midcap,consumer discretionary,"",36168,2024-09-17,2026-08-29,Available,487,2024-09-17,2026-08-28,Available
+582,Bata India Limited,BATAINDIA,8756.58,midcap,consumer discretionary,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+583,Embassy Development Limited,EMBDL,8730.4,midcap,realty,"",85358,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+584,Westlife Foodworld Ltd,WESTLIFE,8666.15,midcap,consumer discretionary,"",85277,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+585,G R Infraprojects Ltd,GRINFRA,8618.94,midcap,realty,"",83981,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+586,Indo Count Industries Limited,ICIL,8614.37,midcap,textiles,"",85928,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+587,Lemon Tree Hotels Ltd,LEMONTREE,8598.25,midcap,services,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+588,Vesuvius India Limited,VESUVIUS,8555.81,midcap,building materials,"",80100,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+589,Sonata Software Limited,SONATSOFTW,8541.74,midcap,i.t,"",86265,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+590,Gujarat Narmada Valley Fertilizers And Chemicals Limited,GNFC,8523.29,midcap,chemicals,"",86275,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+591,Equitas Small Finance Bank Ltd,EQUITASBNK,8452.1,midcap,bank,"",86279,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+592,Birlasoft Ltd,BSOFT,8413.15,midcap,i.t,"",86280,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+593,Tips Music Ltd,TIPSMUSIC,8284.13,midcap,media,"",67521,2022-09-08,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+594,Eureka Forbes Ltd,EUREKAFORB,8277.25,midcap,consumer discretionary,"",36369,2024-09-11,2026-08-29,Available,490,2024-09-11,2026-08-28,Available
+595,Power Mech Projects Limited,POWERMECH,8158.9,midcap,realty,"",84493,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+596,Gujarat Pipavav Port Limited,GPPL,8158.05,midcap,transportation,"",86275,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+597,Orkla India Ltd,ORKLAINDIA,8156.34,midcap,fmcg,"",15054,2025-11-06,2026-08-29,Available,205,2025-11-06,2026-08-28,Available
+598,Ttk Prestige Limited,TTKPRESTIG,8130.78,midcap,consumer discretionary,"",85979,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+599,Medplus Health Services Ltd,MEDPLUS,8125.47,midcap,consumer discretionary,"",85626,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+600,Newgen Software Technologies Ltd,NEWGEN,8081.74,midcap,i.t,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+601,V2 Retail Limited,V2RETAIL,8070.16,midcap,consumer discretionary,"",70458,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+602,EPL Ltd,EPL,8069.13,midcap,industrials,"",86259,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+603,S J S Enterprises Ltd,SJS,8031.69,midcap,auto,"",85443,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+604,Religare Enterprises Limited,RELIGARE,7952.45,midcap,financials,"",85960,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+605,India Glycols Limited,INDIAGLYCO,7897.76,midcap,fmcg,"",85534,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+606,Entero Healthcare Solutions Ltd,ENTERO,7871.58,midcap,healthcare,"",46470,2024-02-16,2026-08-29,Available,628,2024-02-16,2026-08-28,Available
+607,Mahindra Lifespace Developers Limited,MAHLIFE,7841.41,midcap,realty,"",86086,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+608,Mishra Dhatu Nigam Ltd,MIDHANI,7826.13,midcap,aerospace & defence,"",86143,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+609,Cello World Ltd,CELLO,7748.65,midcap,consumer discretionary,"",52112,2023-11-06,2026-08-29,Available,696,2023-11-06,2026-08-28,Available
+610,Balaji Amines Limited,BALAMINES,7745.46,midcap,chemicals,"",86238,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+611,Ethos Ltd,ETHOSLTD,7693.1,midcap,consumer discretionary,"",77034,2022-05-30,2026-08-29,Available,1054,2022-05-30,2026-08-28,Available
+612,Gujarat Ambuja Exports Limited,GAEL,7658.88,midcap,fmcg,"",86223,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+613,Balu Forge Industries Ltd,BALUFORGE,7645.28,midcap,industrials,"",43386,2024-04-29,2026-08-29,Available,583,2024-04-29,2026-08-28,Available
+614,Unimech Aerospace and Manufacturing Ltd,UNIMECH,7644.3,midcap,aerospace & defence,"",30815,2024-12-31,2026-08-29,Available,415,2024-12-31,2026-08-28,Available
+615,Aditya Vision Ltd,AVL,7629.48,midcap,consumer discretionary,"",33363,2024-11-06,2026-08-29,Available,450,2024-11-06,2026-08-28,Available
+616,RHI Magnesita India Ltd,RHIM,7627.13,midcap,building materials,"",86153,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+617,Aarti Pharmalabs Ltd,AARTIPHARM,7623.45,midcap,healthcare,"",66220,2023-01-30,2026-08-29,Available,887,2023-01-30,2026-08-28,Available
+618,Jyothy Laboratories Limited,JYOTHYLAB,7616.03,midcap,fmcg,"",86243,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+619,Tata Teleservices (maharashtra) Limited,TTML,7592.94,midcap,telecom-service,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+620,Star Cement Ltd,STARCEMENT,7590.1,midcap,building materials,"",85387,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+621,Knowledge Marine & Engineering Works Ltd,KMEW,7460.1,midcap,transportation,"",31251,2024-11-14,2026-08-29,Available,432,2024-12-06,2026-08-28,Available
+622,Sapphire Foods India Ltd,SAPPHIRE,7440.01,midcap,consumer discretionary,"",85955,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+623,Kirloskar Ferrous Industries Ltd,KIRLFER,7422.18,midcap,metals & mining,"",40167,2022-01-03,2026-08-29,Available,575,2022-01-03,2026-08-28,Available
+624,Indian Metals & Ferro Alloys Limited,IMFA,7395.49,midcap,metals & mining,"",85098,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+625,Borosil Renewables Ltd,BORORENEW,7392.3,midcap,building materials,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+626,GMR Power & Urban Infra Ltd,GMRP&UI,7290.8,midcap,realty,"",81908,2022-03-23,2026-08-29,Available,1100,2022-03-23,2026-08-28,Available
+627,Standard Enginnering Technology Ltd,SETL,7265.49,midcap,industrials,"",29956,2025-01-13,2026-08-29,Available,406,2025-01-13,2026-08-28,Available
+628,GNG Electronics Ltd,EBGNG,7240.87,midcap,services,"",19978,2025-07-30,2026-08-29,Available,270,2025-07-30,2026-08-28,Available
+629,Tanla Solutions Limited,TANLA,7217.7,midcap,i.t,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+630,Gokul Agro Resources Limited,GOKULAGRO,7210.15,midcap,fmcg,"",85282,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+631,Restaurant Brands Asia Ltd,RBA,7186.23,midcap,consumer discretionary,"",86266,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+632,Aeroflex Industries Ltd,AEROFLEX,7173.65,midcap,metals & mining,"",55341,2023-08-31,2026-08-29,Available,742,2023-08-31,2026-08-28,Available
+633,Le Travenues Technology Ltd,IXIGO,7166.1,midcap,i.t,"",40895,2024-06-18,2026-08-29,Available,550,2024-06-18,2026-08-28,Available
+634,Mrs Bectors Food Specialities Ltd,BECTORFOOD,7148.89,midcap,fmcg,"",86206,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+635,Jk Paper Limited,JKPAPER,7099.54,midcap,building materials,"",86261,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+636,India Shelter Finance Corporation Ltd,INDIASHLTR,7073.91,midcap,financials,"",49540,2023-12-20,2026-08-29,Available,666,2023-12-20,2026-08-28,Available
+637,Sharda Cropchem Limited,SHARDACROP,7071.03,midcap,chemicals,"",86168,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+638,Inox Green Energy Services Ltd,INOXGREEN,6996.4,midcap,miscellaneous,"",69493,2022-11-23,2026-08-29,Available,934,2022-11-23,2026-08-28,Available
+639,OMNI,OMNI,6993.93,midcap,industrials,"",8993,2026-03-05,2026-08-29,Available,123,2026-03-05,2026-08-28,Available
+640,Redtape Ltd,REDTAPE,6965.93,midcap,consumer discretionary,"",56143,2023-08-11,2026-08-29,Available,755,2023-08-11,2026-08-28,Available
+641,Sheela Foam Limited,SFL,6956.25,midcap,consumer discretionary,"",85637,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+642,Nephrocare Health Services Ltd,NEPHROPLUS,6947.09,midcap,healthcare,"",12891,2025-12-17,2026-08-29,Available,175,2025-12-17,2026-08-28,Available
+643,Suprajit Engineering Limited,SUPRAJIT,6930.57,midcap,auto,"",85923,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+644,Campus Activewear Ltd,CAMPUS,6912.05,midcap,consumer discretionary,"",79936,2022-05-09,2026-08-29,Available,1070,2022-05-09,2026-08-28,Available
+645,Dcb Bank Limited,DCBBANK,6859.28,midcap,bank,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+646,Senores Pharmaceuticals Ltd,SENORES,6825.6,midcap,healthcare,"",30935,2024-12-30,2026-08-29,Available,417,2024-12-30,2026-08-28,Available
+647,Electronics Mart India Ltd,EMIL,6823.52,midcap,consumer discretionary,"",70050,2022-10-17,2026-08-29,Available,959,2022-10-17,2026-08-28,Available
+648,Birla Corporation Limited,BIRLACORPN,6785.71,midcap,building materials,"",86236,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+649,AXISCADES Technologies Ltd,AXISCADES,6782.42,midcap,aerospace & defence,"",81352,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+650,Sun Pharma Advanced Research Company Limited,SPARC,6740.64,midcap,healthcare,"",86098,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+651,Jk Lakshmi Cement Limited,JKLAKSHMI,6714.35,midcap,building materials,"",86269,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+652,Rain Industries Limited,RAIN,6703.71,midcap,miscellaneous,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+653,Ganesh Housing Ltd,GANESHHOU,6700.99,midcap,realty,"",60284,2022-11-21,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+654,Skipper Limited,SKIPPER,6671.21,midcap,industrials,"",84187,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+655,Dilip Buildcon Limited,DBL,6610.69,midcap,realty,"",86029,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+656,Rashtriya Chemicals And Fertilizers Limited,RCF,6609.78,midcap,chemicals,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+657,Timex Group India Ltd,TIMEX,6599.61,midcap,consumer discretionary,"",6850,2026-04-20,2026-08-29,Available,91,2026-04-23,2026-08-28,Available
+658,Dodla Dairy Ltd,DODLA,6596.24,midcap,fmcg,"",82283,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+659,Powerica Ltd,POWERICA,6551.59,midcap,industrials,"",7633,2026-04-02,2026-08-29,Available,105,2026-04-02,2026-08-28,Available
+660,Ajax Engineering Ltd,AJAXENGG,6533.77,midcap,industrials,"",28145,2025-02-17,2026-08-29,Available,380,2025-02-17,2026-08-28,Available
+661,KSH International Ltd,KSHINTL,6530.63,midcap,metals & mining,"",12662,2025-12-23,2026-08-29,Available,172,2025-12-23,2026-08-28,Available
+662,V-mart Retail Limited,VMART,6520.15,midcap,consumer discretionary,"",85130,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+663,Tourism Finance Corporation Of India Limited,TFCILTD,6506.68,midcap,financials,"",84588,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+664,Seshaasai Technologies Ltd,STYL,6506.21,midcap,i.t,"",16696,2025-09-30,2026-08-29,Available,229,2025-09-30,2026-08-28,Available
+665,Cyient DLM Ltd,CYIENTDLM,6502.29,midcap,aerospace & defence,"",58190,2023-07-10,2026-08-29,Available,779,2023-07-10,2026-08-28,Available
+666,Supriya Lifescience Ltd,SUPRIYA,6472.02,midcap,healthcare,"",86233,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+667,Hindustan Construction Company Limited,HCC,6454.37,midcap,realty,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+668,Piccadily Agro Industries Ltd,PICCADIL,6419.51,midcap,fmcg,"",21469,2025-07-02,2026-08-29,Available,291,2025-07-02,2026-08-28,Available
+669,Aditya Birla Fashion And Retail Limited,ABFRL,6406.61,midcap,consumer discretionary,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+670,Praj Industries Limited,PRAJIND,6394.86,midcap,industrials,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+671,Jeena Sikho Lifecare Ltd,JSLL,6370.41,midcap,healthcare,"",40149,2022-08-30,2026-08-29,Available,1072,2022-05-04,2026-08-28,Available
+672,Jai Balaji Industries Limited,JAIBALAJI,6315.52,midcap,metals & mining,"",79419,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+673,Gujarat State Fertilizers & Chemicals Limited,GSFC,6294.75,midcap,chemicals,"",86276,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+674,Greenlam Industries Limited,GREENLAM,6285.56,midcap,building materials,"",77825,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+675,Sunflag Iron And Steel Company Limited,SUNFLAG,6276.14,midcap,metals & mining,"",84960,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+676,Vikram Solar Ltd,VIKRAMSOLR,6258.22,midcap,industrials,"",18680,2025-08-26,2026-08-29,Available,253,2025-08-26,2026-08-28,Available
+677,Triveni Engineering & Industries Limited,TRIVENI,6254.34,midcap,fmcg,"",86201,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+678,Bliss Gvs Pharma Limited,BLISSGVS,6237.17,midcap,healthcare,"",84398,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+679,Bajaj Consumer Care Ltd,BAJAJCON,6236.37,midcap,fmcg,"",86248,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+680,Happiest Minds Technologies Ltd,HAPPSTMNDS,6212.81,midcap,i.t,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+681,KPI Green Energy Ltd,KPIGREEN,6211.84,midcap,power & utilities,"",85696,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+682,Smartworks Coworking Spaces Ltd,SMARTWORKS,6155.87,midcap,co-working,"",18967,2025-07-17,2026-08-29,Available,279,2025-07-17,2026-08-28,Available
+683,Paisalo Digital Ltd,PAISALO,6144.73,midcap,financials,"",83062,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+684,Indiabulls Limited,IBULLSLTD,6129.03,midcap,miscellaneous,"",65442,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+685,Shakti Pumps (india) Limited,SHAKTIPUMP,6090.31,midcap,industrials,"",85345,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+686,Security & Intelligence Services India,SIS,6090.06,midcap,miscellaneous,"",84082,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+687,Transrail Lighting Ltd,TRANSRAILL,6078.44,midcap,realty,"",31059,2024-12-27,2026-08-29,Available,418,2024-12-27,2026-08-28,Available
+688,Neogen Chemicals Ltd,NEOGEN,6050.8,midcap,chemicals,"",85787,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+689,Shivalik Bimetal Controls Ltd,SBCL,6043.83,midcap,metals & mining,"",86031,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+690,Innova Captab Ltd,INNOVACAP,6037.8,midcap,healthcare,"",48063,2023-12-29,2026-08-29,Available,661,2023-12-29,2026-08-28,Available
+691,Arvind Fashions Ltd,ARVINDFASN,6023.16,midcap,services,"",86135,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+692,Just Dial Limited,JUSTDIAL,5992.13,midcap,i.t,"",86225,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+693,Archean Chemical Industries Ltd,ACI,5979.09,midcap,chemicals,"",69805,2022-11-21,2026-08-29,Available,935,2022-11-21,2026-08-28,Available
+694,Lohia Corp Ltd,LCL,5970.28,midcap,industrials,"",1643,2026-07-30,2026-08-29,Available,22,2026-07-30,2026-08-28,Available
+695,Fedbank Financial Services Ltd,FEDFINA,5958.76,midcap,financials,"",50896,2023-11-30,2026-08-29,Available,682,2023-11-30,2026-08-28,Available
+696,Ceigall India Ltd,CEIGALL,5940.39,midcap,realty,"",38109,2024-08-08,2026-08-29,Available,512,2024-08-08,2026-08-28,Available
+697,Kusumgar Ltd,KUSUMGAR,5912.06,midcap,textiles,"",2468,2026-07-15,2026-08-29,Available,33,2026-07-15,2026-08-28,Available
+698,Mastek Limited,MASTEK,5894.49,midcap,i.t,"",86241,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+699,Universal Cables Limited,UNIVCABLES,5874.62,midcap,industrials,"",79016,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+700,CSB Bank Ltd,CSBBANK,5834.33,midcap,bank,"",86107,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+701,Fineotex Chemical Limited,FCL,5826.0,midcap,chemicals,"",87188,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+702,Valor Estate Ltd,DBREALTY,5823.82,midcap,realty,"",85304,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+703,Morepen Laboratories Limited,MOREPENLAB,5818.72,midcap,healthcare,"",86282,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+704,Senco Gold Ltd,SENCO,5813.81,midcap,consumer discretionary,"",57904,2023-07-14,2026-08-29,Available,775,2023-07-14,2026-08-28,Available
+705,TVS Supply Chain Solutions Ltd,TVSSCS,5804.16,midcap,transportation,"",55691,2023-08-23,2026-08-29,Available,747,2023-08-23,2026-08-28,Available
+706,ISGEC Heavy Engineering  Ltd,ISGEC,5801.85,midcap,realty,"",84312,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+707,Latent View Analytics Ltd,LATENTVIEW,5785.62,midcap,i.t,"",86269,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+708,Man Industries (india) Limited,MANINDS,5762.24,midcap,metals & mining,"",83994,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+709,Iol Chemicals And Pharmaceuticals Limited,IOLCP,5722.32,midcap,healthcare,"",86238,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+710,Jana Small Finance Bank Ltd,JSFB,5698.95,midcap,bank,"",46788,2024-02-14,2026-08-29,Available,631,2024-02-14,2026-08-28,Available
+711,Marine Electricals (India) Ltd,MARINE,5692.94,midcap,industrials,"",85377,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+712,KALPATARU,KALPATARU,5692.49,midcap,realty,"",20539,2025-07-01,2026-08-29,Available,291,2025-07-01,2026-08-28,Available
+713,India Tourism Development Corporation Ltd,ITDC,5679.22,midcap,services,"",79994,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+714,Gulf Oil Lubricants India Limited,GULFOILLUB,5664.22,midcap,chemicals,"",84477,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+715,Gokaldas Exports Limited,GOKEX,5625.95,midcap,consumer discretionary,"",86226,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+716,Prism Johnson Ltd,PRSMJOHNSN,5596.32,midcap,building materials,"",85019,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+717,Fdc Limited,FDC,5576.25,midcap,healthcare,"",85531,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+718,Ashapura Minechem Limited,ASHAPURMIN,5560.57,midcap,metals & mining,"",84529,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+719,Quess Corp Limited,QUESS,5559.92,midcap,miscellaneous,"",86105,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+720,Ram Ratna Wires Ltd,RAMRAT,5525.33,midcap,metals & mining,"",70081,2022-07-29,2026-08-29,Available,1010,2022-07-29,2026-08-28,Available
+721,Indigo Paints Ltd,INDIGOPNTS,5491.28,midcap,building materials,"",86116,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+722,Rashi Peripherals Ltd,RPTECH,5460.12,midcap,i.t,"",46288,2024-02-14,2026-08-29,Available,631,2024-02-14,2026-08-28,Available
+723,Ion Exchange (India) Ltd,IONEXCHANG,5447.93,midcap,realty,"",82658,2022-02-22,2026-08-29,Available,1118,2022-02-22,2026-08-28,Available
+724,Saatvik Green Energy Ltd,SAATVIKGL,5367.64,midcap,industrials,"",16936,2025-09-26,2026-08-29,Available,231,2025-09-26,2026-08-28,Available
+725,MAS Financial Services Ltd,MASFIN,5341.99,midcap,financials,"",84720,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+726,AvenuesAI Ltd,CCAVENUE,5339.03,midcap,i.t,"",86269,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+727,C.E. Info Systems Ltd,MAPMYINDIA,5289.37,midcap,i.t,"",86252,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+728,Moil Limited,MOIL,5255.01,midcap,metals & mining,"",86163,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+729,Goldiam International Limited,GOLDIAM,5247.67,midcap,consumer discretionary,"",86088,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+730,PDS Ltd,PDSL,5229.82,midcap,textiles,"",81324,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+731,Optiemus Infracom Ltd,OPTIEMUS,5226.05,midcap,telecom,"",84157,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+732,Gujarat Alkalies And Chemicals Limited,GUJALKALI,5190.89,midcap,chemicals,"",84803,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+733,Canara Robeco Asset Management Company Ltd,CRAMC,5182.86,midcap,financials,"",16058,2025-10-16,2026-08-29,Available,218,2025-10-16,2026-08-28,Available
+734,Bajaj Hindusthan Sugar Limited,BAJAJHIND,5180.57,midcap,fmcg,"",86280,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+735,Vrl Logistics Limited,VRLLOG,5177.26,midcap,transportation,"",85924,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+736,Onemi Technology Solutions Ltd,KISSHT,5160.64,midcap,i.t,"",5919,2026-05-08,2026-08-29,Available,81,2026-05-08,2026-08-28,Available
+737,Shree Renuka Sugars Limited,RENUKA,5138.17,midcap,fmcg,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+738,MSTC Ltd,MSTCLTD,5136.74,midcap,i.t,"",86106,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+739,Puravankara Projects Limited,PURVA,5117.22,midcap,realty,"",84038,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+740,Thomas Cook  (india)  Limited,THOMASCOOK,5100.34,midcap,miscellaneous,"",85952,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+741,Artemis Medicare Services Ltd,ARTEMISMED,5053.93,midcap,healthcare,"",82852,2022-01-03,2026-08-29,Available,1129,2022-01-03,2026-08-28,Available
+742,Electrosteel Castings Limited,ELECTCAST,5038.2,midcap,industrials,"",86110,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+743,AGI Greenpac Ltd,AGI,5012.75,midcap,industrials,"",86045,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+744,Pnc Infratech Limited,PNCINFRA,5008.16,midcap,realty,"",86253,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+745,Bansal Wire Industries Ltd,BANSALWIRE,4978.48,smallcap,metals & mining,"",38810,2024-07-10,2026-08-29,Available,532,2024-07-10,2026-08-28,Available
+746,Man Infraconstruction Limited,MANINFRA,4957.43,smallcap,realty,"",86031,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+747,Orchid Pharma Ltd,ORCHPHARMA,4948.16,smallcap,healthcare,"",71227,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+748,CMR Green Technologies Ltd,CMRGREEN,4931.16,smallcap,miscellaneous,"",4272,2026-06-10,2026-08-29,Available,58,2026-06-10,2026-08-28,Available
+749,Rolex Rings Ltd,ROLEXRINGS,4916.97,smallcap,auto,"",84750,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+750,Jamna Auto Industries Limited,JAMNAAUTO,4829.42,smallcap,auto,"",86264,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+751,Keystone Realtors Ltd,RUSTOMJEE,4800.92,smallcap,realty,"",62226,2022-11-24,2026-08-29,Available,931,2022-11-24,2026-08-28,Available
+752,Surya Roshni Limited,SURYAROSNI,4798.0,smallcap,industrials,"",86099,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+753,Wakefit Innovations Ltd,WAKEFIT,4794.7,smallcap,textiles,"",13015,2025-12-15,2026-08-29,Available,177,2025-12-15,2026-08-28,Available
+754,Juniper Hotels Ltd,JUNIPER,4774.68,smallcap,services,"",45133,2024-02-28,2026-08-29,Available,621,2024-02-28,2026-08-28,Available
+755,Savita Oil Technologies Limited,SOTL,4752.61,smallcap,energy,"",80576,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+756,Laxmi Organic Industries Ltd,LXCHEM,4749.74,smallcap,chemicals,"",86270,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+757,Subros Limited,SUBROS,4737.42,smallcap,auto,"",80810,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+758,Kirloskar Pneumatic Company Ltd,KIRLPNU,4698.79,smallcap,industrials,"",61069,2023-04-26,2026-08-29,Available,830,2023-04-26,2026-08-28,Available
+759,Datamatics Global Services Limited,DATAMATICS,4680.63,smallcap,i.t,"",85607,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+760,Ptc India Limited,PTC,4667.76,smallcap,power & utilities,"",86200,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+761,Steel Strips Wheels Limited,SSWL,4644.68,smallcap,auto,"",84858,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+762,eMudhra Ltd,EMUDHRA,4634.56,smallcap,i.t,"",78428,2022-06-01,2026-08-29,Available,1052,2022-06-01,2026-08-28,Available
+763,Northern ARC Capital Ltd,NORTHARC,4618.07,smallcap,financials,"",35783,2024-09-24,2026-08-29,Available,482,2024-09-24,2026-08-28,Available
+764,GMM Pfaudler Ltd,GMMPFAUDLR,4615.76,smallcap,industrials,"",86194,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+765,Alok Industries Ltd,ALOKINDS,4587.88,smallcap,textiles,"",13289,2025-12-11,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+766,Uflex Limited,UFLEX,4580.74,smallcap,industrials,"",82796,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+767,Laser Power & Infra Ltd,LASERPOWER,4571.1,smallcap,industrials,"",2394,2026-07-16,2026-08-29,Available,32,2026-07-16,2026-08-28,Available
+768,Sterling & Wilson Renewable Energy Ltd,SWSOLAR,4562.51,smallcap,realty,"",86265,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+769,DEE Development Engineers Ltd,DEEDEV,4560.64,smallcap,metals & mining,"",39865,2024-06-26,2026-08-29,Available,543,2024-06-26,2026-08-28,Available
+770,Nrb Bearing Limited,NRBBEARING,4551.97,smallcap,industrials,"",85723,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+771,Aye Finance Ltd,AYE,4538.86,smallcap,financials,"",9894,2026-02-16,2026-08-29,Available,135,2026-02-16,2026-08-28,Available
+772,Greaves Cotton Limited,GREAVESCOT,4528.81,smallcap,industrials,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+773,Deccan Gold Mines Ltd,DECNGOLD,4523.25,smallcap,metals & mining,"",6896,2026-04-20,2026-08-29,Available,9,2026-08-18,2026-08-28,Available
+774,SG Finserve Ltd,SGFIN,4510.84,smallcap,financials,"",19366,2025-08-05,2026-08-29,Available,267,2025-08-05,2026-08-28,Available
+775,Turtlemint Fintech Solutions Ltd,TURTLEMINT,4495.22,smallcap,i.t,"",3372,2026-06-29,2026-08-29,Available,45,2026-06-29,2026-08-28,Available
+776,Sunteck Realty Limited,SUNTECK,4493.37,smallcap,realty,"",86027,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+777,Gujarat Themis Biosyn Ltd,GUJTHEM,4479.02,smallcap,healthcare,"",26174,2025-02-25,2026-08-29,Available,375,2025-02-25,2026-08-28,Available
+778,Texmaco Rail & Engineering Limited,TEXRAIL,4452.73,smallcap,industrials,"",86262,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+779,Network18 Media & Investments Limited,NETWORK18,4440.96,smallcap,media,"",86173,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+780,Vishnu Chemicals Limited,VISHNU,4390.3,smallcap,chemicals,"",83439,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+781,Hind Rectifiers Limited,HIRECT,4389.07,smallcap,consumer discretionary,"",68836,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+782,GE Power India Ltd,GVPIL,4387.94,smallcap,realty,"",84835,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+783,Vip Industries Limited,VIPIND,4343.95,smallcap,plastic products,"",86188,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+784,Deep Industries Ltd,DEEPINDS,4316.48,smallcap,energy,"",84478,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+785,Moschip Technologies Ltd,MOSCHIP,4273.86,smallcap,i.t,"",28896,2025-02-05,2026-08-29,Available,389,2025-02-05,2026-08-28,Available
+786,Mahindra Holidays & Resorts India Limited,MHRIL,4271.27,smallcap,services,"",86069,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+787,Rattanindia Power Limited,RTNPOWER,4269.23,smallcap,power & utilities,"",86208,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+788,Pitti Engineering Ltd,PITTIENG,4221.72,smallcap,industrials,"",85339,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+789,Shoppers Stop Limited,SHOPERSTOP,4216.13,smallcap,consumer discretionary,"",85022,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+790,Raymond Lifestyle Ltd,RAYMONDLSL,4211.96,smallcap,textiles,"",36760,2024-09-05,2026-08-29,Available,495,2024-09-05,2026-08-28,Available
+791,Indostar Capital Finance Ltd,INDOSTAR,4182.63,smallcap,financials,"",76053,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+792,RattanIndia Enterprises Ltd,RTNINDIA,4179.98,smallcap,financials,"",86277,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+793,Raymond Limited,RAYMOND,4173.17,smallcap,transportation,"",86223,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+794,Avantel Ltd,AVANTEL,4166.08,smallcap,aerospace & defence,"",38656,2024-07-31,2026-08-29,Available,519,2024-07-31,2026-08-28,Available
+795,Rossell Techsys Ltd,ROSSTECH,4163.95,smallcap,aerospace & defence,"",25930,2024-12-09,2026-08-29,Available,429,2024-12-10,2026-08-28,Available
+796,Responsive Industries Limited,RESPONIND,4093.77,smallcap,plastic products,"",76188,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+797,Indiqube Spaces Ltd,INDIQUBE,4077.99,smallcap,co-working,"",17324,2025-07-30,2026-08-29,Available,269,2025-07-30,2026-08-28,Available
+798,Rallis India Limited,RALLIS,4076.65,smallcap,chemicals,"",86273,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+799,Gufic Biosciences Limited,GUFICBIO,4074.48,smallcap,healthcare,"",82187,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+800,Ghcl Limited,GHCL,4067.11,smallcap,chemicals,"",86163,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+801,Symphony Limited,SYMPHONY,4059.51,smallcap,consumer discretionary,"",86078,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+802,Kaveri Seed Company Limited,KSCL,4047.23,smallcap,fmcg,"",85864,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+803,West Coast Paper Mills Limited,WSTCSTPAPR,4045.5,smallcap,building materials,"",85273,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+804,NACL Industries Ltd,NACLIND,4020.32,smallcap,chemicals,"",81769,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+805,Ideaforge Technology Ltd,IDEAFORGE,4012.86,smallcap,aerospace & defence,"",58275,2023-07-07,2026-08-29,Available,780,2023-07-07,2026-08-28,Available
+806,Midwest Ltd,MIDWESTLTD,4001.56,smallcap,consumer discretionary,"",15038,2025-10-24,2026-08-29,Available,212,2025-10-24,2026-08-28,Available
+807,Harsha Engineers International Ltd,HARSHA,3995.47,smallcap,industrials,"",70641,2022-09-26,2026-08-29,Available,972,2022-09-26,2026-08-28,Available
+808,Capillary Technologies India Ltd,CAPILLARY,3985.52,smallcap,i.t,"",13629,2025-11-21,2026-08-29,Available,194,2025-11-21,2026-08-28,Available
+809,Kolte - Patil Developers Limited,KOLTEPATIL,3974.64,smallcap,realty,"",84243,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+810,Unichem Laboratories Limited,UNICHEMLAB,3972.64,smallcap,healthcare,"",77855,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+811,Refex Industries Limited,REFEX,3945.75,smallcap,services,"",84777,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+812,Uniparts India Ltd,UNIPARTS,3941.67,smallcap,industrials,"",68100,2022-12-12,2026-08-29,Available,920,2022-12-12,2026-08-28,Available
+813,Aurionpro Solutions Limited,AURIONPRO,3910.32,smallcap,i.t,"",81754,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+814,Sandhar Technologies Limited,SANDHAR,3907.88,smallcap,auto,"",82336,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+815,Mahindra Logistics Ltd,MAHLOG,3896.96,smallcap,transportation,"",85697,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+816,CMS Info Systems Ltd,CMSINFO,3882.34,smallcap,miscellaneous,"",86233,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+817,Dalmia Bharat Sugar And Industries Limited,DALMIASUG,3868.49,smallcap,fmcg,"",85378,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+818,Sindhu Trade Links Ltd,SINDHUTRAD,3853.28,smallcap,transportation,"",56174,2023-06-20,2026-08-29,Available,791,2023-06-20,2026-08-28,Available
+819,Sanghvi Movers Limited,SANGHVIMOV,3844.84,smallcap,miscellaneous,"",85963,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+820,Orient Electric Ltd,ORIENTELEC,3844.21,smallcap,consumer discretionary,"",85879,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+821,Bajaj Electricals Limited,BAJAJELEC,3839.69,smallcap,consumer discretionary,"",85941,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+822,Aarti Drugs Limited,AARTIDRUGS,3820.11,smallcap,healthcare,"",86205,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+823,Tatva Chintan Pharma Chem Ltd,TATVA,3812.91,smallcap,chemicals,"",84968,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+824,Pace Digitek Ltd,PACEDIGITK,3802.22,smallcap,telecom,"",16650,2025-10-06,2026-08-29,Available,226,2025-10-06,2026-08-28,Available
+825,Jindal Worldwide Limited,JINDWORLD,3795.85,smallcap,textiles,"",81917,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+826,J.kumar Infraprojects Limited,JKIL,3785.17,smallcap,realty,"",85589,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+827,Sanathan Textiles Ltd,SANATHAN,3781.72,smallcap,textiles,"",27448,2024-12-27,2026-08-29,Available,417,2024-12-27,2026-08-28,Available
+828,Sambhv Steel Tubes Ltd,SAMBHV,3754.41,smallcap,metals & mining,"",21532,2025-07-02,2026-08-29,Available,290,2025-07-02,2026-08-28,Available
+829,TruAlt Bioenergy Ltd,TRUALT,3722.95,smallcap,miscellaneous,"",16647,2025-10-03,2026-08-29,Available,226,2025-10-06,2026-08-28,Available
+830,Polyplex Corporation Limited,POLYPLEX,3718.12,smallcap,industrials,"",85943,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+831,Raymond Realty Ltd,RAYMONDREL,3708.49,smallcap,realty,"",21601,2025-07-01,2026-08-29,Available,292,2025-07-01,2026-08-28,Available
+832,Vaibhav Global Limited,VAIBHAVGBL,3707.69,smallcap,consumer discretionary,"",86241,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+833,Ashiana Housing Limited,ASHIANA,3707.36,smallcap,realty,"",78511,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+834,Hemisphere Properties India Ltd,HEMIPROP,3704.43,smallcap,realty,"",85975,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+835,Share India Securities Ltd,SHAREINDIA,3674.74,smallcap,financials,"",67383,2022-09-08,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+836,Heidelbergcement India Limited,HEIDELBERG,3648.24,smallcap,building materials,"",85470,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+837,AGI Infra Ltd,AGIIL,3613.67,smallcap,realty,"",34805,2024-07-15,2026-08-29,Available,531,2024-07-15,2026-08-28,Available
+838,D.b.corp Limited,DBCORP,3610.91,smallcap,media,"",84831,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+839,Bhagiradha Chemicals & Industries Ltd,BHAGCHEM,3603.5,smallcap,chemicals,"",62904,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+840,Divgi Torqtransfer Systems Ltd,DIVGIITTS,3593.95,smallcap,auto,"",57165,2023-03-14,2026-08-29,Available,855,2023-03-14,2026-08-28,Available
+841,63 Moons Technologies Ltd,63MOONS,3577.54,smallcap,i.t,"",84003,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+842,Greenply Industries Limited,GREENPLY,3575.32,smallcap,building materials,"",85394,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+843,Vst Industries Limited,VSTIND,3574.73,smallcap,fmcg,"",83755,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+844,Premier Explosives Limited,PREMEXPLN,3563.02,smallcap,aerospace & defence,"",75007,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+845,Muthoot Microfin Ltd,MUTHOOTMF,3554.08,smallcap,financials,"",49465,2023-12-26,2026-08-29,Available,663,2023-12-26,2026-08-28,Available
+846,JTL Industries Ltd,JTLIND,3532.62,smallcap,metals & mining,"",83681,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+847,Welspun Specialty Solutions Ltd,WELSPLSOL,3531.06,smallcap,metals & mining,"",6541,2026-04-20,2026-08-29,Available,9,2026-08-18,2026-08-28,Available
+848,PSP Projects Ltd,PSPPROJECT,3524.16,smallcap,realty,"",85402,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+849,Nitin Spinners Limited,NITINSPIN,3521.62,smallcap,textiles,"",84239,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+850,JTEKT India Ltd,JTEKTINDIA,3505.74,smallcap,auto,"",83553,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+851,Filatex India Limited,FILATEX,3503.18,smallcap,textiles,"",86019,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+852,Knr Constructions Limited,KNRCON,3502.78,smallcap,realty,"",86255,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+853,Enviro Infra Engineers Ltd,EIEL,3497.08,smallcap,realty,"",32486,2024-11-29,2026-08-29,Available,437,2024-11-29,2026-08-28,Available
+854,National Fertilizers Limited,NFL,3487.52,smallcap,chemicals,"",86257,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+855,Tarc Ltd,TARC,3479.19,smallcap,realty,"",84818,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+856,Samhi Hotels Ltd,SAMHI,3465.52,smallcap,services,"",54231,2023-09-22,2026-08-29,Available,727,2023-09-22,2026-08-28,Available
+857,Steelcast Ltd,STEELCAS,3464.08,smallcap,industrials,"",71305,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+858,Gopal Snacks Ltd,GOPAL,3443.92,smallcap,fmcg,"",44840,2024-03-14,2026-08-29,Available,610,2024-03-14,2026-08-28,Available
+859,Heritage Foods Limited,HERITGFOOD,3438.56,smallcap,fmcg,"",68410,2022-09-08,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+860,Wonderla Holidays Limited,WONDERLA,3407.9,smallcap,media,"",85011,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+861,Venus Pipes & Tubes Ltd,VENUSPIPES,3385.63,smallcap,metals & mining,"",78389,2022-05-24,2026-08-29,Available,1058,2022-05-24,2026-08-28,Available
+862,Websol Energy System Limited,WEBELSOLAR,3379.53,smallcap,industrials,"",85613,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+863,Indraprastha Medical Corporation Limited,INDRAMEDCO,3374.02,smallcap,healthcare,"",83796,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+864,Vardhman Special Steels Limited,VSSL,3369.98,smallcap,metals & mining,"",81162,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+865,Oswal Pumps Ltd,OSWALPUMPS,3369.41,smallcap,industrials,"",22134,2025-06-20,2026-08-29,Available,299,2025-06-20,2026-08-28,Available
+866,Advanced Enzyme Technologies Limited,ADVENZYMES,3357.05,smallcap,healthcare,"",85585,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+867,Federal-mogul Goetze (india) Limited.,FMGOETZE,3349.33,smallcap,auto,"",78752,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+868,Caliber Mining and Logistics Ltd,CMLL,3332.86,smallcap,metals & mining,"",1945,2026-07-24,2026-08-29,Available,26,2026-07-24,2026-08-28,Available
+869,Mayur Uniquoters Ltd,MAYURUNIQ,3332.38,smallcap,consumer discretionary,"",83939,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+870,Sms Pharmaceuticals Limited,SMSPHARMA,3329.8,smallcap,healthcare,"",79636,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+871,Shanti Educational Initiatives Ltd,SEIL,3327.39,smallcap,services,"",6209,2026-04-20,2026-08-29,Available,9,2026-08-18,2026-08-28,Available
+872,Imagicaaworld Entertainment Ltd,IMAGICAA,3285.96,smallcap,media,"",83701,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+873,Prince Pipes & Fittings Ltd,PRINCEPIPE,3244.41,smallcap,plastic products,"",86250,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+874,H.G. Infra Engineering Ltd,HGINFRA,3235.75,smallcap,realty,"",86257,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+875,Grauer & Weil (India) Ltd,GRAUWEIL,3233.73,smallcap,chemicals,"",39771,2022-01-03,2026-08-29,Available,575,2022-01-03,2026-08-28,Available
+876,Fusion Micro Finance Ltd,FUSION,3229.33,smallcap,financials,"",70075,2022-11-15,2026-08-29,Available,939,2022-11-15,2026-08-28,Available
+877,Anand Rathi Share & Stock Brokers Ltd,ARSSBL,3212.45,smallcap,financials,"",16871,2025-09-30,2026-08-29,Available,229,2025-09-30,2026-08-28,Available
+878,Kiri Industries Limited,KIRIINDUS,3212.13,smallcap,chemicals,"",84860,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+879,NIIT Learning Systems Ltd,NIITMTS,3212.04,smallcap,i.t,"",55025,2023-08-08,2026-08-29,Available,755,2023-08-08,2026-08-28,Available
+880,Route Mobile Ltd,ROUTE,3209.06,smallcap,i.t,"",86267,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+881,Gujarat Industries Power Company Limited,GIPCL,3196.05,smallcap,power & utilities,"",85367,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+882,Carysil Ltd,CARYSIL,3165.09,smallcap,consumer discretionary,"",86050,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+883,Ashoka Buildcon Limited,ASHOKA,3162.35,smallcap,realty,"",86280,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+884,Ind-swift Laboratories Limited,INDSWFTLAB,3156.01,smallcap,healthcare,"",72532,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+885,Dredging Corporation Of India Limited,DREDGECORP,3137.12,smallcap,miscellaneous,"",83722,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+886,Baazar Style Retail Ltd,STYLEBAAZA,3126.9,smallcap,consumer discretionary,"",36351,2024-09-06,2026-08-29,Available,494,2024-09-06,2026-08-28,Available
+887,Ravindra Energy Ltd,RELTD,3112.46,smallcap,industrials,"",34937,2024-07-30,2026-08-29,Available,520,2024-07-30,2026-08-28,Available
+888,Mm Forgings Limited,MMFL,3098.23,smallcap,industrials,"",61220,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+889,Bhansali Engineering Polymers Limited,BEPL,3073.9,smallcap,energy,"",86066,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+890,Windsor Machines Limited,WINDMACHIN,3071.14,smallcap,industrials,"",72941,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+891,Balmer Lawrie & Company Limited,BALMLAWRIE,3040.45,smallcap,miscellaneous,"",85848,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+892,Arvind Smartspaces Limited,ARVSMART,3033.64,smallcap,realty,"",79549,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+893,Crizac Ltd,CRIZAC,3025.45,smallcap,services,"",21144,2025-07-09,2026-08-29,Available,286,2025-07-09,2026-08-28,Available
+894,Kernex Microsystems (india) Limited,KERNEX,3024.65,smallcap,consumer discretionary,"",68330,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+895,Jash Engineering Ltd,JASH,3022.56,smallcap,industrials,"",74338,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+896,Shankara Buildpro Ltd,BUILDPRO,3015.89,smallcap,services,"",11225,2026-01-09,2026-08-29,Available,159,2026-01-09,2026-08-28,Available
+897,Adf Foods Limited,ADFFOODS,3015.21,smallcap,fmcg,"",82513,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+898,Solara Active Pharma Sciences Ltd,SOLARA,3009.1,smallcap,healthcare,"",85773,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+899,EFC (I) Ltd,EFCIL,2992.36,smallcap,realty,"",18791,2025-08-20,2026-08-29,Available,257,2025-08-20,2026-08-28,Available
+900,Monarch Networth Capital Ltd,MONARCH,2986.75,smallcap,financials,"",74384,2022-01-06,2026-08-29,Available,1150,2022-01-06,2026-08-28,Available
+901,United Foodbrands Ltd,UFBL,2985.42,smallcap,consumer discretionary,"",84990,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+902,Parag Milk Foods Limited,PARAGMILK,2985.11,smallcap,fmcg,"",86038,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+903,Navneet Education Limited,NAVNETEDUL,2975.54,smallcap,miscellaneous,"",83053,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+904,BLS E-Services Ltd,BLSE,2964.19,smallcap,i.t,"",47000,2024-02-06,2026-08-29,Available,637,2024-02-06,2026-08-28,Available
+905,R Systems International Limited,RSYSTEMS,2923.81,smallcap,i.t,"",84024,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+906,Ramco Industries Limited,RAMCOIND,2915.27,smallcap,building materials,"",81680,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+907,GSP Crop Science Ltd,GSPCROP,2914.86,smallcap,chemicals,"",7623,2026-03-24,2026-08-29,Available,110,2026-03-24,2026-08-28,Available
+908,Chemplast Sanmar Ltd,CHEMPLASTS,2888.35,smallcap,chemicals,"",84885,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+909,DDev Plastiks Industries Ltd,DDEVPLSTIK,2887.52,smallcap,chemicals,"",29320,2025-01-15,2026-08-29,Available,404,2025-01-15,2026-08-28,Available
+910,Globus Spirits Limited,GLOBUSSPR,2882.17,smallcap,fmcg,"",86151,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+911,Borosil Ltd,BOROLTD,2867.83,smallcap,building materials,"",85045,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+912,Interarch Building Products Ltd,INTERARCH,2853.56,smallcap,metals & mining,"",37319,2024-08-26,2026-08-29,Available,501,2024-08-26,2026-08-28,Available
+913,Marathon Nextgen Realty Limited,MARATHON,2842.11,smallcap,realty,"",76059,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+914,RPSG Ventures Ltd,RPSGVENT,2836.0,smallcap,i.t,"",81114,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+915,Sportking India Ltd,SPORTKING,2832.94,smallcap,textiles,"",68427,2022-08-24,2026-08-29,Available,994,2022-08-24,2026-08-28,Available
+916,Panama Petrochem Limited,PANAMAPET,2814.16,smallcap,energy,"",80919,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+917,Patel Engineering Limited,PATELENG,2811.73,smallcap,realty,"",85928,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+918,GK Energy Ltd,GKENERGY,2808.21,smallcap,realty,"",16961,2025-09-26,2026-08-29,Available,230,2025-09-26,2026-08-28,Available
+919,Jindal Poly Films Limited,JINDALPOLY,2784.16,smallcap,textiles,"",83325,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+920,Apollo Pipes Ltd,APOLLOPIPE,2779.44,smallcap,plastic products,"",84916,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+921,Antelopus Selan Energy Ltd,ANTELOPUS,2768.33,smallcap,energy,"",80912,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+922,Vimta Labs Limited,VIMTALABS,2759.23,smallcap,healthcare,"",81950,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+923,Rossari Biotech Ltd,ROSSARI,2759.06,smallcap,chemicals,"",85816,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+924,Nocil Limited,NOCIL,2755.24,smallcap,chemicals,"",86213,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+925,Dishman Carbogen Amcis Ltd,DCAL,2740.1,smallcap,healthcare,"",85568,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+926,Mufin Green Finance Ltd,MUFIN,2739.99,smallcap,financials,"",49224,2023-11-07,2026-08-29,Available,698,2023-11-06,2026-08-28,Available
+927,Ganesha Ecosphere Limited,GANECOS,2731.31,smallcap,textiles,"",85415,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+928,Pokarna Limited,POKARNA,2713.01,smallcap,consumer discretionary,"",83947,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+929,Orient Cement Limited,ORIENTCEM,2699.13,smallcap,building materials,"",86166,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+930,Gateway Distriparks Ltd,GATEWAY,2678.59,smallcap,transportation,"",81736,2022-03-22,2026-08-29,Available,1101,2022-03-22,2026-08-28,Available
+931,Rishabh Instruments Ltd,RISHABH,2665.84,smallcap,industrials,"",52313,2023-09-11,2026-08-29,Available,733,2023-09-11,2026-08-28,Available
+932,Confidence Petroleum India Ltd,CONFIPET,2653.61,smallcap,miscellaneous,"",86101,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+933,Hubtown Limited,HUBTOWN,2644.35,smallcap,realty,"",77381,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+934,Stove Kraft Ltd,STOVEKRAFT,2640.31,smallcap,consumer discretionary,"",85753,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+935,Euro Pratik Sales Ltd,EUROPRATIK,2631.14,smallcap,building materials,"",17038,2025-09-23,2026-08-29,Available,233,2025-09-23,2026-08-28,Available
+936,Flair Writing Industries Ltd,FLAIR,2627.51,smallcap,miscellaneous,"",49284,2023-12-01,2026-08-29,Available,680,2023-12-01,2026-08-28,Available
+937,Utkarsh Small Finance Bank Ltd,UTKARSHBNK,2612.34,smallcap,bank,"",57526,2023-07-21,2026-08-29,Available,770,2023-07-21,2026-08-28,Available
+938,Vintage Coffee & Beverages Ltd,VINCOFE,2592.82,smallcap,consumer discretionary,"",34239,2024-10-18,2026-08-29,Available,465,2024-10-18,2026-08-28,Available
+939,Siyaram Silk Mills Limited,SIYSIL,2574.98,smallcap,textiles,"",85468,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+940,Alembic Limited,ALEMBICLTD,2568.85,smallcap,realty,"",85713,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+941,Kitex Garments Limited,KITEX,2561.58,smallcap,consumer discretionary,"",85547,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+942,Zaggle Prepaid Ocean Services Ltd,ZAGGLE,2558.21,smallcap,i.t,"",54291,2023-09-22,2026-08-29,Available,727,2023-09-22,2026-08-28,Available
+943,J.G.Chemicals Ltd,JGCHEM,2552.19,smallcap,chemicals,"",44929,2024-03-13,2026-08-29,Available,611,2024-03-13,2026-08-28,Available
+944,Ujaas Energy Ltd,UEL,2525.62,smallcap,power & utilities,"",12835,2024-04-16,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+945,Rajratan Global Wire Ltd,RAJRATAN,2521.54,smallcap,metals & mining,"",81777,2022-03-21,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+946,Hikal Limited,HIKAL,2518.17,smallcap,healthcare,"",86071,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+947,Gandhar Oil Refinery (India) Ltd,GANDHAR,2510.32,smallcap,energy,"",50677,2023-11-30,2026-08-29,Available,682,2023-11-30,2026-08-28,Available
+948,JNK India Ltd,JNKINDIA,2504.78,smallcap,realty,"",42380,2024-04-30,2026-08-29,Available,581,2024-04-30,2026-08-28,Available
+949,Medi Assist Healthcare Services Ltd,MEDIASSIST,2493.55,smallcap,miscellaneous,"",48047,2024-01-23,2026-08-29,Available,645,2024-01-23,2026-08-28,Available
+950,Ramky Infrastructure Limited,RAMKY,2480.74,smallcap,realty,"",80004,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+951,Stallion India Fluorochemicals Ltd,STALLION,2479.01,smallcap,chemicals,"",27466,2025-01-23,2026-08-29,Available,399,2025-01-23,2026-08-28,Available
+952,Sirca Paints India Ltd,SIRCA,2477.87,smallcap,building materials,"",64101,2022-09-08,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+953,Talbros Automotive Components Limited,TALBROAUTO,2477.46,smallcap,auto,"",84892,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+954,Reliance Infrastructure Limited,RELINFRA,2476.31,smallcap,realty,"",80188,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+955,Fischer Medical Ventures Ltd,FISCHER,2476.14,smallcap,services,"",19794,2025-07-10,2026-08-29,Available,285,2025-07-10,2026-08-28,Available
+956,Cosmo First Ltd,COSMOFIRST,2463.14,smallcap,industrials,"",84788,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+957,Satin Creditcare Network Limited,SATIN,2456.54,smallcap,financials,"",82071,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+958,Oriental Hotels Limited,ORIENTHOT,2455.38,smallcap,services,"",85368,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+959,Dolphin Offshore Enterprises (India) Ltd,DOLPHIN,2450.48,smallcap,energy,"",28675,2023-08-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+960,Eveready Industries India Limited,EVEREADY,2450.29,smallcap,industrials,"",84479,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+961,Bombay Dyeing & Mfg Company Limited,BOMDYEING,2445.37,smallcap,textiles,"",86263,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+962,Easy Trip Planners Ltd,EASEMYTRIP,2438.61,smallcap,i.t,"",86278,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+963,Panacea Biotec Limited,PANACEABIO,2422.47,smallcap,healthcare,"",82753,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+964,Omaxe Limited,OMAXE,2409.53,smallcap,realty,"",79619,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+965,Apeejay Surrendra Park Hotels Ltd,PARKHOTELS,2396.83,smallcap,services,"",46689,2024-02-12,2026-08-29,Available,633,2024-02-12,2026-08-28,Available
+966,Arkade Developers Ltd,ARKADE,2364.98,smallcap,realty,"",35413,2024-09-24,2026-08-29,Available,481,2024-09-24,2026-08-28,Available
+967,Dynamic Cables Ltd,DYCL,2362.84,smallcap,industrials,"",74117,2022-07-27,2026-08-29,Available,1013,2022-07-27,2026-08-28,Available
+968,Kilburn Engineering Ltd,KLBRENG-B,2357.62,smallcap,industrials,"",6429,2026-04-20,2026-08-29,Available,9,2026-08-18,2026-08-28,Available
+969,Knack Packaging Ltd,KNACK,2356.88,smallcap,industrials,"",2843,2026-07-08,2026-08-29,Available,38,2026-07-08,2026-08-28,Available
+970,Asian Energy Services Ltd,ASIANENE,2338.11,smallcap,energy,"",76682,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+971,Geojit Financial Services Ltd,GEOJITFSL,2336.25,smallcap,financials,"",86090,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+972,Exicom Tele-Systems Ltd,EXICOM,2335.57,smallcap,industrials,"",45904,2024-03-05,2026-08-29,Available,617,2024-03-05,2026-08-28,Available
+973,Gna Axles Limited,GNA,2329.64,smallcap,auto,"",83832,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+974,Prakash Industries Limited,PRAKASH,2327.53,smallcap,metals & mining,"",85816,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+975,Veranda Learning Solutions Ltd,VERANDA,2317.96,smallcap,services,"",74403,2022-04-11,2026-08-29,Available,1087,2022-04-11,2026-08-28,Available
+976,Ajmera Realty & Infra India Limited,AJMERA,2310.58,smallcap,realty,"",82440,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+977,ESAF Small Finance Bank Ltd,ESAFSFB,2306.82,smallcap,bank,"",47237,2024-02-05,2026-08-29,Available,693,2023-11-10,2026-08-28,Available
+978,Sai Parenterals Ltd,SAIPARENT,2303.28,smallcap,healthcare,"",7461,2026-04-02,2026-08-29,Available,104,2026-04-02,2026-08-28,Available
+979,Nitco Limited,NITCO,2299.09,smallcap,building materials,"",64591,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+980,Indoco Remedies Limited,INDOCO,2296.51,smallcap,healthcare,"",82195,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+981,Marsons Ltd,MARSONS,2291.86,smallcap,industrials,"",8457,2026-03-13,2026-08-29,Available,117,2026-03-13,2026-08-28,Available
+982,Repco Home Finance Limited,REPCOHOME,2286.62,smallcap,financials,"",85715,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+983,EPack Prefab Technologies Ltd,EPACKPEB,2270.69,smallcap,metals & mining,"",16775,2025-10-01,2026-08-29,Available,226,2025-10-06,2026-08-28,Available
+984,Rajesh Exports Limited,RAJESHEXPO,2267.89,smallcap,consumer discretionary,"",86201,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+985,Brigade Hotel Ventures Ltd,BRIGHOTEL,2262.34,smallcap,services,"",18675,2025-07-31,2026-08-29,Available,268,2025-07-31,2026-08-28,Available
+986,Silver Touch Technologies Ltd,SILVERTUC,2260.01,smallcap,i.t,"",41358,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+987,Bajel Projects Ltd,BAJEL,2231.1,smallcap,realty,"",48524,2024-01-03,2026-08-29,Available,669,2023-12-19,2026-08-28,Available
+988,Simplex Infrastructures Limited,SIMPLEXINF,2195.61,smallcap,realty,"",59460,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+989,Nelco Limited,NELCO,2193.3,smallcap,telecom,"",85818,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+990,Protean eGov Technologies Ltd,PROTEAN,2192.53,smallcap,i.t,"",28817,2025-02-06,2026-08-29,Available,388,2025-02-06,2026-08-28,Available
+991,Pennar Industries Limited,PENIND,2189.91,smallcap,metals & mining,"",85791,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+992,HLE Glascoat Ltd,HLEGLAS,2176.02,smallcap,industrials,"",85860,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+993,Kcp Limited,KCP,2174.77,smallcap,building materials,"",83850,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+994,Ramco Systems Limited,RAMCOSYS,2173.86,smallcap,i.t,"",82995,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+995,Sanstar Ltd,SANSTAR,2167.1,smallcap,fmcg,"",38086,2024-07-26,2026-08-29,Available,523,2024-07-26,2026-08-28,Available
+996,Spandana Sphoorty Financial Ltd,SPANDANA,2165.46,smallcap,financials,"",63065,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+997,Hindustan Oil Exploration Company Limited,HINDOILEXP,2151.07,smallcap,energy,"",85882,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+998,Taj Gvk Hotels & Resorts Limited,TAJGVK,2131.85,smallcap,services,"",85844,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+999,Sagar Cements Limited,SAGCEM,2130.01,smallcap,building materials,"",81799,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1000,Saksoft Limited,SAKSOFT,2129.3,smallcap,i.t,"",85729,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1001,Shringar House of Mangalsutra Ltd,SHRINGARMS,2123.15,smallcap,consumer discretionary,"",17360,2025-09-17,2026-08-29,Available,237,2025-09-17,2026-08-28,Available
+1002,Kabra Extrusion Technik Limited,KABRAEXTRU,2110.61,smallcap,industrials,"",80976,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1003,S H Kelkar And Company Limited,SHK,2109.95,smallcap,chemicals,"",84464,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1004,Ratnaveer Precision Engineering Ltd,RATNAVEER,2106.73,smallcap,metals & mining,"",51972,2023-09-26,2026-08-29,Available,734,2023-09-11,2026-08-28,Available
+1005,EMS Ltd,EMSLIMITED,2098.23,smallcap,realty,"",54199,2023-09-21,2026-08-29,Available,728,2023-09-21,2026-08-28,Available
+1006,Landmark Cars Ltd,LANDMARK,2087.14,smallcap,consumer discretionary,"",66633,2022-12-23,2026-08-29,Available,911,2022-12-23,2026-08-28,Available
+1007,Msp Steel & Power Limited,MSPL,2062.57,smallcap,metals & mining,"",77117,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1008,Windlas Biotech Ltd,WINDLAS,2060.63,smallcap,healthcare,"",82579,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1009,Jain Irrigation Systems Limited,JISLJALEQS,2050.93,smallcap,plastic products,"",86249,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1010,Paramount Communications Limited,PARACABLES,2040.79,smallcap,industrials,"",63169,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1011,Insolation Energy Ltd,INA,2040.41,smallcap,industrials,"",8837,2026-03-09,2026-08-29,Available,121,2026-03-09,2026-08-28,Available
+1012,Cantabil Retail India Limited,CANTABIL,2037.34,smallcap,textiles,"",77476,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1013,Indian Hume Pipe Company Limited,INDIANHUME,2036.41,smallcap,realty,"",79021,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1014,Gm Breweries Limited,GMBREW,2034.29,smallcap,fmcg,"",83757,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1015,Tribhovandas Bhimji Zaveri Limited,TBZ,2013.26,smallcap,consumer discretionary,"",83079,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1016,Jaykay Enterprises Ltd,JAYKAY,2007.85,smallcap,aerospace & defence,"",13195,2025-12-03,2026-08-29,Available,186,2025-12-03,2026-08-28,Available
+1017,SBC Exports Ltd,SBC,1996.66,smallcap,textiles,"",85420,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1018,Camlin Fine Sciences Limited,CAMLINFINE,1988.58,smallcap,chemicals,"",85761,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1019,Hpl Electric & Power Limited,HPL,1985.6,smallcap,industrials,"",85812,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1020,Huhtamaki India Ltd,HUHTAMAKI,1985.47,smallcap,industrials,"",82280,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1021,Mukand Limited,MUKANDLTD,1983.49,smallcap,metals & mining,"",77551,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1022,DCX Systems Ltd,DCXINDIA,1980.56,smallcap,aerospace & defence,"",70409,2022-11-11,2026-08-29,Available,942,2022-11-11,2026-08-28,Available
+1023,Jupiter Life Line Hospitals Ltd,JLHL,1976.16,smallcap,healthcare,"",52980,2023-09-18,2026-08-29,Available,730,2023-09-18,2026-08-28,Available
+1024,Greenpanel Industries Ltd,GREENPANEL,1975.04,smallcap,building materials,"",86141,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1025,Til Limited,TIL,1972.47,smallcap,industrials,"",41883,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1026,MV Electrosystems Ltd,MVELECTRO,1963.13,smallcap,consumer discretionary,"",1269,2026-08-06,2026-08-29,Available,17,2026-08-06,2026-08-28,Available
+1027,Virtuoso Optoelectronics Ltd,VOEPL,1954.54,smallcap,consumer discretionary,"",2993,2026-07-01,2026-08-29,Available,43,2026-07-01,2026-08-28,Available
+1028,La Opala Rg Limited,LAOPALA,1953.05,smallcap,building materials,"",85591,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1029,Behari Lal Engineering Ltd,BLEL,1935.13,smallcap,metals & mining,"",595,2026-08-19,2026-08-29,Available,8,2026-08-19,2026-08-28,Available
+1030,Thirumalai Chemicals Limited,TIRUMALCHM,1932.7,smallcap,chemicals,"",85735,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1031,Ardee Industries Ltd,ARDEE,1927.77,smallcap,metals & mining,"",971,2026-08-12,2026-08-29,Available,13,2026-08-12,2026-08-28,Available
+1032,Gocl Corporation Limited,GOCLCORP,1924.65,smallcap,miscellaneous,"",76471,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1033,Bf Utilities Limited,BFUTILITIE,1921.99,smallcap,power & utilities,"",83646,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1034,Vidya Wires Ltd,VIDYAWIRES,1915.72,smallcap,industrials,"",13339,2025-12-10,2026-08-29,Available,181,2025-12-10,2026-08-28,Available
+1035,Bluspring Enterprises Ltd,BLUSPRING,1904.33,smallcap,miscellaneous,"",22325,2025-06-11,2026-08-29,Available,305,2025-06-11,2026-08-28,Available
+1036,Motisons Jewellers Ltd,MOTISONS,1892.81,smallcap,consumer discretionary,"",48748,2024-01-09,2026-08-29,Available,665,2023-12-26,2026-08-28,Available
+1037,Shipping Corporation of India Land & Assets Ltd,SCILAL,1880.9,smallcap,services,"",44951,2024-03-19,2026-08-29,Available,606,2024-03-19,2026-08-28,Available
+1038,Hathway Cable & Datacom Limited,HATHWAY,1871.0,smallcap,telecom-service,"",86272,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1039,Bgr Energy Systems Limited,BGRENERGY,1849.5,smallcap,realty,"",69002,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1040,Epack Durable Ltd,EPACK,1847.11,smallcap,consumer discretionary,"",47814,2024-01-30,2026-08-29,Available,642,2024-01-30,2026-08-28,Available
+1041,Capacite Infraprojects Ltd,CAPACITE,1838.7,smallcap,realty,"",85111,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1042,Krsnaa Diagnostics Ltd,KRSNAA,1829.7,smallcap,healthcare,"",84977,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1043,Syncom Formulations (India) Ltd,SYNCOMF,1829.24,smallcap,healthcare,"",69755,2022-11-18,2026-08-29,Available,937,2022-11-18,2026-08-28,Available
+1044,Servotech Power Systems Ltd,SERVOTECH,1828.67,smallcap,industrials,"",60161,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1045,Brightcom Group Ltd,BCG,1826.76,smallcap,i.t,"",68247,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1046,Allcargo Logistics Limited,ALLCARGO,1825.79,smallcap,transportation,"",86210,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1047,Jindal Drilling And Industries Limited,JINDRILL,1820.59,smallcap,energy,"",82925,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1048,Algoquant Fintech Ltd,ALGOQUANT,1814.76,smallcap,financials,"",10983,2026-01-06,2026-08-29,Available,162,2026-01-06,2026-08-28,Available
+1049,AWFIS Space Solutions Ltd,AWFIS,1812.34,smallcap,co-working,"",41735,2024-05-30,2026-08-29,Available,562,2024-05-30,2026-08-28,Available
+1050,Elitecon International Ltd,ELITECON,1790.32,smallcap,fmcg,"",6901,2026-04-20,2026-08-29,Available,9,2026-08-18,2026-08-28,Available
+1051,GRM Overseas Ltd,GRMOVER,1789.88,smallcap,fmcg,"",71164,2022-09-07,2026-08-29,Available,986,2022-09-07,2026-08-28,Available
+1052,Aurum Proptech Ltd,AURUM,1787.8,smallcap,i.t,"",55086,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1053,Suraksha Diagnostic Ltd,SURAKSHA,1771.79,smallcap,healthcare,"",30104,2024-12-06,2026-08-29,Available,431,2024-12-06,2026-08-28,Available
+1054,Studds Accessories Ltd,STUDDS,1770.9,smallcap,plastic products,"",14518,2025-11-07,2026-08-29,Available,204,2025-11-07,2026-08-28,Available
+1055,Tarsons Products Ltd,TARSONS,1767.78,smallcap,healthcare,"",84744,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1056,Go Fashion (India) Ltd,GOCOLORS,1765.38,smallcap,textiles,"",84678,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1057,Jai Corp Limited,JAICORPLTD,1760.67,smallcap,plastic products,"",86187,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1058,Rico Auto Industries Limited,RICOAUTO,1750.72,smallcap,auto,"",85984,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1059,Shanti Gold International Ltd,SHANTIGOLD,1746.81,smallcap,consumer discretionary,"",19776,2025-08-01,2026-08-29,Available,269,2025-08-01,2026-08-28,Available
+1060,Ptc India Financial Services Limited,PFS,1730.95,smallcap,financials,"",85044,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1061,5Paisa Capital Ltd,5PAISA,1726.91,smallcap,financials,"",82480,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1062,Yatra Online Ltd,YATRA,1723.25,smallcap,i.t,"",53564,2023-09-28,2026-08-29,Available,723,2023-09-28,2026-08-28,Available
+1063,PNGS Reva Diamond Jewellery Limited,PNGSREVA,1718.85,smallcap,consumer discretionary,"",8837,2026-03-04,2026-08-29,Available,124,2026-03-04,2026-08-28,Available
+1064,Quadrant Future Tek Ltd,QUADFUTURE,1716.8,smallcap,industrials,"",30116,2025-01-14,2026-08-29,Available,406,2025-01-14,2026-08-28,Available
+1065,Mahanagar Telephone Nigam Limited,MTNL,1716.75,smallcap,telecom,"",86235,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1066,Pvp Ventures Limited,PVP,1698.35,smallcap,realty,"",63937,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1067,K.P. Energy Ltd,KPEL,1691.22,smallcap,realty,"",32964,2024-11-14,2026-08-29,Available,442,2024-11-21,2026-08-28,Available
+1068,Shalby Ltd,SHALBY,1670.37,smallcap,healthcare,"",83291,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1069,Bf Investment Limited,BFINVEST,1667.92,smallcap,financials,"",75563,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1070,Hi-Tech Pipes Ltd,HITECH,1666.5,smallcap,metals & mining,"",67430,2022-09-08,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1071,Indo Rama Synthetics (india) Limited,INDORAMA,1661.99,smallcap,textiles,"",76659,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1072,Avadh Sugar & Energy,AVADHSUGAR,1661.63,smallcap,fmcg,"",81657,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1073,SMC Global Securities Ltd,SMCGLOBAL,1658.45,smallcap,financials,"",78243,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1074,Aeroflex Enterprises Ltd,AEROENTER,1655.48,smallcap,metals & mining,"",66573,2022-11-21,2026-08-29,Available,935,2022-11-21,2026-08-28,Available
+1075,IKIO Lighting Ltd,IKIO,1651.64,smallcap,consumer discretionary,"",58580,2023-06-16,2026-08-29,Available,794,2023-06-16,2026-08-28,Available
+1076,Suryoday Small Finance Bank Ltd,SURYODAY,1639.63,smallcap,bank,"",85399,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1077,Garuda Construction and Engineering Ltd,GARUDA,1630.09,smallcap,realty,"",34703,2024-10-15,2026-08-29,Available,468,2024-10-15,2026-08-28,Available
+1078,Rhetan TMT Ltd,RHETAN,1618.45,smallcap,metals & mining,"",16718,2025-09-26,2026-08-29,Available,231,2025-09-26,2026-08-28,Available
+1079,Magellanic Cloud Ltd,MCLOUD,1618.17,smallcap,i.t,"",28691,2025-02-07,2026-08-29,Available,387,2025-02-07,2026-08-28,Available
+1080,InfoBeans Technologies Ltd,INFOBEAN,1606.58,smallcap,i.t,"",81658,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1081,Hindware Home Innovation Ltd,HINDWAREAP,1602.75,smallcap,consumer discretionary,"",83916,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1082,India Pesticides Ltd,IPL,1600.77,smallcap,chemicals,"",85498,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1083,Menon Bearings Limited,MENONBE,1595.01,smallcap,auto,"",76584,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1084,Delta Corp Limited,DELTACORP,1591.36,smallcap,miscellaneous,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1085,Indo Borax & Chemicals Ltd,INDOBORAX,1588.78,smallcap,chemicals,"",72607,2022-03-29,2026-08-29,Available,1095,2022-03-29,2026-08-28,Available
+1086,Jagsonpal Pharmaceuticals Limited,JAGSNPHARM,1573.86,smallcap,healthcare,"",77602,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1087,D-link (india) Limited,DLINKINDIA,1573.75,smallcap,i.t,"",85684,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1088,Pondy Oxides & Chemicals Ltd,POCL,1553.63,smallcap,metals & mining,"",62646,2023-03-06,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1089,M & B Engineering Ltd,MBEL,1550.72,smallcap,realty,"",19639,2025-08-06,2026-08-29,Available,266,2025-08-06,2026-08-28,Available
+1090,Meghmani Organics Ltd,MOL,1549.79,smallcap,chemicals,"",86188,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1091,Diffusion Engineers Ltd,DIFFNKG,1538.22,smallcap,industrials,"",31769,2024-10-04,2026-08-29,Available,473,2024-10-04,2026-08-28,Available
+1092,Gtl Infrastructure Limited,GTLINFRA,1537.09,smallcap,telecom,"",86274,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1093,Vikran Engineering Ltd,VIKRAN,1531.73,smallcap,realty,"",18307,2025-09-03,2026-08-29,Available,248,2025-09-03,2026-08-28,Available
+1094,Spml Infra Limited,SPMLINFRA,1526.17,smallcap,realty,"",60825,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1095,Som Distilleries & Breweries Limited,SDBL,1525.58,smallcap,fmcg,"",85287,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1096,Dollar Industries Ltd,DOLLAR,1523.96,smallcap,consumer discretionary,"",83164,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1097,One Mobikwik Systems Ltd,MOBIKWIK,1514.54,smallcap,i.t,"",31508,2024-12-18,2026-08-29,Available,424,2024-12-18,2026-08-28,Available
+1098,Walchandnagar Industries Limited,WALCHANNAG,1499.92,smallcap,industrials,"",78371,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1099,Renaissance Global Ltd,RGL,1496.61,smallcap,consumer discretionary,"",77486,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1100,Goodluck India Limited,GOODLUCK,1495.4,smallcap,metals & mining,"",82970,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1101,Updater Services Ltd,UDS,1489.58,smallcap,miscellaneous,"",53402,2023-10-04,2026-08-29,Available,719,2023-10-04,2026-08-28,Available
+1102,Rajputana Stainless Ltd,RSL,1483.24,smallcap,metals & mining,"",7624,2026-03-19,2026-08-29,Available,113,2026-03-19,2026-08-28,Available
+1103,Digitide Solutions Ltd,DIGITIDE,1483.06,smallcap,i.t,"",22429,2025-06-11,2026-08-29,Available,305,2025-06-11,2026-08-28,Available
+1104,Technocraft Ventures Ltd,TECHNOCRAF,1480.6,smallcap,realty,"",818,2026-08-14,2026-08-29,Available,11,2026-08-14,2026-08-28,Available
+1105,Shree Pushkar Chemicals & Fertilisers Limited,SHREEPUSHK,1459.72,smallcap,chemicals,"",76497,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1106,Navkar Corporation Limited,NAVKARCORP,1458.23,smallcap,transportation,"",85650,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1107,Chamanlal Setia Exports Ltd,CLSEL,1457.21,smallcap,fmcg,"",82511,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1108,Arfin India Ltd,ARFIN,1447.13,smallcap,metals & mining,"",18693,2025-07-22,2026-08-29,Available,275,2025-07-22,2026-08-28,Available
+1109,One Point One Solutions Ltd,ONEPOINT,1446.94,smallcap,i.t,"",80088,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1110,Ivalue Infosolutions Ltd,IVALUE,1445.79,smallcap,i.t,"",16447,2025-09-25,2026-08-29,Available,231,2025-09-25,2026-08-28,Available
+1111,Niit Limited,NIITLTD,1441.97,smallcap,i.t,"",86150,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1112,Madhya Bharat Agro Products Ltd,MBAPL,1427.79,smallcap,chemicals,"",73494,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1113,Bharat Seats Ltd,BHARATSE,1421.98,smallcap,auto,"",25190,2025-03-24,2026-08-29,Available,357,2025-03-25,2026-08-28,Available
+1114,Texmaco Infrastructure & Holdings Limited,TEXINFRA,1419.66,smallcap,realty,"",72550,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1115,Asian Granito India Limited,ASIANTILES,1419.52,smallcap,building materials,"",85576,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1116,Pnb Gilts Limited,PNBGILTS,1416.86,smallcap,financials,"",85717,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1117,Gpt Infraprojects Limited,GPTINFRA,1414.15,smallcap,realty,"",70392,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1118,Southern Petrochemicals Industries Corporation  Limited,SPIC,1406.95,smallcap,chemicals,"",86096,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1119,Signpost India Ltd,SIGNPOST,1390.5,smallcap,miscellaneous,"",39384,2024-02-14,2026-08-29,Available,629,2024-02-14,2026-08-28,Available
+1120,Jay Bharat Maruti Limited,JAYBARMARU,1389.39,smallcap,auto,"",77594,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1121,Kross Ltd,KROSS,1380.44,smallcap,auto,"",36103,2024-09-16,2026-08-29,Available,488,2024-09-16,2026-08-28,Available
+1122,Allcargo Global Ltd,AGL,1378.84,smallcap,transportation,"",3017,2026-07-03,2026-08-29,Available,41,2026-07-03,2026-08-28,Available
+1123,Dcw Limited,DCW,1369.52,smallcap,energy,"",86044,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1124,Steel Exchange India Ltd,STEELXIND,1358.43,smallcap,metals & mining,"",85554,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1125,Skm Egg Products Export (india) Limited,SKMEGGPROD,1356.26,smallcap,fmcg,"",59677,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1126,Den Networks Limited,DEN,1351.02,smallcap,media,"",85910,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1127,Ugro Capital Ltd,UGROCAP,1350.39,smallcap,financials,"",82468,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1128,Igarashi Motors India Limited,IGARASHI,1344.3,smallcap,industrials,"",81040,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1129,Atul Auto Limited,ATULAUTO,1341.36,smallcap,auto,"",85372,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1130,Modison Ltd,MODISONLTD,1339.54,smallcap,industrials,"",70001,2022-01-03,2026-08-28,Available,1153,2022-01-03,2026-08-28,Available
+1131,Wonder Electricals Ltd,WEL,1337.4,smallcap,consumer discretionary,"",55913,2022-01-17,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1132,Onida Electronics Ltd,ONIDA,1336.83,smallcap,consumer discretionary,"",74730,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1133,Sai Silks (Kalamandir) Ltd,KALAMANDIR,1335.67,smallcap,consumer discretionary,"",53987,2023-09-27,2026-08-29,Available,724,2023-09-27,2026-08-28,Available
+1134,All Time Plastics Ltd,ALLTIME,1334.98,smallcap,plastic products,"",17482,2025-08-14,2026-08-29,Available,260,2025-08-14,2026-08-28,Available
+1135,Jagran Prakashan Limited,JAGRAN,1334.22,smallcap,media,"",84252,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1136,STL Networks Ltd,STLNETWORK,1331.47,smallcap,telecom-service,"",18143,2025-09-04,2026-08-29,Available,247,2025-09-04,2026-08-28,Available
+1137,The Andhra Sugars Limited,ANDHRSUGAR,1328.52,smallcap,chemicals,"",84582,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1138,Gala Precision Engineering Ltd,GALAPREC,1325.45,smallcap,industrials,"",33598,2024-09-09,2026-08-29,Available,492,2024-09-09,2026-08-28,Available
+1139,B. L. Kashyap And Sons Limited,BLKASHYAP,1320.4,smallcap,realty,"",80446,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1140,Manaksia Coated Metals & Industries Limited,MANAKCOAT,1310.0,smallcap,metals & mining,"",64842,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1141,Bhagyanagar India,BHAGYANGR,1309.88,smallcap,power & utilities,"",69853,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1142,Gretex Corporate Services Ltd,GCSL,1307.75,smallcap,financials,"",10067,2025-09-04,2026-08-29,Available,245,2025-09-04,2026-08-28,Available
+1143,Avt Natural Products Limited,AVTNPL,1297.31,smallcap,fmcg,"",81498,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1144,Shriram Properties Ltd,SHRIRAMPPS,1296.46,smallcap,realty,"",85821,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1145,Astec Lifesciences Limited,ASTEC,1295.63,smallcap,chemicals,"",79812,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1146,Solarworld Energy Solutions Ltd,SOLARWORLD,1289.26,smallcap,power & utilities,"",16752,2025-09-30,2026-08-29,Available,228,2025-09-30,2026-08-28,Available
+1147,Bharat Wire Ropes Limited,BHARATWIRE,1282.46,smallcap,metals & mining,"",81076,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1148,Dolat Algotech Ltd,DOLATALGO,1281.63,smallcap,financials,"",84224,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1149,Raj Rayon Industries Ltd,RAJRILTD,1280.66,smallcap,textiles,"",36871,2022-03-17,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1150,Capital Small Finance Bank Ltd,CAPITALSFB,1280.53,smallcap,bank,"",42721,2024-02-14,2026-08-29,Available,629,2024-02-14,2026-08-28,Available
+1151,Dhanlaxmi Bank Limited,DHANBANK,1273.69,smallcap,bank,"",85462,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1152,Izmo Limited,IZMO,1269.5,smallcap,i.t,"",66369,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1153,Sigachi Industries Ltd,SIGACHI,1267.1,smallcap,healthcare,"",79682,2022-03-31,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1154,Gujarat Kidney & Super Speciality Ltd,GKSL,1266.54,smallcap,healthcare,"",11881,2025-12-30,2026-08-29,Available,168,2025-12-30,2026-08-28,Available
+1155,Platinum Industries Ltd,PLATIND,1266.46,smallcap,chemicals,"",44671,2024-03-05,2026-08-29,Available,617,2024-03-05,2026-08-28,Available
+1156,Manali Petrochemicals Limited,MANALIPETC,1261.79,smallcap,energy,"",85690,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1157,GHCL Textiles Ltd,GHCLTEXTIL,1250.17,smallcap,textiles,"",57209,2023-06-12,2026-08-29,Available,797,2023-06-12,2026-08-28,Available
+1158,Bodal Chemicals Limited,BODALCHEM,1247.85,smallcap,chemicals,"",84517,2022-01-03,2026-08-28,Available,1153,2022-01-03,2026-08-28,Available
+1159,Sula Vineyards Ltd,SULA,1246.27,smallcap,fmcg,"",68251,2022-12-22,2026-08-29,Available,913,2022-12-22,2026-08-28,Available
+1160,GPT Healthcare Ltd,GPTHEALTH,1244.94,smallcap,healthcare,"",45258,2024-02-29,2026-08-29,Available,618,2024-02-29,2026-08-28,Available
+1161,Arisinfra Solutions Ltd,ARIS,1237.62,smallcap,services,"",21711,2025-06-25,2026-08-29,Available,296,2025-06-25,2026-08-28,Available
+1162,Godavari Biorefineries Ltd,GODAVARIB,1223.36,smallcap,fmcg,"",31298,2024-10-30,2026-08-29,Available,456,2024-10-30,2026-08-28,Available
+1163,Everest Kanto Cylinder Limited,EKC,1221.61,smallcap,industrials,"",85585,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1164,Roto Pumps Ltd,ROTO,1215.85,smallcap,industrials,"",76391,2022-04-21,2026-08-29,Available,1081,2022-04-21,2026-08-28,Available
+1165,Andhra Paper Ltd,ANDHRAPAP,1214.38,smallcap,building materials,"",81617,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1166,Jyoti Structures Limited,JYOTISTRUC,1210.37,smallcap,industrials,"",57180,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1167,Precision Camshafts Limited,PRECAM,1199.96,smallcap,auto,"",84790,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1168,Krishana Phoschem Ltd,KRISHANA,1192.72,smallcap,chemicals,"",74387,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1169,Apex Frozen Foods Ltd,APEX,1191.41,smallcap,fmcg,"",83197,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1170,Rupa & Company Limited,RUPA,1188.81,smallcap,textiles,"",85356,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1171,Fino Payments Bank Ltd,FINOPB,1178.12,smallcap,bank,"",85100,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1172,IRM Energy Ltd,IRMENERGY,1163.43,smallcap,energy,"",51510,2023-10-26,2026-08-29,Available,705,2023-10-26,2026-08-28,Available
+1173,Shree Digvijay Cement Co. Ltd,SHREDIGCEM,1156.54,smallcap,building materials,"",84454,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1174,Themis Medicare Limited,THEMISMED,1155.67,smallcap,healthcare,"",69249,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1175,Reliance Industrial Infrastructure Limited,RIIL,1149.79,smallcap,transportation,"",85975,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1176,Indosolar Ltd,WAAREEINDO,1149.3,smallcap,industrials,"",15028,2025-06-19,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1177,Advit Jewels Ltd,RAMBHAJO,1147.59,smallcap,consumer discretionary,"",3207,2026-07-01,2026-08-29,Available,43,2026-07-01,2026-08-28,Available
+1178,Balaji Telefilms Limited,BALAJITELE,1146.49,smallcap,media,"",77758,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1179,Uttam Sugar Mills Limited,UTTAMSUGAR,1142.43,smallcap,fmcg,"",82428,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1180,Commercial Syn Bags Ltd,COMSYN,1137.57,smallcap,industrials,"",28923,2024-01-23,2026-08-29,Available,645,2024-01-23,2026-08-28,Available
+1181,Dhampur Sugar Mills Limited,DHAMPURSUG,1126.84,smallcap,fmcg,"",85911,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1182,Munjal Auto Industries Limited,MUNJALAU,1124.0,smallcap,auto,"",81499,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1183,Centrum Capital Ltd,CENTRUM,1122.14,smallcap,financials,"",78915,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1184,Orient Technologies Ltd,ORIENTTECH,1121.33,smallcap,i.t,"",37133,2024-08-28,2026-08-29,Available,501,2024-08-28,2026-08-28,Available
+1185,Iris Clothings Ltd,IRISDOREME,1117.25,smallcap,consumer discretionary,"",48233,2022-09-08,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1186,Borosil Scientific Ltd,BOROSCI,1106.86,smallcap,building materials,"",37662,2024-06-07,2026-08-29,Available,555,2024-06-07,2026-08-28,Available
+1187,Orient Green Power Company Limited,GREENPOWER,1101.48,smallcap,power & utilities,"",86182,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1188,Antony Waste Handling Cell Ltd,AWHCL,1099.24,smallcap,miscellaneous,"",85572,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1189,Laxmi Dental Ltd,LAXMIDENTL,1098.03,smallcap,healthcare,"",29453,2025-01-20,2026-08-29,Available,402,2025-01-20,2026-08-28,Available
+1190,Hariom Pipe Industries Ltd,HARIOMPIPE,1090.67,smallcap,metals & mining,"",79386,2022-04-13,2026-08-29,Available,1085,2022-04-13,2026-08-28,Available
+1191,SAL Steel,SALSTEEL,1088.07,smallcap,metals & mining,"",67721,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1192,Madras Fertilizers Limited,MADRASFERT,1086.31,smallcap,chemicals,"",83946,2022-01-03,2026-08-29,Available,1152,2022-01-03,2026-08-28,Available
+1193,BCL Industries Ltd,BCLIND,1084.43,smallcap,fmcg,"",84388,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1194,Bajaj Healthcare Ltd,BAJAJHCARE,1083.94,smallcap,healthcare,"",83610,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1195,SEPC Ltd,SEPC,1081.71,smallcap,realty,"",84970,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1196,Abans Financial Services Ltd,AFSL,1077.4,smallcap,financials,"",52577,2022-12-23,2026-08-29,Available,910,2022-12-23,2026-08-28,Available
+1197,TCC Concept Ltd,TCC,1061.06,smallcap,realty,"",5420,2026-02-25,2026-08-29,Available,125,2026-02-25,2026-08-28,Available
+1198,SRM Contractors Ltd,SRM,1053.94,smallcap,realty,"",41113,2024-04-03,2026-08-29,Available,598,2024-04-03,2026-08-28,Available
+1199,HMA Agro Industries Ltd,HMAAGRO,1050.11,smallcap,fmcg,"",57182,2023-07-04,2026-08-29,Available,782,2023-07-04,2026-08-28,Available
+1200,Jaro Institute of Technol. Mgt. and Research Ltd,JARO,1046.82,smallcap,services,"",16666,2025-09-30,2026-08-29,Available,227,2025-09-30,2026-08-28,Available
+1201,Nelcast Limited,NELCAST,1042.71,smallcap,industrials,"",80484,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1202,Bhageria Industries Limited,BHAGERIA,1042.0,smallcap,chemicals,"",70307,2022-01-03,2026-08-29,Available,1153,2022-01-03,2026-08-28,Available
+1203,Salasar Techno Engineering Ltd,SALASAR,1034.79,smallcap,metals & mining,"",85362,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1204,Dam Capital Advisors Ltd,DAMCAPITAL,1033.92,smallcap,financials,"",31028,2024-12-27,2026-08-29,Available,418,2024-12-27,2026-08-28,Available
+1205,Xtranet Technologies Ltd,XTRANET,1030.6,smallcap,i.t,"",1643,2026-07-30,2026-08-29,Available,22,2026-07-30,2026-08-28,Available
+1206,Gayatri Projects Limited,GAYAPROJ,1028.42,smallcap,realty,"",21861,2022-01-03,2023-04-26,Available,1154,2022-01-03,2026-08-28,Available
+1207,Unitech Limited,UNITECH,1020.36,smallcap,realty,"",85302,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1208,Kamdhenu Limited,KAMDHENU,1019.57,smallcap,metals & mining,"",61709,2022-11-21,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1209,Subex Ltd,SUBEXLTD,1018.91,smallcap,i.t,"",86171,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1210,Master Trust Ltd,MASTERTR,1017.1,smallcap,financials,"",30084,2024-11-12,2026-08-29,Available,430,2024-12-06,2026-08-28,Available
+1211,Zuari Agro Chemicals Limited,ZUARI,1012.59,smallcap,chemicals,"",84701,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1212,Tamilnadu Petroproducts Limited,TNPETRO,1002.01,smallcap,energy,"",84812,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
+1213,MIC Electronics Ltd,MICEL,1001.16,smallcap,consumer discretionary,"",75447,2022-01-03,2026-08-29,Available,1154,2022-01-03,2026-08-28,Available
