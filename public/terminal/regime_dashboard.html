@@ -41,6 +41,10 @@
 
       <!-- 3 REGIME FILTER OPTIONS WITH DYNAMIC COUNTS + REGIME TOGGLE + THEME SWITCHER -->
       <div class="header-controls">
+        <button class="mobile-sidebar-toggle-btn" id="btnToggleMobileSidebar" title="Toggle Sector Baskets">
+          <span class="m-icon">📊</span>
+          <span class="m-txt">Baskets</span>
+        </button>
         <div class="regime-filter-group" id="regimeFilterButtons">
           <button class="rf-btn active" id="rfBtnAll" data-regime="ALL">ALL (30)</button>
           <button class="rf-btn bull-rf" id="rfBtnBull" data-regime="2">🟢 Bullish (0)</button>
@@ -54,11 +58,17 @@
 
     <!-- Main Content Grid -->
     <div class="content-grid">
+      <!-- Backdrop Overlay for Mobile Drawer -->
+      <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
       <!-- Sidebar / Sector Leaderboard -->
-      <aside class="sidebar">
+      <aside class="sidebar" id="terminalSidebar">
         <div class="sidebar-header">
-          <h3>SECTOR BASKETS</h3>
-          <span class="sector-count" id="sector-count-badge">32 Baskets</span>
+          <div class="sidebar-header-left">
+            <h3>SECTOR BASKETS</h3>
+            <span class="sector-count" id="sector-count-badge">36 Baskets</span>
+          </div>
+          <button class="sidebar-close-mobile-btn" id="btnCloseMobileSidebar" title="Close Sector Baskets">✕</button>
         </div>
         <div class="search-box">
           <input type="text" id="sector-search" placeholder="Filter sectors (Double-click sector to view stocks)..." />

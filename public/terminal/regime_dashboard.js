@@ -62,6 +62,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const candleLockBadge = document.getElementById('candleLockBadge');
 
+  // Mobile Sidebar Drawer Elements & Controls
+  const terminalSidebar = document.getElementById('terminalSidebar');
+  const btnToggleMobileSidebar = document.getElementById('btnToggleMobileSidebar');
+  const btnCloseMobileSidebar = document.getElementById('btnCloseMobileSidebar');
+  const sidebarBackdrop = document.getElementById('sidebarBackdrop');
+
+  function openMobileSidebar() {
+    if (terminalSidebar) terminalSidebar.classList.add('mobile-open');
+    if (sidebarBackdrop) sidebarBackdrop.classList.add('active');
+    document.body.classList.add('sidebar-modal-open');
+  }
+
+  function closeMobileSidebar() {
+    if (terminalSidebar) terminalSidebar.classList.remove('mobile-open');
+    if (sidebarBackdrop) sidebarBackdrop.classList.remove('active');
+    document.body.classList.remove('sidebar-modal-open');
+  }
+
+  if (btnToggleMobileSidebar) {
+    btnToggleMobileSidebar.addEventListener('click', () => {
+      if (terminalSidebar && terminalSidebar.classList.contains('mobile-open')) {
+        closeMobileSidebar();
+      } else {
+        openMobileSidebar();
+      }
+    });
+  }
+
+  if (btnCloseMobileSidebar) {
+    btnCloseMobileSidebar.addEventListener('click', closeMobileSidebar);
+  }
+
+  if (sidebarBackdrop) {
+    sidebarBackdrop.addEventListener('click', closeMobileSidebar);
+  }
+
   // Modal Elements
   const constituentsModalOverlay = document.getElementById('constituentsModalOverlay');
   const btnOpenConstituentsModal = document.getElementById('btnOpenConstituentsModal');
@@ -443,6 +479,9 @@ document.addEventListener('DOMContentLoaded', () => {
         activeSector = secName;
         updateHeaderMetrics(item);
         renderChart();
+        if (window.innerWidth <= 1023) {
+          closeMobileSidebar();
+        }
       });
 
       itemEl.addEventListener('dblclick', () => {
@@ -730,8 +769,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function resizeCanvas() {
     const wrapper = document.getElementById('chart-wrapper');
     if (wrapper) {
-      canvas.width = wrapper.clientWidth;
-      canvas.height = wrapper.clientHeight;
+      const w = wrapper.clientWidth;
+      const h = wrapper.clientHeight;
+      if (w > 0 && h > 0) {
+        if (chart) chart.resize(w, h);
+        canvas.width = w;
+        canvas.height = h;
+      }
     }
   }
 
