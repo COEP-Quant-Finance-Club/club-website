@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { useTheme } from "@/hooks/useTheme";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
+import DatasetDownloadSection from "@/components/DatasetDownloadSection";
 
 export default function MarketIndex() {
   const { isDark, toggle } = useTheme();
@@ -66,7 +67,7 @@ export default function MarketIndex() {
         </div>
 
         {/* Full Interactive Terminal Embed */}
-        <div id="full-terminal-view" className="max-w-7xl mx-auto px-4 pb-20">
+        <div id="full-terminal-view" className="max-w-7xl mx-auto px-4 pb-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -108,6 +109,9 @@ export default function MarketIndex() {
             </div>
           </motion.div>
         </div>
+
+        {/* 1-Click Dataset Download Section */}
+        <DatasetDownloadSection />
 
         <Footer />
       </div>
