@@ -6,7 +6,25 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   const data = window.REGIME_ANALYSIS_DATA || { sector_summaries: [], sector_details: {} };
-  let activeSector = 'ELECTRONICS_EMS';
+
+  // Parse sector from URL query parameter or hash for deep linking and SEO
+  function getSectorFromUrl() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const qSector = params.get('sector');
+      if (qSector) {
+        const upper = qSector.toUpperCase();
+        if (data.sector_details && data.sector_details[upper]) return upper;
+      }
+      const hash = window.location.hash.replace('#', '').trim().toUpperCase();
+      if (hash && data.sector_details && data.sector_details[hash]) {
+        return hash;
+      }
+    } catch (e) {}
+    return 'ELECTRONICS_EMS';
+  }
+
+  let activeSector = getSectorFromUrl();
   let activeK = 9;
   let activeRegimeFilter = 'ALL';
 
@@ -513,6 +531,15 @@ document.addEventListener('DOMContentLoaded', () => {
     metricReturnVal.innerText = retPct;
     metricReturnVal.className = `metric-val ${!retPct.includes('-') ? 'positive' : 'negative'}`;
     metricStateVal.innerText = stateNames[curState] || "🟢 Bullish (State 2)";
+
+    // Dynamic Title & URL Sync for State-of-the-Art Search Engine Optimization
+    const formattedName = secName.replace(/_/g, ' ');
+    document.title = `${formattedName} Index — COEP Quant Market Terminal & Macro Regimes`;
+    try {
+      const url = new URL(window.location);
+      url.searchParams.set('sector', secName);
+      window.history.replaceState({ sector: secName }, '', url);
+    } catch (e) {}
   }
 
   // Render Modal Sector Constituent Stocks with 1-Day & 2-Day Return Sync
