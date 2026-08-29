@@ -307,24 +307,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // THEME SWITCHER (DARK / LIGHT MODE)
-  if (themeToggleBtn) {
-    themeToggleBtn.addEventListener('click', () => {
+  // THEME SWITCHER (DARK / LIGHT MODE - Supports both Desktop & Mobile Icons)
+  const themeToggleBtns = document.querySelectorAll('.theme-toggle-btn');
+  themeToggleBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
       isDarkMode = !isDarkMode;
       if (isDarkMode) {
         document.body.classList.remove('light-theme');
         document.body.classList.add('dark-theme');
         if (clubLogo) clubLogo.src = 'Dark Theme Logo.png';
-        themeToggleBtn.innerText = '☀️ Light Mode';
+        themeToggleBtns.forEach(b => {
+          b.innerText = b.classList.contains('mobile-top-theme-btn') ? '☀️' : '☀️ Light Mode';
+        });
       } else {
         document.body.classList.remove('dark-theme');
         document.body.classList.add('light-theme');
         if (clubLogo) clubLogo.src = 'Light Theme Logo.png';
-        themeToggleBtn.innerText = '🌙 Dark Mode';
+        themeToggleBtns.forEach(b => {
+          b.innerText = b.classList.contains('mobile-top-theme-btn') ? '🌙' : '🌙 Dark Mode';
+        });
       }
       applyThemeToChart();
     });
-  }
+  });
 
   function applyThemeToChart() {
     if (!chart) return;

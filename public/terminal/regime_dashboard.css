@@ -1113,8 +1113,12 @@ body.light-theme .bt-quant {
 }
 
 /* ── DESKTOP DEFAULTS (Hidden on Desktop >= 1024px) ── */
-.mobile-sidebar-toggle-btn {
+.mobile-top-theme-btn {
   display: none;
+}
+
+.desktop-theme-btn {
+  display: inline-block;
 }
 
 .sidebar-close-mobile-btn {
@@ -1122,6 +1126,10 @@ body.light-theme .bt-quant {
 }
 
 .sidebar-backdrop {
+  display: none;
+}
+
+.sector-icon-symbol {
   display: none;
 }
 
@@ -1146,7 +1154,7 @@ body.light-theme .bt-quant {
 }
 
 /* ═══════════════════════════════════════════════════════════════
-   📱 ZERO-WASTE RESPONSIVE MOBILE STYLES (Screen <= 1023px)
+   📱 TRADINGVIEW-INSPIRED DENSE MOBILE STYLES (Screen <= 1023px)
    Desktop layout is 100% UNTOUCHED
    ═══════════════════════════════════════════════════════════════ */
 @media (max-width: 1023px) {
@@ -1164,39 +1172,48 @@ body.light-theme .bt-quant {
 
   /* Hide large desktop-only elements on mobile */
   .desktop-only,
+  .desktop-theme-btn,
   .sector-metrics,
   .candle-lock-badge,
   .sub-brand {
     display: none !important;
   }
 
-  /* ── ULTRA-COMPACT MOBILE NAVBAR (~34px) ── */
+  /* ── ULTRA-DENSE MOBILE NAVBAR ── */
   .navbar {
-    padding: 4px 8px;
+    padding: 3px 8px;
     min-height: auto;
+    display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 4px;
+    gap: 3px;
     background: var(--bg-secondary);
     border-bottom: 1px solid var(--border-color);
   }
 
-  .brand {
+  .navbar-top-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+  }
+
+  /* Brand: Logo & Title Together on Left */
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     gap: 6px;
   }
 
   .logo-container {
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
   }
 
   .brand-logo-img {
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
   }
 
   .brand-title-stacked {
@@ -1213,95 +1230,77 @@ body.light-theme .bt-quant {
     letter-spacing: 0.9px;
   }
 
-  /* Prominent Sector Baskets Toggle Button */
-  .mobile-sidebar-toggle-btn {
+  .mobile-top-theme-btn {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
-    background: linear-gradient(135deg, #0284c7, #0369a1);
-    border: 1px solid rgba(56, 189, 248, 0.6);
-    color: #ffffff;
-    padding: 4px 10px;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: rgba(148, 163, 184, 0.15);
+    border: 1px solid var(--border-color);
     font-size: 11px;
-    font-weight: 700;
-    border-radius: 6px;
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(2, 132, 199, 0.4);
-    transition: all 0.15s ease;
-    white-space: nowrap;
+    padding: 0;
+    margin: 0;
   }
 
-  .mobile-sidebar-toggle-btn:active {
-    transform: scale(0.96);
-  }
-
-  .m-caret {
-    font-size: 9px;
-    opacity: 0.9;
-  }
-
-  .theme-toggle-btn {
-    padding: 3px 7px;
-    font-size: 10px;
-    margin-left: 0;
-    border-radius: 6px;
-  }
-
-  /* Second row controls strip */
+  /* Second row controls strip (Horizontally Scrollable) */
   .header-controls {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     gap: 4px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 1px 0;
+  }
+
+  .header-controls::-webkit-scrollbar {
+    display: none;
   }
 
   .sensitivity-slider-box {
-    min-width: 105px;
-    max-width: 130px;
-    padding: 2px 6px;
+    min-width: 95px;
+    max-width: 115px;
+    padding: 2px 5px;
     border-radius: 5px;
     flex-shrink: 0;
   }
 
   .slider-title {
-    font-size: 8px;
+    font-size: 7.5px;
   }
 
   .slider-val {
-    font-size: 9.5px;
+    font-size: 8.5px;
   }
 
   .regime-filter-group {
-    flex: 1;
     display: flex;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    padding: 1px;
+    align-items: center;
     gap: 3px;
-    scrollbar-width: none;
-  }
-
-  .regime-filter-group::-webkit-scrollbar {
-    display: none;
+    flex-shrink: 0;
   }
 
   .rf-btn {
-    padding: 2px 6px;
-    font-size: 9px;
+    padding: 2px 5px;
+    font-size: 8.5px;
     flex-shrink: 0;
     white-space: nowrap;
     border-radius: 4px;
   }
 
-  /* ── FULL-SCREEN CONTENT GRID & CHART AREA (~92% viewport height) ── */
+  /* ── FULL-SCREEN CONTENT GRID (~92% viewport height) ── */
   .content-grid {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 78px);
-    height: calc(100dvh - 78px);
+    height: calc(100vh - 68px);
+    height: calc(100dvh - 68px);
     position: relative;
     overflow: hidden;
   }
@@ -1315,43 +1314,61 @@ body.light-theme .bt-quant {
     flex: 1;
   }
 
-  /* ── STREAMLINED SECTOR HEADER STRIP (~30px) ── */
+  /* ── TRADINGVIEW-STYLE SECTOR SUBHEADER (Horizontally Swipable) ── */
   .sector-info-card {
-    padding: 4px 8px;
+    padding: 3px 8px;
     border-bottom: 1px solid var(--border-color);
     background: var(--bg-secondary);
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .sector-info-card::-webkit-scrollbar {
+    display: none;
   }
 
   .sector-title-group {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 7px;
     flex-wrap: nowrap;
-    gap: 6px;
+    width: max-content;
   }
 
+  /* Interactive TradingView Symbol Pill (Tapping opens Drawer) */
   .sector-heading-interactive {
     cursor: pointer;
-    padding: 2px 6px;
+    padding: 3px 8px;
     border-radius: 6px;
-    background: rgba(56, 189, 248, 0.12);
-    border: 1px solid rgba(56, 189, 248, 0.3);
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.45);
     transition: all 0.15s ease;
     display: inline-flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
     flex-shrink: 0;
   }
 
   .sector-heading-interactive:active {
-    background: rgba(56, 189, 248, 0.25);
+    background: rgba(56, 189, 248, 0.35);
+    transform: scale(0.97);
   }
 
-  .sector-title-group h2 {
+  .sector-icon-symbol {
+    font-size: 11px;
+    display: inline-block;
+  }
+
+  .sector-heading-interactive h2 {
     font-size: 12.5px;
     font-weight: 700;
     letter-spacing: 0.2px;
     white-space: nowrap;
+    color: var(--accent-cyan);
     margin: 0;
   }
 
@@ -1363,7 +1380,7 @@ body.light-theme .bt-quant {
   }
 
   .sector-mobile-meta {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 5px;
     flex-shrink: 0;
@@ -1377,7 +1394,7 @@ body.light-theme .bt-quant {
   }
 
   .mobile-state-badge {
-    font-size: 9.5px;
+    font-size: 9px;
     font-weight: 600;
     padding: 2px 5px;
     border-radius: 4px;
@@ -1406,7 +1423,7 @@ body.light-theme .bt-quant {
   }
 
   .sector-actions-group {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 4px;
     flex-shrink: 0;
@@ -1414,20 +1431,23 @@ body.light-theme .bt-quant {
 
   .view-stocks-btn {
     padding: 2px 6px;
-    font-size: 9.5px;
+    font-size: 9px;
+    font-weight: 600;
     border-radius: 4px;
     white-space: nowrap;
   }
 
   .chart-toggles {
-    display: flex;
+    display: inline-flex;
     gap: 2px;
+    flex-shrink: 0;
   }
 
   .toggle-btn {
     padding: 2px 5px;
     font-size: 9px;
     border-radius: 3px;
+    white-space: nowrap;
   }
 
   /* ── FULL SCREEN CHART WRAPPER ON MOBILE ── */
@@ -1586,12 +1606,6 @@ body.light-theme .bt-quant {
   }
 
   /* Light Theme overrides on mobile */
-  body.light-theme .mobile-sidebar-toggle-btn {
-    background: linear-gradient(135deg, #0284c7, #0369a1);
-    color: #ffffff;
-    border-color: #0284c7;
-  }
-
   body.light-theme .sidebar-close-mobile-btn {
     background: #f8fafc;
     color: #475569;

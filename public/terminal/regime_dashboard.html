@@ -660,44 +660,43 @@
   <div class="app-container">
     <!-- Header Navbar -->
     <header class="navbar">
-      <div class="brand">
-        <div class="logo-container">
-          <img id="club-logo" src="Dark Theme Logo.png" alt="COEP Quantitative Finance Club Logo" class="brand-logo-img">
-        </div>
-        <div class="brand-text">
-          <div class="brand-title-stacked">
-            <span class="bt-coep">COEP</span>
-            <span class="bt-quant">QUANTITATIVE</span>
-            <span class="bt-bottom"><span class="bt-fin">FINANCE</span> <span class="bt-club">CLUB</span></span>
+      <div class="navbar-top-row">
+        <div class="brand">
+          <div class="logo-container">
+            <img id="club-logo" src="Dark Theme Logo.png" alt="COEP Quantitative Finance Club Logo" class="brand-logo-img">
           </div>
-          <span class="sub-brand">Institutional Sector Index Terminal & 3-State Macro Regimes</span>
+          <div class="brand-text">
+            <div class="brand-title-stacked">
+              <span class="bt-coep">COEP</span>
+              <span class="bt-quant">QUANTITATIVE</span>
+              <span class="bt-bottom"><span class="bt-fin">FINANCE</span> <span class="bt-club">CLUB</span></span>
+            </div>
+            <span class="sub-brand">Institutional Sector Index Terminal & 3-State Macro Regimes</span>
+          </div>
         </div>
+
+        <button class="theme-toggle-btn mobile-top-theme-btn" id="themeToggleBtnMobile" title="Toggle Light / Dark Theme">☀️</button>
       </div>
 
-      <!-- SENSITIVITY SLIDER (k = 1 to 50) -->
-      <div class="sensitivity-slider-box">
-        <div class="slider-header">
-          <span class="slider-title">🎛️ 3-State Macro Sensitivity</span>
-          <span class="slider-val" id="kSliderVal">9</span>
-        </div>
-        <input type="range" id="kRangeSlider" min="1" max="50" value="9" step="1" class="custom-slider">
-      </div>
-
-      <!-- 3 REGIME FILTER OPTIONS WITH DYNAMIC COUNTS + REGIME TOGGLE + THEME SWITCHER -->
+      <!-- Controls Row: Sensitivity Slider + Regime Filters + Desktop Theme Button -->
       <div class="header-controls">
-        <button class="mobile-sidebar-toggle-btn" id="btnToggleMobileSidebar" title="Switch Sector Baskets">
-          <span class="m-icon">📊</span>
-          <span class="m-txt">36 Sectors</span>
-          <span class="m-caret">▾</span>
-        </button>
+        <!-- SENSITIVITY SLIDER (k = 1 to 50) -->
+        <div class="sensitivity-slider-box">
+          <div class="slider-header">
+            <span class="slider-title">🎛️ Sensitivity</span>
+            <span class="slider-val" id="kSliderVal">9</span>
+          </div>
+          <input type="range" id="kRangeSlider" min="1" max="50" value="9" step="1" class="custom-slider">
+        </div>
+
         <div class="regime-filter-group" id="regimeFilterButtons">
           <button class="rf-btn active" id="rfBtnAll" data-regime="ALL">ALL (36)</button>
-          <button class="rf-btn bull-rf" id="rfBtnBull" data-regime="2">🟢 Bullish (0)</button>
-          <button class="rf-btn neutral-rf" id="rfBtnNeutral" data-regime="1">🟡 Neutral (0)</button>
-          <button class="rf-btn bear-rf" id="rfBtnBear" data-regime="0">🔴 Bearish (0)</button>
-          <button class="rf-btn regime-toggle-btn active" id="btnToggleRegimeOverlay" title="Toggle 3-State Regime Background Overlay">⚡ Regimes: ON</button>
+          <button class="rf-btn bull-rf" id="rfBtnBull" data-regime="2">🟢 Bull (0)</button>
+          <button class="rf-btn neutral-rf" id="rfBtnNeutral" data-regime="1">🟡 Neu (0)</button>
+          <button class="rf-btn bear-rf" id="rfBtnBear" data-regime="0">🔴 Bear (0)</button>
+          <button class="rf-btn regime-toggle-btn active" id="btnToggleRegimeOverlay" title="Toggle 3-State Regime Background Overlay">⚡ Regimes</button>
         </div>
-        <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light / Dark Theme">☀️ Light Mode</button>
+        <button class="theme-toggle-btn desktop-theme-btn" id="themeToggleBtn" title="Toggle Light / Dark Theme">☀️ Light Mode</button>
       </div>
     </header>
 
@@ -729,6 +728,7 @@
         <div class="sector-info-card">
           <div class="sector-title-group">
             <div class="sector-heading-interactive" id="btnSectorSwitchMobile" title="Tap to switch sector basket">
+              <span class="sector-icon-symbol">📊</span>
               <h2 id="active-sector-name">ELECTRONICS_EMS</h2>
               <span class="sector-select-arrow-mobile">▾</span>
             </div>
