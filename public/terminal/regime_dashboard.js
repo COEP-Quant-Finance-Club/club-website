@@ -187,6 +187,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const dateT = validDates[n - 1];
+    // If the latest trade date is more than 5 calendar days before targetDate (accounting for weekends/holidays),
+    // the stock was not active or trading on this date
+    const diffDays = Math.abs(new Date(targetDate) - new Date(dateT)) / (1000 * 60 * 60 * 24);
+    if (diffDays > 5) {
+      return { priceT: undefined, priceT1: undefined, priceT2: undefined };
+    }
+
     const dateT1 = n >= 2 ? validDates[n - 2] : null;
     const dateT2 = n >= 3 ? validDates[n - 3] : null;
 
@@ -494,19 +501,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const filteredStocks = constituents.filter(stk => {
       const sym = (stk.symbol || '').toLowerCase();
       const name = (stk.name || '').toLowerCase();
-      return sym.includes(modalSearchTerm) || name.includes(modalSearchTerm);
+      if (!(sym.includes(modalSearchTerm) || name.includes(modalSearchTerm))) return false;
+
+      // Filter out stocks that weren't listed yet on the selected date
+      // A stock's earliest price date is its effective listing/IPO date
+      if (curDate) {
+        const pDict = stk.prices || {};
+        const priceDates = Object.keys(pDict);
+        if (priceDates.length === 0) return false;
+        const earliestDate = priceDates.sort()[0];
+        if (curDate < earliestDate) return false; // Stock didn't exist yet
+      }
+      return true;
     });
 
-    modalStockCountBadge.innerText = `${filteredStocks.length} Stocks`;
-    modalStocksTbody.innerHTML = '';
-
-    const processedRows = filteredStocks.map(stk => {
+    const processedRows = [];
+    filteredStocks.forEach(stk => {
       const pDict = stk.prices || {};
       const pricesInfo = getStock3DayPrices(pDict, curDate);
       
       const priceT = pricesInfo.priceT;
       const priceT1 = pricesInfo.priceT1;
       const priceT2 = pricesInfo.priceT2;
+
+      // Skip stocks that were not yet listed or not trading on this candle date
+      if (priceT === undefined) return;
 
       let chg1D = null;
       if (priceT !== undefined && priceT1 !== undefined && priceT1 > 0) {
@@ -518,16 +537,19 @@ document.addEventListener('DOMContentLoaded', () => {
         chg2D = ((priceT - priceT2) / priceT2) * 100.0;
       }
 
-      return {
+      processedRows.push({
         symbol: stk.symbol,
         name: stk.name,
-        priceT: priceT !== undefined ? priceT : 'N/A',
-        priceT1: priceT1 !== undefined ? priceT1 : 'N/A',
-        priceT2: priceT2 !== undefined ? priceT2 : 'N/A',
+        priceT: priceT,
+        priceT1: priceT1 !== undefined ? priceT1 : priceT,
+        priceT2: priceT2 !== undefined ? priceT2 : (priceT1 !== undefined ? priceT1 : priceT),
         chg1D: chg1D,
         chg2D: chg2D
-      };
+      });
     });
+
+    modalStockCountBadge.innerText = `${processedRows.length} Stocks`;
+    modalStocksTbody.innerHTML = '';
 
     processedRows.sort((a, b) => {
       if (a.chg1D === null) return 1;
