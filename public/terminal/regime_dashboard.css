@@ -1170,82 +1170,29 @@ body.light-theme .bt-quant {
     overflow: hidden;
   }
 
-  /* Hide large desktop-only elements on mobile */
+  /* Hide desktop-only elements AND branding on mobile (TradingView style — no logo/title) */
   .desktop-only,
   .desktop-theme-btn,
   .sector-metrics,
   .candle-lock-badge,
-  .sub-brand {
+  .sub-brand,
+  .navbar-top-row {
     display: none !important;
   }
 
-  /* ── ULTRA-DENSE MOBILE NAVBAR ── */
+  /* ── ULTRA-COMPACT MOBILE NAVBAR: Single Row Only ── */
   .navbar {
-    padding: 3px 8px;
+    padding: 2px 6px;
     min-height: auto;
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 3px;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
     background: var(--bg-secondary);
     border-bottom: 1px solid var(--border-color);
   }
 
-  .navbar-top-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  /* Brand: Logo & Title Together on Left */
-  .brand {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 6px;
-  }
-
-  .logo-container {
-    width: 22px;
-    height: 22px;
-  }
-
-  .brand-logo-img {
-    width: 22px;
-    height: 22px;
-  }
-
-  .brand-title-stacked {
-    line-height: 1.05;
-  }
-
-  .bt-coep {
-    font-size: 11px;
-    letter-spacing: 0.8px;
-  }
-
-  .bt-quant, .bt-bottom {
-    font-size: 7.5px;
-    letter-spacing: 0.9px;
-  }
-
-  .mobile-top-theme-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    border-radius: 5px;
-    background: rgba(148, 163, 184, 0.15);
-    border: 1px solid var(--border-color);
-    font-size: 11px;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-  }
-
-  /* Second row controls strip (Horizontally Scrollable) */
+  /* Controls Row: Sensitivity + Regime Filters fill full width */
   .header-controls {
     display: flex;
     flex-direction: row;
@@ -1256,7 +1203,7 @@ body.light-theme .bt-quant {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    padding: 1px 0;
+    padding: 0;
   }
 
   .header-controls::-webkit-scrollbar {
@@ -1264,43 +1211,64 @@ body.light-theme .bt-quant {
   }
 
   .sensitivity-slider-box {
-    min-width: 95px;
-    max-width: 115px;
-    padding: 2px 5px;
-    border-radius: 5px;
+    min-width: 90px;
+    max-width: 105px;
+    padding: 1px 4px;
+    border-radius: 4px;
     flex-shrink: 0;
   }
 
   .slider-title {
-    font-size: 7.5px;
+    font-size: 7px;
   }
 
   .slider-val {
-    font-size: 8.5px;
+    font-size: 8px;
+  }
+
+  .custom-slider {
+    height: 3px;
   }
 
   .regime-filter-group {
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 2px;
     flex-shrink: 0;
   }
 
   .rf-btn {
-    padding: 2px 5px;
-    font-size: 8.5px;
+    padding: 1px 4px;
+    font-size: 8px;
     flex-shrink: 0;
     white-space: nowrap;
-    border-radius: 4px;
+    border-radius: 3px;
   }
 
-  /* ── FULL-SCREEN CONTENT GRID (~92% viewport height) ── */
+  /* Theme toggle: tiny icon at the end of controls row */
+  .mobile-top-theme-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    background: rgba(148, 163, 184, 0.15);
+    border: 1px solid var(--border-color);
+    font-size: 10px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  /* ── FULL-SCREEN CONTENT GRID (navbar is ~28px now) ── */
   .content-grid {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 68px);
-    height: calc(100dvh - 68px);
+    height: calc(100vh - 30px);
+    height: calc(100dvh - 30px);
     position: relative;
     overflow: hidden;
   }
@@ -1316,7 +1284,7 @@ body.light-theme .bt-quant {
 
   /* ── TRADINGVIEW-STYLE SECTOR SUBHEADER (Horizontally Swipable) ── */
   .sector-info-card {
-    padding: 3px 8px;
+    padding: 2px 6px;
     border-bottom: 1px solid var(--border-color);
     background: var(--bg-secondary);
     width: 100%;
@@ -1334,7 +1302,7 @@ body.light-theme .bt-quant {
   .sector-title-group {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 5px;
     flex-wrap: nowrap;
     width: max-content;
   }
@@ -1342,14 +1310,14 @@ body.light-theme .bt-quant {
   /* Interactive TradingView Symbol Pill (Tapping opens Drawer) */
   .sector-heading-interactive {
     cursor: pointer;
-    padding: 3px 8px;
-    border-radius: 6px;
+    padding: 2px 6px;
+    border-radius: 4px;
     background: rgba(56, 189, 248, 0.15);
     border: 1px solid rgba(56, 189, 248, 0.45);
     transition: all 0.15s ease;
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
     flex-shrink: 0;
   }
 
@@ -1359,12 +1327,12 @@ body.light-theme .bt-quant {
   }
 
   .sector-icon-symbol {
-    font-size: 11px;
+    font-size: 10px;
     display: inline-block;
   }
 
   .sector-heading-interactive h2 {
-    font-size: 12.5px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.2px;
     white-space: nowrap;
@@ -1373,7 +1341,7 @@ body.light-theme .bt-quant {
   }
 
   .sector-select-arrow-mobile {
-    font-size: 10px;
+    font-size: 9px;
     color: var(--accent-cyan);
     font-weight: bold;
     display: inline-block;
@@ -1382,22 +1350,22 @@ body.light-theme .bt-quant {
   .sector-mobile-meta {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
     flex-shrink: 0;
   }
 
   .mobile-price-val {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     color: var(--accent-cyan);
   }
 
   .mobile-state-badge {
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 600;
-    padding: 2px 5px;
-    border-radius: 4px;
+    padding: 1px 4px;
+    border-radius: 3px;
     background: rgba(34, 197, 94, 0.15);
     color: var(--neon-green);
     border: 1px solid rgba(34, 197, 94, 0.3);
@@ -1425,15 +1393,15 @@ body.light-theme .bt-quant {
   .sector-actions-group {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
     flex-shrink: 0;
   }
 
   .view-stocks-btn {
-    padding: 2px 6px;
-    font-size: 9px;
+    padding: 1px 5px;
+    font-size: 8px;
     font-weight: 600;
-    border-radius: 4px;
+    border-radius: 3px;
     white-space: nowrap;
   }
 
@@ -1444,8 +1412,8 @@ body.light-theme .bt-quant {
   }
 
   .toggle-btn {
-    padding: 2px 5px;
-    font-size: 9px;
+    padding: 1px 4px;
+    font-size: 8px;
     border-radius: 3px;
     white-space: nowrap;
   }
@@ -1453,14 +1421,17 @@ body.light-theme .bt-quant {
   /* ── FULL SCREEN CHART WRAPPER ON MOBILE ── */
   .chart-wrapper {
     flex: 1;
-    min-height: 260px;
+    min-height: 0;
     width: 100%;
     position: relative;
   }
 
+  /* TV toolbar: bottom-left like TradingView mobile */
   .tv-scale-toolbar {
-    top: 4px;
+    top: auto;
+    bottom: 6px;
     left: 4px;
+    right: auto;
     gap: 2px;
     padding: 2px 3px;
     border-radius: 4px;
@@ -1468,7 +1439,7 @@ body.light-theme .bt-quant {
 
   .tv-tool-btn {
     padding: 2px 4px;
-    font-size: 8.5px;
+    font-size: 8px;
   }
 
   /* ── SLIDE-OUT SIDEBAR DRAWER ON MOBILE ── */
