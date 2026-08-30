@@ -747,6 +747,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pinch: true
       }
     });
+    const isMobile = window.innerWidth <= 1023;
 
     candlestickSeries = chart.addCandlestickSeries({
       upColor: '#22c55e',
@@ -761,7 +762,7 @@ document.addEventListener('DOMContentLoaded', () => {
       color: '#38bdf8',
       priceFormat: { type: 'volume' },
       priceScaleId: '',
-      scaleMargins: { top: 0.82, bottom: 0 },
+      scaleMargins: { top: isMobile ? 0.88 : 0.82, bottom: 0 },
     });
 
     sma20Series = chart.addLineSeries({ color: '#f59e0b', lineWidth: 1.5, title: 'SMA 20' });
@@ -988,6 +989,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     chart.timeScale().fitContent();
     chart.priceScale('right').applyOptions({ autoScale: true });
+
+    // On mobile, zoom into the last ~120 bars so candles fill the screen tightly
+    if (window.innerWidth <= 1023 && formattedBars.length > 120) {
+      const from = formattedBars[formattedBars.length - 120].time;
+      const to = formattedBars[formattedBars.length - 1].time;
+      chart.timeScale().setVisibleRange({ from, to });
+    }
 
     setTimeout(drawHMMBackgroundOverlay, 50);
   }

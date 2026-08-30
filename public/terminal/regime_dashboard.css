@@ -1284,7 +1284,10 @@ body.light-theme .bt-quant {
 
   /* ── TRADINGVIEW-STYLE SECTOR SUBHEADER (Horizontally Swipable) ── */
   .sector-info-card {
-    padding: 2px 6px;
+    padding: 2px 6px !important;
+    min-height: unset !important;
+    height: auto !important;
+    margin: 0 !important;
     border-bottom: 1px solid var(--border-color);
     background: var(--bg-secondary);
     width: 100%;
@@ -1421,25 +1424,17 @@ body.light-theme .bt-quant {
   /* ── FULL SCREEN CHART WRAPPER ON MOBILE ── */
   .chart-wrapper {
     flex: 1;
-    min-height: 0;
+    min-height: 0 !important;
+    height: 100% !important;
     width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
     position: relative;
   }
 
-  /* TV toolbar: bottom-left like TradingView mobile */
+  /* Hide scale toolbar on mobile — blocks date axis, touch gestures suffice */
   .tv-scale-toolbar {
-    top: auto;
-    bottom: 6px;
-    left: 4px;
-    right: auto;
-    gap: 2px;
-    padding: 2px 3px;
-    border-radius: 4px;
-  }
-
-  .tv-tool-btn {
-    padding: 2px 4px;
-    font-size: 8px;
+    display: none !important;
   }
 
   /* ── SLIDE-OUT SIDEBAR DRAWER ON MOBILE ── */
