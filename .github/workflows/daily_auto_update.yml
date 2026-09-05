@@ -1,0 +1,79 @@
+name: Daily Automatic Market Data Sync & Deploy
+
+on:
+  schedule:
+    # Runs Monday to Friday at 11:30 AM UTC (5:00 PM IST - 1.5h after NSE close)
+    - cron: '30 11 * * 1-5'
+  workflow_dispatch: # Allows 1-click manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-data-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Sync Fresh Data from Market Index Engine
+        run: |
+          python -c "
+          import urllib.request, os
+          url = 'https://raw.githubusercontent.com/COEP-Quant-Finance-Club/COEP_Market_index/main/Portfolio%20Management%20Main/regime_dashboard_data.js'
+          dst = 'public/terminal/regime_dashboard_data.js'
+          print(f'Fetching latest data payload from {url}...')
+          try:
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              with urllib.request.urlopen(req) as resp, open(dst, 'wb') as f:
+                  f.write(resp.read())
+              size_mb = os.path.getsize(dst) / (1024 * 1024)
+              print(f'Successfully updated {dst} ({size_mb:.2f} MB)!')
+          except Exception as e:
+              print(f'Error downloading latest data: {e}')
+          "
+
+      - name: Install Node Dependencies
+        run: npm ci || npm install
+
+      - name: Build Production Site
+        run: npm run build
+
+      - name: Commit and Push Updated Data (if changed)
+        run: |
+          git config --global user.name "COEP Quant Bot"
+          git config --global user.email "quantclub@coep.ac.in"
+          git add public/terminal/regime_dashboard_data.js
+          git diff-index --quiet HEAD || {
+            git commit -m "Auto EOD Data Sync: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push origin main
+          }
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
