@@ -609,7 +609,13 @@
   <link rel="stylesheet" href="regime_dashboard.css">
   <!-- Local Lightweight Charts v4 -->
   <script src="lightweight-charts.min.js"></script>
-  <script src="regime_dashboard_data.js"></script>
+  <script>
+    // Auto Cache-Busting: Ensures browser always loads fresh EOD data payload
+    (function() {
+      var v = Math.floor(Date.now() / (1000 * 60 * 30));
+      document.write('<script src="regime_dashboard_data.js?v=' + v + '"><\/script>');
+    })();
+  </script>
 </head>
 <body class="dark-theme">
 <noscript>

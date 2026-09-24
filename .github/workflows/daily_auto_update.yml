@@ -59,16 +59,6 @@ jobs:
       - name: Build Production Site
         run: npm run build
 
-      - name: Commit and Push Updated Data (if changed)
-        run: |
-          git config --global user.name "COEP Quant Bot"
-          git config --global user.email "quantclub@coep.ac.in"
-          git add public/terminal/regime_dashboard_data.js
-          git diff-index --quiet HEAD || {
-            git commit -m "Auto EOD Data Sync: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push origin main
-          }
-
       - name: Upload GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -77,3 +67,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Commit and Push Updated Data (Optional Git Backup)
+        continue-on-error: true
+        run: |
+          git config --global user.name "COEP Quant Bot"
+          git config --global user.email "quantclub@coep.ac.in"
+          git add public/terminal/regime_dashboard_data.js
+          git diff-index --quiet HEAD || {
+            git commit -m "Auto EOD Data Sync: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push origin main || echo "Branch rules prevented push; live GitHub Pages deployment succeeded."
+          }
