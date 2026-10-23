@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { ThemeProvider } from "next-themes";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import ThankYou from "./pages/Thankyou.tsx";
@@ -22,31 +23,33 @@ const App = () => {
   );
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        {!loaded && (
-          <Loader
-            onDone={() => {
-              sessionStorage.setItem("loaded", "true");
-              setLoaded(true);
-            }}
-          />
-        )}
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/market-index" element={<MarketIndex />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/collaborations" element={<Collaborations />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/connect" element={<Contact />} />
-          <Route path="/resources" element={<Resources />} />
-          <Route path="/thank-you" element={<ThankYou />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </TooltipProvider>
-    </QueryClientProvider>
+    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} storageKey="theme">
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          {!loaded && (
+            <Loader
+              onDone={() => {
+                sessionStorage.setItem("loaded", "true");
+                setLoaded(true);
+              }}
+            />
+          )}
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/market-index" element={<MarketIndex />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/collaborations" element={<Collaborations />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/connect" element={<Contact />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </TooltipProvider>
+      </QueryClientProvider>
+    </ThemeProvider>
   );
 };
 
