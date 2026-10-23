@@ -1,5 +1,12 @@
-import { useEffect } from "react";
-import { animate, motion, useMotionValue, useReducedMotion, useTransform } from "framer-motion";
+import { useEffect, useState } from "react";
+import {
+  animate,
+  motion,
+  useMotionValue,
+  useMotionValueEvent,
+  useReducedMotion,
+  useTransform,
+} from "framer-motion";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -33,9 +40,12 @@ const bids = [
 function CountUp({ value, display }: { value: number | null; display: string }) {
   const reduceMotion = useReducedMotion();
   const count = useMotionValue(0);
+  const [current, setCurrent] = useState("0");
   const rounded = useTransform(count, (latest) =>
     Math.round(latest).toLocaleString("en-IN"),
   );
+
+  useMotionValueEvent(rounded, "change", setCurrent);
 
   useEffect(() => {
     if (value === null || reduceMotion) return;
@@ -45,10 +55,10 @@ function CountUp({ value, display }: { value: number | null; display: string }) 
 
   if (value === null || reduceMotion) return <span>{display}</span>;
   return (
-    <motion.span aria-label={display}>
-      {rounded}
+    <span aria-label={display}>
+      {current}
       {display.endsWith("+") ? "+" : ""}
-    </motion.span>
+    </span>
   );
 }
 
