@@ -5,7 +5,10 @@ import IndexShowcaseSection from "@/components/IndexShowcaseSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import MathModelsSection from "@/components/MathModelsSection";
 import EventsSection from "@/components/EventsSection";
+import BlogsSection from "@/components/BlogsSection";
 import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
+import { ArrowUpRight } from "lucide-react";
 import { useTheme } from "@/hooks/useTheme";
 import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -32,28 +35,33 @@ const Index = () => {
   }, [location.state, navigate]);
 
   return (
-    <div className="relative min-h-screen">
-      {/* Blueprint grid background */}
-      <div className="fixed inset-0 grid-background opacity-40 pointer-events-none z-0" />
-
-      <div className="relative z-10">
-        <Navbar isDark={isDark} toggleTheme={toggle} />
-        
-        {/* Fullscreen Video Hero */}
-        <HeroSection />
-
-        {/* Live Streaming Ticker at the transition */}
-        <div className="relative z-20 shadow-md">
-          <IndexTicker onSelectSector={() => navigate("/market-index")} />
-        </div>
-
-        {/* Sections revealed on scroll */}
-        <IndexShowcaseSection />
-        <ProjectsSection />
+    <div className="relative min-h-screen overflow-x-clip">
+      <Navbar isDark={isDark} toggleTheme={toggle} />
+      <main className="relative isolate">
         <MathModelsSection />
-        <EventsSection />
-        <Footer />
-      </div>
+        <div className="relative z-10">
+          <HeroSection />
+          <IndexTicker onSelectSector={() => navigate("/market-index")} />
+          <IndexShowcaseSection />
+          <ProjectsSection />
+          <EventsSection />
+          <BlogsSection />
+          <section
+            id="contact-cta"
+            className="mx-auto max-w-[1360px] border-t border-border px-6 py-16 sm:px-8 sm:py-24 lg:px-12"
+          >
+            <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+              <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+                Get In Touch
+              </h2>
+              <Button size="lg" onClick={() => navigate("/contact")}>
+                Get In Touch <ArrowUpRight aria-hidden="true" />
+              </Button>
+            </div>
+          </section>
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 };

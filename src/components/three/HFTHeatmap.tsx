@@ -1,99 +1,60 @@
 import { useEffect, useState } from "react";
+import { useReducedMotion } from "framer-motion";
 
-const GRID = 14;
-
-// 🔥 tweak these if needed
-const ZOOM_MIN = 0.9;     // start zoomed out
-const ZOOM_MAX = 1.00;    // final zoom level
-const ZOOM_SPEED = 0.0005; // lower = slower cinematic zoom
-
-function generateInitialData() {
-  return Array.from({ length: GRID * GRID }, () =>
-    Number((Math.random() * 2 - 1).toFixed(2))
-  );
+interface HFTHeatmapProps {
+  isDark: boolean;
+  mobile: boolean;
 }
 
-export default function HFTHeatmap2D() {
-  const [data, setData] = useState<number[]>(generateInitialData());
-  const [scale, setScale] = useState(ZOOM_MIN);
+function createData(size: number) {
+  return Array.from({ length: size * size }, () => Number((Math.random() * 2 - 1).toFixed(2)));
+}
 
-  // detect theme
-  const isDark =
-    typeof document !== "undefined" &&
-    document.documentElement.classList.contains("dark");
+export default function HFTHeatmap({ isDark, mobile }: HFTHeatmapProps) {
+  const gridSize = mobile ? 10 : 14;
+  const [data, setData] = useState(() => createData(gridSize));
+  const reduceMotion = useReducedMotion();
 
-  // 🔹 live data updates
   useEffect(() => {
-    const interval = setInterval(() => {
-      setData((prev) =>
-        prev.map((v) => {
-          const next = v + (Math.random() - 0.5) * 0.08;
+    setData(createData(gridSize));
+  }, [gridSize]);
+
+  useEffect(() => {
+    if (reduceMotion) return;
+    const interval = window.setInterval(() => {
+      setData((previous) =>
+        previous.map((value) => {
+          const next = value + (Math.random() - 0.5) * 0.08;
           return Math.max(-1, Math.min(1, Number(next.toFixed(2))));
-        })
+        }),
       );
-    }, 250);
+    }, 500);
 
-    return () => clearInterval(interval);
-  }, []);
-
-  // 🔥 TRUE cinematic zoom IN only (no zoom out)
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setScale((prev) => {
-        if (prev >= ZOOM_MAX) return prev; // stop at max
-        return prev + ZOOM_SPEED;
-      });
-    }, 16); // ~60fps
-
-    return () => clearInterval(interval);
-  }, []);
+    return () => window.clearInterval(interval);
+  }, [reduceMotion]);
 
   return (
-    <div
-      style={{
-        width: "100%",
-        height: "550px",
-        background: isDark ? "black" : "transparent", // ✅ fixed light mode
-        overflow: "hidden",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+    <div className="flex h-full w-full items-center justify-center p-5 sm:p-10">
       <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "grid",
-          gridTemplateColumns: `repeat(${GRID}, 1fr)`,
-          gap: "2px",
-          padding: "40px", // spacing for overlay text
-          transform: `scale(${scale})`,
-          transition: "transform 0.1s linear", // smooth motion
-        }}
+        className="grid h-full w-full max-w-3xl gap-1"
+        style={{ gridTemplateColumns: `repeat(${gridSize}, minmax(0, 1fr))` }}
+        role="img"
+        aria-label="High-frequency market activity intensity grid"
       >
-        {data.map((value, i) => {
+        {data.map((value, index) => {
           const intensity = Math.abs(value);
-
           return (
             <div
-              key={i}
+              key={index}
+              aria-hidden="true"
+              className="flex items-center justify-center rounded-sm font-mono text-[9px] tabular-nums sm:text-xs"
               style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontFamily: "monospace",
-                fontSize: "12px",
-
-                backgroundColor: isDark
-                  ? `rgba(0, 217, 255, ${0.1 + intensity * 0.9})`
-                  : `rgba(0, 217, 255, ${0.08 + intensity * 0.5})`,
-
-                color: isDark ? "#00D9FF" : "#0284c7",
+                backgroundColor: `rgba(var(--accent), ${0.07 + intensity * (isDark ? 0.34 : 0.22)})`,
+                color: "rgb(var(--foreground))",
               }}
             >
               {value > 0 ? "+" : ""}
-              {value}
+              {value.toFixed(2)}
             </div>
           );
         })}
