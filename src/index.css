@@ -233,6 +233,13 @@
   font-weight: 500;
 }
 
+.landing-brand-divider {
+  width: 1px;
+  height: 32px;
+  flex: none;
+  background: rgb(var(--border));
+}
+
 .landing-nav-links {
   display: flex;
   align-items: center;
@@ -270,7 +277,7 @@
 .landing-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  align-items: end;
+  align-items: center;
   gap: 72px;
   max-width: 1360px;
   margin: 0 auto;
@@ -280,7 +287,7 @@
 .landing-hero-title {
   margin: 0;
   font-family: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
-  font-size: clamp(52px, 8vw, 118px);
+  font-size: clamp(52px, 7.2vw, 104px);
   font-weight: 300;
   line-height: 0.94;
   letter-spacing: -0.045em;
@@ -308,6 +315,11 @@
 .landing-typewriter {
   display: inline-block;
   min-width: 11ch;
+}
+
+.landing-typewriter-line {
+  display: block;
+  min-height: 0.94em;
 }
 
 .landing-typewriter-cursor {
@@ -438,6 +450,7 @@
 .landing-order-book {
   width: 100%;
   max-width: 560px;
+  align-self: center;
   justify-self: end;
   padding: 20px 22px;
   border: 1px solid rgb(var(--border));
@@ -631,6 +644,7 @@
   }
 
   .landing-order-book {
+    align-self: stretch;
     justify-self: stretch;
   }
 }
@@ -659,6 +673,10 @@
 
   .landing-order-book {
     padding: 18px 16px;
+  }
+
+  .landing-brand-divider {
+    height: 28px;
   }
 
   .landing-mid-price strong {

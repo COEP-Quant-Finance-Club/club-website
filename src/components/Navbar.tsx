@@ -56,9 +56,38 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
   return (
     <header className="landing-nav sticky top-0 z-50 bg-background">
       <nav aria-label="Primary" className="landing-nav-inner">
-        <Link to="/" className="landing-brand">
-          COEP Quant Finance Club
-        </Link>
+        <div className="flex min-w-0 items-center gap-3">
+          <a
+            href="https://www.coeptech.ac.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="COEP Technological University website"
+            title="COEP Technological University"
+            className="inline-flex size-11 shrink-0 items-center justify-center"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
+              alt="COEP Technological University seal"
+              className={`h-12 w-10 object-contain ${isDark ? "" : "invert"}`}
+            />
+          </a>
+          <Link
+            to="/"
+            aria-label="COEP Quant Finance Club home"
+            title="COEP Quant Finance Club"
+            className="inline-flex size-11 shrink-0 items-center justify-center"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}${isDark ? "club-logo-dark.png" : "club-logo-light.png"}`}
+              alt="COEP Quant Finance Club logo"
+              className="size-11 object-contain"
+            />
+          </Link>
+          <span className="landing-brand-divider" aria-hidden="true" />
+          <Link to="/" className="landing-brand max-w-[10rem] truncate sm:max-w-none">
+            COEP Quant Finance Club
+          </Link>
+        </div>
 
         <div className="landing-nav-links">
           {links.map((link) => {

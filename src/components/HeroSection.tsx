@@ -121,10 +121,12 @@ export default function HeroSection() {
               animate={{ y: 0 }}
               transition={{ duration: 1.1, delay: 0.3, ease: [0.2, 0.7, 0.1, 1] }}
             >
-              through{" "}
-              <span className="landing-typewriter" aria-hidden="true">
-                {typedWord}
-                <span className="landing-typewriter-cursor">_</span>
+              <span className="block">through</span>
+              <span className="landing-typewriter-line" aria-hidden="true">
+                <span className="landing-typewriter">
+                  {typedWord}
+                  <span className="landing-typewriter-cursor">_</span>
+                </span>
               </span>
               <span className="sr-only">mathematics.</span>
             </motion.span>
@@ -170,7 +172,10 @@ export default function HeroSection() {
         </dl>
       </div>
 
-      <aside className="landing-order-book" aria-label="Simulated order book depth, illustrative only">
+      <aside
+        className="landing-order-book"
+        aria-label="Simulated order book depth, illustrative only"
+      >
         <div className="landing-order-book-heading">
           <span>COEP36 · depth</span>
           <span className="landing-simulated-feed">simulated feed</span>
