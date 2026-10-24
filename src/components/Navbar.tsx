@@ -1,25 +1,16 @@
-import { useEffect, useState } from "react";
-import { ArrowUpRight, Github, Instagram, Linkedin, Mail, Menu, Moon, Sun, X, Youtube } from "lucide-react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { ArrowUpRight, Menu, Moon, Sun, X } from "lucide-react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 const links = [
+  { name: "Home", path: "/" },
   { name: "Market Index", path: "/market-index" },
   { name: "Projects", path: "/", section: "projects" },
   { name: "Events", path: "/", section: "events" },
   { name: "Collaborations", path: "/collaborations" },
   { name: "About", path: "/about" },
   { name: "Resources", path: "/resources" },
-];
-
-const homeLink = { name: "Home", path: "/" };
-
-const socials = [
-  { label: "GitHub", href: "https://github.com/COEP-Quant-Finance-Club", icon: Github },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/coepqf/posts/?feedView=all", icon: Linkedin },
-  { label: "Email", href: "mailto:quantfinance@coeptech.ac.in", icon: Mail },
-  { label: "Instagram", href: "https://www.instagram.com/coep_quant_finance/", icon: Instagram },
-  { label: "YouTube", href: "https://www.youtube.com/@coepquantfinanceclub", icon: Youtube },
 ];
 
 interface NavbarProps {
@@ -29,149 +20,77 @@ interface NavbarProps {
 
 export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
-  const navigate = useNavigate();
   const location = useLocation();
-  const onHome = location.pathname === "/";
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    if (!onHome) {
-      setActiveSection("");
-      return;
-    }
-
-    const sections = links
-      .filter((link) => link.section)
-      .map((link) => document.getElementById(link.section!))
-      .filter((element): element is HTMLElement => Boolean(element));
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visibleSection = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        if (visibleSection) setActiveSection(visibleSection.target.id);
-      },
-      { rootMargin: "-20% 0px -65% 0px", threshold: [0, 0.25, 0.5] },
-    );
-
-    sections.forEach((section) => observer.observe(section));
-    return () => observer.disconnect();
-  }, [onHome, location.pathname]);
-
-  const navigateTo = (link: (typeof links)[number] | typeof homeLink) => {
+  const navigateTo = (link: (typeof links)[number]) => {
     setMobileOpen(false);
-    if ("section" in link && link.section) {
-      if (onHome) {
+    if (link.section) {
+      if (location.pathname === "/") {
         document.getElementById(link.section)?.scrollIntoView({ behavior: "smooth" });
       } else {
         navigate("/", { state: { scrollTo: link.section } });
       }
       return;
     }
-    if (link.path === "/" && onHome) {
+
+    if (link.path === "/" && location.pathname === "/") {
       window.scrollTo({ top: 0, behavior: "smooth" });
       return;
     }
     navigate(link.path);
   };
 
-  const isActive = (link: (typeof links)[number]) => {
-    if (link.section) return onHome && activeSection === link.section;
-    return location.pathname === link.path;
-  };
-
-  const renderNavigationLinks = (mobile = false) =>
-    links.map((link) => {
-      const active = isActive(link);
-      return (
-        <button
-          key={link.name}
-          type="button"
-          onClick={() => navigateTo(link)}
-          aria-current={active ? "page" : undefined}
-          className={`relative text-sm transition-colors ${
-            active
-              ? "font-medium text-foreground after:absolute after:inset-x-0 after:-bottom-[1.15rem] after:h-px after:bg-foreground"
-              : "text-muted-foreground hover:text-foreground"
-          } ${mobile ? "w-full py-4 text-left text-base after:hidden" : "py-2"}`}
-        >
-          {link.name}
-        </button>
-      );
-    });
-
-  const themeButton = (
+  const themeToggle = (
     <button
       type="button"
       onClick={toggleTheme}
-      className="inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-secondary"
+      className="inline-grid size-11 shrink-0 place-items-center rounded-full text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
       aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
       title={isDark ? "Switch to light theme" : "Switch to dark theme"}
     >
-      {isDark ? <Sun size={17} aria-hidden="true" /> : <Moon size={17} aria-hidden="true" />}
+      {isDark ? <Sun size={18} aria-hidden="true" /> : <Moon size={18} aria-hidden="true" />}
     </button>
   );
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background">
-      <nav
-        aria-label="Main navigation"
-        className="mx-auto flex h-[76px] max-w-[1360px] items-center justify-between gap-6 px-6 lg:px-12"
-      >
-        <div className="flex min-w-0 items-center gap-3">
-          <a
-            href="https://www.coeptech.ac.in/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="COEP Technological University"
-            className="flex size-9 shrink-0 items-center justify-center"
-          >
-            <img
-              src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
-              alt="COEP Seal"
-              className={`max-h-8 w-auto object-contain ${
-                isDark ? "mix-blend-screen" : "invert mix-blend-multiply"
-              }`}
-            />
-          </a>
-          <svg
-            aria-hidden="true"
-            className="hidden size-[18px] shrink-0 text-foreground sm:block"
-            viewBox="0 0 20 20"
-            fill="none"
-          >
-            <path d="M2 15.5 7 10l3.2 2.5L17.5 4" stroke="currentColor" strokeWidth="1.5" />
-            <path d="M12.5 4h5v5" stroke="currentColor" strokeWidth="1.5" />
-          </svg>
-          <button
-            type="button"
-            onClick={() => navigateTo(homeLink)}
-            className="truncate text-left text-sm font-medium tracking-tight text-foreground sm:text-base"
-          >
-            COEP Quant Finance Club
-          </button>
+    <header className="landing-nav sticky top-0 z-50 bg-background">
+      <nav aria-label="Primary" className="landing-nav-inner">
+        <Link to="/" className="landing-brand">
+          COEP Quant Finance Club
+        </Link>
+
+        <div className="landing-nav-links">
+          {links.map((link) => {
+            const active =
+              (link.section && location.pathname === "/" && location.hash === `#${link.section}`) ||
+              (!link.section && location.pathname === link.path);
+
+            return (
+              <button
+                key={link.name}
+                type="button"
+                onClick={() => navigateTo(link)}
+                aria-current={active ? "page" : undefined}
+                className={`landing-nav-link ${active ? "landing-nav-link--active" : ""}`}
+              >
+                {link.name}
+              </button>
+            );
+          })}
+          <Link to="/contact" className="landing-nav-cta">
+            Contact
+          </Link>
+          {themeToggle}
         </div>
 
-        <div className="hidden items-center gap-7 lg:flex">
-          {renderNavigationLinks()}
-          <button
-            type="button"
-            onClick={() => navigate("/contact")}
-            className="inline-flex min-h-11 items-center gap-2 rounded-full bg-foreground px-5 text-sm font-medium text-background transition-opacity hover:opacity-80"
-          >
-            Contact <ArrowUpRight size={15} aria-hidden="true" />
-          </button>
-          {themeButton}
-        </div>
-
-        <div className="flex items-center gap-2 lg:hidden">
-          {themeButton}
+        <div className="landing-nav-mobile">
+          {themeToggle}
           <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
             <SheetTrigger asChild>
               <button
                 type="button"
-                className="inline-flex size-11 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-secondary"
+                className="inline-grid size-11 place-items-center rounded-full text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                 aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
               >
                 {mobileOpen ? <X size={19} aria-hidden="true" /> : <Menu size={19} aria-hidden="true" />}
@@ -181,31 +100,25 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
               <SheetTitle className="mb-7 pr-10 text-left text-base font-medium tracking-tight">
                 COEP Quant Finance Club
               </SheetTitle>
-              <div className="divide-y divide-border">{renderNavigationLinks(true)}</div>
-              <button
-                type="button"
-                onClick={() => {
-                  setMobileOpen(false);
-                  navigate("/contact");
-                }}
-                className="mt-7 flex min-h-11 w-full items-center justify-between rounded-full bg-foreground px-5 text-sm font-medium text-background"
-              >
-                Contact <ArrowUpRight size={15} aria-hidden="true" />
-              </button>
-              <div className="mt-8 flex items-center gap-5">
-                {socials.map(({ label, href, icon: Icon }) => (
-                  <a
-                    key={label}
-                    href={href}
-                    target={href.startsWith("mailto:") ? undefined : "_blank"}
-                    rel={href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
-                    aria-label={label}
-                    className="text-muted-foreground transition-colors hover:text-foreground"
+              <div className="flex flex-col divide-y divide-border">
+                {links.map((link) => (
+                  <button
+                    key={link.name}
+                    type="button"
+                    onClick={() => navigateTo(link)}
+                    className="py-4 text-left text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    <Icon size={18} aria-hidden="true" />
-                  </a>
+                    {link.name}
+                  </button>
                 ))}
               </div>
+              <Link
+                to="/contact"
+                onClick={() => setMobileOpen(false)}
+                className="mt-7 flex min-h-11 items-center justify-between rounded-full bg-foreground px-5 text-sm font-medium text-background"
+              >
+                Contact <ArrowUpRight size={15} aria-hidden="true" />
+              </Link>
             </SheetContent>
           </Sheet>
         </div>
