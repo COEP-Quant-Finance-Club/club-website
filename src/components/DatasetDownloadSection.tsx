@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import {
   Download, FileSpreadsheet, Archive, Clock, ShieldCheck,
-  Copy, Check, Database, Sparkles, ChevronDown, ChevronRight
+  Copy, Check, Database, Layers, Sparkles, ChevronDown, ChevronRight
 } from "lucide-react";
 
 interface DownloadItem {
@@ -31,6 +31,7 @@ interface DownloadGroup {
 
 export default function DatasetDownloadSection() {
   const [copiedId, setCopiedId] = useState<string | null>(null);
+  const reduceMotion = useReducedMotion();
   const [openGroups, setOpenGroups] = useState<string[]>([
     "registry",
     "large-cap",
@@ -353,25 +354,25 @@ export default function DatasetDownloadSection() {
   ];
 
   const accentMap: Record<string, string> = {
-    cyan: "border-cyan-500/40 bg-cyan-500/5",
-    blue: "border-blue-500/40 bg-blue-500/5",
-    emerald: "border-emerald-500/40 bg-emerald-500/5",
-    amber: "border-amber-500/40 bg-amber-500/5",
-    purple: "border-purple-500/40 bg-purple-500/5",
+    cyan: "border-border",
+    blue: "border-border",
+    emerald: "border-border",
+    amber: "border-border",
+    purple: "border-border",
   };
   const badgeMap: Record<string, string> = {
-    cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-500/30",
-    blue: "bg-blue-500/15 text-blue-300 border-blue-500/30",
-    emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
-    amber: "bg-amber-500/15 text-amber-300 border-amber-500/30",
-    purple: "bg-purple-500/15 text-purple-300 border-purple-500/30",
+    cyan: "bg-secondary text-foreground border-border",
+    blue: "bg-secondary text-foreground border-border",
+    emerald: "bg-secondary text-foreground border-border",
+    amber: "bg-secondary text-foreground border-border",
+    purple: "bg-secondary text-foreground border-border",
   };
   const headerMap: Record<string, string> = {
-    cyan: "text-cyan-400 border-cyan-500/30 bg-cyan-500/10",
-    blue: "text-blue-400 border-blue-500/30 bg-blue-500/10",
-    emerald: "text-emerald-400 border-emerald-500/30 bg-emerald-500/10",
-    amber: "text-amber-400 border-amber-500/30 bg-amber-500/10",
-    purple: "text-purple-400 border-purple-500/30 bg-purple-500/10",
+    cyan: "text-accent border-border bg-secondary",
+    blue: "text-accent border-border bg-secondary",
+    emerald: "text-accent border-border bg-secondary",
+    amber: "text-accent border-border bg-secondary",
+    purple: "text-accent border-border bg-secondary",
   };
 
   const toggleGroup = (id: string) => {
@@ -388,49 +389,50 @@ export default function DatasetDownloadSection() {
   };
 
   return (
-    <section id="download-datasets" className="w-full py-12">
-      <div className="max-w-7xl mx-auto px-4">
+    <section id="download-datasets" className="mx-auto max-w-[1360px] px-6 py-14 sm:px-12 sm:py-20">
+      <div>
 
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-border/60">
+        <div className="mb-8 flex flex-col justify-between gap-5 border-b border-border pb-6 md:flex-row md:items-end">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-3">
+            <div className="label-style mb-3 flex items-center gap-2">
               <ShieldCheck size={14} />
               <span>100% Cleaned & Split-Adjusted • Open Access • 84M+ 5m Intraday Bars</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-foreground">
+            <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-4xl">
               Quantitative Datasets & Downloads
             </h2>
-            <p className="mt-2 text-sm sm:text-base text-muted-foreground font-light max-w-2xl">
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">
               Access institutional-grade datasets for India's 36 Sector Indices and all 1,213 equities categorized by market cap tier. Download complete Daily OHLCV and 5-Minute Intraday Parquet packages.
             </p>
           </div>
 
           {/* Stats badges */}
-          <div className="mt-4 md:mt-0 flex flex-wrap items-center gap-2 text-xs font-mono">
-            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-card border border-border text-muted-foreground">
-              <span className="w-2 h-2 rounded-full bg-blue-400" />1,213 Equities
+          <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs font-mono md:mt-0">
+            <span className="flex items-center gap-1.5 text-muted-foreground">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent" />1,213 Equities
             </span>
-            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-card border border-border text-muted-foreground">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />Updated Aug 29, 2026
+            <span className="flex items-center gap-1.5 text-muted-foreground">
+              <span className="h-1.5 w-1.5 rounded-full bg-accent" />Updated Aug 29, 2026
             </span>
           </div>
         </div>
 
         {/* Collapsible Groups */}
-        <div className="space-y-4">
+        <div className="divide-y divide-border border-y border-border">
           {groups.map((group) => {
             const isOpen = openGroups.includes(group.id);
             return (
-              <div key={group.id} className={`rounded-xl border ${accentMap[group.accent]} overflow-hidden transition-all`}>
+              <div key={group.id} className="overflow-hidden">
                 {/* Group Header — clickable toggle */}
                 <button
                   onClick={() => toggleGroup(group.id)}
-                  className="w-full flex items-center justify-between px-5 py-4 hover:bg-white/5 transition-colors text-left"
+                  aria-expanded={isOpen}
+                  className="flex w-full items-center justify-between gap-4 py-5 text-left transition-colors hover:text-accent"
                 >
                   <div className="flex items-center gap-3">
-                    <span className={`p-2 rounded-lg border text-sm font-bold ${headerMap[group.accent]}`}>
-                      {group.emoji}
+                    <span className={`flex h-9 w-9 shrink-0 items-center justify-center border ${headerMap[group.accent]}`}>
+                      {group.id === "registry" ? <Database size={16} /> : <Layers size={16} />}
                     </span>
                     <div>
                       <div className="font-bold text-foreground text-sm sm:text-base">{group.label}</div>
@@ -446,27 +448,23 @@ export default function DatasetDownloadSection() {
                 <AnimatePresence initial={false}>
                   {isOpen && (
                     <motion.div
-                      initial={{ height: 0, opacity: 0 }}
+                      initial={reduceMotion ? false : { height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.25, ease: "easeInOut" }}
+                      exit={reduceMotion ? undefined : { height: 0, opacity: 0 }}
+                      transition={{ duration: reduceMotion ? 0 : 0.25, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <div className="px-5 pb-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-2">
+                      <div className="grid grid-cols-1 gap-4 border-t border-border pb-5 pt-5 md:grid-cols-2 lg:grid-cols-3">
                         {group.datasets.map((item, idx) => {
                           const IconComponent = item.icon;
                           const fileUrl = `${dl}${item.filename}`;
                           return (
                             <motion.div
                               key={item.id}
-                              initial={{ opacity: 0, y: 10 }}
+                              initial={reduceMotion ? false : { opacity: 0, y: 10 }}
                               animate={{ opacity: 1, y: 0 }}
-                              transition={{ duration: 0.3, delay: idx * 0.04 }}
-                              className={`rounded-xl p-5 border flex flex-col justify-between transition-all duration-200 ${
-                                item.featured
-                                  ? "bg-card border-border/80 shadow-md"
-                                  : "bg-card/60 border-border/50 hover:border-border"
-                              }`}
+                              transition={{ duration: reduceMotion ? 0 : 0.3, delay: idx * 0.04 }}
+                              className="flex flex-col justify-between border-t border-border py-4 transition-colors hover:border-accent"
                             >
                               {/* Header */}
                               <div>
@@ -491,11 +489,11 @@ export default function DatasetDownloadSection() {
                                   </div>
                                   <div>
                                     <span className="text-muted-foreground uppercase block">Size</span>
-                                    <span className="font-semibold text-emerald-400">{item.size}</span>
+                                    <span className="font-semibold text-foreground tabular-nums">{item.size}</span>
                                   </div>
                                   <div>
                                     <span className="text-muted-foreground uppercase block">Timeline</span>
-                                    <span className="font-semibold text-cyan-400 text-[9px]">{item.timeline}</span>
+                                    <span className="font-semibold text-foreground text-[9px]">{item.timeline}</span>
                                   </div>
                                   <div className="col-span-3 pt-1 border-t border-border/40 flex justify-between items-center">
                                     <span className="text-muted-foreground uppercase">Records</span>
@@ -519,7 +517,7 @@ export default function DatasetDownloadSection() {
                                   title="Copy direct download URL"
                                   className="p-2 rounded-lg border border-border hover:bg-secondary/80 text-muted-foreground hover:text-foreground transition-colors"
                                 >
-                                  {copiedId === item.id ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} />}
+                                  {copiedId === item.id ? <Check size={14} className="text-accent" /> : <Copy size={14} />}
                                 </button>
                               </div>
                             </motion.div>
@@ -535,16 +533,16 @@ export default function DatasetDownloadSection() {
         </div>
 
         {/* Python snippet */}
-        <div className="mt-8 p-5 rounded-xl bg-card border border-border/80">
+        <div className="mt-8 border-y border-border py-5">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <div className="p-2 rounded-md bg-secondary text-cyan-400 font-mono text-xs font-bold">python</div>
+              <div className="bg-secondary px-2 py-1 font-mono text-xs font-medium text-foreground">python</div>
               <div>
                 <h4 className="text-sm font-semibold text-foreground">Direct Pandas Streaming Access</h4>
                 <p className="text-xs text-muted-foreground font-light">Load Master Universe Summary directly into pandas:</p>
               </div>
             </div>
-            <div className="bg-secondary/70 border border-border px-3 py-1.5 rounded-lg text-xs font-mono text-cyan-300 overflow-x-auto">
+            <div className="max-w-full overflow-x-auto border border-border bg-secondary px-3 py-1.5 font-mono text-xs text-foreground">
               <code>df = pd.read_csv("https://coep-quant-finance-club.github.io/club-website/downloads/Master_Universe_Summary.csv")</code>
             </div>
           </div>

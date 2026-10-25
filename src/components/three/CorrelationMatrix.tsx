@@ -1,40 +1,46 @@
 import { useRef, useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
+import { getThemeColor } from "./themeColor";
 
-const GRID = 12;
+interface CorrelationMatrixProps {
+  mobile: boolean;
+  animate: boolean;
+}
 
-/** Scene 3: Animated correlation/covariance matrix heatmap in 3D */
-export function CorrelationMatrix() {
+export function CorrelationMatrix({ mobile, animate }: CorrelationMatrixProps) {
+  const grid = mobile ? 8 : 12;
   const groupRef = useRef<THREE.Group>(null);
   const timeRef = useRef(0);
   const meshRefs = useRef<(THREE.Mesh | null)[]>([]);
+  const accentColor = getThemeColor("--accent");
+  const neutralColor = getThemeColor("--muted-foreground");
+  const gridColor = getThemeColor("--border");
 
-  // Generate correlation values
   const cells = useMemo(() => {
     const data: { x: number; z: number; corr: number; baseCorr: number }[] = [];
-    for (let i = 0; i < GRID; i++) {
-      for (let j = 0; j < GRID; j++) {
+    for (let i = 0; i < grid; i++) {
+      for (let j = 0; j < grid; j++) {
         const dist = Math.abs(i - j);
         const baseCorr = i === j ? 1 : Math.max(-0.3, 1 - dist * 0.18 + (Math.random() - 0.5) * 0.3);
         data.push({
-          x: (i - GRID / 2 + 0.5) * 0.55,
-          z: (j - GRID / 2 + 0.5) * 0.55,
+          x: (i - grid / 2 + 0.5) * 0.55,
+          z: (j - grid / 2 + 0.5) * 0.55,
           corr: baseCorr,
           baseCorr,
         });
       }
     }
     return data;
-  }, []);
+  }, [grid]);
 
   useFrame((_, delta) => {
+    if (!animate) return;
     timeRef.current += delta * 0.5;
     if (groupRef.current) {
       groupRef.current.rotation.y = Math.sin(timeRef.current * 0.2) * 0.3 + 0.5;
     }
 
-    // Animate bar heights
     cells.forEach((cell, idx) => {
       const mesh = meshRefs.current[idx];
       if (mesh) {
@@ -44,16 +50,15 @@ export function CorrelationMatrix() {
         mesh.scale.y = height;
         mesh.position.y = height / 2;
 
-        // Color: cyan for positive, white for negative, brighter for stronger
         const mat = mesh.material as THREE.MeshStandardMaterial;
         if (newCorr > 0) {
           const intensity = newCorr;
-          mat.color.setRGB(0, intensity * 0.85, intensity);
-          mat.emissive.setRGB(0, intensity * 0.3, intensity * 0.4);
+          mat.color.copy(accentColor).multiplyScalar(0.35 + intensity * 0.65);
+          mat.emissive.copy(mat.color).multiplyScalar(0.15);
         } else {
           const intensity = Math.abs(newCorr);
-          mat.color.setRGB(intensity * 0.8, intensity * 0.8, intensity * 0.8);
-          mat.emissive.setRGB(intensity * 0.1, intensity * 0.1, intensity * 0.1);
+          mat.color.copy(neutralColor).multiplyScalar(0.35 + intensity * 0.65);
+          mat.emissive.copy(mat.color).multiplyScalar(0.08);
         }
       }
     });
@@ -69,19 +74,18 @@ export function CorrelationMatrix() {
         >
           <boxGeometry args={[0.45, 1, 0.45]} />
           <meshStandardMaterial
-            color="#00D9FF"
-            emissive="#00D9FF"
-            emissiveIntensity={0.2}
+            color={accentColor}
+            emissive={accentColor}
+            emissiveIntensity={0.12}
             transparent
             opacity={0.8}
           />
         </mesh>
       ))}
 
-      {/* Grid base lines */}
-      {Array.from({ length: GRID + 1 }).map((_, i) => {
-        const pos = (i - GRID / 2) * 0.55;
-        const half = (GRID / 2) * 0.55;
+      {Array.from({ length: grid + 1 }).map((_, i) => {
+        const pos = (i - grid / 2) * 0.55;
+        const half = (grid / 2) * 0.55;
         return (
           <group key={i}>
             <line>
@@ -92,7 +96,7 @@ export function CorrelationMatrix() {
                   count={2}
                 />
               </bufferGeometry>
-              <lineBasicMaterial color="#222222" transparent opacity={0.6} />
+              <lineBasicMaterial color={gridColor} transparent opacity={0.7} />
             </line>
             <line>
               <bufferGeometry>
@@ -102,7 +106,7 @@ export function CorrelationMatrix() {
                   count={2}
                 />
               </bufferGeometry>
-              <lineBasicMaterial color="#222222" transparent opacity={0.6} />
+              <lineBasicMaterial color={gridColor} transparent opacity={0.7} />
             </line>
           </group>
         );

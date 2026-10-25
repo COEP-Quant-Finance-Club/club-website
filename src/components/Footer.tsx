@@ -2,7 +2,7 @@ import { Github, Instagram, Linkedin, Mail, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border py-12 px-4">
+    <footer className="pixel-footer border-t border-border py-12 px-4">
       <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-6">
         <span className="text-sm font-medium tracking-wider uppercase text-foreground">
           COEP Quant Finance Club
@@ -44,7 +44,7 @@ export default function Footer() {
             <Youtube size={18} />
           </a>
         </div>
-        <span className="label-style">© 2026 All rights reserved</span>
+        <span className="label-style">© 2025 All rights reserved</span>
       </div>
     </footer>
   );

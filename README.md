@@ -142,6 +142,22 @@ This ensures the website remains stable and production deployments remain safe.
 
 ---
 
+# 🗓️ Internal Events Manager
+
+Club event heads can manage the public events list at `/club-website/#/events-admin` (or `https://coepquantfinance.com/#/events-admin`). This is a private, unlinked page: only invited Supabase accounts granted the `events_admin` role can manage events. TOTP multi-factor authentication is required for every write. Events are stored in Supabase and appear on the public site without a deployment; the public events layout is unchanged. A database trigger enforces a maximum of **12 events**, including simultaneous additions.
+
+## One-time setup
+
+1. Create a Supabase project and run [`supabase/events.sql`](./supabase/events.sql) in its SQL Editor. This creates the public-read, restricted-write events table, enforces the event limit, and seeds the current events.
+2. In Supabase Authentication, disable public sign-ups. Invite each event head individually, then set that user's **app metadata** to `{"role":"events_admin"}`. Do not set this in user metadata; users can change their own user metadata. Never give event heads the Supabase service-role key.
+3. Keep TOTP authenticator MFA enabled for the project. Each event head enrolls an authenticator app at their first sign-in. The database rejects event writes unless the session has both the trusted `events_admin` app-metadata role and verified MFA (`aal2`).
+4. In the GitHub repository's **Settings → Secrets and variables → Actions**, add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` using the project's URL and publishable/anon key. These values are included in the public site bundle; the anon key is safe to expose only because the SQL enables row-level security. Never use a service-role or secret key here.
+5. Merge/publish the setup once. The GitHub Pages build will receive those secrets. From then on, authorized event heads can add, edit, and delete events at the admin URL without GitHub access, code changes, or redeployment.
+
+For local development, place the same URL and anon key in an ignored `.env.local` file using those variable names. Without Supabase configuration the public events list continues to load from `public/events.json`; the admin page remains unavailable.
+
+---
+
 # 👨‍💻 Maintainers
 
 Maintained by the **COEP Quant Finance Club**.

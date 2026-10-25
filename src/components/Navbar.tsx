@@ -1,16 +1,15 @@
-import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-import { Sun, Moon, Menu, X, Github, Instagram, Linkedin, Mail, Youtube } from "lucide-react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { ArrowUpRight, Menu, Moon, Sun, X } from "lucide-react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 const links = [
   { name: "Home", path: "/" },
   { name: "Market Index", path: "/market-index" },
-  { name: "Projects", path: "/#projects" },
-  { name: "Events", path: "/#events" },
+  { name: "Projects", path: "/", section: "projects" },
+  { name: "Events", path: "/", section: "events" },
   { name: "Collaborations", path: "/collaborations" },
   { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
   { name: "Resources", path: "/resources" },
 ];
 
@@ -20,185 +19,139 @@ interface NavbarProps {
 }
 
 export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
-  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const navigate = useNavigate();
   const location = useLocation();
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", handler);
-    return () => window.removeEventListener("scroll", handler);
-  }, []);
-
-  const scrollTo = (id: string) => {
-    const el = document.getElementById(id.toLowerCase());
-    if (el) {
-      const y = el.getBoundingClientRect().top + window.scrollY - 80;
-      window.scrollTo({ top: y, behavior: "smooth" });
-    }
+  const navigateTo = (link: (typeof links)[number]) => {
     setMobileOpen(false);
-  };
-
-  const handleNavigation = (linkName: string) => {
-    setMobileOpen(false);
-
-    if (linkName === "Home") {
+    if (link.section) {
       if (location.pathname === "/") {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        document.getElementById(link.section)?.scrollIntoView({ behavior: "smooth" });
       } else {
-        navigate("/");
+        navigate("/", { state: { scrollTo: link.section } });
       }
       return;
     }
 
-    if (linkName === "Market Index") {
-      navigate("/market-index");
+    if (link.path === "/" && location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
       return;
     }
-
-    if (linkName === "About") {
-      navigate("/about");
-      return;
-    }
-
-    if (linkName === "Collaborations") {
-      navigate("/collaborations");
-      return;
-    }
-
-    if (linkName === "Contact") {
-      navigate("/contact");
-      return;
-    }
-
-    if (linkName === "Resources") {
-      navigate("/resources");
-      return;
-    }
-
-    // Anchor-based homepage sections (Projects, Events)
-    const targetId = linkName.toLowerCase();
-    if (location.pathname !== "/") {
-      navigate("/", { state: { scrollTo: targetId } });
-      return;
-    }
-
-    scrollTo(targetId);
+    navigate(link.path);
   };
 
-  const isLinkActive = (item: { name: string; path: string }) => {
-    if (item.name === "Home") return location.pathname === "/";
-    if (item.name === "Market Index") return location.pathname === "/market-index";
-    if (item.name === "About") return location.pathname === "/about";
-    if (item.name === "Collaborations") return location.pathname === "/collaborations";
-    if (item.name === "Contact") return location.pathname === "/contact" || location.pathname === "/connect";
-    if (item.name === "Resources") return location.pathname === "/resources";
-    return false;
-  };
+  const themeToggle = (
+    <button
+      type="button"
+      onClick={toggleTheme}
+      className="inline-grid size-11 shrink-0 place-items-center rounded-full text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+      aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
+      title={isDark ? "Switch to light theme" : "Switch to dark theme"}
+    >
+      {isDark ? <Sun size={18} aria-hidden="true" /> : <Moon size={18} aria-hidden="true" />}
+    </button>
+  );
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${
-        scrolled
-          ? "bg-background/85 backdrop-blur-lg border-border"
-          : location.pathname === "/"
-          ? "bg-transparent border-transparent"
-          : "bg-background/80 backdrop-blur-md border-border/60"
-      }`}
-    >
-      <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <div className="flex items-center gap-4">
+    <header className="landing-nav sticky top-0 z-50 bg-background">
+      <nav aria-label="Primary" className="landing-nav-inner">
+        <div className="flex min-w-0 items-center gap-3">
           <a
             href="https://www.coeptech.ac.in/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="COEP Technological University website"
             title="COEP Technological University"
+            className="inline-flex size-11 shrink-0 items-center justify-center"
           >
             <img
               src={`${import.meta.env.BASE_URL}coep-tech-seal.png`}
-              alt="COEP Seal"
-              className={`h-14 w-auto object-contain mt-0.5 hover:opacity-80 transition ${
-                !isDark ? "invert" : ""
-              }`}
+              alt="COEP Technological University seal"
+              className={`h-12 w-10 object-contain ${isDark ? "" : "invert"}`}
             />
           </a>
-          <button
-            onClick={() => navigate("/")}
-            className="text-sm font-semibold tracking-wider uppercase text-foreground hover:text-accent transition-colors cursor-pointer"
+          <Link
+            to="/"
+            aria-label="COEP Quant Finance Club home"
+            title="COEP Quant Finance Club"
+            className="inline-flex size-11 shrink-0 items-center justify-center"
           >
+            <img
+              src={`${import.meta.env.BASE_URL}${isDark ? "club-logo-dark.png" : "club-logo-light.png"}`}
+              alt="COEP Quant Finance Club logo"
+              className="size-11 object-contain"
+            />
+          </Link>
+          <span className="landing-brand-divider" aria-hidden="true" />
+          <Link to="/" className="landing-brand max-w-[10rem] truncate sm:max-w-none">
             COEP Quant Finance Club
-          </button>
-          <div className="hidden lg:flex items-center gap-3">
-            <a href="https://github.com/COEP-Quant-Finance-Club" className="text-muted-foreground hover:text-accent transition-colors" aria-label="GitHub"><Github size={14} /></a>
-            <a href="https://www.linkedin.com/company/coepqf/posts/?feedView=all" className="text-muted-foreground hover:text-accent transition-colors" aria-label="LinkedIn"><Linkedin size={14} /></a>
-            <a href="mailto:quantfinance@coeptech.ac.in" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Email"><Mail size={14} /></a>
-            <a href="https://www.instagram.com/coep_quant_finance/" className="text-muted-foreground hover:text-accent transition-colors" aria-label="Instagram"><Instagram size={14} /></a>
-            <a href="https://www.youtube.com/@coepquantfinanceclub" className="text-muted-foreground hover:text-accent transition-colors" aria-label="YouTube Channel"><Youtube size={14} /></a>
-          </div>
+          </Link>
         </div>
 
-        {/* Desktop links */}
-        <div className="hidden lg:flex items-center gap-6">
-          {links.map((item) => {
-            const active = isLinkActive(item);
+        <div className="landing-nav-links">
+          {links.map((link) => {
+            const active =
+              (link.section && location.pathname === "/" && location.hash === `#${link.section}`) ||
+              (!link.section && location.pathname === link.path);
+
             return (
               <button
-                key={item.name}
-                onClick={() => handleNavigation(item.name)}
-                className={`label-style transition-colors cursor-pointer text-xs uppercase tracking-wider font-mono ${
-                  active ? "text-accent font-bold" : "text-foreground/80 hover:text-accent"
-                }`}
+                key={link.name}
+                type="button"
+                onClick={() => navigateTo(link)}
+                aria-current={active ? "page" : undefined}
+                className={`landing-nav-link ${active ? "landing-nav-link--active" : ""}`}
               >
-                {item.name}
+                {link.name}
               </button>
             );
           })}
-          <button
-            onClick={toggleTheme}
-            className="ml-4 p-2 rounded-sm border border-border hover:border-accent transition-colors cursor-pointer"
-            aria-label="Toggle theme"
-          >
-            {isDark ? <Sun size={14} /> : <Moon size={14} />}
-          </button>
+          <Link to="/contact" className="landing-nav-cta">
+            Contact
+          </Link>
+          {themeToggle}
         </div>
 
-        {/* Mobile */}
-        <div className="flex lg:hidden items-center gap-2">
-          <button onClick={toggleTheme} className="p-2 border border-border rounded-sm cursor-pointer" aria-label="Toggle theme">
-            {isDark ? <Sun size={14} /> : <Moon size={14} />}
-          </button>
-          <button onClick={() => setMobileOpen(!mobileOpen)} className="p-2 cursor-pointer" aria-label="Menu">
-            {mobileOpen ? <X size={18} /> : <Menu size={18} />}
-          </button>
+        <div className="landing-nav-mobile">
+          {themeToggle}
+          <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
+            <SheetTrigger asChild>
+              <button
+                type="button"
+                className="inline-grid size-11 place-items-center rounded-full text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
+              >
+                {mobileOpen ? <X size={19} aria-hidden="true" /> : <Menu size={19} aria-hidden="true" />}
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[min(90vw,24rem)] border-l border-border bg-background p-6">
+              <SheetTitle className="mb-7 pr-10 text-left text-base font-medium tracking-tight">
+                COEP Quant Finance Club
+              </SheetTitle>
+              <div className="flex flex-col divide-y divide-border">
+                {links.map((link) => (
+                  <button
+                    key={link.name}
+                    type="button"
+                    onClick={() => navigateTo(link)}
+                    className="py-4 text-left text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {link.name}
+                  </button>
+                ))}
+              </div>
+              <Link
+                to="/contact"
+                onClick={() => setMobileOpen(false)}
+                className="mt-7 flex min-h-11 items-center justify-between rounded-full bg-foreground px-5 text-sm font-medium text-background"
+              >
+                Contact <ArrowUpRight size={15} aria-hidden="true" />
+              </Link>
+            </SheetContent>
+          </Sheet>
         </div>
-      </div>
-
-      {/* Mobile menu */}
-      {mobileOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="lg:hidden bg-background/95 backdrop-blur-lg border-b border-border"
-        >
-          <div className="container mx-auto px-4 py-4 flex flex-col gap-3">
-            {links.map((item) => {
-              const active = isLinkActive(item);
-              return (
-                <button
-                  key={item.name}
-                  onClick={() => handleNavigation(item.name)}
-                  className={`label-style text-left transition-colors text-xs uppercase tracking-wider font-mono ${
-                    active ? "text-accent font-bold" : "text-foreground/80 hover:text-accent"
-                  }`}
-                >
-                  {item.name}
-                </button>
-              );
-            })}
-          </div>
-        </motion.div>
-      )}
-    </nav>
+      </nav>
+    </header>
   );
 }

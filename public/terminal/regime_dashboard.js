@@ -49,7 +49,20 @@ document.addEventListener('DOMContentLoaded', () => {
   let isLogScale = false;
 
   // Theme & Overlay State
-  let isDarkMode = true;
+  function getPreferredDarkMode() {
+    try {
+      if (window.parent !== window) {
+        return window.parent.document.documentElement.classList.contains('dark');
+      }
+      return window.localStorage.getItem('theme') !== 'light';
+    } catch (error) {
+      console.warn('Unable to read the saved theme preference.', error);
+      return true;
+    }
+  }
+  let isDarkMode = getPreferredDarkMode();
+  document.body.classList.toggle('dark-theme', isDarkMode);
+  document.body.classList.toggle('light-theme', !isDarkMode);
   let showRegimeOverlay = true;
 
   const computedStateCache = {};
@@ -75,8 +88,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const rfBtnBear = document.getElementById('rfBtnBear');
   const btnToggleRegimeOverlay = document.getElementById('btnToggleRegimeOverlay');
 
-  const themeToggleBtn = document.getElementById('themeToggleBtn');
   const clubLogo = document.getElementById('club-logo');
+
+  function applyThemePreference(darkMode, persist = false) {
+    isDarkMode = darkMode;
+    document.body.classList.toggle('dark-theme', isDarkMode);
+    document.body.classList.toggle('light-theme', !isDarkMode);
+    if (clubLogo) clubLogo.src = isDarkMode ? 'Dark Theme Logo.png' : 'Light Theme Logo.png';
+    document.querySelectorAll('.theme-toggle-btn').forEach((button) => {
+      button.innerText = button.classList.contains('mobile-top-theme-btn')
+        ? (isDarkMode ? 'Light' : 'Dark')
+        : (isDarkMode ? 'Light mode' : 'Dark mode');
+      button.setAttribute('aria-label', `Switch to ${isDarkMode ? 'light' : 'dark'} mode`);
+    });
+    if (persist) {
+      try {
+        window.localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+      } catch (error) {
+        console.warn('Unable to save the theme preference.', error);
+      }
+    }
+    applyThemeToChart();
+  }
 
   const candleLockBadge = document.getElementById('candleLockBadge');
 
@@ -166,13 +199,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // Update Lock Status Badges
   function updateLockStatusUI() {
     if (isCandleLocked && activeHoverDate) {
-      const txt = `🔒 LOCKED: ${activeHoverDate} (Press ESC to Unlock)`;
+      const txt = `Locked: ${activeHoverDate} (Press ESC to unlock)`;
       candleLockBadge.innerText = txt;
       candleLockBadge.classList.add('locked');
       modalLockStatus.innerText = txt;
       modalLockStatus.classList.add('locked');
     } else {
-      const txt = `🔓 Hover Mode (Press ENTER / Click to Lock | ESC to Unlock)`;
+      const txt = `Hover mode (Press ENTER / Click to lock | ESC to unlock)`;
       candleLockBadge.innerText = txt;
       candleLockBadge.classList.remove('locked');
       modalLockStatus.innerText = txt;
@@ -295,11 +328,11 @@ document.addEventListener('DOMContentLoaded', () => {
     btnToggleRegimeOverlay.addEventListener('click', () => {
       showRegimeOverlay = !showRegimeOverlay;
       if (showRegimeOverlay) {
-        btnToggleRegimeOverlay.innerText = '⚡ Regimes: ON';
+        btnToggleRegimeOverlay.innerText = 'Regimes: ON';
         btnToggleRegimeOverlay.classList.add('active');
         btnToggleRegimeOverlay.classList.remove('inactive');
       } else {
-        btnToggleRegimeOverlay.innerText = '⚡ Regimes: OFF';
+        btnToggleRegimeOverlay.innerText = 'Regimes: OFF';
         btnToggleRegimeOverlay.classList.remove('active');
         btnToggleRegimeOverlay.classList.add('inactive');
       }
@@ -307,72 +340,67 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // THEME SWITCHER (DARK / LIGHT MODE - Supports both Desktop & Mobile Icons)
+  // THEME SWITCHER (Dark/light mode shared with the parent website)
   const themeToggleBtns = document.querySelectorAll('.theme-toggle-btn');
+  applyThemePreference(isDarkMode);
   themeToggleBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      isDarkMode = !isDarkMode;
-      if (isDarkMode) {
-        document.body.classList.remove('light-theme');
-        document.body.classList.add('dark-theme');
-        if (clubLogo) clubLogo.src = 'Dark Theme Logo.png';
-        themeToggleBtns.forEach(b => {
-          b.innerText = b.classList.contains('mobile-top-theme-btn') ? '☀️' : '☀️ Light Mode';
-        });
-      } else {
-        document.body.classList.remove('dark-theme');
-        document.body.classList.add('light-theme');
-        if (clubLogo) clubLogo.src = 'Light Theme Logo.png';
-        themeToggleBtns.forEach(b => {
-          b.innerText = b.classList.contains('mobile-top-theme-btn') ? '🌙' : '🌙 Dark Mode';
-        });
-      }
-      applyThemeToChart();
+      applyThemePreference(!isDarkMode, true);
     });
+  });
+
+  window.addEventListener('storage', (event) => {
+    if (event.key === 'theme') {
+      applyThemePreference(getPreferredDarkMode());
+    }
   });
 
   function applyThemeToChart() {
     if (!chart) return;
     if (isDarkMode) {
       chart.applyOptions({
-        layout: { background: { color: 'transparent' }, textColor: '#94a3b8' },
+        layout: { background: { color: 'transparent' }, textColor: '#a29d91', fontFamily: 'Inter, sans-serif' },
         grid: {
-          vertLines: { color: 'rgba(36, 49, 76, 0.4)' },
-          horzLines: { color: 'rgba(36, 49, 76, 0.4)' }
+          vertLines: { color: 'rgba(162, 157, 145, 0.16)' },
+          horzLines: { color: 'rgba(162, 157, 145, 0.16)' }
         },
-        rightPriceScale: { borderColor: '#24314c' },
-        timeScale: { borderColor: '#24314c' }
+        rightPriceScale: { borderColor: '#282a2d' },
+        timeScale: { borderColor: '#282a2d' }
       });
       if (candlestickSeries) {
         candlestickSeries.applyOptions({
-          upColor: '#22c55e',
-          downColor: '#ef4444',
-          borderUpColor: '#22c55e',
-          borderDownColor: '#ef4444',
-          wickUpColor: '#22c55e',
-          wickDownColor: '#ef4444',
+          upColor: '#48a878',
+          downColor: '#d8645b',
+          borderUpColor: '#48a878',
+          borderDownColor: '#d8645b',
+          wickUpColor: '#48a878',
+          wickDownColor: '#d8645b',
         });
       }
+      if (volumeSeries) volumeSeries.applyOptions({ color: '#ffb23e' });
+      if (sma20Series) sma20Series.applyOptions({ color: '#ffb23e' });
     } else {
       chart.applyOptions({
-        layout: { background: { color: 'transparent' }, textColor: '#334155' },
+        layout: { background: { color: 'transparent' }, textColor: '#645f55', fontFamily: 'Inter, sans-serif' },
         grid: {
-          vertLines: { color: '#e2e8f0' },
-          horzLines: { color: '#e2e8f0' }
+          vertLines: { color: '#cfc8b8' },
+          horzLines: { color: '#cfc8b8' }
         },
-        rightPriceScale: { borderColor: '#cbd5e1' },
-        timeScale: { borderColor: '#cbd5e1' }
+        rightPriceScale: { borderColor: '#cfc8b8' },
+        timeScale: { borderColor: '#cfc8b8' }
       });
       if (candlestickSeries) {
         candlestickSeries.applyOptions({
-          upColor: '#16a34a',
-          downColor: '#dc2626',
-          borderUpColor: '#092b00',
-          borderDownColor: '#450a0a',
-          wickUpColor: '#092b00',
-          wickDownColor: '#450a0a',
+          upColor: '#28754d',
+          downColor: '#b5443d',
+          borderUpColor: '#28754d',
+          borderDownColor: '#b5443d',
+          wickUpColor: '#28754d',
+          wickDownColor: '#b5443d',
         });
       }
+      if (volumeSeries) volumeSeries.applyOptions({ color: '#a84a00' });
+      if (sma20Series) sma20Series.applyOptions({ color: '#a84a00' });
     }
     requestAnimationFrame(drawHMMBackgroundOverlay);
   }
@@ -464,9 +492,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     rfBtnAll.innerText = `ALL (${summaryList.length})`;
-    rfBtnBull.innerText = `🟢 Bullish (${bullCount})`;
-    rfBtnNeutral.innerText = `🟡 Neutral (${neutralCount})`;
-    rfBtnBear.innerText = `🔴 Bearish (${bearCount})`;
+    rfBtnBull.innerText = `Bullish (${bullCount})`;
+    rfBtnNeutral.innerText = `Neutral (${neutralCount})`;
+    rfBtnBear.innerText = `Bearish (${bearCount})`;
 
     const filtered = summaryList.filter(item => {
       const nameMatch = item.sector.toLowerCase().includes(filterText);
@@ -544,13 +572,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentVal = item.current_val;
     const retPct = item.total_return_pct || `${((currentVal - 100.0) / 100.0 * 100.0) >= 0 ? '+' : ''}${((currentVal - 100.0) / 100.0 * 100.0).toFixed(2)}%`;
     const curState = getSectorCurrentState(secName, activeK);
-    const stateNames = { 0: "🔴 Bearish (State 0)", 1: "🟡 Neutral (State 1)", 2: "🟢 Bullish (State 2)" };
+    const stateNames = { 0: "Bearish (State 0)", 1: "Neutral (State 1)", 2: "Bullish (State 2)" };
 
     activeSectorTitle.innerText = displayName;
     metricCurrentVal.innerText = currentVal.toLocaleString('en-IN', { minimumFractionDigits: 2 });
     metricReturnVal.innerText = retPct;
     metricReturnVal.className = `metric-val ${!retPct.includes('-') ? 'positive' : 'negative'}`;
-    metricStateVal.innerText = stateNames[curState] || "🟢 Bullish (State 2)";
+    metricStateVal.innerText = stateNames[curState] || "Bullish (State 2)";
 
     // Update compact mobile values
     const mobilePriceVal = document.getElementById('mobile-price-val');
@@ -559,8 +587,8 @@ document.addEventListener('DOMContentLoaded', () => {
       mobilePriceVal.innerText = currentVal.toLocaleString('en-IN', { minimumFractionDigits: 2 });
     }
     if (mobileStateBadge) {
-      const shortStates = { 0: "🔴 Bearish", 1: "🟡 Neutral", 2: "🟢 Bullish" };
-      mobileStateBadge.innerText = shortStates[curState] || "🟢 Bullish";
+      const shortStates = { 0: "Bearish", 1: "Neutral", 2: "Bullish" };
+      mobileStateBadge.innerText = shortStates[curState] || "Bullish";
       mobileStateBadge.className = `mobile-state-badge state-${curState}`;
     }
 
@@ -592,7 +620,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     modalSectorTitle.innerText = `${activeSector.replace(/_/g, ' ')} STOCKS`;
-    const lockTxt = isCandleLocked ? '🔒 LOCKED' : '🔓 HOVER';
+    const lockTxt = isCandleLocked ? 'Locked' : 'Hover';
     modalDateInfo.innerText = `[${lockTxt}] Selected Candle Date: ${curDate || 'N/A'} (T) | T-1: ${prevDate || 'N/A'} | T-2: ${prev2Date || 'N/A'}`;
 
     const filteredStocks = constituents.filter(stk => {
@@ -692,33 +720,33 @@ document.addEventListener('DOMContentLoaded', () => {
     chart = LightweightCharts.createChart(chartContainer, {
       layout: {
         background: { color: 'transparent' },
-        textColor: '#94a3b8',
+        textColor: isDarkMode ? '#a29d91' : '#645f55',
         fontSize: 12,
         fontFamily: 'Inter, sans-serif'
       },
       grid: {
-        vertLines: { color: 'rgba(36, 49, 76, 0.4)', style: LightweightCharts.LineStyle.Dotted },
-        horzLines: { color: 'rgba(36, 49, 76, 0.4)', style: LightweightCharts.LineStyle.Dotted },
+        vertLines: { color: isDarkMode ? 'rgba(162, 157, 145, 0.16)' : '#cfc8b8', style: LightweightCharts.LineStyle.Dotted },
+        horzLines: { color: isDarkMode ? 'rgba(162, 157, 145, 0.16)' : '#cfc8b8', style: LightweightCharts.LineStyle.Dotted },
       },
       crosshair: {
         mode: LightweightCharts.CrosshairMode.Normal,
         vertLine: {
-          color: '#38bdf8',
+          color: isDarkMode ? '#ffb23e' : '#a84a00',
           width: 1,
           style: LightweightCharts.LineStyle.Dashed,
-          labelBackgroundColor: '#1e293b'
+          labelBackgroundColor: isDarkMode ? '#151719' : '#efeadE'
         },
         horzLine: {
-          color: '#38bdf8',
+          color: isDarkMode ? '#ffb23e' : '#a84a00',
           width: 1,
           style: LightweightCharts.LineStyle.Dashed,
-          labelBackgroundColor: '#1e293b'
+          labelBackgroundColor: isDarkMode ? '#151719' : '#efeadE'
         }
       },
       rightPriceScale: {
         visible: true,
         borderVisible: true,
-        borderColor: '#24314c',
+        borderColor: isDarkMode ? '#282a2d' : '#cfc8b8',
         autoScale: true,
         mode: LightweightCharts.PriceScaleMode.Normal,
         scaleMargins: { top: 0.05, bottom: 0.06 },
@@ -727,7 +755,7 @@ document.addEventListener('DOMContentLoaded', () => {
       timeScale: {
         visible: true,
         borderVisible: true,
-        borderColor: '#24314c',
+        borderColor: isDarkMode ? '#282a2d' : '#cfc8b8',
         timeVisible: true,
         secondsVisible: false,
         ticksVisible: true,
@@ -750,24 +778,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const isMobile = window.innerWidth <= 1023;
 
     candlestickSeries = chart.addCandlestickSeries({
-      upColor: '#22c55e',
-      downColor: '#ef4444',
-      borderUpColor: '#22c55e',
-      borderDownColor: '#ef4444',
-      wickUpColor: '#22c55e',
-      wickDownColor: '#ef4444',
+      upColor: isDarkMode ? '#48a878' : '#28754d',
+      downColor: isDarkMode ? '#d8645b' : '#b5443d',
+      borderUpColor: isDarkMode ? '#48a878' : '#28754d',
+      borderDownColor: isDarkMode ? '#d8645b' : '#b5443d',
+      wickUpColor: isDarkMode ? '#48a878' : '#28754d',
+      wickDownColor: isDarkMode ? '#d8645b' : '#b5443d',
     });
 
     volumeSeries = chart.addHistogramSeries({
-      color: '#38bdf8',
+      color: isDarkMode ? '#ffb23e' : '#a84a00',
       priceFormat: { type: 'volume' },
       priceScaleId: '',
       scaleMargins: { top: isMobile ? 0.88 : 0.82, bottom: 0 },
     });
 
-    sma20Series = chart.addLineSeries({ color: '#f59e0b', lineWidth: 1.5, title: 'SMA 20' });
-    sma50Series = chart.addLineSeries({ color: '#38bdf8', lineWidth: 1.5, title: 'SMA 50' });
-    ema200Series = chart.addLineSeries({ color: '#ec4899', lineWidth: 1.5, title: 'EMA 200' });
+    sma20Series = chart.addLineSeries({ color: isDarkMode ? '#ffb23e' : '#a84a00', lineWidth: 2, lineType: LightweightCharts.LineType.WithSteps, title: 'SMA 20' });
+    sma50Series = chart.addLineSeries({ color: '#78a9d1', lineWidth: 2, lineType: LightweightCharts.LineType.WithSteps, title: 'SMA 50' });
+    ema200Series = chart.addLineSeries({ color: '#64a87b', lineWidth: 2, lineType: LightweightCharts.LineType.WithSteps, title: 'EMA 200' });
 
     // CROSSHAIR MOVE HANDLER (Updates dates if NOT locked)
     chart.subscribeCrosshairMove((param) => {
@@ -853,13 +881,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const timeScale = chart.timeScale();
     
     const stateColors = isDarkMode ? {
-      0: "rgba(255, 23, 68, 0.28)",
-      1: "rgba(255, 235, 59, 0.18)",
-      2: "rgba(0, 230, 118, 0.28)"
+      0: "rgba(216, 100, 91, 0.10)",
+      1: "rgba(255, 178, 62, 0.07)",
+      2: "rgba(72, 168, 120, 0.10)"
     } : {
-      0: "rgba(244, 63, 94, 0.44)",  // Distinct Coral Rose (65% Deep Opacity)
-      1: "rgba(245, 158, 11, 0.38)", // Distinct Honey Gold (65% Deep Opacity)
-      2: "rgba(20, 184, 166, 0.44)"  // Distinct Mint Cyan (65% Deep Opacity - No Candle Blending!)
+      0: "rgba(181, 68, 61, 0.08)",
+      1: "rgba(168, 74, 0, 0.06)",
+      2: "rgba(40, 117, 77, 0.08)"
     };
 
     // Render contiguous regime blocks with exact midpoint bar boundaries so color transitions occur between candles (never splitting candles in half)

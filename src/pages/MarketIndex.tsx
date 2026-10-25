@@ -1,16 +1,17 @@
-import { useState } from "react";
 import Navbar from "@/components/Navbar";
-import HeroIndexDashboard from "@/components/HeroIndexDashboard";
+import { useState } from "react";
 import IndexTicker from "@/components/IndexTicker";
 import Footer from "@/components/Footer";
 import { useTheme } from "@/hooks/useTheme";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
+import { PixelCard } from "@/components/ui/PixelPrimitives";
 
 export default function MarketIndex() {
   const { isDark, toggle } = useTheme();
-  const [selectedSector, setSelectedSector] = useState("ELECTRONICS_EMS");
-
+  const [terminalLoaded, setTerminalLoaded] = useState(false);
+  const [terminalFailed, setTerminalFailed] = useState(false);
+  const [terminalAttempt, setTerminalAttempt] = useState(0);
   const terminalUrl = `${import.meta.env.BASE_URL}terminal/index.html`;
 
   return (
@@ -23,7 +24,7 @@ export default function MarketIndex() {
 
         {/* Streaming Ticker */}
         <div className="pt-16">
-          <IndexTicker onSelectSector={setSelectedSector} />
+          <IndexTicker />
         </div>
 
         {/* Page Header */}
@@ -45,47 +46,15 @@ export default function MarketIndex() {
           </motion.div>
         </div>
 
-        {/* Dashboard Preview Matrix */}
-        <div className="max-w-7xl mx-auto px-4 pb-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-          >
-            <HeroIndexDashboard
-              onOpenTerminal={() => {
-                const el = document.getElementById("full-terminal-view");
-                if (el) {
-                  el.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-              selectedSectorCode={selectedSector}
-              onSelectSector={setSelectedSector}
-            />
-          </motion.div>
-        </div>
-
-        {/* Full Interactive Terminal Embed */}
+        {/* Live terminal */}
         <div id="full-terminal-view" className="max-w-7xl mx-auto px-4 pb-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <div className="border border-border rounded-xl overflow-hidden shadow-2xl bg-card/60 backdrop-blur-xl">
-              {/* Top Bar with ONLY Standalone Tab Action */}
-              <div className="flex items-center justify-between px-5 py-3 border-b border-border/70 bg-secondary/30">
-                <div className="flex items-center gap-3">
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-3 h-3 rounded-full bg-rose-500/80" />
-                    <span className="w-3 h-3 rounded-full bg-amber-500/80" />
-                    <span className="w-3 h-3 rounded-full bg-emerald-500/80" />
-                  </div>
-                  <span className="text-xs font-mono font-medium text-muted-foreground uppercase tracking-widest pl-2 border-l border-border">
-                    Live Sector Index Terminal • 36 Baskets • 3-State Regimes
-                  </span>
-                </div>
-
+            <PixelCard className="border border-border rounded-xl overflow-hidden shadow-2xl bg-card/60 backdrop-blur-xl">
+              <div className="flex justify-end border-b border-border/70 bg-secondary/30 px-4 py-2.5 sm:px-5">
                 <a
                   href={terminalUrl}
                   target="_blank"
@@ -97,15 +66,50 @@ export default function MarketIndex() {
                 </a>
               </div>
 
-              {/* Embedded Frame */}
-              <div className="w-full bg-background" style={{ height: "85vh" }}>
+              <div
+                className="market-terminal-frame w-full bg-background"
+                style={{ height: "85vh" }}
+                aria-busy={!terminalLoaded && !terminalFailed}
+              >
+                {!terminalLoaded && !terminalFailed && (
+                  <div className="market-terminal-loading" role="status" aria-live="polite">
+                    <span className="market-terminal-loader" aria-hidden="true" />
+                    <span>Loading market terminal</span>
+                    <span className="market-terminal-loading-detail">
+                      Preparing sector data and regime view
+                    </span>
+                  </div>
+                )}
+                {terminalFailed && (
+                  <div className="market-terminal-loading" role="alert">
+                    <span className="market-terminal-loading-error">
+                      The market terminal could not be loaded.
+                    </span>
+                    <button
+                      type="button"
+                      className="market-terminal-retry"
+                      onClick={() => {
+                        setTerminalLoaded(false);
+                        setTerminalFailed(false);
+                        setTerminalAttempt((attempt) => attempt + 1);
+                      }}
+                    >
+                      Try again
+                    </button>
+                  </div>
+                )}
                 <iframe
+                  key={terminalAttempt}
                   src={terminalUrl}
                   title="COEP Market Index Terminal"
-                  className="w-full h-full border-0"
+                  className={`market-terminal-iframe h-full w-full border-0 ${
+                    terminalLoaded ? "market-terminal-iframe--loaded" : ""
+                  }`}
+                  onLoad={() => setTerminalLoaded(true)}
+                  onError={() => setTerminalFailed(true)}
                 />
               </div>
-            </div>
+            </PixelCard>
           </motion.div>
         </div>
 

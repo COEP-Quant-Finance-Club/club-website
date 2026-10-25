@@ -37,36 +37,34 @@ export default function Resources() {
   ];
 
   return (
-    <div className="relative min-h-screen">
-      {/* Blueprint grid background */}
-      <div className="fixed inset-0 grid-background opacity-40 pointer-events-none z-0" />
+    <div className="min-h-screen bg-background text-foreground">
+      <Navbar isDark={isDark} toggleTheme={toggle} />
 
-      <div className="relative z-10">
-        <Navbar isDark={isDark} toggleTheme={toggle} />
-
-        {/* Page Header */}
-        <div className="max-w-7xl mx-auto px-4 pt-28 pb-8">
+      <main>
+        <header className="mx-auto max-w-[1360px] px-6 pb-14 pt-16 sm:px-12 sm:pb-20 sm:pt-24">
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-3">
-              <BookOpen size={14} />
-              <span>Open Quantitative Knowledge & Data Foundry</span>
-            </div>
-            <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-foreground">
-              Research Papers & Open Data
+            <h1 className="flex max-w-5xl items-center gap-3 text-4xl font-light leading-[1.02] tracking-[-0.045em] sm:text-6xl">
+              <BookOpen
+                className="h-7 w-7 shrink-0 text-accent sm:h-9 sm:w-9"
+                aria-hidden="true"
+              />
+              <span>Research Papers & Open Data</span>
             </h1>
-            <p className="mt-3 text-muted-foreground font-light text-base max-w-2xl">
+            <p className="mt-6 max-w-2xl text-base font-light leading-relaxed text-muted-foreground sm:text-lg">
               Transparent, reproducible quantitative finance research. Access institutional-grade sector index datasets, high-frequency 5-minute cleaned equities data, and universe registries built by COEP Quant Finance Club.
             </p>
           </motion.div>
-        </div>
+        </header>
 
-        {/* Research Methodology Cards */}
-        <div className="max-w-7xl mx-auto px-4 pb-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <section
+          aria-label="Research methodology"
+          className="mx-auto max-w-[1360px] border-t border-border px-6 py-12 sm:px-12 sm:py-16"
+        >
+          <div className="grid grid-cols-1 gap-x-10 md:grid-cols-3">
             {researchPapers.map((paper, idx) => {
               const IconComp = paper.icon;
               return (
@@ -75,39 +73,30 @@ export default function Resources() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  className="rounded-xl p-6 bg-card/70 border border-border hover:border-cyan-500/40 backdrop-blur-xl flex flex-col justify-between transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-cyan-500/5"
+                  className="border-t border-border py-6 md:py-8"
                 >
-                  <div>
-                    <div className="flex items-center justify-between gap-2 mb-4">
-                      <div className="p-2.5 rounded-lg bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-                        <IconComp size={20} />
+                  <div className="flex h-full flex-col">
+                    <div className="mb-6 flex items-start justify-between gap-4">
+                      <div className="grid size-10 shrink-0 place-items-center border border-border text-accent">
+                        <IconComp size={18} aria-hidden="true" />
                       </div>
-                      <span className="text-[10px] font-mono font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-secondary text-muted-foreground">
-                        {paper.tag}
-                      </span>
+                      <span className="label-style text-right">{paper.tag}</span>
                     </div>
 
-                    <span className="text-xs font-mono text-cyan-400 uppercase tracking-widest block mb-1">
-                      {paper.category}
-                    </span>
-                    <h3 className="text-lg font-bold text-foreground mb-2">
+                    <p className="label-style mb-3">{paper.category}</p>
+                    <h2 className="mb-3 text-xl font-medium leading-snug tracking-tight">
                       {paper.title}
-                    </h3>
-                    <p className="text-xs text-muted-foreground leading-relaxed font-light mb-5">
+                    </h2>
+                    <p className="mb-6 text-sm font-light leading-relaxed text-muted-foreground">
                       {paper.description}
                     </p>
-                  </div>
 
-                  <div className="pt-4 border-t border-border/50">
-                    <div className="flex flex-wrap gap-1.5">
+                    <div className="mt-auto flex flex-col gap-2 border-t border-border pt-4">
                       {paper.features.map((feat) => (
-                        <span
-                          key={feat}
-                          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-secondary/70 border border-border/60 text-[11px] font-mono text-foreground"
-                        >
-                          <CheckCircle2 size={11} className="text-emerald-400" />
+                        <div key={feat} className="inline-flex items-center gap-2 text-xs text-muted-foreground">
+                          <CheckCircle2 size={13} className="shrink-0 text-accent" aria-hidden="true" />
                           <span>{feat}</span>
-                        </span>
+                        </div>
                       ))}
                     </div>
                   </div>
@@ -115,16 +104,12 @@ export default function Resources() {
               );
             })}
           </div>
-        </div>
+        </section>
 
-        {/* 1-Click Dataset Download Section */}
         <DatasetDownloadSection />
-
-        {/* Master Stock Universe & Timeline Explorer */}
         <MasterUniverseExplorer />
-
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </div>
   );
 }

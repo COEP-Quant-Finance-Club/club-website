@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useTheme } from "@/hooks/useTheme";
-import { Handshake, Building, GraduationCap, Database, Sparkles, ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const partners = [
@@ -11,67 +11,74 @@ const partners = [
     type: "Research Institution",
     category: "Academic & Regulatory Research",
     desc: "Collaborative research and academic exploration in financial market structures and quantitative risk frameworks.",
-    icon: GraduationCap,
+    logo: "/nism-logo.png",
+    logoClass: "h-12 w-full max-w-[240px]",
   },
   {
     name: "AQUA Pvt Ltd",
     type: "Quant Research Platform",
     category: "Industry Technology Partner",
     desc: "High-performance institutional quant platform powering algorithmic strategy development and backtesting research.",
-    icon: Building,
+    logo: "/aqua-logo.jpg",
+    logoClass: "h-16 w-16 rounded-lg",
   },
   {
     name: "Ainosoft Technologies",
     type: "Tech Consultant",
     category: "Software & Infrastructure",
     desc: "Technology consulting and computational infrastructure advisory for low-latency quantitative finance models.",
-    icon: Building,
+    logo: "/ainosoft-logo.jpg",
+    logoClass: "h-16 w-16 rounded-lg",
   },
   {
-    name: "Quant Society, BITS Pilani",
+    name: "Quant Club, BITS Pilani",
     type: "Student Organization",
     category: "Inter-Collegiate Chapter",
     desc: "Joint quantitative research summits, inter-university hackathons, and algorithmic trading knowledge exchanges.",
-    icon: Handshake,
+    logo: "/quant-club-bits-logo.jpg",
+    logoClass: "h-16 w-16 rounded-lg",
   },
   {
     name: "QuantNet",
     type: "Quantitative Community",
     category: "Global Network",
     desc: "Global financial engineering community collaboration and educational resource sharing.",
-    icon: Sparkles,
+    logo: "/quantnet-logo.jpg",
+    logoClass: "h-16 w-16 rounded-lg",
   },
   {
     name: "Databento",
     type: "Data Provider",
     category: "Market Microstructure Data",
     desc: "Institutional tick-level data access and market microstructure research datasets.",
-    icon: Database,
+    logo: "/databento-logo.jpg",
+    logoClass: "h-16 w-16 rounded-lg",
   },
 ];
 
 const collaborationAreas = [
   {
-    title: "Joint Quantitative Research",
-    desc: "Co-authoring empirical whitepapers on Indian equity sector dynamics, volatility modeling, and regime-switching algorithms.",
+    title: "Quant research and Market Making",
+    desc: "We develop and deploy market making solutions for crypto markets and jointly work with entities on hypothesis research/strategies across various other markets.",
   },
   {
-    title: "Market Microstructure Datasets",
-    desc: "Partnerships with institutional data vendors and exchanges to build accessible student research infrastructure.",
+    title: "Market Microstructure Datasets and Tools",
+    desc: "Partnerships with institutional data vendors and exchanges to build technology accessible student research infrastructure.",
   },
   {
     title: "Quant Hackathons & Case Competitions",
-    desc: "Sponsoring and hosting high-stakes quantitative finance competitions and algorithmic trading simulations.",
+    desc: "Sponsoring and hosting high-stakes quantitative finance competitions and quant/algo trading simulations.",
   },
   {
     title: "Talent & Research Fellowships",
-    desc: "Connecting high-performing student quantitative researchers with hedge funds, prop desks, and fintech firms.",
+    desc: "We generously back the best minds by providing opportunities in competitive programming, trading and research, making them look good for future career opportunities in the quant space",
   },
 ];
 
 export default function Collaborations() {
   const { isDark, toggle } = useTheme();
   const navigate = useNavigate();
+  const reduceMotion = useReducedMotion();
 
   return (
     <div className="relative min-h-screen bg-background text-foreground">
@@ -82,28 +89,20 @@ export default function Collaborations() {
         <Navbar isDark={isDark} toggleTheme={toggle} />
 
         {/* ── Page Header ─────────────────────────────────────── */}
-        <div className="pt-28 pb-12 px-4 max-w-6xl mx-auto">
+        <div className="pt-8 pb-12 px-4 max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="text-center md:text-left"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-card/60 backdrop-blur-md mb-4 text-xs font-mono tracking-widest text-accent uppercase">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-              <span>GLOBAL & INSTITUTIONAL PARTNERSHIPS</span>
-            </div>
-
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight uppercase">
-              Collaborations
-            </h1>
-            <p className="mt-4 text-muted-foreground font-light text-base sm:text-lg max-w-3xl leading-relaxed">
+            <p className="text-muted-foreground font-light text-base sm:text-lg max-w-3xl leading-relaxed">
               We partner with industry-leading trading desks, financial institutions, research universities, and data providers to advance open quantitative finance education in India.
             </p>
           </motion.div>
         </div>
 
-        {/* ── Partner Showcase Grid ───────────────────────────── */}
+        {/* ── Partner Logo Ticker ─────────────────────────────── */}
         <div className="py-12 px-4 max-w-6xl mx-auto border-t border-border/80">
           <span className="text-xs uppercase tracking-[0.25em] text-accent font-mono font-semibold block mb-3">
             ECOSYSTEM PARTNERS
@@ -112,36 +111,52 @@ export default function Collaborations() {
             Institutions & Platforms We Work With
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {partners.map((p, i) => {
-              const Icon = p.icon;
-              return (
-                <motion.div
-                  key={p.name}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: i * 0.08 }}
-                  className="p-6 rounded-xl border border-border bg-card/70 backdrop-blur-md hover:border-accent/50 transition-all flex flex-col justify-between group"
+          <div
+            className={`partner-ticker-mask${reduceMotion ? " partner-ticker-mask--static" : ""}`}
+            role="region"
+            aria-label="Our ecosystem partners"
+            tabIndex={0}
+          >
+            <div className={`partner-ticker-track${reduceMotion ? " partner-ticker-track--static" : ""}`}>
+              {[0, ...(reduceMotion ? [] : [1])].map((copy) => (
+                <div
+                  key={copy}
+                  className="partner-ticker-group"
+                  aria-hidden={copy === 1 ? "true" : undefined}
                 >
-                  <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/20 flex items-center justify-center text-accent group-hover:scale-105 transition-transform">
-                        <Icon size={20} />
+                  {partners.map((partner) => (
+                    <article
+                      key={partner.name}
+                      className="pixel-card partner-ticker-card group"
+                    >
+                      <div className="flex h-20 items-center justify-between gap-3">
+                        <img
+                          src={partner.logo}
+                          alt={copy === 0 ? `${partner.name} logo` : ""}
+                          className={`${partner.logoClass} shrink-0 object-contain`}
+                        />
+                        <span className="text-right text-[9px] font-mono uppercase tracking-wider text-muted-foreground">
+                          {partner.type}
+                        </span>
                       </div>
-                      <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-muted text-muted-foreground border border-border">
-                        {p.type}
-                      </span>
-                    </div>
-
-                    <h3 className="text-base font-bold text-foreground mb-1.5">{p.name}</h3>
-                    <span className="text-xs text-accent font-mono block mb-3">{p.category}</span>
-                    <p className="text-xs text-muted-foreground leading-relaxed font-light">{p.desc}</p>
-                  </div>
-                </motion.div>
-              );
-            })}
+                      <div className="mt-5 border-t border-border/70 pt-4">
+                        <h3 className="min-h-12 text-base font-bold text-foreground transition-colors group-hover:text-accent">
+                          {partner.name}
+                        </h3>
+                        <span className="text-xs text-accent font-mono">{partner.category}</span>
+                        <p className="mt-3 text-xs leading-relaxed text-muted-foreground font-light line-clamp-3">
+                          {partner.desc}
+                        </p>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              ))}
+            </div>
           </div>
+          <p className="mt-3 text-right text-[10px] font-mono uppercase tracking-widest text-muted-foreground/70">
+            {reduceMotion ? "Scroll to explore partners" : ""}
+          </p>
         </div>
 
         {/* ── Collaboration Pillars ───────────────────────────── */}
@@ -161,7 +176,7 @@ export default function Collaborations() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="p-5 rounded-xl border border-border bg-card/70 backdrop-blur-md hover:border-accent/40 transition-all flex items-start gap-4"
+                className="pixel-card p-5 border border-border bg-card/70 backdrop-blur-md hover:border-accent/40 transition-all flex items-start gap-4"
               >
                 <div className="w-8 h-8 rounded-md bg-accent/10 border border-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-0.5">
                   <CheckCircle size={16} />
@@ -181,13 +196,13 @@ export default function Collaborations() {
             Interested in Partnering With Us?
           </h2>
           <p className="text-sm text-muted-foreground max-w-xl mx-auto mb-6">
-            Whether you are a prop desk, academic institution, or fintech startup, let's build the future of quant finance together.
+            Whether you are a investing and trading firm, academic institution, student society, experienced professional or fintech startup, let's build the future together!.
           </p>
           <button
             onClick={() => navigate("/contact")}
             className="h-11 px-7 rounded-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-xs uppercase tracking-wider transition-all inline-flex items-center gap-2 cursor-pointer shadow-[0_0_20px_rgba(0,255,214,0.3)]"
           >
-            <span>Initiate Collaboration</span>
+            <span>Lets Collaborate!</span>
             <ArrowRight size={14} />
           </button>
         </div>

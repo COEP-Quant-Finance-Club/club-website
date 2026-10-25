@@ -1,40 +1,47 @@
 import { useRef, useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
+import { getThemeColor } from "./themeColor";
 
-/** Scene 1: Animated volatility surface with data grid */
-export function VolSurface() {
-  const meshRef = useRef<THREE.Mesh>(null);
+interface VolSurfaceProps {
+  mobile: boolean;
+  animate: boolean;
+}
+
+function updateSurface(geometry: THREE.PlaneGeometry, time: number) {
+  const position = geometry.attributes.position;
+  const vertices = position.array as Float32Array;
+  for (let i = 0; i < position.count; i++) {
+    const x = vertices[i * 3];
+    const y = vertices[i * 3 + 1];
+    const smile = 0.15 * (x * x) / 16;
+    const skew = -0.08 * x / 4;
+    const termStructure = 0.3 * Math.exp(-Math.abs(y) * 0.2);
+    const noise = 0.12 * Math.sin(x * 2.5 + time) * Math.cos(y * 2 + time * 0.6);
+    vertices[i * 3 + 2] = smile + skew + termStructure + noise + 0.6;
+  }
+  position.needsUpdate = true;
+  geometry.computeVertexNormals();
+}
+
+export function VolSurface({ mobile, animate }: VolSurfaceProps) {
   const timeRef = useRef(0);
 
   const geometry = useMemo(() => {
-    const res = 50;
-    const geo = new THREE.PlaneGeometry(8, 8, res, res);
+    const resolution = mobile ? 24 : 38;
+    const geo = new THREE.PlaneGeometry(8, 8, resolution, resolution);
+    updateSurface(geo, 0);
     return geo;
-  }, []);
+  }, [mobile]);
 
   useFrame((_, delta) => {
+    if (!animate) return;
     timeRef.current += delta * 0.4;
-    const pos = geometry.attributes.position;
-    const arr = pos.array as Float32Array;
-    const t = timeRef.current;
-
-    for (let i = 0; i < pos.count; i++) {
-      const x = arr[i * 3];
-      const y = arr[i * 3 + 1];
-      const r = Math.sqrt(x * x + y * y);
-      // Implied vol smile shape + time decay
-      const smile = 0.15 * (x * x) / 16;
-      const skew = -0.08 * x / 4;
-      const termStructure = 0.3 * Math.exp(-Math.abs(y) * 0.2);
-      const noise = 0.12 * Math.sin(x * 2.5 + t) * Math.cos(y * 2 + t * 0.6);
-      arr[i * 3 + 2] = smile + skew + termStructure + noise + 0.6;
-    }
-    pos.needsUpdate = true;
-    geometry.computeVertexNormals();
+    updateSurface(geometry, timeRef.current);
   });
 
-  // Generate grid lines
+  const surfaceColor = getThemeColor("--accent");
+  const gridColor = getThemeColor("--border");
   const gridLines = useMemo(() => {
     const lines: THREE.Vector3[][] = [];
     for (let i = -4; i <= 4; i += 0.8) {
@@ -49,14 +56,13 @@ export function VolSurface() {
       <mesh geometry={geometry}>
         <meshStandardMaterial
           wireframe
-          color="#ffffff"
-          emissive="#00D9FF"
-          emissiveIntensity={0.2}
+          color={surfaceColor}
+          emissive={surfaceColor}
+          emissiveIntensity={0.08}
           transparent
-          opacity={0.85}
+          opacity={0.8}
         />
       </mesh>
-      {/* Base grid */}
       {gridLines.map((pts, i) => (
         <line key={i}>
           <bufferGeometry>
@@ -66,27 +72,26 @@ export function VolSurface() {
               count={2}
             />
           </bufferGeometry>
-          <lineBasicMaterial color="#1a1a1a" transparent opacity={0.5} />
+          <lineBasicMaterial color={gridColor} transparent opacity={0.55} />
         </line>
       ))}
-      {/* Axes */}
       <line>
         <bufferGeometry>
           <bufferAttribute attach="attributes-position" args={[new Float32Array([-4.5, 0, 0, 4.5, 0, 0]), 3]} count={2} />
         </bufferGeometry>
-        <lineBasicMaterial color="#444444" />
+        <lineBasicMaterial color={gridColor} />
       </line>
       <line>
         <bufferGeometry>
           <bufferAttribute attach="attributes-position" args={[new Float32Array([0, -4.5, 0, 0, 4.5, 0]), 3]} count={2} />
         </bufferGeometry>
-        <lineBasicMaterial color="#444444" />
+        <lineBasicMaterial color={gridColor} />
       </line>
       <line>
         <bufferGeometry>
           <bufferAttribute attach="attributes-position" args={[new Float32Array([0, 0, -0.2, 0, 0, 2.5]), 3]} count={2} />
         </bufferGeometry>
-        <lineBasicMaterial color="#00D9FF" />
+        <lineBasicMaterial color={surfaceColor} />
       </line>
     </group>
   );

@@ -8,23 +8,23 @@ import { useNavigate } from "react-router-dom";
 const focuses = [
   {
     icon: Binary,
-    title: "Quantitative Research & Financial Mathematics",
-    desc: "Rigorous statistical analysis, stochastic calculus, time-series forecasting, and cross-sectional factor models engineered specifically for Indian equities.",
+    title: "Research & Investment Analysis",
+    desc: "We study companies, industries, and markets through financial analysis, forecasting, and quantitative methods—from long-term investing to evaluating early-stage ideas.",
   },
   {
     icon: Cpu,
-    title: "Algorithmic Trading & High-Speed Execution",
-    desc: "Low-latency backtesting engines, automated regime-adaptive trading systems, and execution routing architectures.",
+    title: "Trading Across Markets",
+    desc: "We explore both directional/systematic trading and market making, turning market views into testable strategies and learning to manage risk across global markets.",
   },
   {
     icon: LineChart,
-    title: "Financial Modeling & Derivatives Pricing",
-    desc: "Black-Scholes-Merton extensions, Monte Carlo simulation engines, implied volatility surface calibration, and option Greeks modeling.",
+    title: "Technology & Product Development",
+    desc: "We love to code and build: from open-source research tools and market data infrastructure to practical technology products shaped by real problems.",
   },
   {
     icon: Code2,
-    title: "Open-Source Quantitative Tools & Infrastructure",
-    desc: "Architecting open-source quantitative libraries, market micro-structure datasets, and real-time market indices for student researchers across India.",
+    title: "Writing, Puzzles & Market Challenges",
+    desc: "We share our teams’ analysis through blogs and social media, and make problem-solving fun with regular puzzles, brainteasers, and trading challenges.",
   },
 ];
 
@@ -79,25 +79,17 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-center md:text-left"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border bg-card/60 backdrop-blur-md mb-4 text-xs font-mono tracking-widest text-accent uppercase">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-              <span>COEP Technological University • Est. 1854</span>
-            </div>
-
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight uppercase">
               About The Club
             </h1>
             <p className="mt-4 text-muted-foreground font-light text-base sm:text-lg max-w-3xl leading-relaxed">
-              India's premier student-driven quantitative finance organization. We bridge mathematical theory, computational infrastructure, and algorithmic trading systems across Indian equities.
+              Rooted at COEP, Asia’s third-oldest college, we bring curious builders together around mathematics, technology, and financial markets. What began with a love of programming and problem-solving now spans development, research, and trading across global markets.
             </p>
           </motion.div>
         </div>
 
         {/* ── Core Research Pillars ───────────────────────────── */}
         <div className="py-12 px-4 max-w-6xl mx-auto border-t border-border/80">
-          <span className="text-xs uppercase tracking-[0.25em] text-accent font-mono font-semibold block mb-3">
-            RESEARCH FOCUS
-          </span>
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight uppercase mb-8">
             What We Engineer
           </h2>
@@ -112,7 +104,7 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="p-6 rounded-xl border border-border bg-card/70 backdrop-blur-md hover:border-accent/50 transition-all flex flex-col justify-between group"
+                  className="pixel-card p-6 border border-border bg-card/70 backdrop-blur-md hover:border-accent/50 transition-all flex flex-col justify-between group"
                 >
                   <div>
                     <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/20 flex items-center justify-center text-accent mb-4 group-hover:scale-105 transition-transform">
@@ -133,7 +125,7 @@ export default function About() {
             LEADERSHIP
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight uppercase mb-8">
-            Club Leadership Team
+            Driven by Passion and Curiosity
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -144,7 +136,7 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="p-5 rounded-xl border border-border bg-card/70 backdrop-blur-md hover:border-accent/40 transition-all flex flex-col justify-between"
+                className="pixel-card p-5 border border-border bg-card/70 backdrop-blur-md hover:border-accent/40 transition-all flex flex-col justify-between"
               >
                 <div>
                   <span className="text-[10px] font-mono uppercase tracking-widest text-accent block mb-1">
@@ -176,20 +168,27 @@ export default function About() {
         </div>
 
         {/* ── Call To Action ──────────────────────────────────── */}
-        <div className="py-16 px-4 max-w-6xl mx-auto text-center border-t border-border/80">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight uppercase mb-3">
-            Want to Join Our Quantitative Team?
-          </h2>
-          <p className="text-sm text-muted-foreground max-w-xl mx-auto mb-6">
-            We actively recruit driven students passionate about mathematics, machine learning, and algorithmic trading.
-          </p>
-          <button
-            onClick={() => navigate("/contact")}
-            className="h-11 px-7 rounded-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-xs uppercase tracking-wider transition-all inline-flex items-center gap-2 cursor-pointer shadow-[0_0_20px_rgba(0,255,214,0.3)]"
-          >
-            <span>Apply to Join Club</span>
-            <ArrowRight size={14} />
-          </button>
+        <div className="max-w-6xl mx-auto border-t border-border/80 px-4 py-10 sm:py-12">
+          <div className="pixel-card flex flex-col gap-6 border border-border bg-card/70 p-6 sm:p-8 md:flex-row md:items-center md:justify-between">
+            <div className="max-w-2xl">
+              <span className="text-[10px] font-mono uppercase tracking-[0.25em] text-accent">
+                Get involved
+              </span>
+              <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">
+                Want to Join Our Team?
+              </h2>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                Curious about markets, mathematics, or building things? Bring your ideas and learn with us—whatever your starting point.
+              </p>
+            </div>
+            <button
+              onClick={() => navigate("/contact")}
+              className="inline-flex h-11 shrink-0 items-center justify-center gap-2 self-start border border-accent bg-accent px-6 text-xs font-bold uppercase tracking-wider text-accent-foreground transition-colors hover:bg-accent/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:self-auto"
+            >
+              <span>Apply to Join Club</span>
+              <ArrowRight size={14} />
+            </button>
+          </div>
         </div>
 
         <Footer />

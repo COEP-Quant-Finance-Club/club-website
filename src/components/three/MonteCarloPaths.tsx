@@ -1,21 +1,28 @@
 import { useRef, useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
+import { getThemeColor } from "./themeColor";
 
-const PARTICLE_COUNT = 800;
 const PATH_LENGTH = 60;
 
-/** Scene 2: Monte Carlo simulation paths — Geometric Brownian Motion */
-export function MonteCarloPaths() {
+interface MonteCarloPathsProps {
+  mobile: boolean;
+  animate: boolean;
+}
+
+export function MonteCarloPaths({ mobile, animate }: MonteCarloPathsProps) {
   const groupRef = useRef<THREE.Group>(null);
   const timeRef = useRef(0);
+  const particleCount = mobile ? 180 : 500;
+  const pathCount = mobile ? 32 : 64;
+  const accent = getThemeColor("--accent");
+  const neutral = getThemeColor("--muted-foreground");
 
-  // Pre-generate random walk paths
   const pathsData = useMemo(() => {
     const paths: Float32Array[] = [];
     const colors: Float32Array[] = [];
 
-    for (let p = 0; p < 80; p++) {
+    for (let p = 0; p < pathCount; p++) {
       const positions = new Float32Array(PATH_LENGTH * 3);
       const color = new Float32Array(PATH_LENGTH * 3);
       let price = 0;
@@ -31,47 +38,44 @@ export function MonteCarloPaths() {
         positions[i * 3 + 1] = price;
         positions[i * 3 + 2] = z;
 
-        // Color based on return: cyan for positive, white for negative
         const intensity = Math.abs(price) * 2;
-        if (price >= 0) {
-          color[i * 3] = 0;
-          color[i * 3 + 1] = 0.85 * Math.min(intensity, 1);
-          color[i * 3 + 2] = 1;
-        } else {
-          color[i * 3] = 1;
-          color[i * 3 + 1] = 1;
-          color[i * 3 + 2] = 1;
-        }
+        const colorValue = (price >= 0 ? accent : neutral).clone().multiplyScalar(
+          0.55 + 0.45 * Math.min(intensity, 1),
+        );
+        color[i * 3] = colorValue.r;
+        color[i * 3 + 1] = colorValue.g;
+        color[i * 3 + 2] = colorValue.b;
       }
       paths.push(positions);
       colors.push(color);
     }
     return { paths, colors };
-  }, []);
+  }, [accent, neutral, pathCount]);
 
-  // Floating data points
   const pointsGeo = useMemo(() => {
-    const positions = new Float32Array(PARTICLE_COUNT * 3);
-    const colors = new Float32Array(PARTICLE_COUNT * 3);
+    const positions = new Float32Array(particleCount * 3);
+    const colors = new Float32Array(particleCount * 3);
 
-    for (let i = 0; i < PARTICLE_COUNT; i++) {
+    for (let i = 0; i < particleCount; i++) {
       positions[i * 3] = (Math.random() - 0.5) * 10;
       positions[i * 3 + 1] = (Math.random() - 0.5) * 6;
       positions[i * 3 + 2] = (Math.random() - 0.5) * 4;
 
       const isAccent = Math.random() > 0.7;
-      colors[i * 3] = isAccent ? 0 : 0.4;
-      colors[i * 3 + 1] = isAccent ? 0.85 : 0.4;
-      colors[i * 3 + 2] = isAccent ? 1 : 0.4;
+      const color = isAccent ? accent : neutral;
+      colors[i * 3] = color.r;
+      colors[i * 3 + 1] = color.g;
+      colors[i * 3 + 2] = color.b;
     }
 
     const geo = new THREE.BufferGeometry();
     geo.setAttribute("position", new THREE.BufferAttribute(positions, 3));
     geo.setAttribute("color", new THREE.BufferAttribute(colors, 3));
     return geo;
-  }, []);
+  }, [accent, neutral, particleCount]);
 
   useFrame((_, delta) => {
+    if (!animate) return;
     timeRef.current += delta * 0.15;
     if (groupRef.current) {
       groupRef.current.rotation.y = timeRef.current * 0.3;
@@ -79,7 +83,7 @@ export function MonteCarloPaths() {
 
     // Animate particles
     const pos = pointsGeo.attributes.position.array as Float32Array;
-    for (let i = 0; i < PARTICLE_COUNT; i++) {
+    for (let i = 0; i < particleCount; i++) {
       pos[i * 3 + 1] += Math.sin(timeRef.current * 2 + i * 0.1) * 0.002;
     }
     pointsGeo.attributes.position.needsUpdate = true;
@@ -87,7 +91,6 @@ export function MonteCarloPaths() {
 
   return (
     <group ref={groupRef}>
-      {/* Simulation paths */}
       {pathsData.paths.map((positions, i) => (
         <line key={i}>
           <bufferGeometry>
@@ -106,17 +109,15 @@ export function MonteCarloPaths() {
         </line>
       ))}
 
-      {/* Data points cloud */}
       <points geometry={pointsGeo}>
         <pointsMaterial size={0.04} vertexColors transparent opacity={0.8} sizeAttenuation />
       </points>
 
-      {/* Central axis */}
       <line>
         <bufferGeometry>
           <bufferAttribute attach="attributes-position" args={[new Float32Array([-5, 0, 0, 5, 0, 0]), 3]} count={2} />
         </bufferGeometry>
-        <lineBasicMaterial color="#00D9FF" transparent opacity={0.4} />
+        <lineBasicMaterial color={accent} transparent opacity={0.45} />
       </line>
     </group>
   );
