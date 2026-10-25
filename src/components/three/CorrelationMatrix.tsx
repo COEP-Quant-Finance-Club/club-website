@@ -41,7 +41,6 @@ export function CorrelationMatrix({ mobile, animate }: CorrelationMatrixProps) {
       groupRef.current.rotation.y = Math.sin(timeRef.current * 0.2) * 0.3 + 0.5;
     }
 
-    // Animate bar heights
     cells.forEach((cell, idx) => {
       const mesh = meshRefs.current[idx];
       if (mesh) {

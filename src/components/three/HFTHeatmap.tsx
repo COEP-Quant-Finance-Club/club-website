@@ -49,7 +49,7 @@ export default function HFTHeatmap({ isDark, mobile }: HFTHeatmapProps) {
               aria-hidden="true"
               className="flex items-center justify-center rounded-sm font-mono text-[9px] tabular-nums sm:text-xs"
               style={{
-                backgroundColor: `rgba(var(--accent), ${0.07 + intensity * (isDark ? 0.34 : 0.22)})`,
+                backgroundColor: `rgba(var(--accent), ${0.07 + intensity * (isDark ? 0.39 : 0.22)})`,
                 color: "rgb(var(--foreground))",
               }}
             >

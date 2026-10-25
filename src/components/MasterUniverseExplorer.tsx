@@ -79,19 +79,19 @@ export default function MasterUniverseExplorer() {
   };
 
   return (
-    <section id="universe-explorer" className="w-full py-12">
-      <div className="max-w-7xl mx-auto px-4">
+    <section id="universe-explorer" className="w-full py-12 sm:py-16">
+      <div className="mx-auto max-w-[1360px] px-6 sm:px-12">
         {/* Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-border/60">
+        <div className="mb-8 flex flex-col justify-between gap-5 border-b border-border pb-6 md:flex-row md:items-end">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-3">
-              <Database size={14} />
+            <div className="label-style mb-3 flex items-center gap-2 text-accent">
+              <Database size={14} aria-hidden="true" />
               <span>1,213 Equities • 84M+ 5-Minute Intraday Bars • 1.16M+ Daily Bars</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-foreground">
+            <h2 className="text-3xl font-light leading-tight tracking-[-0.035em] sm:text-5xl">
               Master Stock Universe & Timeline Explorer
             </h2>
-            <p className="mt-2 text-sm sm:text-base text-muted-foreground font-light max-w-2xl">
+            <p className="mt-4 max-w-2xl text-sm font-light leading-relaxed text-muted-foreground sm:text-base">
               Inspect our comprehensive multi-asset data foundry coverage. Search across all 1,213 Indian equities with exact 5-minute and Daily time horizons, bar counts, and market cap tiers.
             </p>
           </div>
@@ -100,55 +100,42 @@ export default function MasterUniverseExplorer() {
             <a
               href={masterSummaryUrl}
               download="Master_Universe_Summary.csv"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-black font-semibold text-xs sm:text-sm tracking-wide transition-all shadow-md shadow-cyan-500/20"
+              className="inline-flex min-h-11 items-center gap-2 rounded-full bg-foreground px-5 text-xs font-medium text-background transition-opacity hover:opacity-80 sm:text-sm"
             >
-              <Download size={16} />
+              <Download size={16} aria-hidden="true" />
               <span>Download Master Summary (CSV)</span>
             </a>
           </div>
         </div>
 
-        {/* Metric Cards Banner */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
-          <div className="p-4 rounded-xl bg-card border border-border/70 backdrop-blur-md">
-            <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider block">Coverage Universe</span>
-            <div className="flex items-baseline gap-2 mt-1">
-              <span className="text-2xl font-bold text-foreground">1,213</span>
-              <span className="text-xs text-cyan-400 font-mono">Equities</span>
-            </div>
-            <span className="text-[11px] text-muted-foreground mt-1 block">Large, Mid & Small Cap</span>
+        <div className="mb-8 grid grid-cols-2 gap-x-6 border-b border-border sm:grid-cols-4">
+          <div className="border-t border-border py-4">
+            <span className="label-style block">Coverage Universe</span>
+            <div className="mt-1 text-2xl font-medium tabular-nums">1,213 <span className="text-sm text-muted-foreground">Equities</span></div>
+            <span className="mt-1 block text-xs text-muted-foreground">Large, Mid & Small Cap</span>
           </div>
 
-          <div className="p-4 rounded-xl bg-card border border-border/70 backdrop-blur-md">
-            <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider block">5m Intraday Timeline</span>
-            <div className="flex items-baseline gap-2 mt-1">
-              <span className="text-2xl font-bold text-emerald-400">84.0M</span>
-              <span className="text-xs text-muted-foreground font-mono">Bars</span>
-            </div>
-            <span className="text-[11px] text-muted-foreground mt-1 block">Jan 2022 – Aug 2026</span>
+          <div className="border-t border-border py-4">
+            <span className="label-style block">5m Intraday Timeline</span>
+            <div className="mt-1 text-2xl font-medium tabular-nums">84.0M <span className="text-sm text-muted-foreground">Bars</span></div>
+            <span className="mt-1 block text-xs text-muted-foreground">Jan 2022 – Aug 2026</span>
           </div>
 
-          <div className="p-4 rounded-xl bg-card border border-border/70 backdrop-blur-md">
-            <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider block">Daily OHLCV Timeline</span>
-            <div className="flex items-baseline gap-2 mt-1">
-              <span className="text-2xl font-bold text-cyan-400">1.16M</span>
-              <span className="text-xs text-muted-foreground font-mono">Bars</span>
-            </div>
-            <span className="text-[11px] text-muted-foreground mt-1 block">Jan 2022 – Aug 2026</span>
+          <div className="border-t border-border py-4">
+            <span className="label-style block">Daily OHLCV Timeline</span>
+            <div className="mt-1 text-2xl font-medium tabular-nums">1.16M <span className="text-sm text-muted-foreground">Bars</span></div>
+            <span className="mt-1 block text-xs text-muted-foreground">Jan 2022 – Aug 2026</span>
           </div>
 
-          <div className="p-4 rounded-xl bg-card border border-border/70 backdrop-blur-md">
-            <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider block">Data Cleanliness</span>
-            <div className="flex items-baseline gap-2 mt-1">
-              <span className="text-2xl font-bold text-purple-400">100%</span>
-              <span className="text-xs text-muted-foreground font-mono">Audited</span>
-            </div>
-            <span className="text-[11px] text-muted-foreground mt-1 block">Split & Bonus Adjusted</span>
+          <div className="border-t border-border py-4">
+            <span className="label-style block">Data Cleanliness</span>
+            <div className="mt-1 text-2xl font-medium tabular-nums">100% <span className="text-sm text-muted-foreground">Audited</span></div>
+            <span className="mt-1 block text-xs text-muted-foreground">Split & Bonus Adjusted</span>
           </div>
         </div>
 
         {/* Filter Toolbar */}
-        <div className="p-4 rounded-xl bg-card border border-border/80 mb-6 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mb-6 flex flex-col items-start justify-between gap-4 border-y border-border py-4 md:flex-row md:items-center">
           {/* Search Bar */}
           <div className="relative w-full md:w-80">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" size={16} />
@@ -160,14 +147,14 @@ export default function MasterUniverseExplorer() {
                 setSearchTerm(e.target.value);
                 setCurrentPage(1);
               }}
-              className="w-full pl-9 pr-4 py-2 text-xs sm:text-sm rounded-lg bg-secondary/70 border border-border focus:outline-none focus:border-cyan-500 font-mono text-foreground placeholder:text-muted-foreground/60"
+              className="w-full border border-border bg-background py-2 pl-9 pr-4 font-mono text-xs text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-1 focus:ring-ring sm:text-sm"
             />
           </div>
 
           {/* Filters */}
           <div className="flex flex-wrap items-center gap-2 w-full md:w-auto">
             {/* Market Cap Tier Tabs */}
-            <div className="inline-flex rounded-lg bg-secondary/80 p-1 border border-border">
+            <div className="inline-flex max-w-full overflow-x-auto border-b border-border">
               {[
                 { id: "all", label: "All (1,213)" },
                 { id: "largecap", label: "Large Cap (339)" },
@@ -179,7 +166,7 @@ export default function MasterUniverseExplorer() {
                   onClick={() => handleTierChange(tab.id)}
                   className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${
                     selectedTier === tab.id
-                      ? "bg-cyan-500 text-black font-semibold shadow-sm"
+                      ? "border-b-2 border-accent text-foreground"
                       : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
@@ -193,7 +180,7 @@ export default function MasterUniverseExplorer() {
               <select
                 value={selectedSector}
                 onChange={(e) => handleSectorChange(e.target.value)}
-                className="px-3 py-1.5 rounded-lg bg-secondary/80 border border-border text-xs font-mono text-foreground focus:outline-none focus:border-cyan-500"
+                className="border border-border bg-background px-3 py-1.5 text-xs font-mono text-foreground focus:outline-none focus:ring-1 focus:ring-ring"
               >
                 <option value="all">All Sectors ({uniqueSectors.length})</option>
                 {uniqueSectors.map((sec) => (
@@ -207,10 +194,10 @@ export default function MasterUniverseExplorer() {
         </div>
 
         {/* Interactive Stock Table */}
-        <div className="rounded-xl border border-border bg-card/60 backdrop-blur-xl overflow-hidden shadow-sm">
+        <div className="overflow-hidden border-y border-border">
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs font-mono">
-              <thead className="bg-secondary/60 border-b border-border text-muted-foreground uppercase text-[11px] tracking-wider">
+              <thead className="border-b border-border text-muted-foreground uppercase text-[11px] tracking-wider">
                 <tr>
                   <th className="py-3 px-4 w-12 text-center">#</th>
                   <th className="py-3 px-4">Symbol & Company Name</th>
@@ -231,13 +218,6 @@ export default function MasterUniverseExplorer() {
                   </tr>
                 ) : (
                   paginatedStocks.map((stk) => {
-                    const tierBadgeColor =
-                      stk.tier === "largecap"
-                        ? "bg-cyan-500/10 text-cyan-400 border-cyan-500/30"
-                        : stk.tier === "midcap"
-                        ? "bg-purple-500/10 text-purple-400 border-purple-500/30"
-                        : "bg-amber-500/10 text-amber-400 border-amber-500/30";
-
                     return (
                       <tr key={stk.symbol} className="hover:bg-secondary/30 transition-colors">
                         <td className="py-3 px-4 text-center text-muted-foreground">{stk.sr}</td>
@@ -252,16 +232,16 @@ export default function MasterUniverseExplorer() {
                         </td>
                         <td className="py-3 px-4">
                           <div className="text-foreground font-semibold">₹{stk.mcap.toLocaleString("en-IN")} Cr</div>
-                          <span className={`inline-block px-1.5 py-0.2 rounded text-[9px] font-bold uppercase tracking-wider border ${tierBadgeColor}`}>
+                          <span className="mt-1 inline-block border border-border px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider text-muted-foreground">
                             {stk.tier}
                           </span>
                         </td>
                         <td className="py-3 px-4">
                           <div className="text-foreground">{stk.m5_start} → {stk.m5_end}</div>
-                          <span className="text-[10px] text-emerald-400">Continuous 5m series</span>
+                          <span className="text-[10px] text-muted-foreground">Continuous 5m series</span>
                         </td>
                         <td className="py-3 px-4">
-                          <span className="font-semibold text-emerald-400">
+                          <span className="font-semibold tabular-nums text-foreground">
                             {stk.m5_rows.toLocaleString("en-IN")}
                           </span>
                         </td>
@@ -270,8 +250,8 @@ export default function MasterUniverseExplorer() {
                           <span className="text-[10px] text-muted-foreground">{stk.daily_rows.toLocaleString("en-IN")} daily bars</span>
                         </td>
                         <td className="py-3 px-4 text-center">
-                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                          <span className="inline-flex items-center gap-1 border border-border px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
+                            <span className="size-1.5 bg-accent" />
                             <span>{stk.m5_status}</span>
                           </span>
                         </td>
@@ -284,7 +264,7 @@ export default function MasterUniverseExplorer() {
           </div>
 
           {/* Pagination Controls */}
-          <div className="p-4 bg-secondary/40 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 text-xs font-mono">
+          <div className="flex flex-col items-center justify-between gap-3 border-t border-border bg-background py-4 text-xs font-mono sm:flex-row">
             <div className="text-muted-foreground">
               Showing <span className="font-semibold text-foreground">{(currentPage - 1) * pageSize + 1}</span> to{" "}
               <span className="font-semibold text-foreground">
@@ -302,7 +282,7 @@ export default function MasterUniverseExplorer() {
                 <ChevronLeft size={16} />
               </button>
 
-              <span className="px-3 py-1 rounded-md bg-secondary text-foreground font-semibold">
+              <span className="px-3 py-1 text-foreground font-semibold">
                 Page {currentPage} of {totalPages}
               </span>
 

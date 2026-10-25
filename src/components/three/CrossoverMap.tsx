@@ -129,7 +129,7 @@ export default function CrossoverMap({ isDark }: { isDark: boolean }) {
                     : `${cell.percentage >= 0 ? "+" : ""}${cell.percentage.toFixed(2)}%`;
                   const intensity = cell.value === null
                     ? 0
-                    : 0.04 + Math.abs(cell.value) * (isDark ? 0.28 : 0.2);
+                    : 0.04 + Math.abs(cell.value) * (isDark ? 0.32 : 0.2);
 
                   return (
                     <td

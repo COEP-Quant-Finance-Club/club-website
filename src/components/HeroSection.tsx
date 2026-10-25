@@ -134,8 +134,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="landing-hero-description">
-          Student researchers building market indices, systematic strategies, and open-source
-          tools for Indian markets.
+          Student researchers building market hypothesis, systematic strategies, and open/close source projects for Indian & Global Financial Markets.
         </p>
 
         <div className="landing-hero-actions">
@@ -147,13 +146,32 @@ export default function HeroSection() {
           </button>
         </div>
 
-        <div className="landing-code" aria-label="Illustrative quantitative finance code">
-          <span className="landing-code-line">idx = load("coep36")</span>
-          <span className="landing-code-line">r = idx.pct_change().dropna()</span>
-          <span className="landing-code-line">regime = classify(r, states=3)</span>
-          <span className="landing-code-line landing-code-line--output">
-            &gt;&gt;&gt; 36 sectors | 1,445 equities | state 2
-          </span>
+        <div className="landing-code-shell" aria-label="Illustrative quantitative finance code in OCaml">
+          <div className="landing-code-header">
+            <span>MARKET REGIME MODEL</span>
+            <span className="landing-code-language"></span>
+          </div>
+          <div className="landing-code">
+            <code>
+              <span className="landing-code-line">
+                <span className="landing-code-keyword">let</span> idx ={" "}
+                <span className="landing-code-function">load</span>{" "}
+                <span className="landing-code-string">"coep36"</span> ;;
+              </span>
+              <span className="landing-code-line">
+                <span className="landing-code-keyword">let</span> r = idx |&gt;{" "}
+                <span className="landing-code-function">pct_change</span> |&gt;{" "}
+                <span className="landing-code-function">dropna</span> ;;
+              </span>
+              <span className="landing-code-line">
+                <span className="landing-code-keyword">let</span> regime ={" "}
+                <span className="landing-code-function">classify</span> ~states:3 r ;;
+              </span>
+              <span className="landing-code-line landing-code-line--output">
+                (* 36 sectors | 1,445 equities | state 2 *)
+              </span>
+            </code>
+          </div>
         </div>
 
         <dl className="landing-stats">
@@ -178,7 +196,7 @@ export default function HeroSection() {
       >
         <div className="landing-order-book-heading">
           <span>COEP36 · depth</span>
-          <span className="landing-simulated-feed">simulated feed</span>
+          <span className="landing-simulated-feed">Order book</span>
         </div>
         <BookRows rows={asks} side="ask" />
         <div className="landing-mid-price">

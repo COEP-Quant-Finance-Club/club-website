@@ -1,7 +1,18 @@
-import { motion } from "framer-motion";
-import SectionWrapper from "./SectionWrapper";
+import { motion, useReducedMotion } from "framer-motion";
 
 const blogs = [
+  {
+    title: "When Rain Becomes an Asset Class: India's First Weather Derivative and the Financialization of the…",
+    date: "2026-06-14",
+    read: "7 min",
+    url: "https://medium.com/@quantfinance/when-rain-becomes-an-asset-class-indias-first-weather-derivative-and-the-financialization-of-the-47af9062bc60",
+  },
+  {
+    title: "Why the Indian Rupee Is Sitting Near Record Lows",
+    date: "2026-04-06",
+    read: "7 min",
+    url: "https://medium.com/@quantfinance/why-the-indian-rupee-is-sitting-near-record-lows-c55eb5e6c6b0",
+  },
   {
     title: "When Safe Havens Stop Acting Safe",
     date: "2026-03-19",
@@ -15,9 +26,24 @@ const mediumProfileUrl = "https://medium.com/@quantfinance";
 const spring = { type: "spring" as const, duration: 0.4, bounce: 0 };
 
 export default function BlogsSection() {
+  const reduceMotion = useReducedMotion();
+
   return (
-    <SectionWrapper id="blogs" title="Blogs">
-      <div className="mb-8 flex justify-end">
+    <section
+      id="blogs"
+      className="mx-auto w-full max-w-[1360px] px-6 py-20 sm:py-24 lg:px-12 lg:py-32"
+    >
+      <div className="mb-10 flex flex-wrap items-end justify-between gap-6">
+        <motion.header
+          initial={reduceMotion ? false : { opacity: 0, y: 12 }}
+          whileInView={reduceMotion ? undefined : { opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.35 }}
+        >
+          <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-light leading-[0.98] tracking-[-0.045em] text-foreground">
+            Blogs
+          </h2>
+        </motion.header>
         <motion.button
           whileHover={{ x: 3 }}
           transition={spring}
@@ -28,31 +54,33 @@ export default function BlogsSection() {
         </motion.button>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {blogs.map((b, i) => (
-          <motion.article
+          <motion.a
             key={b.title}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            href={b.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={reduceMotion ? false : { opacity: 0, y: 12 }}
+            whileInView={reduceMotion ? undefined : { opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.1 }}
-            whileHover={{ y: -4, transition: spring }}
-            onClick={() => window.open(b.url, "_blank", "noopener,noreferrer")}
-            className="p-6 rounded-lg card-border hover:card-border-hover transition-shadow cursor-pointer group"
+            transition={{ duration: 0.35, delay: i * 0.06 }}
+            whileHover={reduceMotion ? undefined : { y: -2 }}
+            className="group flex h-full flex-col border border-border p-6 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
-            <div className="flex items-center gap-4 mb-3">
+            <div className="mb-3 flex items-center gap-4">
               <span className="label-style">{b.date}</span>
-              <span className="label-style">· {b.read}</span>
+              {"read" in b && <span className="label-style">· {b.read}</span>}
             </div>
-            <h3 className="text-lg font-medium text-foreground group-hover:text-accent transition-colors">
+            <h3 className="text-lg font-medium text-foreground transition-colors group-hover:text-accent">
               {b.title}
             </h3>
-            <span className="label-style mt-4 inline-block group-hover:text-accent transition-colors">
+            <span className="label-style mt-auto pt-6 inline-block transition-colors group-hover:text-accent">
               Read Article →
             </span>
-          </motion.article>
+          </motion.a>
         ))}
       </div>
-    </SectionWrapper>
+    </section>
   );
 }

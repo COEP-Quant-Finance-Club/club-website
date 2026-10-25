@@ -3,7 +3,6 @@ import HeroSection from "@/components/HeroSection";
 import IndexTicker from "@/components/IndexTicker";
 import IndexShowcaseSection from "@/components/IndexShowcaseSection";
 import ProjectsSection from "@/components/ProjectsSection";
-import MathModelsSection from "@/components/MathModelsSection";
 import EventsSection from "@/components/EventsSection";
 import BlogsSection from "@/components/BlogsSection";
 import Footer from "@/components/Footer";
@@ -38,7 +37,6 @@ const Index = () => {
     <div className="relative min-h-screen overflow-x-clip">
       <Navbar isDark={isDark} toggleTheme={toggle} />
       <main className="relative isolate">
-        <MathModelsSection />
         <div className="relative z-10">
           <HeroSection />
           <IndexTicker onSelectSector={() => navigate("/market-index")} />
@@ -52,7 +50,7 @@ const Index = () => {
           >
             <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
               <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-                Get In Touch
+                Have an idea or want to collaborate with us?
               </h2>
               <Button size="lg" onClick={() => navigate("/contact")}>
                 Get In Touch <ArrowUpRight aria-hidden="true" />

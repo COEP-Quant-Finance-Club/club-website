@@ -31,10 +31,9 @@ export default function HeroIndexDashboard({
     if (onSelectSector) onSelectSector(sec.code);
   };
 
-  // Generate SVG path for sparkline
-  const sparklineSvgPath = useMemo(() => {
+  const candles = useMemo(() => {
     const data = activeSector.sparkline;
-    if (!data || data.length === 0) return "";
+    if (data.length < 2) return [];
     const min = Math.min(...data);
     const max = Math.max(...data);
     const range = max - min || 1;
@@ -42,19 +41,25 @@ export default function HeroIndexDashboard({
     const height = 140;
     const padding = 10;
 
-    const points = data.map((val, idx) => {
-      const x = padding + (idx / (data.length - 1)) * (width - 2 * padding);
-      const y = height - padding - ((val - min) / range) * (height - 2 * padding);
-      return `${x.toFixed(1)},${y.toFixed(1)}`;
-    });
+    return data.slice(1).map((close, index) => {
+      const open = data[index];
+      const x = padding + ((index + 0.5) / (data.length - 1)) * (width - 2 * padding);
+      const openY = height - padding - ((open - min) / range) * (height - 2 * padding);
+      const closeY = height - padding - ((close - min) / range) * (height - 2 * padding);
 
-    return `M ${points.join(" L ")}`;
+      return {
+        x,
+        y: Math.min(openY, closeY),
+        bodyHeight: Math.max(Math.abs(closeY - openY), 2),
+        isUp: close >= open,
+      };
+    });
   }, [activeSector]);
 
   const isTotPos = activeSector.totalReturn >= 0;
 
   return (
-    <div className="w-full bg-card/60 backdrop-blur-xl border border-border/80 rounded-xl overflow-hidden shadow-2xl">
+    <div className="pixel-card w-full bg-card/60 backdrop-blur-xl border border-border/80 overflow-hidden shadow-2xl">
       {/* Terminal Top Bar */}
       <div className="flex flex-wrap items-center justify-between gap-3 px-5 py-3 border-b border-border/70 bg-secondary/30">
         <div className="flex items-center gap-3">
@@ -171,33 +176,30 @@ export default function HeroIndexDashboard({
             {/* Sparkline Visualizer */}
             <div className="relative w-full h-[150px] bg-background/40 rounded-lg p-2 border border-border/50 overflow-hidden flex flex-col justify-between">
               <div className="flex justify-between items-center text-[10px] font-mono text-muted-foreground px-2 pt-1">
-                <span>30-Day Trendline (Normalized)</span>
-                <span className="flex items-center gap-1 text-emerald-400">
-                  <Activity size={12} /> High-Precision OHLCV
+                <span>30-Day Price Movement</span>
+                <span className="flex items-center gap-1">
+                  <Activity size={12} /> Close-to-close
                 </span>
               </div>
 
-              <svg className="w-full h-[110px] overflow-visible" viewBox="0 0 480 140" preserveAspectRatio="none">
-                <defs>
-                  <linearGradient id={`grad-${activeSector.code}`} x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor={isTotPos ? "#10b981" : "#f43f5e"} stopOpacity="0.35" />
-                    <stop offset="100%" stopColor={isTotPos ? "#10b981" : "#f43f5e"} stopOpacity="0.0" />
-                  </linearGradient>
-                </defs>
-                {/* Area fill */}
-                <path
-                  d={`${sparklineSvgPath} L 470,130 L 10,130 Z`}
-                  fill={`url(#grad-${activeSector.code})`}
-                />
-                {/* Stroke line */}
-                <path
-                  d={sparklineSvgPath}
-                  fill="none"
-                  stroke={isTotPos ? "#10b981" : "#f43f5e"}
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
+              <svg
+                className="w-full h-[110px] overflow-visible"
+                viewBox="0 0 480 140"
+                preserveAspectRatio="none"
+                role="img"
+                aria-label="Daily close-to-close price movement shown as green up and red down bars"
+              >
+                {candles.map(({ x, y, bodyHeight, isUp }, index) => (
+                  <rect
+                    key={index}
+                    x={x - 4}
+                    y={y}
+                    width="8"
+                    height={bodyHeight}
+                    rx="0.5"
+                    fill={isUp ? "#10b981" : "#f43f5e"}
+                  />
+                ))}
               </svg>
             </div>
           </div>

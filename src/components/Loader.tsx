@@ -10,72 +10,82 @@ const LOOP_AT    = 18;    // internal loop guard (won't be seen by user)
 const SZ         = 600;
 
 // ── Node & Edge definitions (unchanged from original) ────────────────────────
-const NODE_DEFS = [
-  { id:0,  fx:198, fy:115, r:11, color:'#1EC8C8', hollow:false },
-  { id:1,  fx:463, fy:144, r:11, color:'#1EC8C8', hollow:false },
-  { id:2,  fx:120, fy:171, r:11, color:'#1EC8C8', hollow:false },
-  { id:3,  fx:492, fy:312, r:11, color:'#1EC8C8', hollow:false },
-  { id:4,  fx:88,  fy:285, r:10, color:'#1EC8C8', hollow:false },
-  { id:5,  fx:463, fy:456, r:10, color:'#1EC8C8', hollow:false },
-  { id:6,  fx:302, fy:500, r:10, color:'#1EC8C8', hollow:false },
-  { id:7,  fx:224, fy:485, r:10, color:'#1EC8C8', hollow:false },
-  { id:8,  fx:386, fy:246, r:19, color:'#F5B731', hollow:false, dollar:true },
-  { id:9,  fx:178, fy:348, r:11, color:'#F5B731', hollow:false },
-  { id:10, fx:298, fy:356, r:12, color:'#F5B731', hollow:false },
-  { id:11, fx:361, fy:290, r:11, color:'#F5B731', hollow:false },
-  { id:12, fx:514, fy:238, r:11, color:'#F5B731', hollow:false },
-  { id:13, fx:214, fy:406, r:11, color:'#F5B731', hollow:false },
-  { id:14, fx:308, fy:440, r:11, color:'#F5B731', hollow:false },
-  { id:15, fx:386, fy:425, r:10, color:'#F5B731', hollow:false },
-  { id:16, fx:263, fy:88,  r:15, color:'#FFFFFF', hollow:true  },
-  { id:17, fx:153, fy:248, r:14, color:'#FFFFFF', hollow:true  },
-  { id:18, fx:235, fy:237, r:13, color:'#FFFFFF', hollow:true  },
-  { id:19, fx:143, fy:431, r:15, color:'#FFFFFF', hollow:true  },
-  { id:20, fx:496, fy:390, r:15, color:'#FFFFFF', hollow:true  },
-  { id:21, fx:340, fy:148, r:6,  color:'#8BBCCC', hollow:true  },
-  { id:22, fx:415, fy:200, r:6,  color:'#8BBCCC', hollow:true  },
-  { id:23, fx:170, fy:195, r:6,  color:'#8BBCCC', hollow:true  },
-  { id:24, fx:280, fy:195, r:6,  color:'#8BBCCC', hollow:true  },
+type NodeDefinition = {
+  id: number;
+  fx: number;
+  fy: number;
+  r: number;
+  color: string;
+  hollow: boolean;
+  dollar?: boolean;
+};
+
+const NODE_DEFS: NodeDefinition[] = [
+  { id:0,  fx:198, fy:115, r:11, color:'accent', hollow:false },
+  { id:1,  fx:463, fy:144, r:11, color:'accent', hollow:false },
+  { id:2,  fx:120, fy:171, r:11, color:'accent', hollow:false },
+  { id:3,  fx:492, fy:312, r:11, color:'accent', hollow:false },
+  { id:4,  fx:88,  fy:285, r:10, color:'accent', hollow:false },
+  { id:5,  fx:463, fy:456, r:10, color:'accent', hollow:false },
+  { id:6,  fx:302, fy:500, r:10, color:'accent', hollow:false },
+  { id:7,  fx:224, fy:485, r:10, color:'accent', hollow:false },
+  { id:8,  fx:386, fy:246, r:19, color:'accent', hollow:false, dollar:true },
+  { id:9,  fx:178, fy:348, r:11, color:'accent', hollow:false },
+  { id:10, fx:298, fy:356, r:12, color:'accent', hollow:false },
+  { id:11, fx:361, fy:290, r:11, color:'accent', hollow:false },
+  { id:12, fx:514, fy:238, r:11, color:'accent', hollow:false },
+  { id:13, fx:214, fy:406, r:11, color:'accent', hollow:false },
+  { id:14, fx:308, fy:440, r:11, color:'accent', hollow:false },
+  { id:15, fx:386, fy:425, r:10, color:'accent', hollow:false },
+  { id:16, fx:263, fy:88,  r:15, color:'foreground', hollow:true  },
+  { id:17, fx:153, fy:248, r:14, color:'foreground', hollow:true  },
+  { id:18, fx:235, fy:237, r:13, color:'foreground', hollow:true  },
+  { id:19, fx:143, fy:431, r:15, color:'foreground', hollow:true  },
+  { id:20, fx:496, fy:390, r:15, color:'foreground', hollow:true  },
+  { id:21, fx:340, fy:148, r:6,  color:'muted-foreground', hollow:true  },
+  { id:22, fx:415, fy:200, r:6,  color:'muted-foreground', hollow:true  },
+  { id:23, fx:170, fy:195, r:6,  color:'muted-foreground', hollow:true  },
+  { id:24, fx:280, fy:195, r:6,  color:'muted-foreground', hollow:true  },
 ];
 
 const EDGE_DEFS: [number, number, string, number][] = [
-  [9, 13,  'rgba(245,183,49,0.90)', 2.0],
-  [13,10,  'rgba(245,183,49,0.90)', 2.0],
-  [9, 10,  'rgba(245,183,49,0.85)', 1.8],
-  [10, 8,  'rgba(245,183,49,0.90)', 2.0],
-  [8, 11,  'rgba(245,183,49,0.90)', 2.0],
-  [11,12,  'rgba(245,183,49,0.85)', 1.8],
-  [14,15,  'rgba(245,183,49,0.80)', 1.6],
-  [10,14,  'rgba(245,183,49,0.75)', 1.5],
-  [0, 16,  'rgba(30,200,200,0.60)', 1.2],
-  [0,  1,  'rgba(30,200,200,0.55)', 1.1],
-  [1, 16,  'rgba(30,200,200,0.55)', 1.1],
-  [16, 2,  'rgba(30,200,200,0.50)', 1.0],
-  [2,  4,  'rgba(30,200,200,0.60)', 1.2],
-  [4, 17,  'rgba(30,200,200,0.55)', 1.1],
-  [4, 19,  'rgba(30,200,200,0.50)', 1.0],
-  [3, 12,  'rgba(30,200,200,0.55)', 1.1],
-  [3,  5,  'rgba(30,200,200,0.55)', 1.1],
-  [5, 20,  'rgba(30,200,200,0.50)', 1.0],
-  [5,  6,  'rgba(30,200,200,0.55)', 1.1],
-  [6,  7,  'rgba(30,200,200,0.55)', 1.1],
-  [7, 19,  'rgba(30,200,200,0.50)', 1.0],
-  [0, 18,  'rgba(30,200,200,0.40)', 0.9],
-  [1,  3,  'rgba(30,200,200,0.40)', 0.9],
-  [2, 17,  'rgba(30,200,200,0.40)', 0.9],
-  [18,17,  'rgba(200,220,240,0.35)',0.8],
-  [16, 1,  'rgba(200,220,240,0.35)',0.8],
-  [17, 9,  'rgba(200,220,240,0.35)',0.8],
-  [18, 8,  'rgba(200,220,240,0.30)',0.7],
-  [20, 12, 'rgba(200,220,240,0.30)',0.7],
-  [19, 13, 'rgba(200,220,240,0.30)',0.7],
-  [20,  5, 'rgba(200,220,240,0.28)',0.7],
-  [0, 23,  'rgba(200,220,240,0.25)',0.6],
-  [1, 21,  'rgba(200,220,240,0.25)',0.6],
-  [21,22,  'rgba(200,220,240,0.22)',0.6],
-  [22, 8,  'rgba(200,220,240,0.22)',0.6],
-  [23,18,  'rgba(200,220,240,0.22)',0.6],
-  [24,11,  'rgba(200,220,240,0.20)',0.5],
+  [9, 13,  'accent:0.90', 2.0],
+  [13,10,  'accent:0.90', 2.0],
+  [9, 10,  'accent:0.85', 1.8],
+  [10, 8,  'accent:0.90', 2.0],
+  [8, 11,  'accent:0.90', 2.0],
+  [11,12,  'accent:0.85', 1.8],
+  [14,15,  'accent:0.80', 1.6],
+  [10,14,  'accent:0.75', 1.5],
+  [0, 16,  'accent:0.60', 1.2],
+  [0,  1,  'accent:0.55', 1.1],
+  [1, 16,  'accent:0.55', 1.1],
+  [16, 2,  'accent:0.50', 1.0],
+  [2,  4,  'accent:0.60', 1.2],
+  [4, 17,  'accent:0.55', 1.1],
+  [4, 19,  'accent:0.50', 1.0],
+  [3, 12,  'accent:0.55', 1.1],
+  [3,  5,  'accent:0.55', 1.1],
+  [5, 20,  'accent:0.50', 1.0],
+  [5,  6,  'accent:0.55', 1.1],
+  [6,  7,  'accent:0.55', 1.1],
+  [7, 19,  'accent:0.50', 1.0],
+  [0, 18,  'accent:0.40', 0.9],
+  [1,  3,  'accent:0.40', 0.9],
+  [2, 17,  'accent:0.40', 0.9],
+  [18,17,  'muted-foreground:0.35',0.8],
+  [16, 1,  'muted-foreground:0.35',0.8],
+  [17, 9,  'muted-foreground:0.35',0.8],
+  [18, 8,  'muted-foreground:0.30',0.7],
+  [20, 12, 'muted-foreground:0.30',0.7],
+  [19, 13, 'muted-foreground:0.30',0.7],
+  [20,  5, 'muted-foreground:0.28',0.7],
+  [0, 23,  'muted-foreground:0.25',0.6],
+  [1, 21,  'muted-foreground:0.25',0.6],
+  [21,22,  'muted-foreground:0.22',0.6],
+  [22, 8,  'muted-foreground:0.22',0.6],
+  [23,18,  'muted-foreground:0.22',0.6],
+  [24,11,  'muted-foreground:0.20',0.5],
 ];
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -83,7 +93,7 @@ const lerp  = (a: number, b: number, t: number) => a + (b - a) * t;
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v));
 const easeOutCubic = (t: number) => 1 - (1 - t) ** 3;
 
-type NodeState = typeof NODE_DEFS[number] & {
+type NodeState = NodeDefinition & {
   bx: number; by: number;
   angle: number; speed: number; turnRate: number;
   cx: number; cy: number;
@@ -94,7 +104,7 @@ type EdgeState = { a: number; b: number; col: string; w: number; progress: numbe
 function makeNodes(): NodeState[] {
   return NODE_DEFS.map((d, i) => ({
     ...d,
-    dollar: (d as any).dollar ?? false,
+    dollar: d.dollar ?? false,
     bx: 80 + Math.random() * (SZ - 160),
     by: 80 + Math.random() * (SZ - 160),
     angle: Math.random() * Math.PI * 2,
@@ -133,10 +143,28 @@ export default function Loader({ onDone }: LoaderProps) {
     const ctx = canvas.getContext("2d")!;
     canvas.width = canvas.height = SZ;
 
-    let nodes = makeNodes();
-    let edges = makeEdges();
+    const nodes = makeNodes();
+    const edges = makeEdges();
     let startTime: number | null = null;
     let rafId: number;
+    const root = document.documentElement;
+    let palette: Record<string, string> = {};
+    const updatePalette = () => {
+      const styles = getComputedStyle(root);
+      palette = {
+        accent: styles.getPropertyValue("--accent").trim(),
+        background: styles.getPropertyValue("--background").trim(),
+        foreground: styles.getPropertyValue("--foreground").trim(),
+        "muted-foreground": styles.getPropertyValue("--muted-foreground").trim(),
+      };
+    };
+    const tokenColor = (token: string) => {
+      const [name, alpha] = token.split(":");
+      return `rgb(${palette[name]}${alpha ? ` / ${alpha}` : ""})`;
+    };
+    updatePalette();
+    const themeObserver = new MutationObserver(updatePalette);
+    themeObserver.observe(root, { attributes: true, attributeFilter: ["class"] });
 
     function drawEdge(e: EdgeState, t: number) {
       if (!e.active || e.progress <= 0) return;
@@ -148,13 +176,13 @@ export default function Loader({ onDone }: LoaderProps) {
       ctx.save();
       ctx.globalAlpha = glowAlpha;
       ctx.beginPath(); ctx.moveTo(na.cx, na.cy); ctx.lineTo(tx, ty);
-      ctx.strokeStyle = e.col; ctx.lineWidth = e.w * 4.5; ctx.lineCap = "round"; ctx.stroke();
+      ctx.strokeStyle = tokenColor(e.col); ctx.lineWidth = e.w * 4.5; ctx.lineCap = "round"; ctx.stroke();
       ctx.restore();
       const shimmer = 0.55 + 0.45 * Math.sin(t * 2.8 + e.a * 0.75);
       ctx.save();
       ctx.globalAlpha = shimmer * Math.min(na.alpha, nb.alpha);
       ctx.beginPath(); ctx.moveTo(na.cx, na.cy); ctx.lineTo(tx, ty);
-      ctx.strokeStyle = e.col; ctx.lineWidth = e.w; ctx.lineCap = "round"; ctx.stroke();
+      ctx.strokeStyle = tokenColor(e.col); ctx.lineWidth = e.w; ctx.lineCap = "round"; ctx.stroke();
       ctx.restore();
     }
 
@@ -163,30 +191,30 @@ export default function Loader({ onDone }: LoaderProps) {
       const breathe = n.arrived ? 1 + 0.06 * Math.sin(t * 2.0 + n.pulse) : 1;
       const r = n.r * breathe;
       const px = n.cx, py = n.cy;
-      const glowR = r * ((n as any).dollar ? 3.5 : 3.0);
+      const glowR = r * (n.dollar ? 3.5 : 3.0);
       const glowStr = n.arrived
         ? (0.14 + 0.07 * Math.sin(t * 1.6 + n.pulse)) * n.alpha
         : 0.06 * n.alpha;
       ctx.save(); ctx.globalAlpha = glowStr;
       ctx.beginPath(); ctx.arc(px, py, glowR, 0, Math.PI * 2);
-      ctx.fillStyle = n.color; ctx.fill(); ctx.restore();
+      ctx.fillStyle = tokenColor(n.color); ctx.fill(); ctx.restore();
       ctx.save(); ctx.globalAlpha = glowStr * 2;
       ctx.beginPath(); ctx.arc(px, py, r * 1.7, 0, Math.PI * 2);
-      ctx.fillStyle = n.color; ctx.fill(); ctx.restore();
+      ctx.fillStyle = tokenColor(n.color); ctx.fill(); ctx.restore();
       ctx.save(); ctx.globalAlpha = n.alpha;
       ctx.beginPath(); ctx.arc(px, py, Math.max(r, 1), 0, Math.PI * 2);
       if (n.hollow) {
-        ctx.strokeStyle = n.color;
+        ctx.strokeStyle = tokenColor(n.color);
         ctx.lineWidth = n.id < 16 ? 2.2 : 1.4;
         ctx.stroke();
       } else {
-        ctx.fillStyle = n.color; ctx.fill();
+        ctx.fillStyle = tokenColor(n.color); ctx.fill();
       }
       ctx.restore();
-      if ((n as any).dollar && n.alpha > 0.4) {
+      if (n.dollar && n.alpha > 0.4) {
         ctx.save(); ctx.globalAlpha = n.alpha;
         ctx.font = `bold ${Math.round(r * 0.88)}px monospace`;
-        ctx.fillStyle = "#000"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+        ctx.fillStyle = tokenColor("background"); ctx.textAlign = "center"; ctx.textBaseline = "middle";
         ctx.fillText("$", px, py + 0.5); ctx.restore();
       }
     }
@@ -196,11 +224,11 @@ export default function Loader({ onDone }: LoaderProps) {
       const t = (ts - startTime) / 1000;
 
       // Background
-      ctx.fillStyle = "#000";
+      ctx.fillStyle = tokenColor("background");
       ctx.fillRect(0, 0, SZ, SZ);
 
       // Subtle grid
-      ctx.save(); ctx.strokeStyle = "rgba(20,55,55,0.06)"; ctx.lineWidth = 0.5;
+      ctx.save(); ctx.strokeStyle = tokenColor("muted-foreground:0.06"); ctx.lineWidth = 0.5;
       for (let x = 0; x < SZ; x += 40) { ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,SZ); ctx.stroke(); }
       for (let y = 0; y < SZ; y += 40) { ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(SZ,y); ctx.stroke(); }
       ctx.restore();
@@ -281,7 +309,10 @@ export default function Loader({ onDone }: LoaderProps) {
     }
 
     rafId = requestAnimationFrame(frame);
-    return () => cancelAnimationFrame(rafId);
+    return () => {
+      cancelAnimationFrame(rafId);
+      themeObserver.disconnect();
+    };
   }, [onDone]);
 
   if (!visible) return null;
@@ -292,7 +323,7 @@ export default function Loader({ onDone }: LoaderProps) {
         position: "fixed",
         inset: 0,
         zIndex: 9999,
-        background: "#000",
+        background: "rgb(var(--background))",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -329,7 +360,7 @@ export default function Loader({ onDone }: LoaderProps) {
             fontWeight: 700,
             fontSize:   "clamp(28px, 6vw, 52px)",
             letterSpacing: "0.22em",
-            color: "#FFFFFF",
+            color: "rgb(var(--foreground))",
             textTransform: "uppercase",
           }}
         >
@@ -343,7 +374,7 @@ export default function Loader({ onDone }: LoaderProps) {
             fontWeight: 300,
             fontSize:   "clamp(13px, 2.8vw, 24px)",
             letterSpacing: "0.28em",
-            color: "#FFFFFF",
+            color: "rgb(var(--foreground))",
             textTransform: "uppercase",
             marginTop: "2px",
           }}
@@ -367,7 +398,7 @@ export default function Loader({ onDone }: LoaderProps) {
               fontWeight: 700,
               fontSize:   "clamp(14px, 3vw, 26px)",
               letterSpacing: "0.22em",
-              color: "#F5B731",
+              color: "rgb(var(--accent))",
               textTransform: "uppercase",
             }}
           >
@@ -379,7 +410,7 @@ export default function Loader({ onDone }: LoaderProps) {
               fontWeight: 300,
               fontSize:   "clamp(10px, 2vw, 18px)",
               letterSpacing: "0.18em",
-              color: "rgba(180,200,210,0.75)",
+              color: "rgb(var(--muted-foreground) / 0.75)",
               textTransform: "uppercase",
             }}
           >

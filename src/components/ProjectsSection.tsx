@@ -1,20 +1,9 @@
-import { useRef, useEffect } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
-import NeonGlassCard, { NeonTheme } from "./NeonGlassCard";
-import SectionWrapper from "./SectionWrapper";
+import { motion, useReducedMotion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
 
-const githubOrgUrl =
-  "https://github.com/orgs/COEP-Quant-Finance-Club/repositories";
+const githubOrgUrl = "https://github.com/orgs/COEP-Quant-Finance-Club/repositories";
 
-const projects: {
-  title: string;
-  desc: string;
-  tags: string[];
-  status: string;
-  updated: string;
-  repoUrl: string;
-  theme: NeonTheme;
-}[] = [
+const projects = [
   {
     title: "COEP Market Index",
     desc: "India's first student-engineered 36 Master Sector Indices with 3-state macro regime detection across 1,445+ equities.",
@@ -22,7 +11,6 @@ const projects: {
     status: "Flagship",
     updated: "Aug 2026",
     repoUrl: "https://github.com/COEP-Quant-Finance-Club/COEP_Market_index",
-    theme: "mint",
   },
   {
     title: "Financial Data Analysis",
@@ -30,19 +18,15 @@ const projects: {
     tags: ["Python", "Data Analysis", "Finance"],
     status: "Active",
     updated: "Mar 2026",
-    repoUrl:
-      "https://github.com/COEP-Quant-Finance-Club/financial-data-analysis",
-    theme: "violet",
+    repoUrl: "https://github.com/COEP-Quant-Finance-Club/financial-data-analysis",
   },
   {
     title: "Low-Level Programming HFT",
-    desc: "Low-latency systems and performance-focused components for high-frequency trading workflows.",
+    desc: "Low-latency systems and performance-focused components for semi-high-frequency trading workflows.",
     tags: ["C++", "HFT", "Systems"],
     status: "Active",
     updated: "Feb 2026",
-    repoUrl:
-      "https://github.com/COEP-Quant-Finance-Club/low-level-programming-HFT",
-    theme: "solar",
+    repoUrl: "https://github.com/COEP-Quant-Finance-Club/low-level-programming-HFT",
   },
   {
     title: "Exchange Simulator",
@@ -51,7 +35,6 @@ const projects: {
     status: "In Development",
     updated: "Mar 2026",
     repoUrl: "https://github.com/COEP-Quant-Finance-Club/exchange_simulator",
-    theme: "ocean",
   },
   {
     title: "Quant Research Projects",
@@ -59,9 +42,7 @@ const projects: {
     tags: ["Research", "Python", "Quant"],
     status: "Active",
     updated: "Jan 2026",
-    repoUrl:
-      "https://github.com/COEP-Quant-Finance-Club/Quant-Research-Projects",
-    theme: "prism",
+    repoUrl: "https://github.com/COEP-Quant-Finance-Club/Quant-Research-Projects",
   },
   {
     title: "AI/ML Projects",
@@ -70,98 +51,72 @@ const projects: {
     status: "Active",
     updated: "Dec 2025",
     repoUrl: "https://github.com/COEP-Quant-Finance-Club/AI-ML-projects",
-    theme: "void",
   },
 ];
 
-const spring = { type: "spring" as const, duration: 0.4, bounce: 0 };
-
 export default function ProjectsSection() {
-  const stickyRef = useRef<HTMLDivElement>(null);
-  const scrollRef = useRef<HTMLDivElement>(null);
-
-  /* ── Horizontal scroll driven by vertical scroll ───────────── */
-  const { scrollYProgress } = useScroll({
-    target: stickyRef,
-    offset: ["start start", "end end"],
-  });
-
-  // The track width = (N cards * card width) - viewport. We'll use a transform.
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-66%"]);
+  const reduceMotion = useReducedMotion();
 
   return (
-    <section id="projects" className="relative">
-      {/* Section header outside the sticky zone */}
-      <div className="max-w-7xl mx-auto px-4 pt-20 pb-8">
-        <div className="flex items-center justify-between mb-2">
-          <div>
-            <motion.p
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-xs uppercase tracking-[0.22em] font-extrabold"
-              style={{
-                color: "rgba(0,255,214,0.75)",
-                textShadow: "0 0 24px rgba(0,255,214,0.35)",
-              }}
-            >
-              Open-Source Research
-            </motion.p>
-            <motion.h2
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="text-3xl md:text-4xl font-black tracking-tight text-foreground mt-2"
-            >
-              Current Projects
-            </motion.h2>
-          </div>
-          <motion.button
-            whileHover={{ x: 3 }}
-            transition={spring}
-            onClick={() =>
-              window.open(githubOrgUrl, "_blank", "noopener,noreferrer")
-            }
-            className="label-style text-muted-foreground hover:text-accent transition-colors duration-300"
-          >
-            {"// See All Projects ->"}
-          </motion.button>
+    <section id="projects" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <div className="mb-9 flex flex-col gap-5 border-b border-border pb-7 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="label-style mb-3">Take a look at our Github</p>
+          <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+            Current Projects
+          </h2>
+          <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
+            Explore open-source research and systems built by the club.
+          </p>
         </div>
-        <p className="text-muted-foreground font-light text-sm max-w-lg">
-          Six structural themes — hover the cards for parallax depth, then click
-          to explore on GitHub.
-        </p>
+        <a
+          href={githubOrgUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-sm font-medium text-foreground transition-colors hover:text-accent"
+        >
+          See all projects <ArrowUpRight size={16} aria-hidden="true" />
+        </a>
       </div>
 
-      {/* ── Sticky horizontal-scroll wrapper ──────────────────── */}
-      <div ref={stickyRef} className="relative" style={{ height: "300vh" }}>
-        <div className="sticky top-0 h-screen flex items-center overflow-hidden">
-          <motion.div
-            ref={scrollRef}
-            style={{ x }}
-            className="flex gap-8 pl-8 pr-[40vw]"
+      <div className="grid grid-cols-1 gap-x-8 md:grid-cols-2 xl:grid-cols-3">
+        {projects.map((project, index) => (
+          <motion.a
+            key={project.title}
+            href={project.repoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={reduceMotion ? false : { opacity: 0, y: 12 }}
+            whileInView={reduceMotion ? undefined : { opacity: 1, y: 0 }}
+            whileHover={reduceMotion ? undefined : { y: -2 }}
+            viewport={{ once: true, amount: 0.15 }}
+            transition={{ duration: 0.3, delay: index * 0.04 }}
+            className="group flex min-h-64 flex-col border-b border-border py-6 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
-            {projects.map((p, i) => (
-              <div
-                key={p.title}
-                className="flex-shrink-0"
-                style={{ width: "clamp(320px, 28vw, 400px)" }}
-              >
-                <NeonGlassCard
-                  theme={p.theme}
-                  title={p.title}
-                  description={p.desc}
-                  status={p.status}
-                  updated={p.updated}
-                  tags={p.tags}
-                  repoUrl={p.repoUrl}
-                  index={i}
-                />
+            <div className="mb-6 flex items-center justify-between gap-4">
+              <span className="font-mono text-xs tabular-nums text-muted-foreground">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <span className="text-xs text-muted-foreground">{project.updated}</span>
+            </div>
+            <div className="mb-auto">
+              <div className="mb-2 flex items-center gap-2">
+                <h3 className="text-lg font-semibold tracking-tight text-foreground transition-colors group-hover:text-accent">
+                  {project.title}
+                </h3>
+                <ArrowUpRight size={15} className="shrink-0 text-muted-foreground" aria-hidden="true" />
               </div>
-            ))}
-          </motion.div>
-        </div>
+              <p className="text-sm leading-relaxed text-muted-foreground">{project.desc}</p>
+            </div>
+            <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2">
+              <span className="text-xs font-medium text-foreground">{project.status}</span>
+              <span className="h-1 w-1 rounded-full bg-border" aria-hidden="true" />
+              {project.tags.map((tag) => (
+                <span key={tag} className="text-xs text-muted-foreground">{tag}</span>
+              ))}
+            </div>
+          </motion.a>
+        ))}
       </div>
     </section>
   );

@@ -1,36 +1,45 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import SectionWrapper from "./SectionWrapper";
 import { useEffect, useState } from "react";
+import { ClubEvent, loadEvents } from "@/lib/events";
 
-interface Event {
-  title: string;
-  date: string;
-  time?: string;
-  venue?: string;
-  status: string;
-}
 function isValidDate(dateString: string) {
   return !isNaN(new Date(dateString).getTime());
 }
 
 export default function EventsSection() {
-  const [events, setEvents] = useState<Event[]>([]);
+  const [events, setEvents] = useState<ClubEvent[]>([]);
+  const reduceMotion = useReducedMotion();
 
   useEffect(() => {
-    fetch("/events.json")
-      .then((res) => res.json())
+    let cancelled = false;
+    loadEvents()
       .then((data) => {
-        // sort by date (earliest first)
-        const sorted = data.sort(
-          (a: Event, b: Event) =>
-            new Date(a.date).getTime() - new Date(b.date).getTime()
-        );
+        if (cancelled) return;
+        const sorted = data.sort((a, b) => {
+          const firstDate = new Date(a.date).getTime();
+          const secondDate = new Date(b.date).getTime();
+          if (!Number.isFinite(firstDate)) return Number.isFinite(secondDate) ? 1 : 0;
+          if (!Number.isFinite(secondDate)) return -1;
+          return firstDate - secondDate;
+        });
         setEvents(sorted);
+      })
+      .catch((error: unknown) => {
+        console.error("Could not load events.", error);
       });
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return (
-    <SectionWrapper id="events" title="Events">
+    <SectionWrapper
+      id="events"
+      title="Events"
+      className="border-t border-border"
+    >
       <div className="relative">
         {/* Timeline line */}
         <div className="absolute left-4 md:left-8 top-0 bottom-0 w-px bg-border" />
@@ -38,9 +47,9 @@ export default function EventsSection() {
         <div className="flex flex-col gap-8">
           {events.map((e, i) => (
             <motion.div
-              key={e.title}
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              key={e.id}
+              initial={reduceMotion ? false : { opacity: 0, x: -20 }}
+              whileInView={reduceMotion ? undefined : { opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="relative pl-12 md:pl-20"

@@ -14,6 +14,7 @@ import MarketIndex from "./pages/MarketIndex.tsx";
 import About from "./pages/About.tsx";
 import Collaborations from "./pages/Collaborations.tsx";
 import Contact from "./pages/Contact.tsx";
+import EventsAdmin from "./pages/EventsAdmin.tsx";
 import Loader from "./components/Loader.tsx";
 
 const queryClient = new QueryClient();
@@ -26,7 +27,7 @@ const App = () => {
   const reduceMotion = useReducedMotion();
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} storageKey="theme">
+    <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} storageKey="theme">
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <Toaster />
@@ -56,6 +57,7 @@ const App = () => {
                 <Route path="/connect" element={<Contact />} />
                 <Route path="/resources" element={<Resources />} />
                 <Route path="/thank-you" element={<ThankYou />} />
+                <Route path="/events-admin" element={<EventsAdmin />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </motion.div>

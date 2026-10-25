@@ -62,7 +62,7 @@ export default function MathModelsSection() {
       <div
         aria-hidden="true"
         className={`pointer-events-none fixed bottom-[12vh] left-0 z-0 h-[30vh] w-full overflow-hidden transition-opacity duration-700 md:inset-y-20 md:bottom-auto md:left-auto md:right-0 md:h-auto md:w-[min(42vw,600px)] ${
-          activeScene ? "opacity-[0.08] md:opacity-[0.16]" : "opacity-0"
+          activeScene ? "opacity-[0.08] dark:opacity-[0.1] md:opacity-[0.16] dark:md:opacity-[0.18]" : "opacity-0"
         }`}
       >
         {activeScene && (
