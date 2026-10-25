@@ -85,6 +85,7 @@ export default function EventsAdmin() {
       await supabase!.auth.mfa.enroll({
         factorType: "totp",
         friendlyName: "COEP Events Admin",
+        issuer: "COEP Quant Finance Club",
       });
     if (enrollmentError) throw enrollmentError;
     setFactorId(enrollment.id);
